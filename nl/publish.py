@@ -56,7 +56,13 @@ def send_email(subject: str, html: str, md: str, from_name: str = "") -> dict:
     msg = EmailMessage()
     msg["Subject"] = subject
     msg["From"] = formataddr((from_name or "Newsletter", sender))
-    msg["To"] = ", ".join(recipients)
+    # 수신자는 To 가 아니라 Bcc 로 넣는다.
+    # To 에 여러 명을 나열하면 구독자들이 서로의 메일 주소를 전부 보게 된다.
+    # smtplib.send_message 는 Bcc 를 발송 대상에는 넣고 메일 본문에는 싣지 않는다.
+    msg["To"] = formataddr((from_name or "Newsletter", sender))
+    bcc = [r for r in recipients if r.lower() != sender.lower()]
+    if bcc:
+        msg["Bcc"] = ", ".join(bcc)
     msg["Date"] = formatdate(localtime=True)
     msg.set_content(md)
     msg.add_alternative(html, subtype="html")
