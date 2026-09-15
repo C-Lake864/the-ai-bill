@@ -19,14 +19,61 @@ MODEL_TIERS = {
 }
 
 
-def load_env() -> None:
-    """.env 가 있으면 읽는다. 없으면 이미 설정된 환경변수를 그대로 쓴다."""
+def _parse_env_file(path: Path) -> int:
+    """python-dotenv 없이 .env 를 읽는 최소 파서.
+
+    라이브러리 설치 여부와 무관하게 파이프라인이 돌아야 해서 폴백을 둔다.
+    - utf-8-sig 로 읽어 메모장이 붙이는 BOM 을 흡수한다
+    - KEY=VALUE 만 인식하고 'export ' 접두사를 허용한다
+    - 값 양끝의 따옴표만 벗긴다. 줄 끝 주석은 제거하지 않는다
+      (비밀번호에 '#' 이 들어갈 수 있어서 자르면 오히려 위험하다)
+    """
+    n = 0
+    for raw in path.read_text(encoding="utf-8-sig").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        if line.startswith("export "):
+            line = line[len("export "):]
+        key, _, value = line.partition("=")
+        key, value = key.strip(), value.strip()
+        if not key:
+            continue
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        if value:
+            os.environ.setdefault(key, value)
+            n += 1
+    return n
+
+
+def load_env(verbose: bool = False) -> str:
+    """.env 를 읽는다. 어떤 경로로 읽었는지 문자열로 돌려준다.
+
+    반환값: "dotenv" | "builtin" | "no_file" | "no_file_no_lib"
+    이미 설정된 환경변수는 덮어쓰지 않는다.
+    """
+    path = ROOT / ".env"
     try:
         from dotenv import load_dotenv
 
-        load_dotenv(ROOT / ".env", override=False)
-    except Exception:
-        pass
+        if path.exists():
+            load_dotenv(path, override=False)
+            if verbose:
+                print(f"[env] python-dotenv 로 {path} 를 읽었습니다.")
+            return "dotenv"
+        if verbose:
+            print(f"[env] {path} 가 없습니다. 이미 설정된 환경변수를 씁니다.")
+        return "no_file"
+    except ImportError:
+        if path.exists():
+            n = _parse_env_file(path)
+            if verbose:
+                print(f"[env] python-dotenv 가 없어 내장 파서로 {path} 에서 {n}개 값을 읽었습니다.")
+            return "builtin"
+        if verbose:
+            print(f"[env] python-dotenv 도 {path} 도 없습니다. 이미 설정된 환경변수만 씁니다.")
+        return "no_file_no_lib"
 
 
 def load_audience() -> dict:

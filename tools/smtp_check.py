@@ -23,7 +23,12 @@ def main() -> int:
             stream.reconfigure(encoding="utf-8", errors="replace")
         except Exception:
             pass
-    load_env()
+    source = load_env(verbose=True)
+    env_path = Path(__file__).resolve().parents[1] / ".env"
+    if source in ("no_file", "no_file_no_lib"):
+        print(f"[FAIL] {env_path} 파일이 없습니다. .env.example 을 복사해서 만드세요.")
+        return 1
+    print()
 
     host = os.environ.get("SMTP_HOST")
     port = int(os.environ.get("SMTP_PORT", "587"))
