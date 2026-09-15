@@ -23,6 +23,7 @@ python run.py            # 실제 발행
 보조 스크립트
 
 ```bash
+python tools/smtp_check.py       # 메일 서버 접속·로그인만 확인 (발송 없음)
 python tools/source_probe.py     # 소스 후보 실측 -> store/source_audit.json, docs/source_audit.md
 python tools/verify_selftest.py  # 검수 노드가 할루시네이션을 잡는지 확인 -> store/verify_selftest.json
 python run.py --graph            # 그래프 구조(mermaid) 출력
@@ -44,6 +45,8 @@ nl/render.py              이메일 HTML / 아카이브 Markdown
 nl/publish.py             SMTP 발송 + 로컬 저장
 tools/source_probe.py     소스 후보 실측
 tools/verify_selftest.py  검수 노드 자체 테스트
+tools/batch_experiment.py 예선 배치 크기 실측 실험
+tools/smtp_check.py       SMTP 자격증명 확인
 store/metrics.jsonl       실행별 지표 누적
 store/runs/<run_id>/      단계별 상세 덤프 (01~06, run.log)
 out/YYYY-MM-DD.html|md    발행물 아카이브
