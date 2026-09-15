@@ -276,7 +276,8 @@ def node_publish(state: State) -> dict:
     res = P.send_email(subject, state["html"], state["markdown"])
     res["subject"] = subject
     if res["sent"]:
-        _log(state, f"8/8 발행 완료: {', '.join(res['to'])} 에게 전송 · 제목 '{subject}'")
+        _log(state, f"8/8 발행 완료: {', '.join(P.mask_email(a) for a in res['to'])} 에게 전송 "
+                    f"· 제목 '{subject}'")
     else:
         _log(state, f"8/8 발행 실패({res['status']}): {res.get('error') or res.get('missing')}")
         _log(state, f"    로컬 사본은 남아 있습니다 → {files.get('html')}")

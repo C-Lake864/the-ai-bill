@@ -14,6 +14,16 @@ from email.utils import formataddr, formatdate
 from pathlib import Path
 
 
+def mask_email(addr: str) -> str:
+    """로그에 남길 주소를 가린다. 실행 로그는 공개 저장소에 올라갈 수 있다."""
+    addr = (addr or "").strip()
+    if "@" not in addr:
+        return addr
+    local, _, domain = addr.partition("@")
+    keep = local[:3] if len(local) > 3 else local[:1]
+    return f"{keep}{'*' * max(3, len(local) - len(keep))}@{domain}"
+
+
 def save_local(out_dir: Path, date_str: str, html: str, md: str) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
     hp = out_dir / f"{date_str}.html"

@@ -2,114 +2,6 @@
   "published": [
     {
       "item": {
-        "id": "620b090df57e",
-        "source_id": "guardian_ai",
-        "source_name": "The Guardian AI",
-        "bucket": "정책·권리",
-        "weight": 1.1,
-        "lang": "en",
-        "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
-        "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
-        "published": "2026-09-14T06:00:26+00:00",
-        "age_hours": 24.2,
-        "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
-        "prescreen_score": 7,
-        "prescreen_labels": [
-          "policy"
-        ],
-        "prescreen_reason": "AI 데이터센터 수요로 인한 유해 화학물질 생산 증가와 건강 피해 우려를 구체적으로 다룸.",
-        "body_chars": 5177,
-        "body_error": null,
-        "final_scores": {
-          "burden_clarity": 9.0,
-          "actionability": 7.0,
-          "impact": 9.0,
-          "novelty": 8.0,
-          "korea_relevance": 6.0
-        },
-        "weighted": 8.8,
-        "verdict": "keep",
-        "final_reason": "AI 데이터센터와 반도체 수요로 PFAS(영원한 화학물질) 생산이 급증하며, 환경·건강 피해와 거액 소송 위험 등 구체적 부담 주체와 규모가 명확히 드러남. 한국 직접 언급은 없으나 글로벌 공급망과 규제 동향이 실무에 참고될 만함.",
-        "one_line": "AI 데이터센터와 반도체 산업 확장으로 PFAS(영원한 화학물질) 생산이 급증, 환경·건강 피해와 대규모 소송 위험이 커지고 있음."
-      },
-      "summary": {
-        "headline": "AI 산업 PFAS 생산 급증 논란",
-        "what_happened": "AI 산업 수요를 맞추기 위해 PFAS 생산이 급증하고 있습니다. 주요 제조사 대부분이 생산 확대 계획을 밝혔으며, 환경 및 건강 위험 우려가 제기되고 있습니다.",
-        "why_it_matters": "PFAS는 반도체와 데이터센터 냉각 등 AI 인프라에 핵심적으로 사용됩니다. 하지만 이 물질은 자연에서 분해되지 않아 환경과 인체에 축적될 수 있다는 점이 규제와 기업 실무에 중요한 쟁점입니다.",
-        "reader_takeaway": "AI 인프라 도입 시 PFAS 사용 및 관련 리스크를 점검하시기 바랍니다.",
-        "claims": [
-          {
-            "claim": "PFAS는 반도체 제조와 데이터센터 냉각에 중요한 역할을 한다.",
-            "quote": "Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems."
-          },
-          {
-            "claim": "10대 PFAS 제조사 대부분이 생산 확대 계획을 갖고 있다.",
-            "quote": "ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America."
-          },
-          {
-            "claim": "PFAS는 자연에서 분해되지 않아 환경에 축적된다.",
-            "quote": "But it also makes them virtually indestructible in the natural environment. As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain."
-          },
-          {
-            "claim": "PFAS는 인체에 축적되어 건강 문제와 연관이 있다.",
-            "quote": "Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects."
-          },
-          {
-            "claim": "PFAS는 데이터센터 냉각 시스템에서 에너지와 물 사용을 줄이는 용도로도 사용된다.",
-            "quote": "Pfas are used for a new form of datacentre cooling touted as more water- and energy-efficient."
-          }
-        ]
-      },
-      "verify": {
-        "passed": true,
-        "support_rate": 1.0,
-        "n_claims": 5,
-        "n_supported": 5,
-        "n_partial": 0,
-        "n_unsupported": 0,
-        "quote_unverified": [],
-        "numbers_not_in_source": [],
-        "llm_overall": "pass",
-        "llm_error": null,
-        "issues": [],
-        "fix_instruction": "문제점 없음. 요약문과 주장 모두 원문에 근거합니다.",
-        "note": "",
-        "claim_verdicts": [
-          {
-            "idx": 0,
-            "verdict": "supported",
-            "evidence": "Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems. ... Pfas also play a crucial role in the fabrication process for semiconductors, another sector booming to meet demand from the AI industry.",
-            "note": ""
-          },
-          {
-            "idx": 1,
-            "verdict": "supported",
-            "evidence": "a survey of the 10 biggest manufacturers found most had plans to increase production. ... ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America.",
-            "note": ""
-          },
-          {
-            "idx": 2,
-            "verdict": "supported",
-            "evidence": "But opponents warn that the chemicals, which never degrade in nature, are a ticking timebomb for human and planetary health. ... That makes them useful for a range of industrial processes and consumer products. But it also makes them virtually indestructible in the natural environment. As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain.",
-            "note": ""
-          },
-          {
-            "idx": 3,
-            "verdict": "supported",
-            "evidence": "Already the chemicals are thought to contaminate the blood of nearly every living person. Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects. ... which have been detected in the blood of more than 99% of people worldwide.",
-            "note": ""
-          },
-          {
-            "idx": 4,
-            "verdict": "supported",
-            "evidence": "The boom in AI tech was leading demand, with Pfas used for “eco-friendly” datacentre cooling ... It said its “innovative liquid cooling solutions” lower the energy, water, space, maintenance and investment costs of datacentres. ... Pfas are used for a new form of datacentre cooling touted as more water- and energy-efficient.",
-            "note": ""
-          }
-        ]
-      }
-    },
-    {
-      "item": {
         "id": "7fd64d645680",
         "source_id": "guardian_ai",
         "source_name": "The Guardian AI",
@@ -119,51 +11,51 @@
         "title": "Texas governor threatens to penalize datacenters not obeying water laws",
         "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
         "published": "2026-09-14T22:57:15+00:00",
-        "age_hours": 7.2,
+        "age_hours": 7.5,
         "feed_summary": "Republican Greg Abbott says datacenters must help ‘protect’ drought-prone state and disclose water use Greg Abbott , the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use. “Data centers must share the duty to protect Texas water,” the Republican governor said on Monday. “The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply,” he added. Continue reading...",
         "prescreen_score": 8,
         "prescreen_labels": [
           "policy"
         ],
-        "prescreen_reason": "텍사스 주지사가 데이터센터의 물 사용 공개와 법 준수를 강제하며 인프라 부담 전가를 구체적으로 다룸.",
+        "prescreen_reason": "텍사스 주지사가 데이터센터 물 사용 공개 및 법 준수 의무화, 위반 시 처벌 지시해 AI 인프라 부담과 규제 실체를 보여줌.",
         "body_chars": 2595,
         "body_error": null,
         "final_scores": {
           "burden_clarity": 9.0,
           "actionability": 8.0,
-          "impact": 8.0,
-          "novelty": 7.0,
+          "impact": 9.0,
+          "novelty": 8.0,
           "korea_relevance": 4.0
         },
-        "weighted": 8.42,
+        "weighted": 8.86,
         "verdict": "keep",
-        "final_reason": "데이터센터의 물 사용량, 법적 제재, 실제 소비량 등 부담 주체와 규모가 구체적으로 드러나고, 규제 집행 사례라 실무 참고 가치가 높음. 한국 직접 연결은 약함.",
-        "one_line": "텍사스주, 데이터센터의 물 사용 미신고에 법적 제재 예고—2025년 250억 갤런 소비, 2030년 1610억 갤런 전망."
+        "final_reason": "데이터센터의 물 사용량, 법적 의무, 벌칙, 실제 소비량 등 부담 주체와 규모가 구체적으로 드러남. 한국과 직접 연결은 약함.",
+        "one_line": "텍사스 주지사가 데이터센터의 물 사용량 미신고에 대해 벌칙을 지시하며, 데이터센터의 막대한 물 사용 실태와 규제 강화 움직임이 드러남."
       },
       "summary": {
-        "headline": "텍사스, 데이터센터 물 사용 규제 강화",
-        "what_happened": "텍사스 주지사 Greg Abbott가 데이터센터의 물 사용 정보 미제출에 대해 벌칙을 지시했습니다. 데이터센터는 물 사용량, 수원, 절수 기술 활용 현황을 보고해야 하며, 미이행 시 전력망 연결이 거부될 수 있습니다.",
-        "why_it_matters": "데이터센터의 물 사용이 급증하면서 지역 사회의 자원 부담과 규제 리스크가 커지고 있습니다. 기업은 물 사용 정보 공개와 규정 준수 여부가 사업 운영에 직접적인 영향을 미칠 수 있음을 주의해야 합니다.",
-        "reader_takeaway": "데이터센터 운영 시 물 사용 정보 공개와 관련 규정 준수 여부를 즉시 점검하시기 바랍니다.",
+        "headline": "텍사스, 데이터센터 물 사용 미신고 제재 예고",
+        "what_happened": "텍사스 주지사 Greg Abbott가 데이터센터의 물 사용 정보 미제출에 대해 벌칙을 지시했습니다. 데이터센터가 주법에 따라 물 사용량을 정확히 보고하지 않으면 법적 처분을 받게 됩니다.",
+        "why_it_matters": "데이터센터의 물 사용이 급증하면서 지역 사회의 자원 부담과 규제 리스크가 커지고 있습니다. 기업은 인프라 운영 시 물 사용 정보 공개와 규제 준수 여부를 점검해야 합니다.",
+        "reader_takeaway": "데이터센터 운영 시 물 사용량 보고 의무와 규제 동향을 반드시 확인하십시오.",
         "claims": [
           {
-            "claim": "텍사스 주지사가 데이터센터의 물 사용 정보 미제출에 대해 벌칙을 지시했다.",
+            "claim": "텍사스 주지사가 데이터센터의 물 사용 미신고에 대해 벌칙을 지시했다.",
             "quote": "Greg Abbott, the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use."
           },
           {
-            "claim": "데이터센터는 물 사용량, 수원, 절수 기술 활용 현황을 보고해야 한다.",
-            "quote": "The audit requires datacenters to provide information about their water consumption, water sources and efforts to use water-efficient technologies."
-          },
-          {
-            "claim": "미이행 시 전력망 연결이 거부될 수 있다.",
-            "quote": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid."
+            "claim": "데이터센터가 물 사용량을 정확히 보고하지 않으면 법적 처분을 받는다.",
+            "quote": "I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply."
           },
           {
             "claim": "2025년 텍사스 데이터센터의 물 사용량은 250억 갤런으로 추정된다.",
             "quote": "In 2025, Texas datacenters consumed an estimated 25bn gallons of water, according to the Houston Advanced Research Center."
           },
           {
-            "claim": "텍사스 데이터센터의 물 사용량은 2030년까지 연간 1610억 갤런에 이를 수 있다.",
+            "claim": "데이터센터가 감사에 응하지 않으면 전력망 연결이 거부된다.",
+            "quote": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid."
+          },
+          {
+            "claim": "텍사스 데이터센터의 물 사용량은 2030년 연간 1610억 갤런에 이를 수 있다.",
             "quote": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030 – about 2.7% of all water used in Texas, or roughly the amount consumed by 1.3m households across the country."
           }
         ]
@@ -180,7 +72,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "별도의 수정이 필요 없습니다.",
+        "fix_instruction": "요약문과 모든 주장에 원문에 없는 사실이나 단위 환산, 기관/인물 추가 등 문제점이 없습니다. 수정 필요 없습니다.",
         "note": "",
         "claim_verdicts": [
           {
@@ -192,25 +84,241 @@
           {
             "idx": 1,
             "verdict": "supported",
-            "evidence": "The audit requires datacenters to provide information about their water consumption, water sources and efforts to use water-efficient technologies.",
+            "evidence": "The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply.",
             "note": ""
           },
           {
             "idx": 2,
             "verdict": "supported",
-            "evidence": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid.",
+            "evidence": "In 2025, Texas datacenters consumed an estimated 25bn gallons of water, according to the Houston Advanced Research Center.",
             "note": ""
           },
           {
             "idx": 3,
             "verdict": "supported",
-            "evidence": "In 2025, Texas datacenters consumed an estimated 25bn gallons of water, according to the Houston Advanced Research Center.",
+            "evidence": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid.",
             "note": ""
           },
           {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030",
+            "evidence": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030 – about 2.7% of all water used in Texas, or roughly the amount consumed by 1.3m households across the country.",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "item": {
+        "id": "620b090df57e",
+        "source_id": "guardian_ai",
+        "source_name": "The Guardian AI",
+        "bucket": "정책·권리",
+        "weight": 1.1,
+        "lang": "en",
+        "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+        "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+        "published": "2026-09-14T06:00:26+00:00",
+        "age_hours": 24.4,
+        "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
+        "prescreen_score": 7,
+        "prescreen_labels": [
+          "policy"
+        ],
+        "prescreen_reason": "AI 데이터센터 수요로 PFAS 화학물질 생산 급증, 환경·건강 부담의 구체적 사례 제시.",
+        "body_chars": 5177,
+        "body_error": null,
+        "final_scores": {
+          "burden_clarity": 9.0,
+          "actionability": 8.0,
+          "impact": 8.0,
+          "novelty": 8.0,
+          "korea_relevance": 6.0
+        },
+        "weighted": 8.86,
+        "verdict": "keep",
+        "final_reason": "AI 산업이 PFAS(영원한 화학물질) 수요를 폭증시키며, 환경·건강 리스크와 기업의 소송·규제 부담이 커진다는 점을 구체적 수치와 사례로 제시함.",
+        "one_line": "AI 산업 수요로 PFAS 생산 급증, 환경·건강·소송 리스크와 규제 부담 확대"
+      },
+      "summary": {
+        "headline": "AI 산업 PFAS 생산 확대 논란",
+        "what_happened": "PFAS 제조사들이 AI 산업 수요에 대응해 생산 확대를 계획하고 있습니다. PFAS는 반도체 제조와 데이터센터 냉각 등 주요 공정에 사용됩니다. 환경단체와 일부 전문가들은 이로 인한 건강 및 환경 리스크를 경고하고 있습니다.",
+        "why_it_matters": "AI 산업 확대로 PFAS 생산이 늘어나면, 규제 강화 움직임에도 불구하고 환경 및 인체 축적 위험이 커질 수 있습니다. 기업과 정책 담당자는 PFAS 관련 소송·규제 리스크와 인프라 운영상의 책임 소재를 점검해야 합니다.",
+        "reader_takeaway": "AI 도입·운영 과정에서 PFAS 사용 및 관련 규제·소송 리스크를 반드시 확인하십시오.",
+        "claims": [
+          {
+            "claim": "PFAS 제조사들이 AI 산업 수요에 맞춰 생산 확대를 계획하고 있다.",
+            "quote": "ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America."
+          },
+          {
+            "claim": "PFAS는 데이터센터 냉각과 반도체 제조 등 AI 산업 주요 공정에 사용된다.",
+            "quote": "The boom in AI tech was leading demand, with Pfas used for “eco-friendly” datacentre cooling and in various stages of semiconductor manufacturing."
+          },
+          {
+            "claim": "PFAS는 자연에서 분해되지 않아 환경과 인체에 축적된다.",
+            "quote": "But it also makes them virtually indestructible in the natural environment. As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain."
+          },
+          {
+            "claim": "PFAS는 암, 간질환, 신장 문제, 고콜레스테롤, 선천적 결함 등과 연관된 연구 결과가 있다.",
+            "quote": "Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects."
+          },
+          {
+            "claim": "PFAS는 전 세계 인구의 99% 이상 혈액에서 검출된 바 있다.",
+            "quote": "which have been detected in the blood of more than 99% of people worldwide,"
+          }
+        ]
+      },
+      "verify": {
+        "passed": true,
+        "support_rate": 1.0,
+        "n_claims": 5,
+        "n_supported": 5,
+        "n_partial": 0,
+        "n_unsupported": 0,
+        "quote_unverified": [],
+        "numbers_not_in_source": [],
+        "llm_overall": "pass",
+        "llm_error": null,
+        "issues": [],
+        "fix_instruction": "요약문과 주장 모두 원문에 근거하여 작성되어 있습니다. 별도의 수정이 필요하지 않습니다.",
+        "note": "",
+        "claim_verdicts": [
+          {
+            "idx": 0,
+            "verdict": "supported",
+            "evidence": "ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America. Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems.",
+            "note": ""
+          },
+          {
+            "idx": 1,
+            "verdict": "supported",
+            "evidence": "Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems. The boom in AI tech was leading demand, with Pfas used for “eco-friendly” datacentre cooling and in various stages of semiconductor manufacturing.",
+            "note": ""
+          },
+          {
+            "idx": 2,
+            "verdict": "supported",
+            "evidence": "But opponents warn that the chemicals, which never degrade in nature, are a ticking timebomb for human and planetary health. ... As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain.",
+            "note": ""
+          },
+          {
+            "idx": 3,
+            "verdict": "supported",
+            "evidence": "Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects.",
+            "note": ""
+          },
+          {
+            "idx": 4,
+            "verdict": "supported",
+            "evidence": "The people who lead them must understand that they too are affected by the toxins they produce, which have been detected in the blood of more than 99% of people worldwide,” said Bäckar.",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "item": {
+        "id": "3bd38861eb4f",
+        "source_id": "wired_ai",
+        "source_name": "WIRED AI",
+        "bucket": "AI 피해·탐사",
+        "weight": 1.1,
+        "lang": "en",
+        "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+        "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
+        "published": "2026-09-14T11:00:00+00:00",
+        "age_hours": 19.4,
+        "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
+        "prescreen_score": 8,
+        "prescreen_labels": [
+          "policy"
+        ],
+        "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 실태와 피해자 규모를 구체적으로 보도.",
+        "body_chars": 6184,
+        "body_error": null,
+        "final_scores": {
+          "burden_clarity": 9.0,
+          "actionability": 7.0,
+          "impact": 9.0,
+          "novelty": 8.0,
+          "korea_relevance": 4.0
+        },
+        "weighted": 8.58,
+        "verdict": "keep",
+        "final_reason": "유럽 정치인 대상 딥페이크 피해 규모, 성별 편중, 피해 방식 등 구체적 수치와 영향이 제시됨. 한국 직접 연관은 약함.",
+        "one_line": "유럽 22개국 여성 정치인 138명 등 150여 명이 딥페이크 성착취물 사이트에 노출된 사실이 연구로 드러남."
+      },
+      "summary": {
+        "headline": "유럽 여성 정치인 딥페이크 피해 확산",
+        "what_happened": "유럽 전역에서 약 150명의 정치인이 딥페이크 음란물 사이트에 포함된 것으로 나타났습니다. 이 중 138명은 여성 국회의원으로, 남성 의원보다 33배 더 많이 표적이 되었습니다.",
+        "why_it_matters": "딥페이크 음란물은 여성 정치인에 대한 온라인 혐오와 위협의 일부로, 민주주의와 여성의 공적 진출에 부정적 영향을 미칠 수 있습니다. 규제 미비로 인해 피해가 반복되고 있어, 관련 정책과 대응책 마련이 시급합니다.",
+        "reader_takeaway": "자사 임직원 및 공공 인물의 온라인 이미지 악용 여부와 대응 체계를 점검해야 합니다.",
+        "claims": [
+          {
+            "claim": "유럽에서 약 150명의 정치인이 딥페이크 음란물 사이트에 포함됐다.",
+            "quote": "Almost 150 politicians across Europe have been included on harmful deepfake pornography websites over the last few years, according to new research seen by WIRED."
+          },
+          {
+            "claim": "138명의 여성 국회의원이 사이트에 등장하거나 언급됐다.",
+            "quote": "Analysis of around 160 domains that host deepfake abuse and other nonconsensual sexual content, by researcher Benjamin Shultz, has found that at least 138 women members of parliament (MPs) from 22 European Union countries have appeared or been mentioned on the sites."
+          },
+          {
+            "claim": "여성 의원이 딥페이크 표적이 될 확률은 남성보다 33배 높다.",
+            "quote": "By Shultz’s calculations, it is 33 times more likely for women MPs to be targeted by deepfake ecosystems."
+          },
+          {
+            "claim": "딥페이크 음란물은 여성과 여성 정치인에 대한 온라인 혐오와 위협의 일부다.",
+            "quote": "“Deepfake porn is part of a much bigger trend of online hate and intimidation against women and female politicians,” says Suzanne Kröger, a Dutch member of parliament with the Progressive Netherlands group, who was impacted."
+          },
+          {
+            "claim": "딥페이크 사이트에서 의원 이름, 공식 사진, 소셜미디어 프로필 등 개인정보가 활용됐다.",
+            "quote": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information."
+          }
+        ]
+      },
+      "verify": {
+        "passed": true,
+        "support_rate": 1.0,
+        "n_claims": 5,
+        "n_supported": 5,
+        "n_partial": 0,
+        "n_unsupported": 0,
+        "quote_unverified": [],
+        "numbers_not_in_source": [],
+        "llm_overall": "pass",
+        "llm_error": null,
+        "issues": [],
+        "fix_instruction": "요약문과 모든 주장에 원문 근거가 충분하므로 수정할 필요가 없습니다.",
+        "note": "",
+        "claim_verdicts": [
+          {
+            "idx": 0,
+            "verdict": "supported",
+            "evidence": "Almost 150 politicians across Europe have been included on harmful deepfake pornography websites over the last few years, according to new research seen by WIRED.",
+            "note": ""
+          },
+          {
+            "idx": 1,
+            "verdict": "supported",
+            "evidence": "Analysis of around 160 domains that host deepfake abuse and other nonconsensual sexual content, by researcher Benjamin Shultz, has found that at least 138 women members of parliament (MPs) from 22 European Union countries have appeared or been mentioned on the sites.",
+            "note": ""
+          },
+          {
+            "idx": 2,
+            "verdict": "supported",
+            "evidence": "By Shultz’s calculations, it is 33 times more likely for women MPs to be targeted by deepfake ecosystems.",
+            "note": ""
+          },
+          {
+            "idx": 3,
+            "verdict": "supported",
+            "evidence": "“Deepfake porn is part of a much bigger trend of online hate and intimidation against women and female politicians,” says Suzanne Kröger, a Dutch member of parliament with the Progressive Netherlands group, who was impacted.",
+            "note": ""
+          },
+          {
+            "idx": 4,
+            "verdict": "supported",
+            "evidence": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information.",
             "note": ""
           }
         ]
@@ -227,53 +335,53 @@
         "title": "New York Seizes 12 Celebrity Deepfake Websites",
         "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites",
         "published": "2026-09-14T17:26:37+00:00",
-        "age_hours": 12.7,
+        "age_hours": 13.0,
         "feed_summary": "New York District Attorney Alvin Bragg said in a press conference on Monday that the sites included 1,200 people’s likenesses in “hyper-realistic” sexual imagery.",
         "prescreen_score": 8,
         "prescreen_labels": [
-          "policy",
-          "AI 피해·탐사"
+          "AI",
+          "policy"
         ],
-        "prescreen_reason": "뉴욕 검찰의 딥페이크 사이트 압수 사례로 AI 관련 사회적 피해와 법 집행의 구체적 사실을 제공함.",
+        "prescreen_reason": "뉴욕 검찰이 딥페이크 사이트 12곳 압수, 1200명 피해자 구체적 수치와 법적 조치 포함.",
         "body_chars": 3437,
         "body_error": null,
         "final_scores": {
           "burden_clarity": 8.0,
           "actionability": 8.0,
           "impact": 8.0,
-          "novelty": 7.0,
+          "novelty": 8.0,
           "korea_relevance": 5.0
         },
-        "weighted": 8.25,
+        "weighted": 8.47,
         "verdict": "keep",
-        "final_reason": "AI 딥페이크로 인한 피해자 규모(1200명), 실제 사이트 압수, 법 집행 등 구체적 부담과 대응이 명확히 드러남. 한국 직접 사례는 없으나 정책 참고 가치 높음.",
-        "one_line": "뉴욕 검찰, AI 딥페이크 성착취물 사이트 12곳 압수—1200명 피해, 법 집행 본격화."
+        "final_reason": "딥페이크 피해 규모, 집행 사례, 법적 근거, 피해자 구제 절차 등 구체적으로 제시됨. 한국 직접 연관은 약간 낮음.",
+        "one_line": "뉴욕 검찰이 AI 딥페이크 성착취물 사이트 12곳을 압수, 1,200명 피해자 등 구체적 피해와 법 집행 사례를 공개함."
       },
       "summary": {
         "headline": "뉴욕, 딥페이크 사이트 12곳 압수",
-        "what_happened": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했습니다. 이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지로 변환한 것으로 조사 중입니다.",
-        "why_it_matters": "공공 인물뿐 아니라 누구나 딥페이크 범죄의 피해자가 될 수 있다는 점이 강조됐습니다. 뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행하고 있습니다.",
-        "reader_takeaway": "딥페이크 이미지 유포 여부와 관련 법적 대응 가능성을 점검하셔야 합니다.",
+        "what_happened": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했습니다. 이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지와 영상으로 변환한 것으로 조사되고 있습니다.",
+        "why_it_matters": "공인뿐 아니라 누구나 딥페이크 범죄의 피해자가 될 수 있다는 점이 확인됐습니다. 딥페이크 생성·유포에 대한 법적 조치가 실제로 이루어지고 있어, 관련 리스크 관리가 중요해졌습니다.",
+        "reader_takeaway": "AI로 변환된 이미지가 무단 게시된 경우 신속히 대응할 수 있는 내부 절차와 외부 신고 경로를 점검하시기 바랍니다.",
         "claims": [
           {
             "claim": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했다.",
             "quote": "The New York District Attorney announced on Monday that it has seized 12 websites hosting AI-generated non-consensual intimate imagery, primarily of celebrities and public figures."
           },
           {
-            "claim": "이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지로 변환했다는 의혹을 받고 있다.",
+            "claim": "이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지와 영상으로 변환했다.",
             "quote": "The people using and running these sites who are now under investigation used AI tools to turn approximately 1,200 people’s photos into “hyper-realistic” images and videos of them engaged in sexual conduct, according to the DA’s office."
           },
           {
-            "claim": "피해자는 주로 유명인이나, 누구나 딥페이크 범죄의 피해자가 될 수 있다.",
+            "claim": "피해자는 주로 공인이지만 누구나 딥페이크 범죄의 피해자가 될 수 있다.",
             "quote": "While the victims of these sites are largely celebrities, we know that anyone can be a victim in these crimes, particularly in domestic violence cases, many of our intimate violence cases involve threats to at least images and videos, and we know that deepfakes are being used in the same way,"
           },
           {
-            "claim": "뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행하고 있다.",
+            "claim": "뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행 중이다.",
             "quote": "New York has had laws specifically criminalizing sexually explicit deepfakes in place since 2023."
           },
           {
-            "claim": "딥페이크 피해자에게 법적 지원과 신고를 독려하고 있다.",
-            "quote": "If you let us know that an image has been posted without your permission, without your consent, we can take action as long as that website is accessible from Manhattan."
+            "claim": "딥페이크 피해자에게 지방검찰청 사이버범죄부 연락을 권고하고 있다.",
+            "quote": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600."
           }
         ]
       },
@@ -289,7 +397,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "수정 사항 없음. 요약문은 원문에 근거해 정확합니다.",
+        "fix_instruction": "요약문은 원문에 근거해 정확하게 작성되었습니다. 추가 수정이 필요하지 않습니다.",
         "note": "",
         "claim_verdicts": [
           {
@@ -319,7 +427,7 @@
           {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600. Bragg said targets of deepfakes might not know that something can be done, and wants them to know there’s a “cop on the beat.” “Our message to the people who are creating and publishing this content: What you are doing is a crime. We are investigating, and support survivors in taking down this content and seeking accountability for folks who break the law,” Bragg said.",
+            "evidence": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600.",
             "note": ""
           }
         ]
@@ -336,14 +444,14 @@
         "title": "데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓",
         "url": "https://www.electimes.com/news/articleView.html?idxno=372434",
         "published": "2026-09-15T13:27:05+00:00",
-        "age_hours": -7.3,
+        "age_hours": -7.0,
         "feed_summary": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.UNIST 탄소중립대학원 임한권 교수팀은 고체산화물 연료전지를 데이터센터의 전력원으로 쓰고 발전과 냉각 과정에서 나오는 열을 재활용하는 통합 에너지 시스템을 고안하고, 이 시스템의 경제성과 전 과정 온실가스 배출량을 분석한 결과 이 같은 결론을 얻었다고 15일 밝혔다.데이터센터는 수많은 서버를 24시간 가동하기",
         "prescreen_score": 7,
         "prescreen_labels": [
           "tech",
           "policy"
         ],
-        "prescreen_reason": "AI 데이터센터 전력과 폐열 재활용으로 비용과 온실가스 감축 수치 제공, 인프라 부담 관련 구체적 사례임.",
+        "prescreen_reason": "AI 데이터센터 전력 공급과 폐열 재활용으로 비용과 온실가스 감축 수치 제시, 인프라 비용 부담 완화 관련 유용한 정보임.",
         "body_chars": 1770,
         "body_error": null,
         "final_scores": {
@@ -355,14 +463,14 @@
         },
         "weighted": 7.98,
         "verdict": "keep",
-        "final_reason": "AI 데이터센터의 환경·인프라 부담(비용, 온실가스)이 구체적 수치와 함께 분석되어 있고, 한국 상황도 비교·언급됨. 실무 참고 가치 높음.",
-        "one_line": "AI 데이터센터의 폐열 재활용 시스템 도입 시 비용 48%, 온실가스 72% 감축 가능—한국 포함 지역별 분석"
+        "final_reason": "AI 데이터센터의 전력·냉각 비용과 온실가스 부담을 구체적 수치로 제시하고, 한국 상황도 비교 분석함. 실무적 참고 가치 높음.",
+        "one_line": "AI 데이터센터의 연료전지·폐열 재활용 시스템 도입 시 비용 48%, 온실가스 72% 절감 가능성 분석"
       },
       "summary": {
-        "headline": "데이터센터 폐열 재활용 효과 분석",
-        "what_happened": "AI 데이터센터에 연료전지로 전기를 공급하고, 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔습니다. 연구팀은 GPU 2만 개 규모 데이터센터를 가정해 다양한 조합을 한국·미국·유럽연합의 에너지 가격과 전력 생산 구조에 맞춰 분석했습니다.",
-        "why_it_matters": "데이터센터의 전력·냉각 비용과 온실가스 배출이 실제로 크게 줄어들 수 있다는 구체적 수치가 제시됐습니다. 지역별 에너지 가격과 전력 생산 구조에 따라 최적의 시스템이 달라질 수 있어, 국내 기업과 정책 담당자에게 실질적인 참고가 됩니다.",
-        "reader_takeaway": "데이터센터의 에너지 시스템 설계와 ESG 전략 수립 시 폐열 재활용과 탄소 포집 기술의 경제성과 환경 효과를 지역별로 점검해야 합니다.",
+        "headline": "데이터센터, 폐열 재활용 효과 분석",
+        "what_happened": "AI 데이터센터에서 연료전지로 전기를 공급하고 폐열을 재활용하는 통합 에너지 시스템이 기존 방식보다 비용과 온실가스 배출을 크게 줄일 수 있다는 분석이 나왔습니다. 연구팀은 다양한 전력 공급원과 냉각 방식, 탄소 포집 여부에 따른 경제성과 온실가스 배출량을 비교했습니다.",
+        "why_it_matters": "데이터센터의 전력 공급과 냉각에 드는 에너지, 탄소 배출을 함께 고려해야 한다는 점이 강조됐습니다. 지역별 에너지 가격과 전력 생산 구조에 따라 최적의 시스템이 달라질 수 있어, 실무자들이 맞춤형 전략을 세울 필요가 있습니다.",
+        "reader_takeaway": "데이터센터의 에너지 시스템 설계 시 비용과 탄소 배출 저감 효과를 지역 여건에 맞춰 검토해야 합니다.",
         "claims": [
           {
             "claim": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다.",
@@ -398,7 +506,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "수정 사항 없음. 요약문과 주장 모두 원문에 근거하여 정확합니다.",
+        "fix_instruction": "별도의 수정이 필요하지 않습니다.",
         "note": "",
         "claim_verdicts": [
           {
@@ -429,115 +537,6 @@
             "idx": 4,
             "verdict": "supported",
             "evidence": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다.",
-            "note": ""
-          }
-        ]
-      }
-    },
-    {
-      "item": {
-        "id": "3bd38861eb4f",
-        "source_id": "wired_ai",
-        "source_name": "WIRED AI",
-        "bucket": "AI 피해·탐사",
-        "weight": 1.1,
-        "lang": "en",
-        "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
-        "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
-        "published": "2026-09-14T11:00:00+00:00",
-        "age_hours": 19.2,
-        "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
-        "prescreen_score": 8,
-        "prescreen_labels": [
-          "policy",
-          "opinion"
-        ],
-        "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 실태와 피해자 규모를 구체적으로 제시해 사회적 피해 부담을 명확히 함.",
-        "body_chars": 6184,
-        "body_error": null,
-        "final_scores": {
-          "burden_clarity": 8.0,
-          "actionability": 7.0,
-          "impact": 8.0,
-          "novelty": 7.0,
-          "korea_relevance": 4.0
-        },
-        "weighted": 7.87,
-        "verdict": "keep",
-        "final_reason": "AI 딥페이크로 유럽 여성 정치인 138명 등 피해자 구체적 수치, 사회적 영향, 피해 양상 등 부담이 명확히 드러남. 한국 직접 사례는 없으나 정책 참고 가치 있음.",
-        "one_line": "유럽 여성 정치인 138명 등, AI 딥페이크 성착취물 피해—정치권·사회 전반에 심각한 영향."
-      },
-      "summary": {
-        "headline": "유럽 정치인 대상 딥페이크 음란물 피해 확산",
-        "what_happened": "유럽 각국의 여성 정치인 138명이 딥페이크 음란물 사이트에 등장하거나 언급된 것으로 조사됐습니다. 일부는 사진과 이름, 소셜미디어 정보까지 데이터베이스처럼 노출됐으며, 신체를 평가하는 항목이나 누드화 앱 링크도 포함됐습니다.",
-        "why_it_matters": "딥페이크 음란물은 여성 정치인을 집중적으로 겨냥하며, 심각한 심리적·평판 피해를 유발할 수 있습니다. 이런 피해는 여성의 공적 진출을 위축시키고, 민주주의 실천에도 영향을 줄 수 있습니다.",
-        "reader_takeaway": "AI 기반 딥페이크 피해 현황과 대응 체계를 점검하고, 관련 규제 동향을 주시해야 합니다.",
-        "claims": [
-          {
-            "claim": "유럽 여성 정치인 138명이 딥페이크 음란물 사이트에 언급됐다.",
-            "quote": "Analysis of around 160 domains that host deepfake abuse and other nonconsensual sexual content, by researcher Benjamin Shultz, has found that at least 138 women members of parliament (MPs) from 22 European Union countries have appeared or been mentioned on the sites."
-          },
-          {
-            "claim": "여성 정치인은 남성보다 33배 더 표적이 됐다.",
-            "quote": "By Shultz’s calculations, it is 33 times more likely for women MPs to be targeted by deepfake ecosystems."
-          },
-          {
-            "claim": "딥페이크 사이트에는 정치인 이름, 공식 사진, 소셜미디어 정보 등이 포함됐다.",
-            "quote": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information."
-          },
-          {
-            "claim": "딥페이크 음란물은 여성의 공적 진출을 위축시킬 수 있다.",
-            "quote": "This discourages women from taking office in the first place and also crowds these women out of public life,"
-          },
-          {
-            "claim": "딥페이크 사이트 일부는 최근 폐쇄되어 피해 사례가 감소했다.",
-            "quote": "Ahead of this story being published, WIRED found that at least half a dozen of the domains that appear in the research have recently been removed from the web—reducing the total number of depictions of the European MPs."
-          }
-        ]
-      },
-      "verify": {
-        "passed": true,
-        "support_rate": 1.0,
-        "n_claims": 5,
-        "n_supported": 5,
-        "n_partial": 0,
-        "n_unsupported": 0,
-        "quote_unverified": [],
-        "numbers_not_in_source": [],
-        "llm_overall": "pass",
-        "llm_error": null,
-        "issues": [],
-        "fix_instruction": "",
-        "note": "",
-        "claim_verdicts": [
-          {
-            "idx": 0,
-            "verdict": "supported",
-            "evidence": "Analysis of around 160 domains that host deepfake abuse and other nonconsensual sexual content, by researcher Benjamin Shultz, has found that at least 138 women members of parliament (MPs) from 22 European Union countries have appeared or been mentioned on the sites.",
-            "note": ""
-          },
-          {
-            "idx": 1,
-            "verdict": "supported",
-            "evidence": "By Shultz’s calculations, it is 33 times more likely for women MPs to be targeted by deepfake ecosystems.",
-            "note": ""
-          },
-          {
-            "idx": 2,
-            "verdict": "supported",
-            "evidence": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information.",
-            "note": ""
-          },
-          {
-            "idx": 3,
-            "verdict": "supported",
-            "evidence": "Multiple researchers and lawmakers say that while politicians have been targeted with deepfakes for years, it can damage democratic practices and create chilling effects that may stop women and girls from becoming public figures. “This discourages women from taking office in the first place and also crowds these women out of public life,” Shultz says.",
-            "note": ""
-          },
-          {
-            "idx": 4,
-            "verdict": "supported",
-            "evidence": "Ahead of this story being published, WIRED found that at least half a dozen of the domains that appear in the research have recently been removed from the web—reducing the total number of depictions of the European MPs. After the websites were taken down, Shultz says, there has been a “significant decrease” in the number of depictions of those American politicians that appeared on the websites two years ago.",
             "note": ""
           }
         ]

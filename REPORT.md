@@ -528,8 +528,37 @@ $ python tools/publish_site.py
 
 ### 6.4 메일 발송
 
-<!-- SMTP 설정 후 실제 수신함 캡처를 여기에 넣는다 -->
-_(네이버 SMTP 설정 후 채움. `python tools/smtp_check.py` 로 접속 확인 후 `python run.py`)_
+네이버 SMTP(`smtp.naver.com:587`, STARTTLS)로 실제 발송했다. run_id `20260915-152543`.
+
+```
+[15:27:44] 7/8 렌더링: 기사 5건
+[15:27:44]     웹 아카이브 갱신: docs/issues/2026-09-15.html · docs/index.html
+[15:27:45] 8/8 발행 완료: kjc****@naver.com 에게 전송
+           · 제목 '[The AI Bill] 2026-09-15 · 텍사스, 데이터센터 물 사용 미신고 제재 예고'
+
+--- 요약 ---
+수집 162 → 규칙통과 93 → 본선 5 → 발행 5건 (검수탈락 0, 재생성 3회)
+LLM 호출 31회 / 83,930 토큰
+발행 상태: ok
+```
+
+**이 실행에서 검수가 3건을 잡아 재생성했다.** 세 건이 각각 다른 층에 걸렸다.
+
+| 기사 | 검수가 지적한 내용 | 잡은 층 |
+|---|---|---|
+| Sexually Explicit Deepfake Sites… | 원문에 없는 인용문 1건: *"This discourages women from taking office in the first place"* — **존재하지 않는 발언을 만들어냈다** | **A 인용문 대조**(규칙, 비용 0) |
+| New York Seizes 12 Celebrity Deepfake Websites | "1번 주장(유포했다)은 원문에 명시적으로 언급되어 있지 않고 '변환했다'고만 되어 있음" | **C LLM 근거성** |
+| 'Tidal wave' of Pfas… | "생산 확대 계획"을 "급증"으로 쓴 과장 | **C LLM 근거성** |
+
+특히 첫 건은 **그럴듯한 영어 인용문을 통째로 창작한 사례**다. 문자열 대조라는 가장 단순한 검사가
+LLM 판단 없이 즉시 걸러냈고, 세 건 모두 재생성 1회로 통과해 최종 발행물에는 정확해진 문장이 실렸다.
+검수가 없었다면 **존재하지 않는 인용문이 그대로 메일로 나갔을 것이다.**
+
+수신 주소는 로그에서 가린다(`nl/publish.py` 의 `mask_email`). 실행 로그가 공개 저장소에 올라가기
+때문이다. `docs/sample_run/run.log` 도 같은 방식으로 마스킹해 커밋한다.
+
+<!-- 수신함 캡처 -->
+_(네이버 수신함 캡처 추가 예정)_
 
 ### 6.5 누적 지표 (`store/metrics.jsonl`)
 
