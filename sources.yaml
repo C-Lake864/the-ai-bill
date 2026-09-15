@@ -1,5 +1,5 @@
 # =============================================================================
-# 채택 소스 — "AI의 청구서" (AI가 사회와 환경에 떠넘기는 비용)
+# 채택 소스 — "The AI Bill" (AI가 사회와 환경에 떠넘기는 비용)
 # 실측: tools/source_probe.py --candidates tools/source_candidates_ai.yaml --out ai
 # 근거: docs/source_audit_ai.md / store/source_audit_ai.json  (후보 35개)
 #

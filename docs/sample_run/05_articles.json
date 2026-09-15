@@ -2,62 +2,61 @@
   "published": [
     {
       "item": {
-        "id": "88a3078ba7e5",
-        "source_id": "electimes",
-        "source_name": "전기신문",
-        "bucket": "데이터센터·전력",
-        "weight": 1.05,
-        "lang": "ko",
-        "title": "데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓",
-        "url": "https://www.electimes.com/news/articleView.html?idxno=372434",
-        "published": "2026-09-15T13:27:05+00:00",
-        "age_hours": -7.8,
-        "feed_summary": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.UNIST 탄소중립대학원 임한권 교수팀은 고체산화물 연료전지를 데이터센터의 전력원으로 쓰고 발전과 냉각 과정에서 나오는 열을 재활용하는 통합 에너지 시스템을 고안하고, 이 시스템의 경제성과 전 과정 온실가스 배출량을 분석한 결과 이 같은 결론을 얻었다고 15일 밝혔다.데이터센터는 수많은 서버를 24시간 가동하기",
+        "id": "620b090df57e",
+        "source_id": "guardian_ai",
+        "source_name": "The Guardian AI",
+        "bucket": "정책·권리",
+        "weight": 1.1,
+        "lang": "en",
+        "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+        "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+        "published": "2026-09-14T06:00:26+00:00",
+        "age_hours": 24.2,
+        "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
         "prescreen_score": 7,
         "prescreen_labels": [
-          "tech",
           "policy"
         ],
-        "prescreen_reason": "AI 데이터센터 전력·폐열 재활용으로 비용과 온실가스 부담 감소 구체적 수치 제공.",
-        "body_chars": 1770,
+        "prescreen_reason": "AI 데이터센터 수요로 인한 유해 화학물질 생산 증가와 건강 피해 우려를 구체적으로 다룸.",
+        "body_chars": 5177,
         "body_error": null,
         "final_scores": {
           "burden_clarity": 9.0,
-          "actionability": 9.0,
-          "impact": 8.0,
+          "actionability": 7.0,
+          "impact": 9.0,
           "novelty": 8.0,
-          "korea_relevance": 9.0
+          "korea_relevance": 6.0
         },
-        "weighted": 9.03,
+        "weighted": 8.8,
         "verdict": "keep",
-        "final_reason": "AI 데이터센터의 전력·냉각·탄소배출 부담을 구체적 수치와 함께 분석, 한국 등 각국 상황별로 비용·환경 영향과 대응 전략 제시.",
-        "one_line": "AI 데이터센터에 연료전지·폐열 재활용 적용 시 비용 48%, 온실가스 72% 절감 가능성 분석"
+        "final_reason": "AI 데이터센터와 반도체 수요로 PFAS(영원한 화학물질) 생산이 급증하며, 환경·건강 피해와 거액 소송 위험 등 구체적 부담 주체와 규모가 명확히 드러남. 한국 직접 언급은 없으나 글로벌 공급망과 규제 동향이 실무에 참고될 만함.",
+        "one_line": "AI 데이터센터와 반도체 산업 확장으로 PFAS(영원한 화학물질) 생산이 급증, 환경·건강 피해와 대규모 소송 위험이 커지고 있음."
       },
       "summary": {
-        "headline": "데이터센터 폐열 재활용 효과 분석",
-        "what_happened": "AI 데이터센터에 연료전지로 전기를 공급하고 폐열을 재활용하는 통합 에너지 시스템이 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔습니다. 이 시스템은 고체산화물 연료전지와 유기 랭킨 사이클 냉각, 탄소 포집을 결합해 경제성과 환경성을 높였습니다.",
-        "why_it_matters": "데이터센터의 전력 공급과 냉각에 드는 에너지, 탄소 배출을 함께 고려해야 한다는 점이 강조됐습니다. 지역별 에너지 가격과 전력 생산 구조에 따라 최적의 시스템 선택이 달라질 수 있어, 실무자들은 비용과 ESG 전략을 세밀하게 점검할 필요가 있습니다.",
-        "reader_takeaway": "데이터센터 인프라 도입 시 폐열 재활용과 탄소 포집 등 통합 시스템의 경제성과 환경 효과를 지역 여건에 맞춰 검토하시기 바랍니다.",
+        "headline": "AI 산업 PFAS 생산 급증 논란",
+        "what_happened": "AI 산업 수요를 맞추기 위해 PFAS 생산이 급증하고 있습니다. 주요 제조사 대부분이 생산 확대 계획을 밝혔으며, 환경 및 건강 위험 우려가 제기되고 있습니다.",
+        "why_it_matters": "PFAS는 반도체와 데이터센터 냉각 등 AI 인프라에 핵심적으로 사용됩니다. 하지만 이 물질은 자연에서 분해되지 않아 환경과 인체에 축적될 수 있다는 점이 규제와 기업 실무에 중요한 쟁점입니다.",
+        "reader_takeaway": "AI 인프라 도입 시 PFAS 사용 및 관련 리스크를 점검하시기 바랍니다.",
         "claims": [
           {
-            "claim": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다.",
-            "quote": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다."
+            "claim": "PFAS는 반도체 제조와 데이터센터 냉각에 중요한 역할을 한다.",
+            "quote": "Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems."
           },
           {
-            "claim": "연구팀이 제안한 통합 에너지 시스템에서는 연료전지가 방출하는 열을 이산화탄소 포집에 활용한다.",
-            "quote": "연구팀이 제안한 통합 에너지 시스템에서는 연료전지가 방출하는 열을 이산화탄소 포집에 활용한다."
+            "claim": "10대 PFAS 제조사 대부분이 생산 확대 계획을 갖고 있다.",
+            "quote": "ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America."
           },
           {
-            "claim": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다.",
-            "quote": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다."
+            "claim": "PFAS는 자연에서 분해되지 않아 환경에 축적된다.",
+            "quote": "But it also makes them virtually indestructible in the natural environment. As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain."
           },
           {
-            "claim": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다.",
-            "quote": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다."
+            "claim": "PFAS는 인체에 축적되어 건강 문제와 연관이 있다.",
+            "quote": "Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects."
           },
           {
-            "claim": "데이터센터에 적합한 에너지 시스템은 지역별 에너지 가격과 전력 생산에 따른 탄소 배출량에 따라 달라진다.",
-            "quote": "데이터센터에 적합한 에너지 시스템은 지역별 에너지 가격과 전력 생산에 따른 탄소 배출량에 따라 달라진다."
+            "claim": "PFAS는 데이터센터 냉각 시스템에서 에너지와 물 사용을 줄이는 용도로도 사용된다.",
+            "quote": "Pfas are used for a new form of datacentre cooling touted as more water- and energy-efficient."
           }
         ]
       },
@@ -73,37 +72,37 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "수정 사항 없음. 요약문과 주장 모두 원문에 근거하고 있습니다.",
+        "fix_instruction": "문제점 없음. 요약문과 주장 모두 원문에 근거합니다.",
         "note": "",
         "claim_verdicts": [
           {
             "idx": 0,
             "verdict": "supported",
-            "evidence": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.",
+            "evidence": "Many frame their investments around the “AI revolution”, because of the role Pfas play in semiconductor production and next-generation datacentre cooling systems. ... Pfas also play a crucial role in the fabrication process for semiconductors, another sector booming to meet demand from the AI industry.",
             "note": ""
           },
           {
             "idx": 1,
             "verdict": "supported",
-            "evidence": "연구팀이 제안한 통합 에너지 시스템에서는 연료전지가 방출하는 열을 이산화탄소 포집에 활용한다.",
+            "evidence": "a survey of the 10 biggest manufacturers found most had plans to increase production. ... ChemSec’s survey found nearly all of the 10 biggest manufacturers of Pfas had plans to increase production, at sites in Europe, Asia and North America.",
             "note": ""
           },
           {
             "idx": 2,
             "verdict": "supported",
-            "evidence": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다.",
+            "evidence": "But opponents warn that the chemicals, which never degrade in nature, are a ticking timebomb for human and planetary health. ... That makes them useful for a range of industrial processes and consumer products. But it also makes them virtually indestructible in the natural environment. As a result, they continue to be recycled through planetary systems, leading to their accumulation in air, water and soil, and up the food chain.",
             "note": ""
           },
           {
             "idx": 3,
             "verdict": "supported",
-            "evidence": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다.",
+            "evidence": "Already the chemicals are thought to contaminate the blood of nearly every living person. Research links them to cancer, liver disease, kidney issues, high cholesterol and birth defects. ... which have been detected in the blood of more than 99% of people worldwide.",
             "note": ""
           },
           {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "임한권 교수는 “데이터센터에 적합한 에너지 시스템은 지역별 에너지 가격과 전력 생산에 따른 탄소 배출량에 따라 달라진다”며 ...",
+            "evidence": "The boom in AI tech was leading demand, with Pfas used for “eco-friendly” datacentre cooling ... It said its “innovative liquid cooling solutions” lower the energy, water, space, maintenance and investment costs of datacentres. ... Pfas are used for a new form of datacentre cooling touted as more water- and energy-efficient.",
             "note": ""
           }
         ]
@@ -120,53 +119,52 @@
         "title": "Texas governor threatens to penalize datacenters not obeying water laws",
         "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
         "published": "2026-09-14T22:57:15+00:00",
-        "age_hours": 6.7,
+        "age_hours": 7.2,
         "feed_summary": "Republican Greg Abbott says datacenters must help ‘protect’ drought-prone state and disclose water use Greg Abbott , the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use. “Data centers must share the duty to protect Texas water,” the Republican governor said on Monday. “The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply,” he added. Continue reading...",
         "prescreen_score": 8,
         "prescreen_labels": [
-          "policy",
-          "environment"
+          "policy"
         ],
-        "prescreen_reason": "텍사스 주지사가 데이터센터의 물 사용 공개 및 법 준수 의무화하며 벌금 부과 경고, AI 데이터센터 인프라 부담과 규제 직접 관련.",
+        "prescreen_reason": "텍사스 주지사가 데이터센터의 물 사용 공개와 법 준수를 강제하며 인프라 부담 전가를 구체적으로 다룸.",
         "body_chars": 2595,
         "body_error": null,
         "final_scores": {
-          "burden_clarity": 8.0,
+          "burden_clarity": 9.0,
           "actionability": 8.0,
-          "impact": 7.0,
+          "impact": 8.0,
           "novelty": 7.0,
-          "korea_relevance": 5.0
+          "korea_relevance": 4.0
         },
-        "weighted": 8.03,
+        "weighted": 8.42,
         "verdict": "keep",
-        "final_reason": "데이터센터의 물 사용 부담, 실제 소비량·규제 집행·미이행시 제재 등 구체적 수치와 정책 변화가 드러남. 한국 직접 연관성은 낮으나 실무 참고 가치 높음.",
-        "one_line": "텍사스, 데이터센터 물 사용 미공개시 벌금 등 규제 강화—2025년 250억 갤런 소비, 2030년 1610억 갤런 전망"
+        "final_reason": "데이터센터의 물 사용량, 법적 제재, 실제 소비량 등 부담 주체와 규모가 구체적으로 드러나고, 규제 집행 사례라 실무 참고 가치가 높음. 한국 직접 연결은 약함.",
+        "one_line": "텍사스주, 데이터센터의 물 사용 미신고에 법적 제재 예고—2025년 250억 갤런 소비, 2030년 1610억 갤런 전망."
       },
       "summary": {
         "headline": "텍사스, 데이터센터 물 사용 규제 강화",
-        "what_happened": "텍사스 주지사는 데이터센터가 물 사용 정보를 공개하지 않으면 처벌하라고 규제 당국에 지시했습니다. 최근 텍사스는 데이터센터의 물 사용 실태를 전면 감사하고, 미이행 시 전력망 연결을 불허하겠다고 밝혔습니다.",
-        "why_it_matters": "데이터센터의 물 사용량이 급증하면서 지역 사회의 자원 부담과 규제 위험이 커지고 있습니다. 실제로 물 사용 정보 미제출이 민형사 위반으로 간주될 수 있어, 기업의 법적·운영 리스크가 현실화되고 있습니다.",
-        "reader_takeaway": "데이터센터 운영 시 물 사용 정보 공개와 규제 준수 여부를 즉시 점검해야 합니다.",
+        "what_happened": "텍사스 주지사 Greg Abbott가 데이터센터의 물 사용 정보 미제출에 대해 벌칙을 지시했습니다. 데이터센터는 물 사용량, 수원, 절수 기술 활용 현황을 보고해야 하며, 미이행 시 전력망 연결이 거부될 수 있습니다.",
+        "why_it_matters": "데이터센터의 물 사용이 급증하면서 지역 사회의 자원 부담과 규제 리스크가 커지고 있습니다. 기업은 물 사용 정보 공개와 규정 준수 여부가 사업 운영에 직접적인 영향을 미칠 수 있음을 주의해야 합니다.",
+        "reader_takeaway": "데이터센터 운영 시 물 사용 정보 공개와 관련 규정 준수 여부를 즉시 점검하시기 바랍니다.",
         "claims": [
           {
-            "claim": "텍사스 주지사는 데이터센터가 물 사용 정보를 공개하지 않으면 처벌하라고 규제 당국에 지시했다.",
+            "claim": "텍사스 주지사가 데이터센터의 물 사용 정보 미제출에 대해 벌칙을 지시했다.",
             "quote": "Greg Abbott, the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use."
           },
           {
-            "claim": "데이터센터가 물 사용 정보를 제출하지 않으면 전력망 연결이 거부될 수 있다.",
+            "claim": "데이터센터는 물 사용량, 수원, 절수 기술 활용 현황을 보고해야 한다.",
+            "quote": "The audit requires datacenters to provide information about their water consumption, water sources and efforts to use water-efficient technologies."
+          },
+          {
+            "claim": "미이행 시 전력망 연결이 거부될 수 있다.",
             "quote": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid."
           },
           {
-            "claim": "텍사스 데이터센터의 물 사용량이 2025년에 250억 갤런에 달했다는 추정이 있다.",
+            "claim": "2025년 텍사스 데이터센터의 물 사용량은 250억 갤런으로 추정된다.",
             "quote": "In 2025, Texas datacenters consumed an estimated 25bn gallons of water, according to the Houston Advanced Research Center."
           },
           {
-            "claim": "데이터센터의 물 사용량이 2030년에는 텍사스 전체 사용량의 약 2.7%에 이를 수 있다.",
+            "claim": "텍사스 데이터센터의 물 사용량은 2030년까지 연간 1610억 갤런에 이를 수 있다.",
             "quote": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030 – about 2.7% of all water used in Texas, or roughly the amount consumed by 1.3m households across the country."
-          },
-          {
-            "claim": "물 사용 정보 미제출은 민형사 위반이 될 수 있다는 주장이 있다.",
-            "quote": "Major water users, including data centers, appear to have committed civil and criminal violations by failing to provide the Texas Water Development Board (TWDB) with information about water usage as required by the Texas Water Code."
           }
         ]
       },
@@ -182,7 +180,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "수정 필요 없음. 요약문과 주장 모두 원문에 근거함.",
+        "fix_instruction": "별도의 수정이 필요 없습니다.",
         "note": "",
         "claim_verdicts": [
           {
@@ -194,124 +192,25 @@
           {
             "idx": 1,
             "verdict": "supported",
-            "evidence": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid.",
+            "evidence": "The audit requires datacenters to provide information about their water consumption, water sources and efforts to use water-efficient technologies.",
             "note": ""
           },
           {
             "idx": 2,
+            "verdict": "supported",
+            "evidence": "Abbott said projects that fail to complete the audit will be denied permission to connect to the state’s power grid.",
+            "note": ""
+          },
+          {
+            "idx": 3,
             "verdict": "supported",
             "evidence": "In 2025, Texas datacenters consumed an estimated 25bn gallons of water, according to the Houston Advanced Research Center.",
             "note": ""
           },
           {
-            "idx": 3,
-            "verdict": "supported",
-            "evidence": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030 – about 2.7% of all water used in Texas, or roughly the amount consumed by 1.3m households across the country.",
-            "note": ""
-          },
-          {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "Major water users, including data centers, appear to have committed civil and criminal violations by failing to provide the Texas Water Development Board (TWDB) with information about water usage as required by the Texas Water Code.",
-            "note": ""
-          }
-        ]
-      }
-    },
-    {
-      "item": {
-        "id": "ca0b5eda66dd",
-        "source_id": "media404",
-        "source_name": "404 Media",
-        "bucket": "AI 피해·탐사",
-        "weight": 1.1,
-        "lang": "en",
-        "title": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats",
-        "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats",
-        "published": "2026-09-14T14:22:43+00:00",
-        "age_hours": 15.3,
-        "feed_summary": "Humans are reading ChatGPT users’ prompts to improve OpenAI’s models, and those chats can include sensitive, personal information, according to leaked internal documents and real prompts seen by 404 Media.",
-        "prescreen_score": 6,
-        "prescreen_labels": [
-          "policy",
-          "corporate"
-        ],
-        "prescreen_reason": "ChatGPT 대화 내용에 민감 정보 포함 가능성과 인력 검토 사실로 개인정보·감시 피해 관련 구체적 사례 제공.",
-        "body_chars": 1932,
-        "body_error": null,
-        "final_scores": {
-          "burden_clarity": 8.0,
-          "actionability": 7.0,
-          "impact": 7.0,
-          "novelty": 8.0,
-          "korea_relevance": 5.0
-        },
-        "weighted": 7.98,
-        "verdict": "keep",
-        "final_reason": "AI 챗봇 프롬프트 검토 과정에서 실제 개인정보 노출 위험과 인적 부담이 구체적으로 드러나고, 기업 실무자·정책 담당자에게 개인정보 보호·리스크 점검 필요성을 시사함.",
-        "one_line": "OpenAI가 수백 명의 계약직을 고용해 실제 ChatGPT 대화(개인정보 포함)를 검토, 사용자 프라이버시 침해 위험이 드러남."
-      },
-      "summary": {
-        "headline": "ChatGPT 대화, 사람이 읽는다",
-        "what_happened": "OpenAI는 수백 명의 외부 계약직 인력을 고용해 실제 사용자의 ChatGPT 대화 내용을 검토하고 있습니다. 이 과정에서 민감한 개인정보가 포함된 프롬프트도 사람이 읽을 수 있습니다.",
-        "why_it_matters": "많은 사용자가 자신의 대화가 실제 사람에게 노출될 수 있다는 사실을 인지하지 못하고 있습니다. 기업은 개인정보 보호와 내부 검토 프로세스의 투명성을 점검해야 합니다.",
-        "reader_takeaway": "AI 도입 시 실제 대화 데이터의 외부 검토 여부와 개인정보 유출 가능성을 반드시 확인하십시오.",
-        "claims": [
-          {
-            "claim": "OpenAI는 수백 명의 계약직 인력을 고용해 실제 사용자의 ChatGPT 프롬프트를 읽고 있다.",
-            "quote": "OpenAI is hiring hundreds of contractors who read a massive stream of real users’ ChatGPT prompts, with the prompts sometimes including sensitive personal information, 404 Media has learned."
-          },
-          {
-            "claim": "검토 대상에는 사용자의 전체 대화가 포함될 수 있다.",
-            "quote": "The prompts these people review can include whole conversations between users and the chatbot, conversations that most of ChatGPT’s more than 900 million users probably don’t realize may be read by actual people."
-          },
-          {
-            "claim": "OpenAI는 프롬프트에서 개인정보를 제거하려고 하지만, 민감한 정보가 여전히 전달될 수 있다고 인정했다.",
-            "quote": "The contractors don’t see ChatGPT usernames, and OpenAI says it tries to remove personal information before prompts reach the reviewers, but the company acknowledged sensitive details can still get through."
-          },
-          {
-            "claim": "많은 사용자가 사람이 대화를 읽는다는 사실을 알지 못한다는 의견이 있다.",
-            "quote": "“No,” someone who works with the prompts said when asked if they think ChatGPT users know that humans are reading their chats. “I don’t think they would imagine some contractor somewhere [...] is analyzing the conversations.”"
-          }
-        ]
-      },
-      "verify": {
-        "passed": true,
-        "support_rate": 1.0,
-        "n_claims": 4,
-        "n_supported": 4,
-        "n_partial": 0,
-        "n_unsupported": 0,
-        "quote_unverified": [],
-        "numbers_not_in_source": [],
-        "llm_overall": "pass",
-        "llm_error": null,
-        "issues": [],
-        "fix_instruction": "수정 사항 없음. 요약문과 모든 주장에 원문 근거가 충분합니다.",
-        "note": "",
-        "claim_verdicts": [
-          {
-            "idx": 0,
-            "verdict": "supported",
-            "evidence": "OpenAI is hiring hundreds of contractors who read a massive stream of real users’ ChatGPT prompts, with the prompts sometimes including sensitive personal information, 404 Media has learned.",
-            "note": ""
-          },
-          {
-            "idx": 1,
-            "verdict": "supported",
-            "evidence": "The prompts these people review can include whole conversations between users and the chatbot, conversations that most of ChatGPT’s more than 900 million users probably don’t realize may be read by actual people.",
-            "note": ""
-          },
-          {
-            "idx": 2,
-            "verdict": "supported",
-            "evidence": "OpenAI says it tries to remove personal information before prompts reach the reviewers, but the company acknowledged sensitive details can still get through.",
-            "note": ""
-          },
-          {
-            "idx": 3,
-            "verdict": "supported",
-            "evidence": "“No,” someone who works with the prompts said when asked if they think ChatGPT users know that humans are reading their chats. “I don’t think they would imagine some contractor somewhere [...] is analyzing the conversations.”",
+            "evidence": "Water use by datacenters in the state could rise to 161bn gallons a year by 2030",
             "note": ""
           }
         ]
@@ -328,52 +227,53 @@
         "title": "New York Seizes 12 Celebrity Deepfake Websites",
         "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites",
         "published": "2026-09-14T17:26:37+00:00",
-        "age_hours": 12.2,
+        "age_hours": 12.7,
         "feed_summary": "New York District Attorney Alvin Bragg said in a press conference on Monday that the sites included 1,200 people’s likenesses in “hyper-realistic” sexual imagery.",
-        "prescreen_score": 9,
+        "prescreen_score": 8,
         "prescreen_labels": [
-          "policy"
+          "policy",
+          "AI 피해·탐사"
         ],
-        "prescreen_reason": "뉴욕 검찰이 1,200명 피해자 대상 딥페이크 사이트 12곳을 압수해 AI 딥페이크 피해 구제와 규제 집행의 구체적 사례를 제시함.",
+        "prescreen_reason": "뉴욕 검찰의 딥페이크 사이트 압수 사례로 AI 관련 사회적 피해와 법 집행의 구체적 사실을 제공함.",
         "body_chars": 3437,
         "body_error": null,
         "final_scores": {
           "burden_clarity": 8.0,
           "actionability": 8.0,
-          "impact": 7.0,
+          "impact": 8.0,
           "novelty": 7.0,
-          "korea_relevance": 4.0
+          "korea_relevance": 5.0
         },
-        "weighted": 7.92,
+        "weighted": 8.25,
         "verdict": "keep",
-        "final_reason": "AI 딥페이크로 인한 피해자 규모, 실제 법집행, 규제 집행 사례가 구체적으로 드러남. 한국 직접 연관성은 낮으나, 규제·실무 참고 가치 높음.",
-        "one_line": "뉴욕 검찰이 AI 딥페이크 성착취물 사이트 12곳을 압수, 1,200명 피해자 확인 및 법 집행 착수"
+        "final_reason": "AI 딥페이크로 인한 피해자 규모(1200명), 실제 사이트 압수, 법 집행 등 구체적 부담과 대응이 명확히 드러남. 한국 직접 사례는 없으나 정책 참고 가치 높음.",
+        "one_line": "뉴욕 검찰, AI 딥페이크 성착취물 사이트 12곳 압수—1200명 피해, 법 집행 본격화."
       },
       "summary": {
         "headline": "뉴욕, 딥페이크 사이트 12곳 압수",
-        "what_happened": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했습니다. 이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지와 영상으로 변환한 것으로 조사 중입니다.",
-        "why_it_matters": "AI를 활용한 비동의 이미지 생성 및 유포가 실제로 대규모로 발생하고 있습니다. 관련 법률이 시행 중이며, 기업과 기관은 AI 도입 시 법적·사회적 리스크를 점검해야 합니다.",
-        "reader_takeaway": "AI 활용 시 비동의 이미지 생성·유포 관련 법적 책임과 대응 체계를 반드시 확인하십시오.",
+        "what_happened": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했습니다. 이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지로 변환한 것으로 조사 중입니다.",
+        "why_it_matters": "공공 인물뿐 아니라 누구나 딥페이크 범죄의 피해자가 될 수 있다는 점이 강조됐습니다. 뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행하고 있습니다.",
+        "reader_takeaway": "딥페이크 이미지 유포 여부와 관련 법적 대응 가능성을 점검하셔야 합니다.",
         "claims": [
           {
             "claim": "뉴욕 지방검찰청이 AI로 생성된 비동의 성적 이미지와 영상을 호스팅한 12개 웹사이트를 압수했다.",
             "quote": "The New York District Attorney announced on Monday that it has seized 12 websites hosting AI-generated non-consensual intimate imagery, primarily of celebrities and public figures."
           },
           {
-            "claim": "이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지와 영상으로 변환했다는 조사 결과가 있다.",
+            "claim": "이 사이트들은 약 1,200명의 사진을 '초현실적' 성적 이미지로 변환했다는 의혹을 받고 있다.",
             "quote": "The people using and running these sites who are now under investigation used AI tools to turn approximately 1,200 people’s photos into “hyper-realistic” images and videos of them engaged in sexual conduct, according to the DA’s office."
           },
           {
-            "claim": "뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행 중이다.",
+            "claim": "피해자는 주로 유명인이나, 누구나 딥페이크 범죄의 피해자가 될 수 있다.",
+            "quote": "While the victims of these sites are largely celebrities, we know that anyone can be a victim in these crimes, particularly in domestic violence cases, many of our intimate violence cases involve threats to at least images and videos, and we know that deepfakes are being used in the same way,"
+          },
+          {
+            "claim": "뉴욕은 2023년부터 성적 딥페이크를 범죄로 규정하는 법을 시행하고 있다.",
             "quote": "New York has had laws specifically criminalizing sexually explicit deepfakes in place since 2023."
           },
           {
-            "claim": "피해자는 주로 유명인이지만, 누구나 피해자가 될 수 있다고 지방검찰청이 밝혔다.",
-            "quote": "While the victims of these sites are largely celebrities, we know that anyone can be a victim in these crimes, particularly in domestic violence cases, many of our intimate violence cases involve threats to at least images and videos, and we know that deepfakes are being used in the same way,” District Attorney Alvin Bragg said in the press conference Monday."
-          },
-          {
-            "claim": "지방검찰청은 딥페이크 피해자들에게 연락을 권장하고 있다.",
-            "quote": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600."
+            "claim": "딥페이크 피해자에게 법적 지원과 신고를 독려하고 있다.",
+            "quote": "If you let us know that an image has been posted without your permission, without your consent, we can take action as long as that website is accessible from Manhattan."
           }
         ]
       },
@@ -389,7 +289,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "요약문은 원문에 근거해 정확하게 작성되었습니다. 추가 수정이 필요하지 않습니다.",
+        "fix_instruction": "수정 사항 없음. 요약문은 원문에 근거해 정확합니다.",
         "note": "",
         "claim_verdicts": [
           {
@@ -407,19 +307,128 @@
           {
             "idx": 2,
             "verdict": "supported",
-            "evidence": "New York has had laws specifically criminalizing sexually explicit deepfakes in place since 2023. Bragg referenced this legislation when asked what law the office is acting on.",
+            "evidence": "“While the victims of these sites are largely celebrities, we know that anyone can be a victim in these crimes, particularly in domestic violence cases, many of our intimate violence cases involve threats to at least images and videos, and we know that deepfakes are being used in the same way,” District Attorney Alvin Bragg said in the press conference Monday.",
             "note": ""
           },
           {
             "idx": 3,
             "verdict": "supported",
-            "evidence": "“While the victims of these sites are largely celebrities, we know that anyone can be a victim in these crimes, particularly in domestic violence cases, many of our intimate violence cases involve threats to at least images and videos, and we know that deepfakes are being used in the same way,” District Attorney Alvin Bragg said in the press conference Monday.",
+            "evidence": "New York has had laws specifically criminalizing sexually explicit deepfakes in place since 2023. Bragg referenced this legislation when asked what law the office is acting on.",
             "note": ""
           },
           {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600.",
+            "evidence": "The DA’s office is encouraging victims of deepfakes to contact its Cyber Crime Bureau at (212) 335-9600. Bragg said targets of deepfakes might not know that something can be done, and wants them to know there’s a “cop on the beat.” “Our message to the people who are creating and publishing this content: What you are doing is a crime. We are investigating, and support survivors in taking down this content and seeking accountability for folks who break the law,” Bragg said.",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "item": {
+        "id": "88a3078ba7e5",
+        "source_id": "electimes",
+        "source_name": "전기신문",
+        "bucket": "데이터센터·전력",
+        "weight": 1.05,
+        "lang": "ko",
+        "title": "데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓",
+        "url": "https://www.electimes.com/news/articleView.html?idxno=372434",
+        "published": "2026-09-15T13:27:05+00:00",
+        "age_hours": -7.3,
+        "feed_summary": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.UNIST 탄소중립대학원 임한권 교수팀은 고체산화물 연료전지를 데이터센터의 전력원으로 쓰고 발전과 냉각 과정에서 나오는 열을 재활용하는 통합 에너지 시스템을 고안하고, 이 시스템의 경제성과 전 과정 온실가스 배출량을 분석한 결과 이 같은 결론을 얻었다고 15일 밝혔다.데이터센터는 수많은 서버를 24시간 가동하기",
+        "prescreen_score": 7,
+        "prescreen_labels": [
+          "tech",
+          "policy"
+        ],
+        "prescreen_reason": "AI 데이터센터 전력과 폐열 재활용으로 비용과 온실가스 감축 수치 제공, 인프라 부담 관련 구체적 사례임.",
+        "body_chars": 1770,
+        "body_error": null,
+        "final_scores": {
+          "burden_clarity": 8.0,
+          "actionability": 8.0,
+          "impact": 7.0,
+          "novelty": 7.0,
+          "korea_relevance": 8.0
+        },
+        "weighted": 7.98,
+        "verdict": "keep",
+        "final_reason": "AI 데이터센터의 환경·인프라 부담(비용, 온실가스)이 구체적 수치와 함께 분석되어 있고, 한국 상황도 비교·언급됨. 실무 참고 가치 높음.",
+        "one_line": "AI 데이터센터의 폐열 재활용 시스템 도입 시 비용 48%, 온실가스 72% 감축 가능—한국 포함 지역별 분석"
+      },
+      "summary": {
+        "headline": "데이터센터 폐열 재활용 효과 분석",
+        "what_happened": "AI 데이터센터에 연료전지로 전기를 공급하고, 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔습니다. 연구팀은 GPU 2만 개 규모 데이터센터를 가정해 다양한 조합을 한국·미국·유럽연합의 에너지 가격과 전력 생산 구조에 맞춰 분석했습니다.",
+        "why_it_matters": "데이터센터의 전력·냉각 비용과 온실가스 배출이 실제로 크게 줄어들 수 있다는 구체적 수치가 제시됐습니다. 지역별 에너지 가격과 전력 생산 구조에 따라 최적의 시스템이 달라질 수 있어, 국내 기업과 정책 담당자에게 실질적인 참고가 됩니다.",
+        "reader_takeaway": "데이터센터의 에너지 시스템 설계와 ESG 전략 수립 시 폐열 재활용과 탄소 포집 기술의 경제성과 환경 효과를 지역별로 점검해야 합니다.",
+        "claims": [
+          {
+            "claim": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다.",
+            "quote": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다."
+          },
+          {
+            "claim": "연구팀은 GPU 2만 개 규모의 데이터센터를 가정하고 전력 공급원과 냉각 방식, 탄소 포집 여부에 따른 8가지 조합을 한국·미국·유럽연합(EU)의 에너지 가격과 전력 생산 구조를 반영해 분석했다.",
+            "quote": "연구팀은 GPU 2만 개 규모의 데이터센터를 가정하고 전력 공급원과 냉각 방식, 탄소 포집 여부에 따른 8가지 조합을 한국·미국·유럽연합(EU)의 에너지 가격과 전력 생산 구조를 반영해 분석했다."
+          },
+          {
+            "claim": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다.",
+            "quote": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다."
+          },
+          {
+            "claim": "전력 생산량이 줄어 온실가스 배출량도 연간 약 8만~15만t 줄어드는 것으로 분석됐으며, EU 배출권거래제처럼 탄소 배출에 비용을 부과하는 제도를 고려하면 온실가스 배출 감소로 연간 약 500만~1,000만 달러의 탄소 배출 비용도 줄일 수 있다.",
+            "quote": "전력 생산량이 줄어 온실가스 배출량도 연간 약 8만~15만t 줄어드는 것으로 분석됐으며, EU 배출권거래제처럼 탄소 배출에 비용을 부과하는 제도를 고려하면 온실가스 배출 감소로 연간 약 500만~1,000만 달러의 탄소 배출 비용도 줄일 수 있다."
+          },
+          {
+            "claim": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다.",
+            "quote": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다."
+          }
+        ]
+      },
+      "verify": {
+        "passed": true,
+        "support_rate": 1.0,
+        "n_claims": 5,
+        "n_supported": 5,
+        "n_partial": 0,
+        "n_unsupported": 0,
+        "quote_unverified": [],
+        "numbers_not_in_source": [],
+        "llm_overall": "pass",
+        "llm_error": null,
+        "issues": [],
+        "fix_instruction": "수정 사항 없음. 요약문과 주장 모두 원문에 근거하여 정확합니다.",
+        "note": "",
+        "claim_verdicts": [
+          {
+            "idx": 0,
+            "verdict": "supported",
+            "evidence": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.",
+            "note": ""
+          },
+          {
+            "idx": 1,
+            "verdict": "supported",
+            "evidence": "연구팀은 GPU 2만 개 규모의 데이터센터를 가정하고 전력 공급원과 냉각 방식, 탄소 포집 여부에 따른 8가지 조합을 한국·미국·유럽연합(EU)의 에너지 가격과 전력 생산 구조를 반영해 분석했다.",
+            "note": ""
+          },
+          {
+            "idx": 2,
+            "verdict": "supported",
+            "evidence": "유기 랭킨 사이클 냉각은 한국과 미국, 유럽 모두에서 경제성과 환경성이 우수했으며, 연간 냉각 비용에 드는 전력 비용을 최대 1,900만 달러 줄일 수 있는 것으로 나타났다.",
+            "note": ""
+          },
+          {
+            "idx": 3,
+            "verdict": "supported",
+            "evidence": "전력 생산량이 줄어 온실가스 배출량도 연간 약 8만~15만t 줄어드는 것으로 분석됐으며, EU 배출권거래제처럼 탄소 배출에 비용을 부과하는 제도를 고려하면 온실가스 배출 감소로 연간 약 500만~1,000만 달러의 탄소 배출 비용도 줄일 수 있다.",
+            "note": ""
+          },
+          {
+            "idx": 4,
+            "verdict": "supported",
+            "evidence": "천연가스가 저렴한 미국에서는 고체산화물 연료전지가 경제적이었지만 천연가스가 비싼 한국에서는 비용을 우선할 경우 기존 전력망을 이용하는 편이 유리했다.",
             "note": ""
           }
         ]
@@ -436,51 +445,52 @@
         "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
         "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
         "published": "2026-09-14T11:00:00+00:00",
-        "age_hours": 18.7,
+        "age_hours": 19.2,
         "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
         "prescreen_score": 8,
         "prescreen_labels": [
-          "policy"
+          "policy",
+          "opinion"
         ],
-        "prescreen_reason": "유럽 정치인 대상 성적 딥페이크 피해 사례로 AI가 사회적 피해를 구체적으로 드러냄.",
+        "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 실태와 피해자 규모를 구체적으로 제시해 사회적 피해 부담을 명확히 함.",
         "body_chars": 6184,
         "body_error": null,
         "final_scores": {
           "burden_clarity": 8.0,
           "actionability": 7.0,
-          "impact": 7.0,
+          "impact": 8.0,
           "novelty": 7.0,
-          "korea_relevance": 5.0
+          "korea_relevance": 4.0
         },
-        "weighted": 7.76,
+        "weighted": 7.87,
         "verdict": "keep",
-        "final_reason": "AI 딥페이크가 여성 정치인 등 특정 집단에 실제로 미친 피해 규모, 주체, 구체적 수치가 명확히 제시됨. 정책·실무 대응에 참고할 만함.",
-        "one_line": "AI 딥페이크 음란물이 유럽 여성 정치인 138명 등 150명 이상을 표적으로 삼은 실태와 피해 규모 분석"
+        "final_reason": "AI 딥페이크로 유럽 여성 정치인 138명 등 피해자 구체적 수치, 사회적 영향, 피해 양상 등 부담이 명확히 드러남. 한국 직접 사례는 없으나 정책 참고 가치 있음.",
+        "one_line": "유럽 여성 정치인 138명 등, AI 딥페이크 성착취물 피해—정치권·사회 전반에 심각한 영향."
       },
       "summary": {
-        "headline": "유럽 여성 정치인 딥페이크 피해 확산",
-        "what_happened": "유럽 각국의 여성 국회의원 138명이 딥페이크 음란물 사이트에 등장하거나 언급된 사실이 연구를 통해 드러났습니다. 일부는 사진과 이름, 소셜미디어 정보까지 포함된 데이터베이스에 수록됐으며, 해당 사이트들은 딥페이크 생성 도구로 연결되는 링크도 제공했습니다.",
-        "why_it_matters": "딥페이크 음란물은 여성 정치인에 대한 온라인 혐오와 위협의 한 형태로, 실제 심리적·평판 피해를 유발할 수 있습니다. 이 같은 사례는 여성의 공직 진출을 위축시키고, 민주적 참여에 부정적 영향을 미칠 수 있음을 시사합니다.",
-        "reader_takeaway": "AI 기반 딥페이크 피해 발생 여부와 대응 체계를 점검해야 합니다.",
+        "headline": "유럽 정치인 대상 딥페이크 음란물 피해 확산",
+        "what_happened": "유럽 각국의 여성 정치인 138명이 딥페이크 음란물 사이트에 등장하거나 언급된 것으로 조사됐습니다. 일부는 사진과 이름, 소셜미디어 정보까지 데이터베이스처럼 노출됐으며, 신체를 평가하는 항목이나 누드화 앱 링크도 포함됐습니다.",
+        "why_it_matters": "딥페이크 음란물은 여성 정치인을 집중적으로 겨냥하며, 심각한 심리적·평판 피해를 유발할 수 있습니다. 이런 피해는 여성의 공적 진출을 위축시키고, 민주주의 실천에도 영향을 줄 수 있습니다.",
+        "reader_takeaway": "AI 기반 딥페이크 피해 현황과 대응 체계를 점검하고, 관련 규제 동향을 주시해야 합니다.",
         "claims": [
           {
-            "claim": "유럽 여성 국회의원 138명이 딥페이크 음란물 사이트에 등장하거나 언급됐다.",
+            "claim": "유럽 여성 정치인 138명이 딥페이크 음란물 사이트에 언급됐다.",
             "quote": "Analysis of around 160 domains that host deepfake abuse and other nonconsensual sexual content, by researcher Benjamin Shultz, has found that at least 138 women members of parliament (MPs) from 22 European Union countries have appeared or been mentioned on the sites."
           },
           {
-            "claim": "여성 정치인이 딥페이크 생태계의 표적이 될 확률이 남성보다 33배 높다.",
+            "claim": "여성 정치인은 남성보다 33배 더 표적이 됐다.",
             "quote": "By Shultz’s calculations, it is 33 times more likely for women MPs to be targeted by deepfake ecosystems."
           },
           {
-            "claim": "일부 사이트는 정치인의 이름, 공식 사진, 소셜미디어 정보, 신체 평가와 함께 딥페이크 생성 도구로 연결되는 링크를 제공한다.",
-            "quote": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information. Some included sections “rating” the women’s bodies, Shultz’s report says. Often next to these MP biographies were links to so-called nudifier apps or the websites’ own tools that claimed to digitally undress people."
+            "claim": "딥페이크 사이트에는 정치인 이름, 공식 사진, 소셜미디어 정보 등이 포함됐다.",
+            "quote": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information."
           },
           {
-            "claim": "딥페이크 음란물은 여성과 여성 정치인을 위협하고, 공직 진출을 위축시킨다는 우려가 있다.",
-            "quote": "This discourages women from taking office in the first place and also crowds these women out of public life,” Shultz says. “There’s so much evidence to support that this does real psychological damage. This also does reputational damage for the future if they want to fade out of politics and have another career."
+            "claim": "딥페이크 음란물은 여성의 공적 진출을 위축시킬 수 있다.",
+            "quote": "This discourages women from taking office in the first place and also crowds these women out of public life,"
           },
           {
-            "claim": "최근 일부 딥페이크 사이트가 폐쇄되면서 피해 정치인에 대한 온라인 이미지 노출이 감소했다.",
+            "claim": "딥페이크 사이트 일부는 최근 폐쇄되어 피해 사례가 감소했다.",
             "quote": "Ahead of this story being published, WIRED found that at least half a dozen of the domains that appear in the research have recently been removed from the web—reducing the total number of depictions of the European MPs."
           }
         ]
@@ -497,7 +507,7 @@
         "llm_overall": "pass",
         "llm_error": null,
         "issues": [],
-        "fix_instruction": "요약문과 모든 주장에 원문 근거가 충분히 있습니다. 별도의 수정이 필요하지 않습니다.",
+        "fix_instruction": "",
         "note": "",
         "claim_verdicts": [
           {
@@ -515,19 +525,19 @@
           {
             "idx": 2,
             "verdict": "supported",
-            "evidence": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information. Some included sections “rating” the women’s bodies, Shultz’s report says. Often next to these MP biographies were links to so-called nudifier apps or the websites’ own tools that claimed to digitally undress people.",
+            "evidence": "Multiple websites hosted pages that include the names of MPs, official photos, and in some cases their social media profiles or personal information.",
             "note": ""
           },
           {
             "idx": 3,
             "verdict": "supported",
-            "evidence": "“Deepfake porn is part of a much bigger trend of online hate and intimidation against women and female politicians,” says Suzanne Kröger... Multiple researchers and lawmakers say that while politicians have been targeted with deepfakes for years, it can damage democratic practices and create chilling effects that may stop women and girls from becoming public figures. “This discourages women from taking office in the first place and also crowds these women out of public life,” Shultz says.",
+            "evidence": "Multiple researchers and lawmakers say that while politicians have been targeted with deepfakes for years, it can damage democratic practices and create chilling effects that may stop women and girls from becoming public figures. “This discourages women from taking office in the first place and also crowds these women out of public life,” Shultz says.",
             "note": ""
           },
           {
             "idx": 4,
             "verdict": "supported",
-            "evidence": "Ahead of this story being published, WIRED found that at least half a dozen of the domains that appear in the research have recently been removed from the web—reducing the total number of depictions of the European MPs. ... After the websites were taken down, Shultz says, there has been a “significant decrease” in the number of depictions of those American politicians that appeared on the websites two years ago.",
+            "evidence": "Ahead of this story being published, WIRED found that at least half a dozen of the domains that appear in the research have recently been removed from the web—reducing the total number of depictions of the European MPs. After the websites were taken down, Shultz says, there has been a “significant decrease” in the number of depictions of those American politicians that appeared on the websites two years ago.",
             "note": ""
           }
         ]

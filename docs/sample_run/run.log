@@ -1,26 +1,31 @@
-[14:41:11] 1/8 수집 시작
-[14:41:13]   소스 12/12 응답, 원본 162건 → 규칙 필터 통과 89건 (탈락 73건)
-[14:41:13] 2/8 예선: 89건을 8건씩 채점
-[14:42:07]   21건이 4점 이상 → 소스당 최대 3건으로 상위 12건 본선행 (media404:2, wired_ai:3, guardian_ai:3, latitude:1, electimes:1, zdnet_kr:1, arstechnica_ai:1) (53.9s)
-[14:42:07] 3/8 본문 수집: 12건
-[14:42:12]   본문 확보 12건 / 실패 0건
-[14:42:12] 4/8 본선: 12건을 4건씩 본문 채점
-[14:42:28]   중복 사건 제외: WIRED AI | New York Seizes a Dozen Celebrity Deepfake W (← 404 Media 와 동일 사건)
-[14:42:28]   선정  9.03 | 전기신문         | 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
-[14:42:28]   선정  8.03 | The Guardian | Texas governor threatens to penalize datacenters not
-[14:42:28]   선정  7.98 | 404 Media    | Inside ‘Project Lily’: The Humans Reading Your ChatG
-[14:42:28]   선정  7.92 | 404 Media    | New York Seizes 12 Celebrity Deepfake Websites
-[14:42:28]   선정  7.76 | WIRED AI     | Sexually Explicit Deepfake Sites Target 100-Plus Pol
-[14:42:28]   선정 5건 / 대기 후보 3건
-[14:42:28] 5/8 요약 [1/5] 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
-[14:42:35] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[14:42:35] 5/8 요약 [2/5] Texas governor threatens to penalize datacenters n
-[14:42:42] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[14:42:42] 5/8 요약 [3/5] Inside ‘Project Lily’: The Humans Reading Your Cha
-[14:42:46] 6/8 검수 통과 | 근거 4/4 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[14:42:46] 5/8 요약 [4/5] New York Seizes 12 Celebrity Deepfake Websites
-[14:42:51] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[14:42:51] 5/8 요약 [5/5] Sexually Explicit Deepfake Sites Target 100-Plus P
-[14:42:57] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[14:42:57] 7/8 렌더링: 기사 5건
-[14:42:57] 8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → C:\Users\Administrator\2026 Aifel\0915 newsletter\out\2026-09-15.html
+[15:09:35] 1/8 수집 시작
+[15:09:38]   소스 12/12 응답, 원본 162건 → 규칙 필터 통과 93건 (탈락 69건)
+[15:09:38] 2/8 예선: 93건을 8건씩 채점
+[15:10:31]   28건이 4점 이상 → 소스당 최대 3건으로 상위 12건 본선행 (guardian_ai:3, media404:2, wired_ai:2, electimes:2, zdnet_kr:3) (52.4s)
+[15:10:31] 3/8 본문 수집: 12건
+[15:10:33]   본문 확보 12건 / 실패 0건
+[15:10:33] 4/8 본선: 12건을 4건씩 본문 채점
+[15:10:50]   중복 사건 제외: WIRED AI | New York Seizes a Dozen Celebrity Deepfake W (← 404 Media 와 동일 사건)
+[15:10:50]   선정   8.8 | The Guardian | ‘Tidal wave’ of Pfas being launched to satisfy AI in
+[15:10:50]   선정  8.42 | The Guardian | Texas governor threatens to penalize datacenters not
+[15:10:50]   선정  8.25 | 404 Media    | New York Seizes 12 Celebrity Deepfake Websites
+[15:10:50]   선정  7.98 | 전기신문         | 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
+[15:10:50]   선정  7.87 | WIRED AI     | Sexually Explicit Deepfake Sites Target 100-Plus Pol
+[15:10:50]   선정 5건 / 대기 후보 3건
+[15:10:50] 5/8 요약 [1/5] ‘Tidal wave’ of Pfas being launched to satisfy AI 
+[15:10:56] 6/8 검수 실패 | 근거 4/5 (partial 1, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:10:56]     - Claim 1에서 '필수적'이라는 표현이 원문보다 단정적임(원문은 'crucial role', 'essential ingredients' 등으로 중요성을 강조하지만 '필수'라고 단정하지 않음).
+[15:10:56]   → 재생성 시도 1/2
+[15:10:56] 5/8 재생성 [1/5] ‘Tidal wave’ of Pfas being launched to satisfy AI 
+[15:11:02] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:11:02] 5/8 요약 [2/5] Texas governor threatens to penalize datacenters n
+[15:11:07] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:11:07] 5/8 요약 [3/5] New York Seizes 12 Celebrity Deepfake Websites
+[15:11:12] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:11:12] 5/8 요약 [4/5] 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
+[15:11:18] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:11:18] 5/8 요약 [5/5] Sexually Explicit Deepfake Sites Target 100-Plus P
+[15:11:25] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[15:11:25] 7/8 렌더링: 기사 5건
+[15:11:25]     웹 아카이브 갱신: docs/issues/2026-09-15.html · docs/index.html
+[15:11:25] 8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → C:\Users\Administrator\2026 Aifel\0915 newsletter\out\2026-09-15.html

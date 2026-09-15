@@ -26,9 +26,10 @@ from nl import extract as X
 from nl import render as R
 from nl import publish as P
 from nl import screen as S
+from nl import site as SITE
 from nl import summarize as SUM
 from nl import verify as V
-from nl.config import OUT, STORE, load_audience, load_sources, now_local, run_dir
+from nl.config import OUT, ROOT, STORE, load_audience, load_sources, now_local, run_dir
 from nl.llm import USAGE
 
 
@@ -236,6 +237,8 @@ def node_render(state: State) -> dict:
         "n_finalists": len(state["selected"]),
         "n_verify_failed": len(state["rejected"]),
         "n_regenerated": state["n_regenerated"],
+        "archive_url": (cfg["publish"].get("site") or {}).get("base_url")
+                       if (cfg["publish"].get("site") or {}).get("enabled") else None,
     }
     _log(state, f"7/8 렌더링: 기사 {len(state['articles'])}건")
     html = R.render_html(cfg, date, state["articles"], meta)
@@ -255,6 +258,16 @@ def node_publish(state: State) -> dict:
 
     top = state["articles"][0]["summary"].get("headline", "")
     subject = cfg["subject_format"].format(date=dstr, top_headline=top)
+
+    site_cfg = cfg.get("site") or {}
+    if site_cfg.get("enabled"):
+        try:
+            paths = SITE.save_issue(ROOT, dstr, state["html"], state["articles"],
+                                    state["metrics"], state["audience"])
+            files.update({"site_issue": paths["issue"], "site_index": paths["index"]})
+            _log(state, f"    웹 아카이브 갱신: docs/issues/{dstr}.html · docs/index.html")
+        except Exception as ex:
+            _log(state, f"    ! 웹 아카이브 생성 실패(무시하고 계속): {type(ex).__name__}: {ex}")
 
     if state.get("dry_run") or cfg.get("channel") == "dry_run":
         _log(state, f"8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → {files.get('html')}")

@@ -4,8 +4,8 @@
 # =============================================================================
 
 newsletter:
-  name: "AI의 청구서"
-  subtitle: "AI가 사회와 환경에 떠넘기는 비용, 매일 아침 5분"
+  name: "The AI Bill"
+  subtitle: "AI가 사회와 환경에 떠넘기는 비용 · 매일 아침 5분"
   timezone: "Asia/Seoul"
   language: "ko"
 
@@ -198,6 +198,14 @@ verify:
 # -----------------------------------------------------------------------------
 publish:
   channel: "email"           # email | dry_run
-  subject_format: "[AI의 청구서] {date} · {top_headline}"
+  subject_format: "[The AI Bill] {date} · {top_headline}"
   save_local: true
   fail_open: true
+
+  # 공개 웹 아카이브 (GitHub Pages)
+  #   파일만 만들고 push 는 하지 않는다. 공개 발행은 되돌리기 어려운 동작이라
+  #   tools/publish_site.py 를 따로 실행하거나 auto_push 를 켠 경우에만 밀어올린다.
+  site:
+    enabled: true
+    base_url: "https://c-lake864.github.io/climate-daily-newsletter-agent/"
+    auto_push: false

@@ -8,7 +8,7 @@ import html
 from datetime import datetime
 
 BADGE = {
-    # "AI의 청구서" 주제
+    # "The AI Bill" 주제
     "데이터센터·전력": "#15803d", "AI 피해·탐사": "#be123c", "정책·권리": "#0f766e",
     "글로벌 노동·불평등": "#7c3aed", "국내 테크": "#1d4ed8", "국내 산업·노동": "#4338ca",
     # 이전 환경·기후 주제 (설정을 되돌려도 색이 유지되도록 남겨둔다)
@@ -87,6 +87,10 @@ def render_html(cfg: dict, date: datetime, articles: list, meta: dict) -> str:
         검수 통과 {len(articles)}건<br>
         모든 요약은 원문 대조 자동 검수를 통과한 것만 실었습니다.
         검수 재생성 {meta['n_regenerated']}회 · 재생성 후에도 통과하지 못해 제외한 기사 {meta['n_verify_failed']}건<br>
+        <br>
+        <b>각 꼭지는 원문 기사를 AI가 요약하고 자동 검수를 거친 것입니다.
+        정확한 내용과 맥락은 반드시 원문 링크를 확인하세요.</b> 저작권은 각 매체에 있습니다.<br>
+        {('지난 호 보기: <a href="' + _e(meta['archive_url']) + '" style="color:#1d4ed8;">아카이브</a><br>') if meta.get('archive_url') else ''}
         run_id {meta['run_id']} · 생성 {date.strftime('%Y-%m-%d %H:%M')}
       </div>
     </td></tr>
@@ -116,5 +120,8 @@ def render_markdown(cfg: dict, date: datetime, articles: list, meta: dict) -> st
         f"예선 통과 {meta['n_prescreen_pass']} → 본선 {meta['n_finalists']} → 발행 {len(articles)}",
         f"- 검수 탈락 {meta['n_verify_failed']}건 / 재생성 {meta['n_regenerated']}회",
         f"- run_id `{meta['run_id']}`",
+        "",
+        "각 꼭지는 원문 기사를 AI가 요약하고 자동 검수를 거친 것입니다. "
+        "정확한 내용과 맥락은 반드시 원문 링크를 확인하세요. 저작권은 각 매체에 있습니다.",
     ]
     return "\n".join(lines)
