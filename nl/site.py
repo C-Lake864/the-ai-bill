@@ -151,7 +151,7 @@ def render_index(manifest: list, cfg: dict | None = None) -> str:
     수집 → 선별(예선·본선) → 요약 → 자동 검수 → 발행까지 매일 자동으로 돌아가는 파이프라인이
     만듭니다. 검수를 통과하지 못한 기사는 싣지 않습니다.
     소스 선정 근거와 설계 판단은
-    <a href="https://github.com/C-Lake864/climate-daily-newsletter-agent/blob/master/REPORT.md">REPORT.md</a>
+    <a href="https://github.com/C-Lake864/the-ai-bill/blob/master/REPORT.md">REPORT.md</a>
     에 공개돼 있습니다.
   </div>
 </div></body></html>"""

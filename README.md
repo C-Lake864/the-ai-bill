@@ -7,7 +7,7 @@ AI가 남기는 청구서(데이터센터 전력·용수, 딥페이크·차별·
 - 선별: 규칙 필터 → 예선(제목·요약, 8건 배치) → 본문 확보 → 본선(본문, 4건 배치, 5차원 가중)
 - 요약: 사실 + 독자 관점 인사이트 + 실무 체크 + 검증용 claims
 - 검수: 인용문 대조 · 숫자 대조 · LLM 근거성 판정 3중, 실패 시 재생성 → 폐기 → 대기 후보 교체
-- 발행: **공개 웹 아카이브** https://c-lake864.github.io/climate-daily-newsletter-agent/ + SMTP 이메일 + `out/` 로컬 사본
+- 발행: **공개 웹 아카이브** https://c-lake864.github.io/the-ai-bill/ + SMTP 이메일 + `out/` 로컬 사본
 
 설계 판단과 실행 기록은 [REPORT.md](REPORT.md) 를 보세요.
 이전 주제(환경·기후)의 실측 자료도 [docs/source_audit.md](docs/source_audit.md) 에 남아 있습니다.

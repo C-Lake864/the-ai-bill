@@ -482,7 +482,7 @@ LLM 호출 25회 / 67,298 토큰
 ![뉴스레터 발행 결과](docs/img/newsletter_preview.png)
 
 원본: [`out/2026-09-15.html`](out/2026-09-15.html) · [`out/2026-09-15.md`](out/2026-09-15.md)
-공개 페이지: https://c-lake864.github.io/climate-daily-newsletter-agent/issues/2026-09-15.html
+공개 페이지: https://c-lake864.github.io/the-ai-bill/issues/2026-09-15.html
 
 5건이 두 축에 걸쳐 있다 — 데이터센터 폐열 재활용(환경), 텍사스 물 사용 규제(환경),
 ChatGPT 대화를 읽는 외주 인력(노동·프라이버시), 딥페이크 사이트 압수(사회), 정치인 대상
@@ -491,7 +491,7 @@ ChatGPT 대화를 읽는 외주 인력(노동·프라이버시), 딥페이크 �
 
 ### 6.3 공개 웹 아카이브 (GitHub Pages)
 
-**https://c-lake864.github.io/climate-daily-newsletter-agent/**
+**https://c-lake864.github.io/the-ai-bill/**
 
 ![아카이브 목차](docs/img/archive_index.png)
 
