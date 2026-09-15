@@ -1,0 +1,61 @@
+{
+  "run_id": "20260915-115007",
+  "n_collected": 232,
+  "n_after_rules": 79,
+  "n_prescreen_pass": 12,
+  "n_finalists": 5,
+  "n_verify_failed": 0,
+  "n_regenerated": 1,
+  "started_at": "2026-09-15T02:50:07.502573+00:00",
+  "finished_at": "2026-09-15T02:51:55.353880+00:00",
+  "n_sources_ok": 10,
+  "n_sources_total": 10,
+  "n_body_failed": 1,
+  "n_published": 5,
+  "verify_pass_rate": 1.0,
+  "published_titles": [
+    "철강·석유화학 탄소감축 정체",
+    "신한금융, 기후위험·기회 자산 상세 공개",
+    "EU, 알루미늄 CBAM 면제선 5톤 추진",
+    "AI 산업 수요로 PFAS 생산 확대 추진",
+    "AI 데이터센터 전력, 관리가 관건"
+  ],
+  "publish_status": "dry_run",
+  "publish_sent": false,
+  "llm_usage": {
+    "calls": 25,
+    "prompt_tokens": 67325,
+    "completion_tokens": 11109,
+    "seconds": 97.03,
+    "by_stage": {
+      "prescreen": {
+        "calls": 10,
+        "prompt_tokens": 23102,
+        "completion_tokens": 3985,
+        "seconds": 46.03
+      },
+      "finalscreen": {
+        "calls": 3,
+        "prompt_tokens": 18665,
+        "completion_tokens": 1300,
+        "seconds": 16.11
+      },
+      "summarize": {
+        "calls": 6,
+        "prompt_tokens": 13056,
+        "completion_tokens": 3251,
+        "seconds": 17.85
+      },
+      "verify": {
+        "calls": 6,
+        "prompt_tokens": 12502,
+        "completion_tokens": 2573,
+        "seconds": 17.03
+      }
+    }
+  },
+  "files": {
+    "html": "C:\\Users\\Administrator\\2026 Aifel\\0915 newsletter\\out\\2026-09-15.html",
+    "md": "C:\\Users\\Administrator\\2026 Aifel\\0915 newsletter\\out\\2026-09-15.md"
+  }
+}

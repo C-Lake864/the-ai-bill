@@ -1,0 +1,113 @@
+# 소스 후보 전체 목록 (실측 대상)
+# 과제 제외 목록(OpenAI/DeepMind/TechCrunch/The Verge/MIT TR/AI타임스)은 애초에 도메인이 달라 미포함.
+candidates:
+  - id: carbonbrief
+    name: Carbon Brief
+    url: https://www.carbonbrief.org/feed/
+    lang: en
+    type: 기후과학·정책 전문지
+  - id: insideclimate
+    name: Inside Climate News
+    url: https://insideclimatenews.org/feed/
+    lang: en
+    type: 탐사보도
+  - id: yale_e360
+    name: Yale Environment 360
+    url: https://e360.yale.edu/feed.xml
+    lang: en
+    type: 환경 저널
+  - id: grist
+    name: Grist
+    url: https://grist.org/feed/
+    lang: en
+    type: 기후·정의 매체
+  - id: guardian_env
+    name: The Guardian - Environment
+    url: https://www.theguardian.com/environment/rss
+    lang: en
+    type: 종합지 환경섹션
+  - id: canary
+    name: Canary Media
+    url: https://www.canarymedia.com/feed
+    lang: en
+    type: 청정에너지 산업지
+  - id: climatehome
+    name: Climate Home News
+    url: https://www.climatechangenews.com/feed/
+    lang: en
+    type: 국제 기후정책
+  - id: heatmap
+    name: Heatmap News
+    url: https://heatmap.news/feed
+    lang: en
+    type: 기후·에너지 분석
+  - id: desmog
+    name: DeSmog
+    url: https://www.desmog.com/feed/
+    lang: en
+    type: 기후 허위정보 감시
+  - id: noaa_climate
+    name: NOAA Climate.gov
+    url: https://www.climate.gov/feeds/news-features.xml
+    lang: en
+    type: 정부 과학기관
+  - id: sciencedaily_env
+    name: ScienceDaily - Earth & Climate
+    url: https://www.sciencedaily.com/rss/earth_climate.xml
+    lang: en
+    type: 연구 보도자료 애그리게이터
+  - id: physorg_env
+    name: Phys.org - Environment
+    url: https://phys.org/rss-feed/earth-news/environment/
+    lang: en
+    type: 연구 보도자료 애그리게이터
+  - id: nature_climate
+    name: Nature Climate Change
+    url: https://www.nature.com/nclimate.rss
+    lang: en
+    type: 학술지
+  - id: eurekalert_earth
+    name: EurekAlert! Earth Science
+    url: https://www.eurekalert.org/rss/earth_science.xml
+    lang: en
+    type: 연구 보도자료
+  - id: epa_news
+    name: US EPA News Releases
+    url: https://www.epa.gov/newsreleases/search/rss
+    lang: en
+    type: 규제기관
+  - id: unep
+    name: UNEP News
+    url: https://www.unep.org/rss.xml
+    lang: en
+    type: 국제기구
+  - id: greenium
+    name: 그리니엄 (Greenium)
+    url: https://greenium.kr/rss   # /feed/ 와 동일 컨텐츠, 재시도 URL
+    lang: ko
+    type: 국내 기후테크 전문지
+  - id: impacton
+    name: 임팩트온
+    url: https://www.impacton.net/rss/allArticle.xml
+    lang: ko
+    type: 국내 ESG 전문지
+  - id: newspenguin
+    name: 뉴스펭귄
+    url: https://www.newspenguin.com/rss/allArticle.xml
+    lang: ko
+    type: 국내 기후·생태 매체
+  - id: hani_env
+    name: 한겨레 환경
+    url: https://www.hani.co.kr/rss/   # 환경 전용 피드 404 -> 전체 섹션 피드로 재시도
+    lang: ko
+    type: 종합지 환경섹션
+  - id: me_go_kr
+    name: 환경부 보도자료
+    url: https://me.go.kr/home/web/board/rss.do?boardMasterId=1&menuId=10525   # 재시도 URL
+    lang: ko
+    type: 정부 보도자료
+  - id: electimes
+    name: 전기신문 에너지
+    url: https://www.electimes.com/rss/allArticle.xml
+    lang: ko
+    type: 에너지 산업지

@@ -1,0 +1,100 @@
+# =============================================================================
+# 채택 소스 (tools/source_probe.py 실측 결과 기반 · 근거는 docs/source_audit.md)
+#
+# 채택 기준 (모두 만족해야 채택)
+#   C1 도달성   : HTTP 200 + 피드 파싱 성공 + 엔트리 >= 1
+#   C2 공급량   : 최근 7일 기사 >= 5건        (일간 발행이므로 매일 새 소재가 있어야 함)
+#   C3 주제적합 : 환경/기후 키워드 적중률 >= 0.60
+#   C4 본문확보 : 본문 추출 성공률 >= 0.60 AND 본문 길이 중앙값 >= 800자
+#                 (검수 노드가 '원문 대조'로 동작하므로 본문을 못 읽는 소스는 쓸 수 없다)
+#   C5 다양성   : 다른 채택 소스와 제목 중복률 <= 0.30
+#   C6 접근성   : 페이월 검출률 = 0
+# =============================================================================
+
+fetch:
+  user_agent: "Mozilla/5.0 (compatible; climate-newsletter-bot/1.0; personal project)"
+  timeout_sec: 25
+  max_items_per_source: 25    # 소스 하나가 전체 후보를 잠식하지 않도록 상한
+  concurrency: 8
+  polite_delay_sec: 0.3       # 본문 크롤링 시 소스별 간격
+
+sources:
+  # ---- 국제 기후정책·과학 ----
+  - id: carbonbrief
+    name: Carbon Brief
+    url: https://www.carbonbrief.org/feed/
+    lang: en
+    bucket: 정책·과학
+    weight: 1.15              # 1차 자료 인용 밀도가 높아 가중
+  - id: climatehome
+    name: Climate Home News
+    url: https://www.climatechangenews.com/feed/
+    lang: en
+    bucket: 정책·과학
+    weight: 1.10
+  # ---- 산업·시장 ----
+  - id: canary
+    name: Canary Media
+    url: https://www.canarymedia.com/feed
+    lang: en
+    bucket: 산업·기술
+    weight: 1.10
+  - id: grist
+    name: Grist
+    url: https://grist.org/feed/
+    lang: en
+    bucket: 산업·사회
+    weight: 1.00
+  - id: guardian_env
+    name: The Guardian Environment
+    url: https://www.theguardian.com/environment/rss
+    lang: en
+    bucket: 속보·종합
+    weight: 0.95              # 속보량은 많지만 주제적합률 0.68로 노이즈가 섞임
+  - id: yale_e360
+    name: Yale Environment 360
+    url: https://e360.yale.edu/feed.xml
+    lang: en
+    bucket: 심층·환경
+    weight: 1.00
+  # ---- 연구 ----
+  - id: sciencedaily_env
+    name: ScienceDaily Earth & Climate
+    url: https://www.sciencedaily.com/rss/earth_climate.xml
+    lang: en
+    bucket: 연구
+    weight: 0.95              # 대학 보도자료 원문이라 과장 표현 경향, 검수 강도 유지
+  # ---- 국내 ----
+  - id: impacton
+    name: 임팩트온
+    url: https://www.impacton.net/rss/allArticle.xml
+    lang: ko
+    bucket: 국내 ESG
+    weight: 1.15              # 국내 독자 연관성 가중
+  - id: newspenguin
+    name: 뉴스펭귄
+    url: https://www.newspenguin.com/rss/allArticle.xml
+    lang: ko
+    bucket: 국내 기후·생태
+    weight: 1.05
+  - id: electimes
+    name: 전기신문
+    url: https://www.electimes.com/rss/allArticle.xml
+    lang: ko
+    bucket: 국내 에너지 산업
+    weight: 1.00
+
+# 탈락 소스 (근거 수치는 docs/source_audit.md 표 참조)
+rejected:
+  - { id: heatmap,          reason: "C1 실패 - /feed, /rss.xml, /feed.xml 모두 404" }
+  - { id: noaa_climate,     reason: "C1 실패 - 피드 URL 폐기(404), 대체 URL 2건도 404" }
+  - { id: eurekalert_earth, reason: "C1 실패 - 404, 대체 URL 2건도 404" }
+  - { id: epa_news,         reason: "C1 실패 - 405 Method Not Allowed (봇 차단)" }
+  - { id: desmog,           reason: "C1 실패 - 403 Forbidden (봇 차단)" }
+  - { id: physorg_env,      reason: "C4 실패 - 본문 추출 성공률 0.0, 추출 길이 57자 (요약만 노출)" }
+  - { id: insideclimate,    reason: "C4 실패 - 본문 추출 성공률 0.0, 0자 (크롤러 차단)" }
+  - { id: me_go_kr,         reason: "C2·C4 실패 - 최근 7일 0건(중앙연령 4,118h), 본문 추출 0자" }
+  - { id: greenium,         reason: "C2 실패 - 피드 갱신 중단, 중앙연령 6,058h (약 8개월)" }
+  - { id: unep,             reason: "C2 실패 - 중앙연령 25,997h (약 3년), 본문 성공률 0.33" }
+  - { id: hani_env,         reason: "C2·C3 실패 - 환경 전용 피드 404 → 전체 피드 대체 시 주제적합 0.03" }
+  - { id: nature_climate,   reason: "C6 실패 - 페이월 프리뷰 검출('preview of subscription content'), 원문 대조 불가" }

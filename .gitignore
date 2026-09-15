@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 실행마다 쌓이는 원본 덤프는 제외하고, 근거용 샘플 1회분만 docs/sample_run 에 커밋한다
+store/runs/
+store/*.log

@@ -1,0 +1,71 @@
+{
+  "article": {
+    "title": "\"느슨한 정부규제, 고탄소 업종 '태만' 불렀다\"",
+    "url": "https://www.newspenguin.com/news/articleView.html?idxno=22180",
+    "body_chars": 3923
+  },
+  "cases": [
+    {
+      "case": "M0 원본",
+      "mutation": "-",
+      "expected": "PASS",
+      "actual": "PASS",
+      "as_expected": true,
+      "caught_by": "",
+      "support": "5/5",
+      "numbers_not_in_source": [],
+      "n_quote_unverified": 0,
+      "issues": []
+    },
+    {
+      "case": "M1 숫자 조작",
+      "mutation": "what_happened 에 가짜 수치 4827 추가",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "as_expected": true,
+      "caught_by": "규칙:숫자대조, LLM:근거성판정",
+      "support": "5/5",
+      "numbers_not_in_source": [
+        "4827"
+      ],
+      "n_quote_unverified": 0,
+      "issues": [
+        "원문에서 확인되지 않는 숫자: 4827",
+        "요약문에 '총 4827억원 규모다.'라는 원문에 없는 사실이 포함되어 있음"
+      ]
+    },
+    {
+      "case": "M2 인용문 위조",
+      "mutation": "claims[0].quote 를 창작 문장으로 교체",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "as_expected": true,
+      "caught_by": "규칙:인용문대조",
+      "support": "5/5",
+      "numbers_not_in_source": [],
+      "n_quote_unverified": 1,
+      "issues": [
+        "원문에 없는 인용문 1건: 환경부 관계자는 이번 조치가 내년 상반기부터 전면 시행된다고 밝혔다."
+      ]
+    },
+    {
+      "case": "M3 사실 날조",
+      "mutation": "본문에 없는 주장을 요약과 claims 에 추가",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "as_expected": true,
+      "caught_by": "규칙:인용문대조, 규칙:숫자대조, LLM:근거성판정",
+      "support": "5/6",
+      "numbers_not_in_source": [
+        "2035"
+      ],
+      "n_quote_unverified": 1,
+      "issues": [
+        "원문에 없는 인용문 1건: 정부는 2035년까지 관련 예산을 3배로 늘리기로 확정했다고 발표했다.",
+        "원문에서 확인되지 않는 숫자: 2035",
+        "요약문에 '정부는 2035년까지 관련 예산을 3배로 늘리기로 확정했다'는 원문에 없는 사실이 포함됨."
+      ]
+    }
+  ],
+  "all_as_expected": true
+}
