@@ -1,0 +1,44 @@
+# 주제 전환 검토용 후보 (AI×환경 / AI×사회문제)
+# 과제 제외 목록(OpenAI, DeepMind, TechCrunch AI, The Verge AI, MIT TR, AI타임스)은 미포함.
+candidates:
+  # ---------- AI 전반 · 사회적 영향 (해외) ----------
+  - { id: 404media,      name: "404 Media",            url: "https://www.404media.co/rss/",                          lang: en, type: "AI 피해·감시 탐사보도" }
+  - { id: techpolicy,    name: "Tech Policy Press",    url: "https://www.techpolicy.press/feed/",                    lang: en, type: "AI 규제·정책 전문" }
+  - { id: restofworld,   name: "Rest of World",        url: "https://restofworld.org/feed/latest/",                  lang: en, type: "비서구권 기술 영향" }
+  - { id: arstechnica_ai,name: "Ars Technica AI",      url: "https://arstechnica.com/ai/feed/",                      lang: en, type: "기술 심층" }
+  - { id: wired_ai,      name: "WIRED AI",             url: "https://www.wired.com/feed/tag/ai/latest/rss",          lang: en, type: "AI 종합" }
+  - { id: theregister_ai,name: "The Register AI/ML",   url: "https://www.theregister.com/software/ai_ml/headlines.atom", lang: en, type: "산업·인프라 비판적 보도" }
+  - { id: guardian_ai,   name: "The Guardian AI",      url: "https://www.theguardian.com/technology/artificialintelligenceai/rss", lang: en, type: "종합지 AI 태그" }
+  - { id: nyt_tech,      name: "NYT Technology",       url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", lang: en, type: "종합지 기술섹션" }
+  - { id: eff,           name: "EFF Deeplinks",        url: "https://www.eff.org/rss/updates.xml",                   lang: en, type: "디지털 권리 단체" }
+  - { id: algorithmwatch,name: "AlgorithmWatch",       url: "https://algorithmwatch.org/en/feed/",                   lang: en, type: "알고리즘 감시 단체" }
+  - { id: adalovelace,   name: "Ada Lovelace Institute", url: "https://www.adalovelaceinstitute.org/feed/",          lang: en, type: "AI 거버넌스 연구소" }
+  - { id: brookings_ai,  name: "Brookings AI",         url: "https://www.brookings.edu/topic/artificial-intelligence/feed/", lang: en, type: "정책 싱크탱크" }
+  - { id: stanford_hai,  name: "Stanford HAI",         url: "https://hai.stanford.edu/news/rss.xml",                 lang: en, type: "대학 연구기관" }
+  - { id: niemanlab,     name: "Nieman Lab",           url: "https://www.niemanlab.org/feed/",                       lang: en, type: "AI와 저널리즘" }
+  - { id: platformer,    name: "Platformer",           url: "https://www.platformer.news/rss/",                      lang: en, type: "플랫폼·AI 뉴스레터" }
+  - { id: pluralistic,   name: "Pluralistic",          url: "https://pluralistic.net/feed/",                         lang: en, type: "기술 비평" }
+  - { id: conversation_tech, name: "The Conversation Tech", url: "https://theconversation.com/us/technology/articles.atom", lang: en, type: "학자 기고" }
+  - { id: calmatters_tech, name: "CalMatters Technology", url: "https://calmatters.org/category/technology/feed/",   lang: en, type: "지역 탐사보도(구 The Markup)" }
+  - { id: schneier,      name: "Schneier on Security", url: "https://www.schneier.com/feed/",                        lang: en, type: "보안·AI 악용" }
+  - { id: venturebeat_ai,name: "VentureBeat AI",       url: "https://venturebeat.com/category/ai/feed/",             lang: en, type: "AI 산업" }
+
+  # ---------- AI × 환경 (데이터센터·전력·물) ----------
+  - { id: dcd,           name: "Data Center Dynamics", url: "https://www.datacenterdynamics.com/en/rss/",            lang: en, type: "데이터센터 전문지" }
+  - { id: utilitydive,   name: "Utility Dive",         url: "https://www.utilitydive.com/feeds/news/",               lang: en, type: "전력 유틸리티 산업" }
+  - { id: latitude,      name: "Latitude Media",       url: "https://www.latitudemedia.com/news/rss.xml",            lang: en, type: "에너지×AI 전문" }
+  - { id: ieee_energy,   name: "IEEE Spectrum Energy", url: "https://spectrum.ieee.org/feeds/topic/energy.rss",      lang: en, type: "공학 매체" }
+  - { id: canary,        name: "Canary Media",         url: "https://www.canarymedia.com/feed",                      lang: en, type: "청정에너지 산업지(기검증)" }
+  - { id: carbonbrief,   name: "Carbon Brief",         url: "https://www.carbonbrief.org/feed/",                     lang: en, type: "기후과학·정책(기검증)" }
+  - { id: grist,         name: "Grist",                url: "https://grist.org/feed/",                               lang: en, type: "기후 매체(기검증)" }
+  - { id: guardian_env,  name: "The Guardian Environment", url: "https://www.theguardian.com/environment/rss",       lang: en, type: "종합지 환경섹션(기검증)" }
+
+  # ---------- 국내 ----------
+  - { id: bloter,        name: "블로터",               url: "https://www.bloter.net/rss/allArticle.xml",             lang: ko, type: "국내 테크 전문지" }
+  - { id: ddaily,        name: "디지털데일리",         url: "https://www.ddaily.co.kr/rss/allArticle.xml",           lang: ko, type: "국내 ICT 산업지" }
+  - { id: etnews,        name: "전자신문",             url: "https://rss.etnews.com/Section901.xml",                 lang: ko, type: "국내 IT 종합" }
+  - { id: zdnet_kr,      name: "지디넷코리아",         url: "https://feeds.feedburner.com/zdkorea",                  lang: ko, type: "국내 IT 매체" }
+  - { id: electimes,     name: "전기신문",             url: "https://www.electimes.com/rss/allArticle.xml",          lang: ko, type: "국내 에너지 산업(기검증)" }
+  - { id: impacton,      name: "임팩트온",             url: "https://www.impacton.net/rss/allArticle.xml",           lang: ko, type: "국내 ESG(기검증)" }
+  - { id: hani_all,      name: "한겨레 전체",          url: "https://www.hani.co.kr/rss/",                           lang: ko, type: "종합지 전체 피드" }
+  - { id: kbench_ai,     name: "AI타임스 제외 대체: 테크42", url: "https://www.tech42.co.kr/feed/",                  lang: ko, type: "국내 AI 매체" }

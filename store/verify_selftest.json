@@ -1,8 +1,8 @@
 {
   "article": {
-    "title": "\"느슨한 정부규제, 고탄소 업종 '태만' 불렀다\"",
-    "url": "https://www.newspenguin.com/news/articleView.html?idxno=22180",
-    "body_chars": 3923
+    "title": "Labor unions must unite against AI datacenters | Tyler Turner",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters",
+    "body_chars": 5629
   },
   "cases": [
     {
@@ -23,7 +23,7 @@
       "expected": "FAIL",
       "actual": "FAIL",
       "as_expected": true,
-      "caught_by": "규칙:숫자대조, LLM:근거성판정",
+      "caught_by": "규칙:숫자대조",
       "support": "5/5",
       "numbers_not_in_source": [
         "4827"
@@ -31,7 +31,8 @@
       "n_quote_unverified": 0,
       "issues": [
         "원문에서 확인되지 않는 숫자: 4827",
-        "요약문에 '총 4827억원 규모다.'라는 원문에 없는 사실이 포함되어 있음"
+        "요약문에 '총 4827억원 규모다'라는 수치가 원문에 없음.",
+        "요약문에 '인프라 비용 전가'라는 표현이 있으나, 원문에서는 인프라 비용 전가에 대한 직접적 언급이 없음."
       ]
     },
     {
@@ -45,7 +46,9 @@
       "numbers_not_in_source": [],
       "n_quote_unverified": 1,
       "issues": [
-        "원문에 없는 인용문 1건: 환경부 관계자는 이번 조치가 내년 상반기부터 전면 시행된다고 밝혔다."
+        "원문에 없는 인용문 1건: 환경부 관계자는 이번 조치가 내년 상반기부터 전면 시행된다고 밝혔다.",
+        "요약문에서 '인프라 비용 전가'가 원문에 명확히 언급된 바는 없으나, 전기요금 상승 및 세금 감면 등 지역사회 부담에 대한 언급이 있으므로 부분적으로 허용됨.",
+        "요약문에서 '일자리 감소가 실제로 발생하고 있다'는 표현은 원문에서 'already being adversely impacted by AI in myriad ways ranging from layoffs...'로 뒷받침됨."
       ]
     },
     {

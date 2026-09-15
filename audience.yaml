@@ -4,83 +4,164 @@
 # =============================================================================
 
 newsletter:
-  name: "오늘의 기후 브리핑"
-  subtitle: "환경·기후 뉴스에서 실무 판단에 쓰이는 것만"
+  name: "AI의 청구서"
+  subtitle: "AI가 사회와 환경에 떠넘기는 비용, 매일 아침 5분"
   timezone: "Asia/Seoul"
   language: "ko"
 
 audience:
   persona: |
-    국내 중견·대기업의 지속가능경영(ESG)·환경안전 담당 3~7년차 실무자,
-    그리고 기후테크 스타트업의 기획·사업개발 담당자.
+    기업에서 AI 도입을 검토·관리하는 기획·법무·ESG·인사 담당자,
+    그리고 AI 정책·규제를 다루는 공공·연구 실무자.
   knows_already: |
-    기후변화가 실재한다는 사실, 탄소중립·RE100·CBAM 같은 용어의 기본 뜻,
-    작년까지의 주요 국제 합의 흐름. 개론 설명은 필요 없다.
+    LLM 이 무엇인지, 주요 모델과 기업 이름, AI가 논쟁적이라는 사실.
+    "AI가 세상을 바꾼다" 류의 총론과 모델 성능 벤치마크 설명은 필요 없다.
   needs: |
-    (1) 내일 회의에서 인용할 수 있는 새로운 사실과 숫자
-    (2) 규제·공시·정책이 언제부터 무엇을 요구하는지
-    (3) 기술·시장이 실제로 어느 단계까지 왔는지 (파일럿인가 상용인가)
-    (4) 위 내용이 한국 기업 실무에 무슨 의미인지
-  reading_context: "출근길 5분, 모바일 이메일"
+    (1) AI를 도입·운영할 때 실제로 터진 리스크 사례 (소송·규제 조치·사고·평판)
+    (2) 데이터센터 전력·용수·요금 등 인프라 비용이 누구에게 얼마나 전가되는지
+    (3) 노동·차별·안전 피해의 구체적 사실과 숫자
+    (4) 위 내용이 한국의 규제·기업 실무에 언제부터 어떻게 닿는지
+  reading_context: "출근길 5분, 모바일"
 
 # -----------------------------------------------------------------------------
 # 중요도 판단 문장 (LLM 선별 프롬프트에 그대로 주입된다)
 # -----------------------------------------------------------------------------
 importance_statement: |
-  이 기사가 "국내 ESG 실무자가 내일 업무 판단을 바꾸는 데 도움이 되는가"를 기준으로 판단하라.
-  기후 이슈 자체의 도덕적 중요성이 아니라, 독자의 의사결정에 들어가는 정보량으로 평가한다.
-  같은 사건이라도 '발표가 있었다'는 속보보다 '무엇이 언제부터 어떻게 바뀐다'는 기사가 높다.
+  이 기사가 "AI가 누구에게 어떤 부담을 떠넘기는지"를 새로 알려주는가로 판단하라.
+  '부담'은 두 종류이고, 둘의 무게는 같다.
+    (A) 환경·인프라 부담 : 데이터센터 전력·용수 사용, 전기요금 인상, 배출, 계통 접속 비용
+    (B) 사회적 피해      : 딥페이크·성착취물, 차별·편향, 일자리와 노동조건, 저작권 침해,
+                           개인정보·감시, 아동·청소년 안전, 사기, AI 오작동으로 인한 실제 피해
+  (B)를 (A)보다 낮게 보지 마라. 딥페이크 피해자 구제나 규제 집행 기사는 이 뉴스레터의 정면 소재다.
+
+  [필수 조건] AI·데이터센터·알고리즘이 그 부담의 원인이거나 핵심 맥락으로 기사 본문에 등장해야 한다.
+  전력·환경 기사라도 AI와의 연결이 기사에 없으면 아무리 중요한 사안이어도 이 뉴스레터에서는 제외한다.
+
+  AI의 성능 향상, 신제품 출시, 투자 유치, 수주, 파트너십 체결은 그 자체로는 소재가 아니다.
+  부담의 크기(숫자), 주체(누가), 시점(언제부터)이 드러난 기사를 높게 본다.
+  같은 사건이라도 '우려가 제기됐다'보다 '무엇이 실제로 청구됐다/압수됐다/판결됐다/시행된다'가 높다.
 
 scoring:
   # 예선(prescreen): 제목 + 피드 요약만 보고 0~10점
   prescreen:
     model_tier: "cheap"
-    batch_size: 8          # 한 번의 LLM 호출에 넣는 기사 수
-    keep_top: 12           # 본선에 올릴 기사 수
-    min_score: 4           # 이 점수 미만은 본선 진출 불가
+    batch_size: 8          # 실측으로 정함 (store/batch_experiment.json, REPORT 3.4)
+    keep_top: 12
+    min_score: 4
     max_per_source: 3      # 한 소스가 본선 진출자를 독식하지 못하게 하는 상한
   # 본선(finalscreen): 본문 전체를 보고 차원별 점수
   finalscreen:
     model_tier: "smart"
     batch_size: 4
     dimensions:            # 가중치 합 = 1.0
-      impact:            { weight: 0.25, desc: "영향 받는 범위와 규모가 큰가 (국가·산업 단위인가)" }
-      actionability:     { weight: 0.30, desc: "독자가 업무에서 참고·인용·대응할 수 있는 구체성이 있는가" }
-      novelty:           { weight: 0.20, desc: "오늘 처음 알려진 사실인가, 아니면 이미 알려진 내용의 반복인가" }
-      evidence:          { weight: 0.15, desc: "수치·1차 자료·공식 발표 등 근거가 기사 안에 있는가" }
-      korea_relevance:   { weight: 0.10, desc: "한국 기업·정책·시장과 직접 연결되는가" }
-    select_min: 3          # 최소 선정 건수
-    select_max: 5          # 최대 선정 건수
-    min_weighted: 5.0      # 가중 총점(0~10) 하한. 미달이면 3건이 안 되어도 싣지 않는다
-    max_per_source: 2      # 한 소스에서 최대 2건. 한 매체의 논조로 레터가 채워지는 것을 막는다
-    min_distinct_sources: 2  # 최소 소스 수. 못 채우면 상한을 풀어서라도 건수를 맞춘다
+      burden_clarity:    { weight: 0.25, desc: "AI가 떠넘긴 부담을 '누가' 떠안는지와 규모가 구체적으로 나오는가. 환경·인프라 비용이든 딥페이크·차별·노동 같은 사회적 피해든 동등하게 본다" }
+      actionability:     { weight: 0.25, desc: "독자가 도입 검토·리스크 점검·정책 대응에 바로 참고할 수 있는가" }
+      impact:            { weight: 0.20, desc: "영향 받는 범위가 개별 사례를 넘어 산업·국가 단위인가" }
+      novelty:           { weight: 0.20, desc: "오늘 처음 확인된 사실인가, 이미 반복된 우려의 재진술인가" }
+      korea_relevance:   { weight: 0.10, desc: "한국의 규제·기업·노동 시장과 직접 연결되는가" }
+    select_min: 3
+    select_max: 5
+    min_weighted: 5.0      # 미달이면 3건이 안 되어도 싣지 않는다
+    max_per_source: 2      # 한 매체의 논조로 레터가 채워지는 것을 막는다
+    min_distinct_sources: 2
 
 # -----------------------------------------------------------------------------
 # 제외 조건 (규칙 기반 1차 필터 + LLM 선별 프롬프트에 동시 적용)
 # -----------------------------------------------------------------------------
 exclude:
-  max_age_hours: 48        # 일간 뉴스레터. 48시간 넘은 기사는 버린다
+  max_age_hours: 48
   min_title_chars: 10
+
+  # 주제 게이트 (LLM 이전, 비용 0) — 실측 후 끔. 켜지 말 것.
+  #
+  #   의도: 국내 종합 IT 피드의 공시·게임 기사를 예선 전에 걸러 토큰을 아낀다
+  #         (실측: 95건 중 71건이 4점 미만, 예선에만 34,928토큰).
+  #   결과: 토큰은 71,293 -> 48,938 로 31% 줄었지만, 그날 1·2순위 기사를 잃었다.
+  #         버려진 예) "Texas governor threatens to penalize datacenters not obeying water laws"
+  #                   "'Tidal wave' of Pfas being launched to satisfy AI industry"
+  #                   "AI Agents Are Thirsty for Power"
+  #   원인: 영문 단어 경계 때문에 env 키워드 'water law' 가 본문의 'water laws' 를 못 잡고,
+  #         'power' 는 단독 키워드가 아니어서 못 잡았다. 짧은 영문 제목은 키워드 두 그룹을
+  #         동시에 만족시키기 어렵다.
+  #   판단: 절감액(회당 수 센트)보다 최상위 기사 유실 비용이 크다. 노이즈 제거는 아래
+  #         title_blocklist 의 공시 패턴으로만 하고, 주제 판단은 예선 LLM 에 맡긴다.
+  #         (구현은 nl/collect.py 의 TopicGate 에 남겨둠 — 노이즈가 심한 주제에서 재사용 가능)
+  topic_gate:
+    enabled: false
+    require_all: [ai]
+    require_any: [env, social]
+    groups:
+      ai: [ai, a.i., artificial intelligence, machine learning, deep learning, llm,
+           large language model, chatgpt, gpt, generative, chatbot, algorithm, algorithmic,
+           data center, data centre, datacenter, datacentre, gpu, neural network, deepfake,
+           copilot, anthropic, openai, nvidia, model training, agentic, automation,
+           인공지능, 생성형, 챗봇, 챗지피티, 알고리즘, 데이터센터, 딥페이크, 거대언어모델,
+           머신러닝, 딥러닝, 엔비디아]
+      env: [energy, electricity, power grid, power demand, power bill, megawatt, gigawatt,
+            emission, carbon, climate, water use, water consumption, water law, cooling,
+            renewable, solar, wind power, nuclear, fossil, environment, environmental,
+            pollution, sustainability, net zero,
+            전력, 전기요금, 탄소, 온실가스, 배출, 기후, 냉각, 용수, 재생에너지, 태양광,
+            풍력, 원전, 환경, 오염, 지속가능, 탄소중립, 전력망, 메가와트, 기가와트]
+      social: [bias, biased, discrimination, discriminatory, privacy, surveillance,
+               misinformation, disinformation, deepfake, job loss, layoff, layoffs, labor,
+               labour, worker, workers, copyright, child, children, teen, teens, minor,
+               harassment, abuse, scam, fraud, lawsuit, sued, court, regulation, regulator,
+               regulate, safety, harm, harms, mental health, inequality, accountability,
+               transparency, moderation, consent, exploitation,
+               편향, 차별, 개인정보, 프라이버시, 감시, 허위정보, 가짜뉴스, 일자리, 해고,
+               감원, 노동, 저작권, 아동, 청소년, 괴롭힘, 사기, 소송, 규제, 안전, 피해,
+               정신건강, 불평등, 투명성, 착취]
   title_blocklist:         # 제목에 이 단어가 있으면 즉시 탈락 (대소문자 무시)
     - "부고"
     - "인사"
     - "포토"
     - "사진"
     - "카드뉴스"
-    - "오늘의 운세"
+    # 국내 종합 IT 피드가 쏟아내는 공시 기사. 주제와 무관한데 건수가 많아 예선 토큰을 잡아먹는다.
+    # 주제 키워드로 거르면 좋은 기사까지 잃어서(위 topic_gate 주석 참조), 패턴이 확실한 것만 막는다.
+    - "소유 주식"
+    - "보유 비율"
+    - "지분율"
+    - "최대주주"
+    - "주주총회"
+    - "자금 대여"
+    - "운전자금"
+    - "대여 기간"
+    - "무상증자"
+    - "유상증자"
+    - "자기주식"
+    - "사전등록"
+    - "세미나"
+    - "웨비나"
+    - "컨퍼런스"
+    - "간담회"
+    - "체험기"
+    - "사용기"
+    - "할인"
+    - "이벤트"
+    - "채용"
     - "주간 브리핑"
     - "newsletter"
     - "weekly roundup"
     - "podcast"
     - "webinar"
-    - "job board"
+    - "hands-on"
+    - "deals"
+    - "best ai tools"
+    - "how to use"
     - "we're hiring"
   editorial_rules: |
-    - 개인 실천 팁("텀블러를 쓰자") 위주의 라이프스타일 기사는 제외한다.
-    - 특정 기업의 제품 홍보·수주 보도자료를 그대로 옮긴 기사는 제외한다.
-    - 행사·시상식·MOU 체결 소식은 그 자체로는 제외한다(구체적 이행 조건이 있으면 예외).
+    - 모델 성능·벤치마크·신제품 출시·업데이트 발표 기사는 제외한다.
+    - 투자 유치, 수주, 파트너십·MOU 체결 소식은 그 자체로는 제외한다
+      (전력 계약처럼 비용 부담 주체가 드러나면 예외).
+    - "AI 활용법", 툴 추천, 생산성 팁 같은 사용 가이드는 제외한다.
+    - 기업·기관 홍보성 보도자료를 그대로 옮긴 기사는 제외한다.
     - 정치인 발언 공방, 진영 논쟁 중심 기사는 제외한다.
-    - 감정 호소 위주이고 검증 가능한 사실이 적은 기사는 제외한다.
+    - AI와 무관하게 환경·사회 문제만 다루는 기사는 제외한다(키워드만 겹친 경우).
+      예: 송전망 건설 민원, 일반 개인정보 유출, 기후 정책 — 본문에 AI·데이터센터가
+      원인이나 핵심 맥락으로 나오지 않으면 제외한다.
+    - 반대로 AI 산업 소식이지만 비용·피해·규제가 없는 기사도 제외한다.
 
 # -----------------------------------------------------------------------------
 # 요약 · 인사이트 생성 규칙
@@ -91,11 +172,12 @@ summarize:
     - 한국어 존댓말, 문장은 짧게.
     - 숫자·날짜·기관명은 원문에 있는 것만 쓴다. 반올림·환산·추정 금지.
     - 원문에 없는 배경지식을 사실처럼 덧붙이지 않는다.
+    - 비판적 소재를 다루되 단정하지 않는다. 확인된 사실과 제기된 주장을 구분해 쓴다.
   fields:
     headline: "20자 내외 한국어 제목"
     what_happened: "무슨 일이 있었는지 2~3문장"
     why_it_matters: "타깃 독자에게 왜 중요한지 2문장 (원문 사실에 근거한 해석)"
-    reader_takeaway: "독자가 당장 할 수 있는 행동·확인 사항 1문장"
+    reader_takeaway: "독자가 당장 확인하거나 점검할 사항 1문장"
     claims: "요약에 사용한 검증 대상 사실 3~5개. 각각 원문 인용문과 함께"
 
 # -----------------------------------------------------------------------------
@@ -103,19 +185,19 @@ summarize:
 # -----------------------------------------------------------------------------
 verify:
   model_tier: "smart"
-  max_retries: 2                 # 재생성 시도 횟수
+  max_retries: 2
   rules:
-    number_must_appear: true     # 요약에 등장한 숫자는 원문에도 있어야 함
+    number_must_appear: true
     date_must_appear: true
-    max_unsupported_claims: 0    # 근거 없는 주장 0건이어야 통과
+    max_unsupported_claims: 0
     min_claim_support_rate: 1.0
-  on_fail: "regenerate_then_skip" # 재생성 -> 그래도 실패하면 해당 기사 스킵 + 대기 후보로 교체
+  on_fail: "regenerate_then_skip"
 
 # -----------------------------------------------------------------------------
 # 발행
 # -----------------------------------------------------------------------------
 publish:
   channel: "email"           # email | dry_run
-  subject_format: "[오늘의 기후 브리핑] {date} · {top_headline}"
-  save_local: true           # 항상 out/ 에 html/md 사본을 남긴다
-  fail_open: true            # 메일 전송 실패해도 파이프라인은 성공 처리하고 로컬 사본 유지
+  subject_format: "[AI의 청구서] {date} · {top_headline}"
+  save_local: true
+  fail_open: true

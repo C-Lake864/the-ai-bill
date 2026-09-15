@@ -131,7 +131,7 @@ def node_finalscreen(state: State) -> dict:
     cfg = state["audience"]["scoring"]["finalscreen"]
     _log(state, f"4/8 본선: {len(items)}건을 {cfg['batch_size']}건씩 본문 채점")
     scored = S.finalscreen(items, state["audience"], lambda m: _log(state, m))
-    chosen, backup = S.select(scored, state["audience"])
+    chosen, backup = S.select(scored, state["audience"], lambda m: _log(state, m))
     for c in chosen:
         _log(state, f"  선정 {c['weighted']:>5} | {c['source_name'][:12]:12s} | {c['title'][:52]}")
     _log(state, f"  선정 {len(chosen)}건 / 대기 후보 {len(backup)}건")

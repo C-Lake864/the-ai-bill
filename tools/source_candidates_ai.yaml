@@ -1,0 +1,207 @@
+# =============================================================================
+# "AI의 청구서" 주제 소스 후보 (정밀 실측 대상)
+# 과제 제외 목록(OpenAI, DeepMind, TechCrunch, The Verge, MIT TR, AI타임스) 미포함.
+# =============================================================================
+
+topic:
+  name: "AI의 청구서 — AI가 사회와 환경에 떠넘기는 비용"
+  # 판정식: (ai 그룹 중 1개 이상) AND (env 또는 social 그룹 중 1개 이상)
+  require_all: [ai]
+  require_any: [env, social]
+  min_on_topic_7d: 3        # C2' 임계값
+  min_topic_hit: 0.15       # C3 임계값
+  groups:
+    ai:
+      # 영문은 단어경계가 자동 적용된다 ("said" 안의 ai 는 안 잡힘)
+      - ai
+      - a.i.
+      - artificial intelligence
+      - machine learning
+      - deep learning
+      - llm
+      - large language model
+      - chatgpt
+      - gpt
+      - generative
+      - chatbot
+      - algorithm
+      - algorithmic
+      - data center
+      - data centre
+      - datacenter
+      - datacentre
+      - gpu
+      - neural network
+      - deepfake
+      - copilot
+      - anthropic
+      - openai
+      - nvidia
+      - model training
+      - agentic
+      - automation
+      - 인공지능
+      - 생성형
+      - 챗봇
+      - 챗지피티
+      - 알고리즘
+      - 데이터센터
+      - 딥페이크
+      - 거대언어모델
+      - 머신러닝
+      - 딥러닝
+      - 엔비디아
+      # '반도체'는 AI 무관 기사를 대량 오탐시켜 제외 (1차 측정에서 확인)
+    env:
+      - energy
+      - electricity
+      - power grid
+      - power demand
+      - power bill
+      - megawatt
+      - gigawatt
+      - emission
+      - carbon
+      - climate
+      - water use
+      - water consumption
+      - water law
+      - cooling
+      - renewable
+      - solar
+      - wind power
+      - nuclear
+      - fossil
+      - environment
+      - environmental
+      - pollution
+      - sustainability
+      - net zero
+      - 전력
+      - 전기요금
+      - 탄소
+      - 온실가스
+      - 배출
+      - 기후
+      - 냉각
+      - 용수
+      - 재생에너지
+      - 태양광
+      - 풍력
+      - 원전
+      - 환경
+      - 오염
+      - 지속가능
+      - 탄소중립
+      - 전력망
+      - 메가와트
+      - 기가와트
+    social:
+      - bias
+      - biased
+      - discrimination
+      - discriminatory
+      - privacy
+      - surveillance
+      - misinformation
+      - disinformation
+      - deepfake
+      - job loss
+      - layoff
+      - layoffs
+      - labor
+      - labour
+      - worker
+      - workers
+      - copyright
+      - child
+      - children
+      - teen
+      - teens
+      - minor
+      - harassment
+      - abuse
+      - scam
+      - fraud
+      - lawsuit
+      - sued
+      - court
+      - regulation
+      - regulator
+      - regulate
+      - safety
+      - harm
+      - harms
+      - mental health
+      - inequality
+      - accountability
+      - transparency
+      - moderation
+      - consent
+      - exploitation
+      - 편향
+      - 차별
+      - 개인정보
+      - 프라이버시
+      - 감시
+      - 허위정보
+      - 가짜뉴스
+      - 일자리
+      - 해고
+      - 감원
+      - 노동
+      - 저작권
+      - 아동
+      - 청소년
+      - 괴롭힘
+      - 사기
+      - 소송
+      - 규제
+      - 안전
+      - 피해
+      - 정신건강
+      - 불평등
+      - 투명성
+      - 착취
+
+candidates:
+  # ---------- AI × 환경 (데이터센터 전력·물) ----------
+  - { id: latitude,     name: "Latitude Media",        url: "https://www.latitudemedia.com/feed",                    lang: en, type: "에너지×AI 전문지" }
+  - { id: canary,       name: "Canary Media",          url: "https://www.canarymedia.com/feed",                      lang: en, type: "청정에너지 산업지" }
+  - { id: utilitydive,  name: "Utility Dive",          url: "https://www.utilitydive.com/feeds/news/",               lang: en, type: "전력 유틸리티 산업" }
+  - { id: dcd,          name: "Data Center Dynamics",  url: "https://www.datacenterdynamics.com/en/rss/",            lang: en, type: "데이터센터 전문지" }
+  - { id: ieee_energy,  name: "IEEE Spectrum Energy",  url: "https://spectrum.ieee.org/feeds/topic/energy.rss",      lang: en, type: "공학 매체" }
+  - { id: grist,        name: "Grist",                 url: "https://grist.org/feed/",                               lang: en, type: "기후 매체" }
+  - { id: guardian_env, name: "The Guardian Environment", url: "https://www.theguardian.com/environment/rss",        lang: en, type: "종합지 환경섹션" }
+  - { id: carbonbrief,  name: "Carbon Brief",          url: "https://www.carbonbrief.org/feed/",                     lang: en, type: "기후과학·정책" }
+
+  # ---------- AI × 사회 (해외) ----------
+  - { id: guardian_ai,  name: "The Guardian AI",       url: "https://www.theguardian.com/technology/artificialintelligenceai/rss", lang: en, type: "종합지 AI 태그" }
+  - { id: wired_ai,     name: "WIRED AI",              url: "https://www.wired.com/feed/tag/ai/latest/rss",          lang: en, type: "AI 종합" }
+  - { id: arstechnica_ai, name: "Ars Technica AI",     url: "https://arstechnica.com/ai/feed/",                      lang: en, type: "기술 심층" }
+  - { id: media404,     name: "404 Media",             url: "https://www.404media.co/rss/",                          lang: en, type: "AI 피해 탐사보도" }
+  - { id: restofworld,  name: "Rest of World",         url: "https://restofworld.org/feed/latest/",                  lang: en, type: "비서구권 기술 영향" }
+  - { id: conversation_tech, name: "The Conversation Tech", url: "https://theconversation.com/us/technology/articles.atom", lang: en, type: "학자 기고" }
+  - { id: eff,          name: "EFF Deeplinks",         url: "https://www.eff.org/rss/updates.xml",                   lang: en, type: "디지털 권리 단체" }
+  - { id: theregister_ai, name: "The Register AI/ML",  url: "https://www.theregister.com/software/ai_ml/headlines.atom", lang: en, type: "산업 비판 보도" }
+  - { id: nyt_tech,     name: "NYT Technology",        url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml", lang: en, type: "종합지 기술섹션" }
+  - { id: ap_ai,        name: "AP News AI",            url: "https://apnews.com/hub/artificial-intelligence.rss",    lang: en, type: "통신사" }
+  - { id: schneier,     name: "Schneier on Security",  url: "https://www.schneier.com/feed/",                        lang: en, type: "보안·AI 악용" }
+  - { id: niemanlab,    name: "Nieman Lab",            url: "https://www.niemanlab.org/feed/",                       lang: en, type: "AI와 저널리즘" }
+  - { id: platformer,   name: "Platformer",            url: "https://www.platformer.news/rss/",                      lang: en, type: "플랫폼·AI 뉴스레터" }
+  - { id: pluralistic,  name: "Pluralistic",           url: "https://pluralistic.net/feed/",                         lang: en, type: "기술 비평 링크블로그" }
+  - { id: importai,     name: "Import AI (Jack Clark)", url: "https://jack-clark.net/feed/",                         lang: en, type: "AI 정책 뉴스레터" }
+
+  # ---------- 국내 ----------
+  - { id: zdnet_kr,     name: "지디넷코리아",          url: "https://feeds.feedburner.com/zdkorea",                  lang: ko, type: "국내 IT 매체" }
+  - { id: etnews,       name: "전자신문",              url: "https://rss.etnews.com/Section901.xml",                 lang: ko, type: "국내 IT 종합" }
+  - { id: bloter,       name: "블로터",                url: "https://www.bloter.net/rss/allArticle.xml",             lang: ko, type: "국내 테크 전문지" }
+  - { id: byline,       name: "바이라인네트워크",      url: "https://byline.network/feed/",                          lang: ko, type: "국내 테크 심층" }
+  - { id: digitaltoday, name: "디지털투데이",          url: "https://www.digitaltoday.co.kr/rss/allArticle.xml",     lang: ko, type: "국내 IT 매체" }
+  - { id: itchosun,     name: "IT조선",                url: "https://it.chosun.com/rss/allArticle.xml",              lang: ko, type: "국내 IT 매체" }
+  - { id: tech42,       name: "테크42",                url: "https://www.tech42.co.kr/feed/",                        lang: ko, type: "국내 AI 매체" }
+  - { id: impacton,     name: "임팩트온",              url: "https://www.impacton.net/rss/allArticle.xml",           lang: ko, type: "국내 ESG 전문지" }
+  - { id: electimes,    name: "전기신문",              url: "https://www.electimes.com/rss/allArticle.xml",          lang: ko, type: "국내 에너지 산업지" }
+  - { id: newspenguin,  name: "뉴스펭귄",              url: "https://www.newspenguin.com/rss/allArticle.xml",        lang: ko, type: "국내 기후·생태" }
+  - { id: msit,         name: "과학기술정보통신부 보도자료", url: "https://www.msit.go.kr/bbs/rss.do?sCode=user&mId=113&mPid=112", lang: ko, type: "정부 1차 자료" }
+  - { id: pipc,         name: "개인정보보호위원회 보도자료", url: "https://www.pipc.go.kr/np/rss/nttRss.do?bbsId=BS074", lang: ko, type: "규제기관 1차 자료" }

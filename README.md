@@ -1,15 +1,16 @@
-# 오늘의 기후 브리핑 — 환경·기후 뉴스레터 에이전트
+# AI의 청구서 — AI가 사회와 환경에 떠넘기는 비용
 
-환경/기후 분야 뉴스를 매일 아침 수집 → 선별 → 요약 → 자동 검수 → 이메일 발행까지
-한 번에 돌리는 LangGraph 파이프라인입니다.
+AI가 남기는 청구서(데이터센터 전력·용수, 딥페이크·차별·노동 피해, 규제 집행)를 매일 아침
+수집 → 선별 → 요약 → 자동 검수 → 이메일 발행까지 한 번에 돌리는 LangGraph 파이프라인.
 
-- 수집: RSS 10개 소스 (실측으로 채택, 근거는 [docs/source_audit.md](docs/source_audit.md))
-- 선별: 예선(제목·요약, 8건 배치) → 본선(본문, 4건 배치) 2단계
-- 요약: 사실 요약 + 독자 관점 인사이트 + 실무 체크
+- 수집: RSS 12개 소스 (후보 35개 실측, 근거는 [docs/source_audit_ai.md](docs/source_audit_ai.md))
+- 선별: 규칙 필터 → 예선(제목·요약, 8건 배치) → 본문 확보 → 본선(본문, 4건 배치, 5차원 가중)
+- 요약: 사실 + 독자 관점 인사이트 + 실무 체크 + 검증용 claims
 - 검수: 인용문 대조 · 숫자 대조 · LLM 근거성 판정 3중, 실패 시 재생성 → 폐기 → 대기 후보 교체
 - 발행: SMTP 이메일 + `out/` 에 HTML/Markdown 아카이브
 
-자세한 설계 판단과 실행 기록은 [REPORT.md](REPORT.md) 를 보세요.
+설계 판단과 실행 기록은 [REPORT.md](REPORT.md) 를 보세요.
+이전 주제(환경·기후)의 실측 자료도 [docs/source_audit.md](docs/source_audit.md) 에 남아 있습니다.
 
 ## 실행
 
@@ -23,34 +24,43 @@ python run.py            # 실제 발행
 보조 스크립트
 
 ```bash
-python tools/smtp_check.py       # 메일 서버 접속·로그인만 확인 (발송 없음)
-python tools/source_probe.py     # 소스 후보 실측 -> store/source_audit.json, docs/source_audit.md
-python tools/verify_selftest.py  # 검수 노드가 할루시네이션을 잡는지 확인 -> store/verify_selftest.json
-python run.py --graph            # 그래프 구조(mermaid) 출력
+python tools/smtp_check.py         # 메일 서버 접속·로그인만 확인 (발송 없음)
+python tools/source_probe.py --candidates tools/source_candidates_ai.yaml --out ai
+python tools/topic_feasibility.py  # 주제 후보의 공급량 타당성 측정
+python tools/verify_selftest.py    # 검수 노드가 할루시네이션을 잡는지 확인
+python tools/batch_experiment.py   # 예선 배치 크기 실측 실험
+python run.py --graph              # 그래프 구조(mermaid) 출력
 ```
 
 ## 파일 구조
 
 ```
-graph.py                  LangGraph 워크플로우 (노드 · 상태 · 라우팅)
-run.py                    실행 스크립트
-audience.yaml             타깃 독자 · 중요도 기준 · 제외 조건 · 검수 기준
-sources.yaml              채택 소스와 채택/탈락 사유
-nl/collect.py             RSS 수집 + 규칙 필터 + 중복 제거
-nl/extract.py             기사 본문 추출 (trafilatura -> BeautifulSoup 폴백)
-nl/screen.py              예선 · 본선 채점 · 소스 다양성 상한
-nl/summarize.py           요약 + 인사이트 + 검증용 claims 생성
-nl/verify.py              3중 자동 검수
-nl/render.py              이메일 HTML / 아카이브 Markdown
-nl/publish.py             SMTP 발송 + 로컬 저장
-tools/source_probe.py     소스 후보 실측
-tools/verify_selftest.py  검수 노드 자체 테스트
-tools/batch_experiment.py 예선 배치 크기 실측 실험
-tools/smtp_check.py       SMTP 자격증명 확인
-store/metrics.jsonl       실행별 지표 누적
-store/runs/<run_id>/      단계별 상세 덤프 (01~06, run.log)
-out/YYYY-MM-DD.html|md    발행물 아카이브
+graph.py                     LangGraph 워크플로우 (노드 · 상태 · 라우팅)
+run.py                       실행 스크립트
+audience.yaml                타깃 독자 · 중요도 기준 · 제외 조건 · 검수 기준
+sources.yaml                 채택 소스와 채택/탈락 사유
+nl/collect.py                RSS 수집 + 규칙 필터 + 중복 제거 (+ 미사용 TopicGate)
+nl/extract.py                기사 본문 추출 (trafilatura -> BeautifulSoup 폴백)
+nl/screen.py                 예선 · 본선 채점 · ref 매핑 · 소스/사건 중복 상한
+nl/summarize.py              요약 + 인사이트 + 검증용 claims 생성
+nl/verify.py                 3중 자동 검수
+nl/render.py                 이메일 HTML / 아카이브 Markdown
+nl/publish.py                SMTP 발송 + 로컬 저장
+tools/source_probe.py        소스 후보 실측 (주제 키워드는 후보 yaml 에서 읽는다)
+tools/topic_feasibility.py   주제 전환 전 공급량 측정
+tools/verify_selftest.py     검수 노드 자체 테스트
+tools/batch_experiment.py    예선 배치 크기 실측 실험
+tools/smtp_check.py          SMTP 자격증명 확인
+store/metrics.jsonl          실행별 지표 누적
+store/runs/<run_id>/         단계별 상세 덤프 (01~06, run.log)
+docs/sample_run/             근거용 샘플 실행 1회분
+out/YYYY-MM-DD.html|md       발행물 아카이브
 ```
+
+## 주제를 바꾸려면
+
+코드는 건드리지 않습니다. `audience.yaml`(독자·기준)과 `sources.yaml`(소스)만 교체하면 됩니다.
+실제로 이 저장소는 환경·기후 주제로 완주한 뒤 AI 주제로 전환했습니다.
 
 ## 환경변수
 

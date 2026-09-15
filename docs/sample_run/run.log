@@ -1,31 +1,26 @@
-[11:50:07] 1/8 수집 시작
-[11:50:13]   소스 10/10 응답, 원본 232건 → 규칙 필터 통과 79건 (탈락 153건)
-[11:50:13] 2/8 예선: 79건을 8건씩 채점
-[11:50:59]   41건이 4점 이상 → 소스당 최대 3건으로 상위 12건 본선행 (impacton:3, electimes:3, newspenguin:2, canary:1, guardian_env:1, carbonbrief:1, grist:1) (46.0s)
-[11:50:59] 3/8 본문 수집: 12건
-[11:51:04]   ! 본문 실패(too_short(437<600)): EU ETS 개편 초안, 배출권 수입 75% 산업 탈탄소 재투자…무상할당 조건도 강화
-[11:51:04]   본문 확보 11건 / 실패 1건
-[11:51:04] 4/8 본선: 11건을 4건씩 본문 채점
-[11:51:20]   선정  9.97 | 뉴스펭귄         | "느슨한 정부규제, 고탄소 업종 '태만' 불렀다"
-[11:51:20]   선정  9.83 | 임팩트온         | 【공시 모니터링】신한금융, 전환위험 34조원ㆍ물리적 위험 담보 11.7조원 공개
-[11:51:20]   선정  9.14 | 임팩트온         | EU, 알루미늄 CBAM 면제 기준 50톤→5톤 추진…소량 수입도 대상
-[11:51:20]   선정  7.08 | The Guardian | ‘Tidal wave’ of Pfas being launched to satisfy AI in
-[11:51:20]   선정   6.8 | 전기신문         | (김형중의 전기에너지 이야기)AI 데이터센터, 얼마나 쓰느냐보다 어떻게 쓰느냐
-[11:51:20]   선정 5건 / 대기 후보 2건
-[11:51:20] 5/8 요약 [1/5] "느슨한 정부규제, 고탄소 업종 '태만' 불렀다"
-[11:51:26] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:26] 5/8 요약 [2/5] 【공시 모니터링】신한금융, 전환위험 34조원ㆍ물리적 위험 담보 11.7조원 공개
-[11:51:32] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:32] 5/8 요약 [3/5] EU, 알루미늄 CBAM 면제 기준 50톤→5톤 추진…소량 수입도 대상
-[11:51:37] 6/8 검수 통과 | 근거 4/4 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:37] 5/8 요약 [4/5] ‘Tidal wave’ of Pfas being launched to satisfy AI 
-[11:51:45] 6/8 검수 실패 | 근거 4/5 (partial 1, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:45]     - Claim 0에서 'PFAS 생산이 급증하고 있다'는 표현은 원문에서 확인되지 않으며, 실제로는 '생산 확대 계획'이 대부분임.
-[11:51:45]     - 요약문에서 '급증'이라는 단어 사용이 원문보다 과장됨.
-[11:51:45]   → 재생성 시도 1/2
-[11:51:45] 5/8 재생성 [4/5] ‘Tidal wave’ of Pfas being launched to satisfy AI 
-[11:51:49] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:49] 5/8 요약 [5/5] (김형중의 전기에너지 이야기)AI 데이터센터, 얼마나 쓰느냐보다 어떻게 쓰느냐
-[11:51:55] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
-[11:51:55] 7/8 렌더링: 기사 5건
-[11:51:55] 8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → C:\Users\Administrator\2026 Aifel\0915 newsletter\out\2026-09-15.html
+[14:41:11] 1/8 수집 시작
+[14:41:13]   소스 12/12 응답, 원본 162건 → 규칙 필터 통과 89건 (탈락 73건)
+[14:41:13] 2/8 예선: 89건을 8건씩 채점
+[14:42:07]   21건이 4점 이상 → 소스당 최대 3건으로 상위 12건 본선행 (media404:2, wired_ai:3, guardian_ai:3, latitude:1, electimes:1, zdnet_kr:1, arstechnica_ai:1) (53.9s)
+[14:42:07] 3/8 본문 수집: 12건
+[14:42:12]   본문 확보 12건 / 실패 0건
+[14:42:12] 4/8 본선: 12건을 4건씩 본문 채점
+[14:42:28]   중복 사건 제외: WIRED AI | New York Seizes a Dozen Celebrity Deepfake W (← 404 Media 와 동일 사건)
+[14:42:28]   선정  9.03 | 전기신문         | 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
+[14:42:28]   선정  8.03 | The Guardian | Texas governor threatens to penalize datacenters not
+[14:42:28]   선정  7.98 | 404 Media    | Inside ‘Project Lily’: The Humans Reading Your ChatG
+[14:42:28]   선정  7.92 | 404 Media    | New York Seizes 12 Celebrity Deepfake Websites
+[14:42:28]   선정  7.76 | WIRED AI     | Sexually Explicit Deepfake Sites Target 100-Plus Pol
+[14:42:28]   선정 5건 / 대기 후보 3건
+[14:42:28] 5/8 요약 [1/5] 데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓
+[14:42:35] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[14:42:35] 5/8 요약 [2/5] Texas governor threatens to penalize datacenters n
+[14:42:42] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[14:42:42] 5/8 요약 [3/5] Inside ‘Project Lily’: The Humans Reading Your Cha
+[14:42:46] 6/8 검수 통과 | 근거 4/4 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[14:42:46] 5/8 요약 [4/5] New York Seizes 12 Celebrity Deepfake Websites
+[14:42:51] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[14:42:51] 5/8 요약 [5/5] Sexually Explicit Deepfake Sites Target 100-Plus P
+[14:42:57] 6/8 검수 통과 | 근거 5/5 (partial 0, unsupported 0) | 미확인 인용 0 | 미확인 숫자 0
+[14:42:57] 7/8 렌더링: 기사 5건
+[14:42:57] 8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → C:\Users\Administrator\2026 Aifel\0915 newsletter\out\2026-09-15.html

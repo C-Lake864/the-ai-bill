@@ -101,6 +101,7 @@ def collect(sources_cfg: dict, exclude_cfg: dict) -> dict:
     max_age = exclude_cfg["max_age_hours"]
     blocklist = [w.lower() for w in exclude_cfg.get("title_blocklist", [])]
     min_title = exclude_cfg.get("min_title_chars", 10)
+    gate = TopicGate(exclude_cfg.get("topic_gate"))
 
     kept, dropped = [], []
     seen_url, seen_title = set(), {}
@@ -117,6 +118,8 @@ def collect(sources_cfg: dict, exclude_cfg: dict) -> dict:
         elif any(w in t_low for w in blocklist):
             hit = next(w for w in blocklist if w in t_low)
             reason = f"rule:blocklist('{hit}')"
+        elif not gate.passes(it["title"], it["feed_summary"]):
+            reason = "rule:off_topic(주제 게이트)"
         elif it["url"] in seen_url:
             reason = "dedup:same_url"
         else:
@@ -138,6 +141,52 @@ def collect(sources_cfg: dict, exclude_cfg: dict) -> dict:
         "kept": kept,
         "dropped": dropped,
     }
+
+
+def _compile_group(words) -> re.Pattern | None:
+    """키워드 목록 -> 정규식. 영문 토큰에는 단어 경계를 붙인다.
+
+    부분 문자열로 찾으면 'said'/'Thai'/'email' 안의 'ai' 까지 잡힌다(실측으로 확인).
+    한글은 \\b 가 의미 없어 부분 문자열 그대로 둔다.
+    """
+    alts = []
+    for w in words or []:
+        w = str(w).strip().lower()
+        if not w:
+            continue
+        esc = re.escape(w)
+        if w.isascii():
+            if w[0].isalnum():
+                esc = r"(?<![a-z0-9])" + esc
+            if w[-1].isalnum():
+                esc = esc + r"(?![a-z0-9])"
+        alts.append(esc)
+    return re.compile("|".join(alts), re.IGNORECASE) if alts else None
+
+
+class TopicGate:
+    """LLM 이전 단계에서 주제와 무관한 기사를 쳐내는 규칙 필터 (비용 0)."""
+
+    def __init__(self, cfg: dict | None):
+        cfg = cfg or {}
+        self.enabled = bool(cfg.get("enabled"))
+        self.require_all = cfg.get("require_all", [])
+        self.require_any = cfg.get("require_any", [])
+        self.pats = {g: _compile_group(w) for g, w in (cfg.get("groups") or {}).items()}
+
+    def _hit(self, group: str, blob: str) -> bool:
+        p = self.pats.get(group)
+        return bool(p and p.search(blob))
+
+    def passes(self, title: str, summary: str) -> bool:
+        if not self.enabled:
+            return True
+        blob = (title + " " + summary).lower()
+        if not all(self._hit(g, blob) for g in self.require_all):
+            return False
+        if self.require_any and not any(self._hit(g, blob) for g in self.require_any):
+            return False
+        return True
 
 
 def _near_dup(a: str, b: str) -> bool:
