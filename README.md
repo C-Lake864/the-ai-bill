@@ -25,6 +25,7 @@ python tools/publish_site.py   # 공개 페이지에 반영 (docs/ 커밋·푸�
 보조 스크립트
 
 ```bash
+python tools/setup_env.py          # .env 의 SMTP 값을 대화형으로 채운다 (비밀번호는 화면에 안 보임)
 python tools/smtp_check.py         # 메일 서버 접속·로그인만 확인 (발송 없음)
 python tools/source_probe.py --candidates tools/source_candidates_ai.yaml --out ai
 python tools/topic_feasibility.py  # 주제 후보의 공급량 타당성 측정
@@ -52,6 +53,7 @@ tools/source_probe.py        소스 후보 실측 (주제 키워드는 후보 ya
 tools/topic_feasibility.py   주제 전환 전 공급량 측정
 tools/verify_selftest.py     검수 노드 자체 테스트
 tools/batch_experiment.py    예선 배치 크기 실측 실험
+tools/setup_env.py           .env SMTP 값 대화형 입력
 tools/smtp_check.py          SMTP 자격증명 확인
 tools/publish_site.py        docs/ 커밋·푸시 (공개 발행)
 store/metrics.jsonl          실행별 지표 누적
