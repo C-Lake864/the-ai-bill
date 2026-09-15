@@ -568,8 +568,16 @@ LLM 판단 없이 즉시 걸러냈다. 검수가 없었다면 존재하지 않�
 커밋한다. 보내는 사람 표시 이름은 `audience.yaml` 의 `newsletter.name` 을 그대로 쓴다.
 From 주소 자체는 메일 규격상 필수 헤더라 비울 수 없고, 네이버 SMTP 는 인증한 본인 주소만 허용한다.
 
-<!-- 수신함 캡처 -->
-_(네이버 수신함 캡처 추가 예정)_
+**수신 확인** — 네이버 받은메일함
+
+![네이버 수신함](docs/img/newsletter_mailbox.png)
+
+보낸사람이 `audience.yaml` 의 `newsletter.name` 대로 **The AI Bill** 로 표시되고,
+제목은 `subject_format` 의 `[{name}] {date} · {top_headline}` 규칙대로
+**`[The AI Bill] 2026-09-15 · 뉴욕, 딥페이크사이트 12곳 압수`** 로 찍혔다.
+그날 선별 1위 기사의 헤드라인이 제목에 자동으로 들어간다.
+
+발행된 본문은 6.2절 캡처와 같다.
 
 ### 6.5 누적 지표 (`store/metrics.jsonl`)
 
