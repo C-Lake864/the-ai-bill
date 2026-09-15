@@ -1,20 +1,20 @@
 [
   {
     "date": "2026-09-15",
-    "n": 5,
-    "run_id": "20260915-152543",
+    "n": 4,
+    "run_id": "20260915-154003",
     "headlines": [
       {
-        "headline": "텍사스, 데이터센터 물 사용 미신고 제재 예고",
+        "headline": "뉴욕, 딥페이크 사이트 12곳 압수",
+        "source": "404 Media",
+        "bucket": "AI 피해·탐사",
+        "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites"
+      },
+      {
+        "headline": "텍사스, 데이터센터 물 사용 규제 강화",
         "source": "The Guardian AI",
         "bucket": "정책·권리",
         "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws"
-      },
-      {
-        "headline": "AI 산업 PFAS 생산 확대 논란",
-        "source": "The Guardian AI",
-        "bucket": "정책·권리",
-        "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres"
       },
       {
         "headline": "유럽 여성 정치인 딥페이크 피해 확산",
@@ -23,13 +23,7 @@
         "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe"
       },
       {
-        "headline": "뉴욕, 딥페이크 사이트 12곳 압수",
-        "source": "404 Media",
-        "bucket": "AI 피해·탐사",
-        "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites"
-      },
-      {
-        "headline": "데이터센터, 폐열 재활용 효과 분석",
+        "headline": "데이터센터 폐열 재활용 효과 분석",
         "source": "전기신문",
         "bucket": "데이터센터·전력",
         "url": "https://www.electimes.com/news/articleView.html?idxno=372434"
@@ -39,8 +33,8 @@
       "collected": 162,
       "after_rules": 93,
       "finalists": 5,
-      "published": 5,
-      "regenerated": 3
+      "published": 4,
+      "regenerated": 2
     }
   }
 ]

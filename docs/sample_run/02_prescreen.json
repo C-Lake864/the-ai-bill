@@ -9,13 +9,13 @@
     "title": "Texas governor threatens to penalize datacenters not obeying water laws",
     "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
     "published": "2026-09-14T22:57:15+00:00",
-    "age_hours": 7.5,
+    "age_hours": 7.7,
     "feed_summary": "Republican Greg Abbott says datacenters must help ‘protect’ drought-prone state and disclose water use Greg Abbott , the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use. “Data centers must share the duty to protect Texas water,” the Republican governor said on Monday. “The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply,” he added. Continue reading...",
     "prescreen_score": 8,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "텍사스 주지사가 데이터센터 물 사용 공개 및 법 준수 의무화, 위반 시 처벌 지시해 AI 인프라 부담과 규제 실체를 보여줌."
+    "prescreen_reason": "텍사스 주지사가 데이터센터의 물 사용 공개 및 법 준수 의무화, 위반 시 처벌 예고해 AI 인프라 비용과 환경 부담 관련 구체적 규제 조치임"
   },
   {
     "id": "4fab7cfec12b",
@@ -27,14 +27,14 @@
     "title": "New York Seizes 12 Celebrity Deepfake Websites",
     "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites",
     "published": "2026-09-14T17:26:37+00:00",
-    "age_hours": 13.0,
+    "age_hours": 13.2,
     "feed_summary": "New York District Attorney Alvin Bragg said in a press conference on Monday that the sites included 1,200 people’s likenesses in “hyper-realistic” sexual imagery.",
     "prescreen_score": 8,
     "prescreen_labels": [
-      "AI",
-      "policy"
+      "policy",
+      "opinion"
     ],
-    "prescreen_reason": "뉴욕 검찰이 딥페이크 사이트 12곳 압수, 1200명 피해자 구체적 수치와 법적 조치 포함."
+    "prescreen_reason": "뉴욕 검찰이 딥페이크 사이트 12곳 압수, 1,200명 피해자 포함해 AI 사회적 피해 구체적 집행 사례."
   },
   {
     "id": "89c804e6823b",
@@ -46,14 +46,14 @@
     "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
     "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites",
     "published": "2026-09-14T16:50:00+00:00",
-    "age_hours": 13.6,
+    "age_hours": 13.8,
     "feed_summary": "In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.",
     "prescreen_score": 8,
     "prescreen_labels": [
-      "AI",
-      "policy"
+      "policy",
+      "opinion"
     ],
-    "prescreen_reason": "딥페이크 피해자 1200명 대상 최대 규모 법적 조치, 구체적 피해와 집행 사실 보도."
+    "prescreen_reason": "딥페이크 사이트 압수 사건 상세 보도, 피해 규모와 법적 조치로 AI 피해 부담 명확히 드러남."
   },
   {
     "id": "3bd38861eb4f",
@@ -65,13 +65,13 @@
     "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
     "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
     "published": "2026-09-14T11:00:00+00:00",
-    "age_hours": 19.4,
+    "age_hours": 19.7,
     "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
     "prescreen_score": 8,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 실태와 피해자 규모를 구체적으로 보도."
+    "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 구체적 사례와 피해 규모가 드러남."
   },
   {
     "id": "88a3078ba7e5",
@@ -83,124 +83,14 @@
     "title": "데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372434",
     "published": "2026-09-15T13:27:05+00:00",
-    "age_hours": -7.0,
+    "age_hours": -6.8,
     "feed_summary": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.UNIST 탄소중립대학원 임한권 교수팀은 고체산화물 연료전지를 데이터센터의 전력원으로 쓰고 발전과 냉각 과정에서 나오는 열을 재활용하는 통합 에너지 시스템을 고안하고, 이 시스템의 경제성과 전 과정 온실가스 배출량을 분석한 결과 이 같은 결론을 얻었다고 15일 밝혔다.데이터센터는 수많은 서버를 24시간 가동하기",
     "prescreen_score": 7,
     "prescreen_labels": [
       "tech",
       "policy"
     ],
-    "prescreen_reason": "AI 데이터센터 전력 공급과 폐열 재활용으로 비용과 온실가스 감축 수치 제시, 인프라 비용 부담 완화 관련 유용한 정보임."
-  },
-  {
-    "id": "ca0b5eda66dd",
-    "source_id": "media404",
-    "source_name": "404 Media",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats",
-    "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats",
-    "published": "2026-09-14T14:22:43+00:00",
-    "age_hours": 16.1,
-    "feed_summary": "Humans are reading ChatGPT users’ prompts to improve OpenAI’s models, and those chats can include sensitive, personal information, according to leaked internal documents and real prompts seen by 404 Media.",
-    "prescreen_score": 7,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "ChatGPT 대화 내용 인간 검토로 개인정보·프라이버시 피해 현실화, AI 운영 리스크 구체적 사례 제공."
-  },
-  {
-    "id": "c3942d3c3881",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Labor unions must unite against AI datacenters | Tyler Turner",
-    "url": "https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters",
-    "published": "2026-09-14T12:00:57+00:00",
-    "age_hours": 18.4,
-    "feed_summary": "Workers should start with a moratorium against building until our livelihoods and communities are protected For the surging number of Americans who now live alongside constantly humming computer-filled mega-warehouses, it is clear AI datacenters come with significant drawbacks. Opposition to datacenters grows on both sides of the political aisle as developers plan to invest $8tn to build them in the coming years. The bet is massive – roughly a quarter of our country’s entire GDP – but AI CEOs think it will pay off because they believe this technology will allow businesses across industries to rake in profits by cutting out their largest expense: labor. If all goes according to their plan, AI data centers will enable corporations to redistribute workers’ salaries to themselves. Continue reading...",
-    "prescreen_score": 7,
-    "prescreen_labels": [
-      "policy",
-      "lifestyle"
-    ],
-    "prescreen_reason": "AI 데이터센터 건설 중단 요구와 노동자·지역사회 영향에 대한 구체적 부담 사례 제시."
-  },
-  {
-    "id": "620b090df57e",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
-    "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
-    "published": "2026-09-14T06:00:26+00:00",
-    "age_hours": 24.4,
-    "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
-    "prescreen_score": 7,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "AI 데이터센터 수요로 PFAS 화학물질 생산 급증, 환경·건강 부담의 구체적 사례 제시."
-  },
-  {
-    "id": "01635b2821f7",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "송전망 철탑 2214기 줄인다…정부, 선로 통합으로 주민 피해 최소화",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372432",
-    "published": "2026-09-15T12:34:11+00:00",
-    "age_hours": -6.1,
-    "feed_summary": "반도체와 데이터센터 등 첨단산업의 전력 수요가 급증하는 가운데 정부가 송전망 건설 과정에서 발생하는 주민 피해를 줄이고 지역에 실질적인 혜택을 제공하는 방안을 내놨다. 기존 송전선로를 신설 선로와 통합해 신규 철탑을 최대 40% 줄이고, 주민 밀집지역에는 지중화를 확대한다. 송전망 주변 마을에는 태양광 발전을 지원해 주민 소득을 높이고, 입지선정 과정에서는 주민 참여와 선택권도 강화한다.기후에너지환경부는 15일 이 같은 내용을 담은 ‘송전망 건설 수용성 제고방안’을 국무회의에 보고했다. 재생에너지 확대와 첨단산업 전력수요 증가에 대응해 필요한 전력망은 적기에 확충하되, 송전망 주변 주민들의 수용성을 높이겠다는 취지다.정부는 우선 기존의 ‘비수도권 발전→장거리 송전→수도권 수요’ 중심 전력망을 양방향·지산지소형 체계로 전환한다. 호남 반도체 산단 약 6GW, 동해 데이터센터 2.4GW, 울산 데이터센터 1GW 등 총 14GW 이상의 대규모 전력수요를 발전력이 풍부한 비수도권 지역에 분산 배치해 지역에서 생산한 전력을 지역에서 활용하는 구조를 만든다는 계획이다. 다만 단기간에 증가하는 수도권 전력수요에 대응하기 위한 최소한의 신규 송전망은 주민 피해를 최소화하는",
-    "prescreen_score": 6,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "데이터센터 전력 수요 증가와 송전망 건설 관련 주민 피해 및 비용 부담 완화 방안 소개, AI 인프라 부담과 연결 가능함."
-  },
-  {
-    "id": "bbcb7086e723",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "두산퓨얼셀, 2주 새 8236억 수주…美 AIDC 수요 ‘활활’",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372429",
-    "published": "2026-09-15T11:24:46+00:00",
-    "age_hours": -5.0,
-    "feed_summary": "두산퓨얼셀이 미국에서 2주 만에 3222억원 규모의 연료전지를 추가 수주했다. AI 데이터센터발 전력 수요가 실제 발주로 이어지며 올해 누적 수주액도 1조1000억원을 넘어섰다.15일 두산퓨얼셀은 ㈜두산의 미국 자회사인 하이엑시엄(HyAxiom)과 3222억원 규모의 인산형 연료전지(PAFC) 공급계약을 체결했다고 밝혔다. 이달 초 5014억원 규모 계약에 이어 2주 만에 추가 계약을 따내면서 양사 간 누적 계약 규모는 8236억원으로 늘었다.이번에 수주한 제품은 2028년부터 순차적으로 하이엑시엄을 통해 북미 지역에 공급된다. 하",
-    "prescreen_score": 6,
-    "prescreen_labels": [
-      "market"
-    ],
-    "prescreen_reason": "AI 데이터센터 전력 수요 증가가 실제 수주로 이어진 사례로, 인프라 비용 부담 측면에서 참고 가능."
-  },
-  {
-    "id": "e127ca142e07",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "AI, 지역 임금 격차 부추길 수도",
-    "url": "https://zdnet.co.kr/view?no=20260915103654",
-    "published": "2026-09-15T05:00:02+00:00",
-    "age_hours": 1.4,
-    "feed_summary": "[지디넷코리아]생성형 인공지능(AI)·에이전틱AI·피지컬 AI 등 AI가 사회에 파고드는 속도가 빠른 가운데, 새로운 기술인 AI가 일자리를 얼마나 대체할 것인지에 대한 연구가 속속 나오고 있다.한국은행 조사국 지역경제조사팀은 세분화되고 있는 AI로 인해 지역간에는 어떤 영향을 줄 수 있는지에 대해 15일 열린 '2026년 BOK 지역경제 심포지엄'을 통해 발표했다.일단 생성형AI와 에이전틱AI 노출도는 수도권이 높았다. AI 노출도는 일자리를 구성하는 여러 직무의 AI 활용 및 자동화 가능성을 의미하며, 생성형·에이전틱·피지컬AI에 따라 노출도를 세분화했다.생성형AI 노출도가 높은 지역은 서울·세종·경기·인천 순이었으며 에이전틱AI 노출도는 서울·세종·경기·대전 순으로 높았다. 생성형AI 노출도가 가장 낮은 곳은 전남·경북·강원 순이었으며 에이전틱AI는 경북·전남·충남 순으로 낮았다. 반면 피지컬AI는 경북·전남·충북·울산 등의 순으로 노출도가 높고 세종·서울·경기 등은 낮았다. 이는 지역별 분포된 산업 결과를 포함한 것으로 한은 측은 분석했다. 보고서에선 피지컬AI는 센서를 통해 현실 세계를 인식하고 액추에이터(모터 등)를 이용해 물리적 행동을 수행하는 AI로 정의했다. 지역별로 AI 노출도가 차이가 났으며, 이는 결국 AI 노출도에 따라 고용이 증감하는 산업분야가 있다면 수도권이 더 큰 영향을 받음을 의미한다. 실제 2023년 이후 생성형AI 고노출 일자리는 24만7000명 증가했는데 이중 수도권이 80.8%(19만9000명)를 차지했다. 에이전틱AI 고노출 직업에서도 비슷한 양상이 드러났다. 에이전틱AI 활용 시기인 2025년 중 일자리가 10만5000명 늘었는데, 이중 수도권 비중이 88.3%(9만3000명)으로 집계됐다. 다만, 에이전틱AI의 경우 통계 산출 기간이 1년이라는 점에서 다양한 변수가 작용했을 가능성이 있다.생성형AI와 에이전틱AI와 다르게 피지컬AI는 취업자 수를 줄였다. 육체 노동 위주의 피지컬AI 고노출 직업 취업자 수는 수도권과 비수도권 모두 장기간 감소했다. 육체 노동 기피 영향과 로봇으로 인한 자동화로 인한 것으로 풀이된다.결국 생성형AI와 에이전틱AI 노출도가 집중된 지역에는 향후 일자리가 늘어나고 피지컬AI 노출도가 큰 지역 일자리는 줄어들 것으로 관측된다. 특히 한은 지역경제조사팀은 지식서비스와 반도체 제조업의 집적경제 강화로 인한 지역간 생산성 및 임금 격차가 확대될 수",
-    "prescreen_score": 6,
-    "prescreen_labels": [
-      "policy",
-      "corporate"
-    ],
-    "prescreen_reason": "AI가 지역 임금 격차에 미치는 영향과 AI 노출도 분석, 노동·사회적 부담 관련 구체적 연구 결과 제공."
+    "prescreen_reason": "AI 데이터센터 전력과 폐열 재활용으로 비용과 온실가스 부담 감소 구체적 수치 제공"
   },
   {
     "id": "2f12ea23fe9b",
@@ -212,33 +102,108 @@
     "title": "KT클라우드, 액체냉각·로봇 품은 AI 데이터센터 만든다…전국 20여곳 확대",
     "url": "https://zdnet.co.kr/view?no=20260915133141",
     "published": "2026-09-15T04:37:16+00:00",
-    "age_hours": 1.8,
+    "age_hours": 2.0,
     "feed_summary": "[지디넷코리아]KT클라우드가 2031년까지 전국 20여개 인공지능 데이터센터(AIDC) 거점을 확보하고 액체냉각·초고밀도 전력부터 AI 기반 운영, 모듈러 구축까지 차세대 기술 적용을 확대한다.최옥진 KT클라우드 DC본부장은 15일 서울 강남구 그랜드 인터컨티넨탈 서울 파르나스에서 열린 'KT클라우드 서밋 2026'에서 \"2031년까지 1기가와트(GW) 규모 데이터센터를 공급한다\"며 \"고객이 필요로 하는 데이터센터를 원하는 곳과 시점에 맞춰 공급할 것\"이라고 밝혔다.KT클라우드는 현재 약 200메가와트(MW) 규모 데이터센터 인프라를 확보한 상태다. 앞으로 800MW 이상을 추가 공급하기 위해 데이터센터 부지 파이프라인을 개발 중이다.수도권과 비수도권의 특성을 고려한 권역별 AIDC 클러스터도 구축한다. 수도권에선 여의도 금융 특화 엣지 데이터센터와 목동 B2B 거점을 비롯해 경기 서부 빅테크, 경기 남부 AI·그래픽처리장치(GPU) 수요 등을 중심으로 데이터센터를 확장한다는 목표다.비수도권에선 KT의 해저케이블 등 글로벌 네트워크와 연계한 AIDC를 개발할 계획이다.KT클라우드는 늘어나는 AI 서버의 전력·냉각 수요에 대응하기 위한 기술 개발을 진행 중이다.최 본부장에 따르면 글로벌 하이퍼스케일러 고객을 대상으로 직접칩냉각(D2C) 방식의 액체냉각 서비스를 상용화하고 자체 해석 프로그램을 활용해 냉각 설계를 최적화하고 있다. 자체 개발한 부하기를 활용해 140킬로와트(kW)급 고밀도 AI 서버 환경도 실증했다.데이터센터 구축 단계에는 건축정보모델링(BIM)과 전산유체역학(CFD), 모듈러 기술을 적용 중이다. BIM 기반 설계 정보를 실제 운영 단계까지 연계하고 CFD를 직접 수행해 고밀도 AI 서버 도입에 따른 냉각 위험을 사전에 분석하는 방식이다.특히 주요 설비를 사전에 제작하는 프리팹 방식을 활용해 구축 기간을 단축하는 모듈러 데이터센터도 확산할 예정이다.운영 자동화에는 AI와 로봇을 활용한다. 기존 데이터센터 통합관리시스템(DIMS)을 AIDC 운영 환경에 맞게 고도화하고 자율이동로봇(AMR) 등을 활용한 운영 자동화를 실증하고 있다.장기적으로 데이터센터에서 생성되는 운영 데이터를 AI에 학습시켜 장애 예측과 재해복구 등을 지원하는 자율운영형 AIDC로 발전시킨다는 목표다.AIDC가 전국으로 분산되면서 데이터센터를 연결하는 네트워크도 핵심 인프라로 부상하고 있다.이와 관련해 전명준 KT 엔터프라이즈서비",
-    "prescreen_score": 6,
+    "prescreen_score": 7,
     "prescreen_labels": [
       "tech",
-      "policy"
+      "policy",
+      "market"
     ],
-    "prescreen_reason": "KT AI 데이터센터 확장과 액체냉각 등 인프라 기술 도입은 전력·환경 부담과 비용 전가 측면에서 의미 있음."
+    "prescreen_reason": "KT AI 데이터센터 확장과 액체냉각 등 인프라 투자 계획, 전력 규모와 지역별 클러스터 구축으로 AI 인프라 비용 부담과 환경 영향 관련 구체적 정보 제공."
   },
   {
-    "id": "c9c74a5099fe",
+    "id": "ca0b5eda66dd",
+    "source_id": "media404",
+    "source_name": "404 Media",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats",
+    "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats",
+    "published": "2026-09-14T14:22:43+00:00",
+    "age_hours": 16.3,
+    "feed_summary": "Humans are reading ChatGPT users’ prompts to improve OpenAI’s models, and those chats can include sensitive, personal information, according to leaked internal documents and real prompts seen by 404 Media.",
+    "prescreen_score": 7,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "ChatGPT 대화 내용 인력 검토로 인한 개인정보 피해 위험과 AI 운영 리스크 구체적 사례."
+  },
+  {
+    "id": "c3942d3c3881",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Labor unions must unite against AI datacenters | Tyler Turner",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters",
+    "published": "2026-09-14T12:00:57+00:00",
+    "age_hours": 18.7,
+    "feed_summary": "Workers should start with a moratorium against building until our livelihoods and communities are protected For the surging number of Americans who now live alongside constantly humming computer-filled mega-warehouses, it is clear AI datacenters come with significant drawbacks. Opposition to datacenters grows on both sides of the political aisle as developers plan to invest $8tn to build them in the coming years. The bet is massive – roughly a quarter of our country’s entire GDP – but AI CEOs think it will pay off because they believe this technology will allow businesses across industries to rake in profits by cutting out their largest expense: labor. If all goes according to their plan, AI data centers will enable corporations to redistribute workers’ salaries to themselves. Continue reading...",
+    "prescreen_score": 7,
+    "prescreen_labels": [
+      "policy",
+      "lifestyle"
+    ],
+    "prescreen_reason": "AI 데이터센터 건설에 따른 노동자·지역사회 부담과 투자 규모가 구체적으로 언급됨."
+  },
+  {
+    "id": "620b090df57e",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+    "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+    "published": "2026-09-14T06:00:26+00:00",
+    "age_hours": 24.7,
+    "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
+    "prescreen_score": 7,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "AI 데이터센터 수요로 인한 유해 화학물질(PFAS) 생산 증가와 환경·건강 부담을 구체적으로 다룸."
+  },
+  {
+    "id": "01635b2821f7",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "송전망 철탑 2214기 줄인다…정부, 선로 통합으로 주민 피해 최소화",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372432",
+    "published": "2026-09-15T12:34:11+00:00",
+    "age_hours": -5.9,
+    "feed_summary": "반도체와 데이터센터 등 첨단산업의 전력 수요가 급증하는 가운데 정부가 송전망 건설 과정에서 발생하는 주민 피해를 줄이고 지역에 실질적인 혜택을 제공하는 방안을 내놨다. 기존 송전선로를 신설 선로와 통합해 신규 철탑을 최대 40% 줄이고, 주민 밀집지역에는 지중화를 확대한다. 송전망 주변 마을에는 태양광 발전을 지원해 주민 소득을 높이고, 입지선정 과정에서는 주민 참여와 선택권도 강화한다.기후에너지환경부는 15일 이 같은 내용을 담은 ‘송전망 건설 수용성 제고방안’을 국무회의에 보고했다. 재생에너지 확대와 첨단산업 전력수요 증가에 대응해 필요한 전력망은 적기에 확충하되, 송전망 주변 주민들의 수용성을 높이겠다는 취지다.정부는 우선 기존의 ‘비수도권 발전→장거리 송전→수도권 수요’ 중심 전력망을 양방향·지산지소형 체계로 전환한다. 호남 반도체 산단 약 6GW, 동해 데이터센터 2.4GW, 울산 데이터센터 1GW 등 총 14GW 이상의 대규모 전력수요를 발전력이 풍부한 비수도권 지역에 분산 배치해 지역에서 생산한 전력을 지역에서 활용하는 구조를 만든다는 계획이다. 다만 단기간에 증가하는 수도권 전력수요에 대응하기 위한 최소한의 신규 송전망은 주민 피해를 최소화하는",
+    "prescreen_score": 6,
+    "prescreen_labels": [
+      "policy",
+      "tech"
+    ],
+    "prescreen_reason": "데이터센터 등 첨단산업 전력 수요 증가와 송전망 건설 피해 최소화 방안 구체적으로 다룸"
+  },
+  {
+    "id": "e127ca142e07",
     "source_id": "zdnet_kr",
     "source_name": "지디넷코리아",
     "bucket": "국내 테크",
     "weight": 0.95,
     "lang": "ko",
-    "title": "AI가 전세계약 위험 찾는다…경기도, ‘안심 부동산’ 10월 가동",
-    "url": "https://zdnet.co.kr/view?no=20260915122954",
-    "published": "2026-09-15T04:30:01+00:00",
-    "age_hours": 1.9,
-    "feed_summary": "[지디넷코리아]전세계약을 맺기 전 AI가 등기부등본과 시세를 분석해 위험요인을 찾아주고, 계약이 끝난 뒤에는 근저당권 설정 등 권리관계 변화를 24시간 확인해 임차인에게 알려주는 서비스가 경기도에서 시범 운영된다.과학기술정보통신부와 경기도는 15일 전세사기 등 부동산 거래 과정에서 발생할 수 있는 위험을 줄이기 위한 ‘경기 안심 부동산(GRTS)’ 출시 행사를 개최했다고 밝혔다. 서비스는 오는 10월부터 공식 시범운영에 들어간다.‘경기 안심 부동산’은 AI의 데이터 분석과 공인중개사의 현장 확인을 결합한 것이 특징이다. 전세계약을 체결하기 전부터 계약 과정, 계약을 마친 이후까지 단계별로 위험 요소를 확인하도록 설계됐다.계약 전에는 등기부등본과 시세 등 부동산 관련 데이터를 AI가 분석한다. 해당 매물의 권리관계를 살펴 위험 가능성을 진단한 뒤 권리분석 결과를 제공한다. 서류와 데이터 분석만으로 판단하기 어려운 부분은 공인중개사가 현장에서 확인해 AI 분석 결과와 교차 검증한다.계약 단계에서는 음성인식 기술도 활용한다. 계약 과정에서 공인중개사가 설명하는 내용을 분석해 반드시 알려야 할 주요 사항이 제대로 전달됐는지 확인한다. 작성된 계약서도 분석해 빠진 내용이나 추가로 확인할 부분이 있는지 점검한다.계약이 끝났다고 위험 확인이 종료되는 것은 아니다. 시스템이 등기부 변동을 24시간 모니터링하고 근저당권 설정을 비롯해 주요 권리관계에 변화가 생기면 임차인에게 이상 징후를 알린다. 권리분석 결과가 발급된 이후 발생하는 변동도 계속 반영한다.임차인은 공인중개사의 확인을 거친 권리분석 결과를 무료로 받을 수 있다. 분석 내용을 이해하기 어렵거나 추가 확인이 필요한 경우에는 AI 챗봇을 통해 관련 내용을 질의할 수 있다.서비스는 경기도 내 부동산 거래 당사자라면 누구나 이용할 수 있다. 시범운영 기간에는 경기도와 공인중개사가 전세사기 예방을 위해 운영 중인 ‘경기 안전전세 프로젝트’ 참여 공인중개사 약 1만 5000명을 중심으로 서비스를 제공한다.",
+    "title": "AI, 지역 임금 격차 부추길 수도",
+    "url": "https://zdnet.co.kr/view?no=20260915103654",
+    "published": "2026-09-15T05:00:02+00:00",
+    "age_hours": 1.7,
+    "feed_summary": "[지디넷코리아]생성형 인공지능(AI)·에이전틱AI·피지컬 AI 등 AI가 사회에 파고드는 속도가 빠른 가운데, 새로운 기술인 AI가 일자리를 얼마나 대체할 것인지에 대한 연구가 속속 나오고 있다.한국은행 조사국 지역경제조사팀은 세분화되고 있는 AI로 인해 지역간에는 어떤 영향을 줄 수 있는지에 대해 15일 열린 '2026년 BOK 지역경제 심포지엄'을 통해 발표했다.일단 생성형AI와 에이전틱AI 노출도는 수도권이 높았다. AI 노출도는 일자리를 구성하는 여러 직무의 AI 활용 및 자동화 가능성을 의미하며, 생성형·에이전틱·피지컬AI에 따라 노출도를 세분화했다.생성형AI 노출도가 높은 지역은 서울·세종·경기·인천 순이었으며 에이전틱AI 노출도는 서울·세종·경기·대전 순으로 높았다. 생성형AI 노출도가 가장 낮은 곳은 전남·경북·강원 순이었으며 에이전틱AI는 경북·전남·충남 순으로 낮았다. 반면 피지컬AI는 경북·전남·충북·울산 등의 순으로 노출도가 높고 세종·서울·경기 등은 낮았다. 이는 지역별 분포된 산업 결과를 포함한 것으로 한은 측은 분석했다. 보고서에선 피지컬AI는 센서를 통해 현실 세계를 인식하고 액추에이터(모터 등)를 이용해 물리적 행동을 수행하는 AI로 정의했다. 지역별로 AI 노출도가 차이가 났으며, 이는 결국 AI 노출도에 따라 고용이 증감하는 산업분야가 있다면 수도권이 더 큰 영향을 받음을 의미한다. 실제 2023년 이후 생성형AI 고노출 일자리는 24만7000명 증가했는데 이중 수도권이 80.8%(19만9000명)를 차지했다. 에이전틱AI 고노출 직업에서도 비슷한 양상이 드러났다. 에이전틱AI 활용 시기인 2025년 중 일자리가 10만5000명 늘었는데, 이중 수도권 비중이 88.3%(9만3000명)으로 집계됐다. 다만, 에이전틱AI의 경우 통계 산출 기간이 1년이라는 점에서 다양한 변수가 작용했을 가능성이 있다.생성형AI와 에이전틱AI와 다르게 피지컬AI는 취업자 수를 줄였다. 육체 노동 위주의 피지컬AI 고노출 직업 취업자 수는 수도권과 비수도권 모두 장기간 감소했다. 육체 노동 기피 영향과 로봇으로 인한 자동화로 인한 것으로 풀이된다.결국 생성형AI와 에이전틱AI 노출도가 집중된 지역에는 향후 일자리가 늘어나고 피지컬AI 노출도가 큰 지역 일자리는 줄어들 것으로 관측된다. 특히 한은 지역경제조사팀은 지식서비스와 반도체 제조업의 집적경제 강화로 인한 지역간 생산성 및 임금 격차가 확대될 수",
     "prescreen_score": 6,
     "prescreen_labels": [
-      "tech",
-      "policy"
+      "policy",
+      "labor"
     ],
-    "prescreen_reason": "경기도 AI 기반 부동산 전세계약 위험 분석 서비스는 AI 활용에 따른 사회적 피해 예방과 규제 실무 관련 사례임."
+    "prescreen_reason": "AI 노출도에 따른 지역 임금 격차 연구 발표로 AI가 노동시장에 미치는 구체적 영향과 사회적 부담 일부 제시."
   },
   {
     "id": "aaf27136cdcb",
@@ -250,14 +215,14 @@
     "title": "TAR aims to build off-grid power for data centers in just six months",
     "url": "https://www.latitudemedia.com/news/tar-aims-to-build-off-grid-power-for-data-centers-in-just-six-months",
     "published": "2026-09-14T18:33:34+00:00",
-    "age_hours": 11.9,
+    "age_hours": 12.1,
     "feed_summary": "Unlike gas-heavy rivals, the startup is deploying modular solar and storage, and just raised $120 million to do it. The post TAR aims to build off-grid power for data centers in just six months appeared first on Latitude Media .",
     "prescreen_score": 6,
     "prescreen_labels": [
       "tech",
       "market"
     ],
-    "prescreen_reason": "데이터센터 전력 인프라 비용 문제와 태양광 오프그리드 전력 도입 시도, 비용 부담 관련 구체적 내용 있음."
+    "prescreen_reason": "데이터센터 전력 문제와 태양광 오프그리드 전력 도입 시도, 비용 부담 전가 가능성 시사."
   },
   {
     "id": "b91d736cfaf2",
@@ -269,68 +234,14 @@
     "title": "Blackstone-TXNM deal faces fresh questions from New Mexico DOJ",
     "url": "https://www.utilitydive.com/news/blackstone-txnm-deal-faces-fresh-questions-from-new-mexico-doj/830292",
     "published": "2026-09-14T15:28:42+00:00",
-    "age_hours": 15.0,
+    "age_hours": 15.2,
     "feed_summary": "TXNM unwound a Blackstone stock sale ruled illegal, but the state Department of Justice is seeking more information related to potential indirect costs to PNM ratepayers.",
     "prescreen_score": 6,
     "prescreen_labels": [
-      "market"
-    ],
-    "prescreen_reason": "데이터센터 전력요금 부담 관련 뉴멕시코 법무부 조사로 AI 인프라 비용 전가 문제 일부 드러남."
-  },
-  {
-    "id": "f30fcbc11210",
-    "source_id": "wired_ai",
-    "source_name": "WIRED AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI Agents Are Thirsty for Power",
-    "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power",
-    "published": "2026-09-13T10:00:00+00:00",
-    "age_hours": 44.4,
-    "feed_summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
-    "prescreen_score": 6,
-    "prescreen_labels": [
-      "policy",
-      "tech"
-    ],
-    "prescreen_reason": "에이전트 AI의 데이터센터 전력 소비 증가와 인프라 부담 관련 구체적 동향 소개."
-  },
-  {
-    "id": "6fd5bc23f075",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "AI 감속론에 복잡해진 한국 전략…속도조절도 '차등 적용'",
-    "url": "https://zdnet.co.kr/view?no=20260915111956",
-    "published": "2026-09-15T04:40:42+00:00",
-    "age_hours": 1.8,
-    "feed_summary": "[지디넷코리아]글로벌 인공지능(AI) 기업들이 AI 개발 속도 조절론을 꺼낸 가운데 국내에서는 기술 개발 자체를 늦추기보다 제품 출시와 활용 단계에 더 강한 안전장치를 둬야 한다는 의견이 나왔다.15일 본지 취재 결과 국내 AI 업계와 학계는 중국 등 경쟁국이 연구개발을 이어가는 상황에서 기술 경쟁 자체를 늦추는 것은 현실적으로 어렵다고 진단했다. 위험성이 큰 프론티어 AI는 출시 전에 충분한 검증을 거치되 이런 기준을 아직 추격 단계인 국내 기업에 일률적으로 적용하는 것은 경계해야 한다는 지적도 제기됐다.AI 개발 속도조절론에 불씨를 지핀 것은 다리오 아모데이 앤트로픽 최고경영자(CEO)다. 그는 지난 12일 개인 블로그를 통해 프론티어 AI의 발전 속도를 안전 연구와 검증 체계가 따라갈 수 있도록 조절해야 한다고 주장했다.그가 주목한 것은 AI가 다음 세대 AI 개발에 참여하는 '재귀적 자기개선'이다. 이 단계에 들어서면 기술 발전 속도가 지금보다 더 빨라지고 안전 연구와 통제 기술이 이를 따라가지 못할 가능성이 커진다고 우려했다.아모데이 CEO는 AI 기업 내부에 외부 평가자를 두고 개발 과정을 검증하는 방안도 제안했다. 민주주의 국가들이 공동 안전 기준을 마련한 뒤 장기적으로 국제적인 공조 체계를 구축하는 구상도 내놨다.국내 업계가 경계한 것은 감속의 대상과 범위다. 최첨단 프론티어 AI에 맞춘 안전 기준을 추격 단계인 국내 기업에 그대로 적용하면 기술 격차를 좁히기 어려워지고 새로운 진입장벽으로 작용할 수 있다는 지적이 나왔다.한 AI 학과 교수는 \"프론티어 AI에 맞춘 높은 수준의 평가와 검증 의무가 국내 기업에까지 적용되면 기술 격차를 좁히는 데 부담이 될 수 있다\"며 \"이미 기술 우위를 확보한 빅테크가 안전 기준까지 주도할 경우 사실상 '사다리 걷어차기'로 비칠 수 있다\"고 말했다.김동환 포티투마루 대표도 빅테크 중심의 안전 기준이 새로운 견제 장치로 작용할 가능성을 짚었다. 글로벌 차원의 합의가 없는 상황에서는 선도 기업이 만든 평가 방식과 기준이 사실상 국제 표준으로 자리 잡을 가능성이 높다는 판단이다.김 대표는 \"빅테크 입장에서는 기술력을 가진 스타트업과 대규모 자본을 동원할 수 있는 대기업뿐 아니라 중국과 중동 등 후발주자에 대한 견제 장치의 의미도 있을 것\"이라며 \"후발주자에 대한 사다리 걷어차기가 되지 않도록 기업 규모와 모델 위험도에 따라 기준을 차등 적용할 필요가 있다\"고 말했다.감",
-    "prescreen_score": 5,
-    "prescreen_labels": [
+      "market",
       "policy"
     ],
-    "prescreen_reason": "AI 개발 속도조절 논의와 국내 안전장치 차등 적용 의견은 AI 규제 방향과 부담 관련 시사점 제공."
-  },
-  {
-    "id": "44b02fa288fc",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Australia’s outdated technology is vulnerable to AI hacking attacks, signals chief says",
-    "url": "https://www.theguardian.com/australia-news/2026/sep/15/australias-outdated-technology-is-vulnerable-to-ai-hacking-attacks-signals-chief-says",
-    "published": "2026-09-14T15:00:10+00:00",
-    "age_hours": 15.4,
-    "feed_summary": "Abigail Bradshaw says ‘enormous’ amounts of money required to update systems that people now expect to be constantly available Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast One of Australia’s top intelligence agencies has warned that AI attacks could exploit the country’s old technology, as the government negotiates its guardrails on artificial intelligence’s rapid development. The chief of Anthropic, developer of Claude, has warned AI bots could swarm the internet within a year and called to “slow the pace” of development with support from the head of OpenAI and Elon Musk . Continue reading...",
-    "prescreen_score": 5,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "호주 구식 기술의 AI 해킹 취약성 경고, AI 관련 보안 부담과 비용 문제 제기."
+    "prescreen_reason": "데이터센터 관련 전력요금 부담 전가 의혹과 주체(뉴멕시코 DOJ, PNM 요금 납부자) 구체적 제기."
   },
   {
     "id": "e86f075284c9",
@@ -342,195 +253,31 @@
     "title": "OpenAI urges UK lawmakers to rein in technology amid growing safety fears",
     "url": "https://www.theguardian.com/technology/2026/sep/14/ai-regulation-anthropic-uk-human-rights-committee-mps-lords",
     "published": "2026-09-14T14:01:58+00:00",
-    "age_hours": 16.4,
+    "age_hours": 16.6,
     "feed_summary": "Company behind ChatGPT tells ministers to seize ‘political window’ on regulation as cross-party committee warns of rising threats to human rights UK politics live – latest updates OpenAI has urged British lawmakers to capitalise on renewed fears over AI safety and impose legislation reining in the technology. The company behind ChatGPT said the UK government should act immediately, following a call by its arch-rival Anthropic to curb AI development. Continue reading...",
-    "prescreen_score": 5,
+    "prescreen_score": 6,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "OpenAI가 영국 입법자에게 AI 규제 즉각 시행을 촉구해 정책 변화 시점을 알려줌."
+    "prescreen_reason": "OpenAI가 영국 입법자에게 AI 규제 시급성을 촉구하며 정책 부담을 강조함."
   },
   {
-    "id": "3e91755d8bd1",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "재생에너지 보급제도 15년 만에 전면 개편…RPS, 경쟁입찰 시장으로 전환",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372424",
-    "published": "2026-09-15T12:00:00+00:00",
-    "age_hours": -5.6,
-    "feed_summary": "재생에너지 보급 확대를 이끌어온 공급의무화제도(RPS)가 15년 만에 경쟁입찰 기반의 장기 고정가격 계약시장으로 전면 개편된다. 신규 재생에너지 사업자는 정부가 제시한 상한가격 내에서 경쟁입찰을 거쳐 사업자로 선정되고, 낙찰 이후에는 한국전력과 장기 고정가격으로 전력구매계약을 체결한다. 재생에너지 사업자의 수익 불확실성을 낮추는 동시에 경쟁을 통해 발전단가를 낮추고 국내 공급망을 강화한다는 구상이다.기후에너지환경부는 ‘재생에너지 개발·이용·보급 촉진법’ 개정법률이 15일 공포되고, 내년 1월 1일부터 시행된다고 밝혔다. 지난 8월 20일 국회 본회의를 통과한 개정안의 후속 조치다.이번 개편의 핵심은 기존 RPS 중심의 재생에너지 보급체계를 경쟁입찰 기반의 ‘계약시장 제도’로 일원화하는 것이다.RPS는 2012년 도입된 이후 재생에너지 보급 확대에 기여했지만, 재생에너지 공급인증서(REC) 가격 변동에 따라 사업자의 수익성이 크게 달라지고 공급인증서 거래 구조도 복잡하다는 지적을 받아왔다. 이로 인해 사업자의 투자 불확실성이 커지고 발전단가를 낮추거나 국내 산업 육성을 유도하는 데 한계가 있다는 판단이다.새로운 제도에서는 내년부터 신규 재생에너지 설비가 발전원",
-    "prescreen_score": 4,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "재생에너지 보급제도 개편 관련 정책 기사이나 AI·데이터센터 인프라 비용 부담과 직접적 연관성은 약함."
-  },
-  {
-    "id": "7a5376041f13",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
+    "id": "f30fcbc11210",
+    "source_id": "wired_ai",
+    "source_name": "WIRED AI",
+    "bucket": "AI 피해·탐사",
     "weight": 1.1,
     "lang": "en",
-    "title": "Europe must build own AI or risk getting cut off by US or China, says ECB’s Lagarde",
-    "url": "https://www.theguardian.com/technology/2026/sep/14/europe-ai-datacentres-growth-us-china-ecb-christine-lagarde",
-    "published": "2026-09-14T18:41:13+00:00",
-    "age_hours": 11.7,
-    "feed_summary": "Central bank chief says continent’s AI dependency could give trade partners unprecedented leverage in negotiations Europe must develop its own AI technology and build more datacentres in order to nullify the threat of being cut off by the US or China, according to the president of the European Central Bank. Christine Lagarde said the continent needed AI models – the technology that powers AI tools such as chatbots – that were “good enough” to carry out most tasks and run from domestic datacentres. If Europe invests in its own AI tech, said Lagarde, “the threat of being cut off loses its force”. Continue reading...",
-    "prescreen_score": 4,
-    "prescreen_labels": [
-      "policy",
-      "market"
-    ],
-    "prescreen_reason": "유럽의 AI 독립과 데이터센터 구축 필요성 언급, 비용 부담 주체와 시점 일부 포함."
-  },
-  {
-    "id": "5a320119c27a",
-    "source_id": "utilitydive",
-    "source_name": "Utility Dive",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "en",
-    "title": "Constellation Energy in deal to buy 609-MW Rhode Island gas plant from Shell",
-    "url": "https://www.utilitydive.com/news/constellation-energy-purchase-609-mw-rhode-island-gas-plant-shell/830270",
-    "published": "2026-09-14T14:16:37+00:00",
-    "age_hours": 16.2,
-    "feed_summary": "The deal expands Constellation&rsquo;s ISO New England portfolio. In a separate transaction, Shell acquired a 169-MW Pennsylvania gas portfolio to grow its PJM Interconnection position.",
-    "prescreen_score": 4,
-    "prescreen_labels": [
-      "market"
-    ],
-    "prescreen_reason": "가스 발전소 매매로 에너지 인프라 변화, AI 데이터센터 전력 부담과 간접 연관 가능성 있으나 직접적 언급 부족."
-  },
-  {
-    "id": "2e4ebd97a1b1",
-    "source_id": "restofworld",
-    "source_name": "Rest of World",
-    "bucket": "글로벌 노동·불평등",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "The real AI economy is being built by ordinary people",
-    "url": "https://restofworld.org/2026/global-workers-using-ai-at-work",
-    "published": "2026-09-14T10:00:31+00:00",
-    "age_hours": 20.4,
-    "feed_summary": "Far from Silicon Valley pitch decks, workers across Asia and Africa are bypassing tech industry hype to quietly rewire their daily jobs — one prompt, workflow, and local problem at a time.",
-    "prescreen_score": 4,
-    "prescreen_labels": [
-      "lifestyle"
-    ],
-    "prescreen_reason": "아시아·아프리카 노동자들이 AI 경제에 미치는 영향과 노동 현실을 다룸."
-  },
-  {
-    "id": "95ab3d7f183a",
-    "source_id": "utilitydive",
-    "source_name": "Utility Dive",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "en",
-    "title": "Turning utility customer affordability into action",
-    "url": "https://www.utilitydive.com/spons/turning-utility-customer-affordability-into-action/829519",
-    "published": "2026-09-14T09:00:00+00:00",
-    "age_hours": 21.4,
-    "feed_summary": "The growing role of customer affordability in utility strategy, investment and long-term planning.",
-    "prescreen_score": 4,
-    "prescreen_labels": [
-      "policy",
-      "market"
-    ],
-    "prescreen_reason": "전력 요금 부담과 고객 부담 가능성에 관한 유틸리티 전략과 투자 계획 소개."
-  },
-  {
-    "id": "6a00c52afd28",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "과방위 국감 10월 6일 개막…과기정통부 6일·방미통위 12일·우주청 13일",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700691",
-    "published": "2026-09-15T15:13:09+00:00",
-    "age_hours": -8.8,
-    "feed_summary": "[디지털투데이 이진호 기자] 국회 과학기술정보방송통신위원회의 올해 국정감사 일정이 확정됐다. 과학기술정보통신부를 시작으로 방송미디어통신위원회와 원자력안전위원회, 우주항공청 등 소관 기관에 대한 감사가 10월 6일부터 23일까지 진행된다.국회 과방위는 15일 전체회의를 열고 이같은 내용의 '2026년도 국정감사 계획서 채택의 건'을 의결했다.국정감사 첫날인 10월 6일에는 국회에서 과기정통부를 비롯해 우정사업본부와 국립중앙과학관 등 소속기관 대상 감사가 진행된다. 이어 과방위는 7일부터 이틀간 전남 고흥 나로우주센터에서 예정된 누리호",
-    "prescreen_score": 3,
+    "title": "AI Agents Are Thirsty for Power",
+    "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power",
+    "published": "2026-09-13T10:00:00+00:00",
+    "age_hours": 44.7,
+    "feed_summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+    "prescreen_score": 6,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "과방위 국감 일정 안내로 AI 규제 관련 구체적 부담이나 사례는 없음."
-  },
-  {
-    "id": "b904ec9953b0",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "삼성, '엔비디아 대항마'에 베팅…유클리드 2억유로 투자",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700679",
-    "published": "2026-09-15T14:38:22+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 AI리포터] 삼성이 엔비디아의 그래픽처리장치(GPU)를 대체할 AI 추론 칩을 개발하는 네덜란드 스타트업 유클리드(Euclyd)에 투자했다. AI 데이터센터의 전력 소비와 비용이 급증하는 가운데 GPU와 다른 구조의 전용 AI 반도체에 자금이 몰리는 모습이다.14일(이하 현지시간) CNBC에 따르면 유클리드는 2억유로(약 3124억6400만원) 규모의 시리즈A 투자를 유치했다. 삼성과 서머싯캐피털파트너스, EQT가 운용하는 스케일업유럽펀드, 이노베이션인더스트리스가 공동으로 투자를 주도했다.2024년 설립된 유클리드는",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "tech"
-    ],
-    "prescreen_reason": "AI 데이터센터 전력 소비 급증과 전용 AI 반도체 투자 관련, 비용 부담 주체가 구체적으로 드러나지 않음."
-  },
-  {
-    "id": "de4f89caa6d1",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "美, 화력발전 탄소규제 폐지…비용 절감·전력 공급 안정성에 ‘방점’",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372436",
-    "published": "2026-09-15T13:23:26+00:00",
-    "age_hours": -7.0,
-    "feed_summary": "미국 도널드 트럼프 행정부가 화석연료 기반 발전소에 탄소 포집·저장(CCS) 및 천연가스 혼소 등 탄소 저감 기술 적용을 요구하던 배출 규제를 폐지하고 화석연료 발전 확대에 나선다.미국 환경보호청(EPA)은 지난 14일(현지시간) 텍사스주 휴스턴에서 열린 주요 20개국(G20) 에너지장관회의에서 2024년 조 바이든 행정부 당시 도입된 발전소 ‘탄소오염기준’의 주요 조항을 폐지했다고 밝혔다.앞서 바이든 행정부는 2039년 이후에도 가동할 계획인 석탄발전소와 신규 가스발전소의 온실가스 배출량을 2032년까지 90% 줄이도록 하는 배출 규제를 도입했다.구체적으로 발전소가 CCS와 같은 기술을 쓰도록 의무화해 이산화탄소를 비롯한 대기오염물질 배출을 줄이도록 한 내용인데, 트럼프 행정부는 해당 규제를 전면 폐지하기로 한 것.특히 탄소의 90%를 포집하는 CCS 기술이 대규모 발전소에 적용할 만큼 충분히 검증되지 않았다는 점을 규제 폐지의 주요 근거로 제시했다. 기존 규제가 요구한 2032년까지 관련 탄소 수송·저장 인프라를 구축하는 것도 현실적으로 어렵다는 입장이다.기존 석탄발전소가 일정 비율의 천연가스를 혼소하도록 한 기준 역시 필요한 가스관 인프라 구축이 현실적",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "미국 화력발전 탄소규제 폐지 소식이나 AI·데이터센터와 직접 연관된 비용·피해 내용 부족함."
-  },
-  {
-    "id": "2f13b9bc3010",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "김영훈 노동장관, 메가특구 노동특례 사회적대화 제안",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372433",
-    "published": "2026-09-15T12:33:37+00:00",
-    "age_hours": -6.1,
-    "feed_summary": "김영훈 고용노동부 장관이 주52시간제 예외 적용 등으로 논란이 된 메가특구특별법 제정과 관련해 '원포인트 사회적 대화' 하자고 제안했다.김영훈 장관은 15일 정부서울청사에서 '메가특구특별법 노동 특례 관련 사회적 대화 제안' 브리핑을 열고 \"특례가 필요하다고 요청하는 기업과 우려를 제기하는 노동자 사이에서 의견 차이가 있을 수밖에 없다\"며 \"이해당사자인 노사가 직접 참여해 충분한 대화를 해야 한다\"고 말했다.그러면서 그는 \"오늘 정부는 메가특구특별법 노동 특례에 대한 원포인트 사회적 대화를 제안한다\"며 \"산업 경쟁력 강화와 좋은 일",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "메가특구 노동특례 관련 사회적 대화 제안 기사이나 AI·데이터센터와 구체적 부담·피해 연결 부족함."
-  },
-  {
-    "id": "a8f6c5c095ab",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "반도체 부산물·폐패널 핵심광물 회수체계 구축…기후부, 기획형 규제특례 추진",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372426",
-    "published": "2026-09-15T12:00:00+00:00",
-    "age_hours": -5.6,
-    "feed_summary": "정부가 반도체 공정에서 발생하는 폐자원과 폐배터리·태양광폐패널 등에 포함된 핵심광물 회수와 지속가능항공유(SAF) 원료 공급원 다각화를 위해 규제특례를 적용한다.기후에너지환경부는 오는 16일부터 내달 30일까지 순환경제 분야 ‘기획형 규제특례(샌드박스)’ 3건의 과제를 추진할 사업자를 모집한다고 15일 밝혔다.순환경제 규제특례는 한정된 기간·장소·규모에서 기업의 새로운 기술과 서비스를 실증할 수 있도록 허용하고, 그 결과 안전성과 유효성이 입증되면 관련 규제를 개선하거나 보완하는 제도다.이번에는 정부가 과제를 먼저 제안하고 사업자를 모집하는 ‘기획형’ 방식으로 진행된다. 전 세계 원자재 공급망 불안과 자원 확보 경쟁이 심화되는 가운데, 국내 주요 산업인 반도체 공정에서 발생하는 부산물과 향후 대량 발생이 예상되는 폐배터리·태양광 폐패널 등에서 핵심 광물을 회수하는 데 초점을 맞췄다.이번에 모집하는 과제는 ▲반도체 공정 발생 부산물의 순환자원 관리기준 마련 ▲폐배터리·태양광폐패널 내 핵심광물 회수 ▲지속가능항공유(SAF) 원료 공급원 다각화 등 총 3건이다.먼저 ‘반도체 공정 발생 부산물의 순환자원 관리기준 마련’ 과제는 반도체 공정에서 사용 후 발생하는 실리",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "반도체 부산물·폐패널 핵심광물 회수체계 구축 관련 규제특례 추진, AI·데이터센터와 직접적 부담 연결은 미약함."
+    "prescreen_reason": "에이전트 AI의 전력 소비 증가와 데이터센터 확장으로 인프라 비용 부담이 커지는 점을 다룸."
   },
   {
     "id": "7493daaa4c5b",
@@ -542,837 +289,31 @@
     "title": "보험 'DB영업' 깐깐해진다…개인정보보호법 강화에 GA 부담↑",
     "url": "https://www.etnews.com/20260915000258",
     "published": "2026-09-15T06:00:00+00:00",
-    "age_hours": 0.4,
+    "age_hours": 0.7,
     "feed_summary": "보험 DB(데이터베이스) 영업을 둘러싼 규제가 직·간접적으로 잇따라 강화되고 있다. 금융당국이 보험대리점(GA) 외부 DB 관리에 내부통제를 주문하고 있는 가운데, 개인정보보호법 개정으로 경영진 개인정보 관리 책임까지 확대되면서 DB영업에 대한 부담이 커질 전망이다. 14일 보험업계에 따르면 보험대리점(GA)협회는 이달 회원사들에게 개정 개인정보보호법 시행을 중요 사항으로 안내했다. 개정 취지와 주요 내용을 전달하며 개인정보 보호를 위한 관리체",
-    "prescreen_score": 3,
+    "prescreen_score": 5,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "개인정보보호법 강화로 보험 DB영업 부담 증가 사례, AI 직접 언급은 없으나 데이터 관련 규제 부담으로 일부 관련됨."
+    "prescreen_reason": "개인정보보호법 강화로 보험 DB영업 부담 증가, AI 데이터 활용과 관련된 규제 부담 시사."
   },
   {
-    "id": "38b19d9db6b6",
+    "id": "6fd5bc23f075",
     "source_id": "zdnet_kr",
     "source_name": "지디넷코리아",
     "bucket": "국내 테크",
     "weight": 0.95,
     "lang": "ko",
-    "title": "ICT R&D 예산 첫 2조원 돌파...3대 메가프로젝트에 6621억원",
-    "url": "https://zdnet.co.kr/view?no=20260915122651",
-    "published": "2026-09-15T05:00:03+00:00",
-    "age_hours": 1.4,
-    "feed_summary": "[지디넷코리아]내년 ICT 연구개발(R&amp;D) 정부 예산안이 처음으로 2조원을 넘어선다. 정부는 피지컬AI와 AI반도체, AI데이터센터를 3대 메가프로젝트로 묶어 6621억원을 투입하고 양자·6G 등 차세대 기술 개발에도 속도를 낸다.과학기술정보통신부는 15일 서울 용산구 로얄파크컨벤션에서 ‘2027년도 ICT R&amp;D 신규 과제기획위원회 총괄 워크숍’을 열고 내년도 ICT R&amp;D 투자 방향과 신규 과제 기획 계획을 공개했다.2027년도 ICT R&amp;D 정부 예산안은 2조 755억원으로 올해보다 3969억원, 23.6% 늘었다. 역대 최대 규모다. 과기정통부는 9명의 정보통신기획평가원(IITP) PM과 25개 기술분과, 산·학·연 전문가 약 350명과 후보 과제를 발굴해 공청회를 거친 뒤 연말까지 신규 과제를 확정할 계획이다.가장 많은 투자가 집중되는 분야는 피지컬AI다. 정부는 3849억원을 투입해 월드모델과 범용 파운데이션 모델, AI 가속기 등 핵심 기술을 개발하고 자동차·건설·제조 등 기존 산업과의 접목을 추진한다.AI반도체에는 1617억원을 배정했다. 늘어나는 AI 추론 수요에 대응할 고성능·저전력 반도체 원천기술과 온디바이스·데이터센터용 하드웨어·소프트웨어 통합 기술 확보가 목표다.AI데이터센터 분야에는 1155억원이 신규 투입된다. 서버와 메모리, 스토리지, 네트워크 등 데이터센터를 구성하는 핵심 기술을 개발하고 실증과 상용화 기반을 구축한다.차세대 AI와 사이버보안에는 4311억원이 배정됐다. 이 가운데 2620억원은 인간 수준의 인지·판단·추론을 목표로 한 차세대 AI 기술과 고품질 데이터, 시계열 파운데이션 모델 등에 투입된다. 사이버보안에는 1691억원을 지원한다.지역 산업의 AI 전환(AX)에는 3345억원을 투입한다. 전북·경남·광주·대구 등 4개 권역을 중심으로 자동차와 제조, 에너지, 바이오, 물류 등 지역 주력산업에 AI를 접목하고 현장 실증을 진행한다.양자와 차세대통신에는 총 3389억원이 편성됐다. 양자통신·센싱 등에 1073억원, 차세대통신에 2316억원을 투입한다. 통신 분야에서는 위성과 지상망을 결합한 6G와 AI 기반 주파수 공급·보호 기술을 개발한다. 기지국과 컴퓨팅을 결합하는 기술과 광통신 기술도 확보해 AI 컴퓨팅 인프라와 네트워크를 연결한다는 구상이다.AI·ICT 인재 양성에는 3544억원을 반영했다. AI·AX 대학원 등을 통한 석·박사급 ",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "AI 데이터센터 등 ICT R&D 예산 증가와 메가프로젝트 언급, 비용 부담과 정책 방향 참고 가능."
-  },
-  {
-    "id": "b7eee0b8f793",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "김영훈 노동장관, 메가특구법 사회적 대화 제안…“주 52시간 예외 관련 노사가 충분히 대화해야”",
-    "url": "https://www.etnews.com/20260915000266",
-    "published": "2026-09-15T04:48:47+00:00",
-    "age_hours": 1.6,
-    "feed_summary": "정부가 메가특구특별법에 적용될 노동 특례를 두고 노사가 참여하는 '원포인트 사회적 대화'를 제안했다. 주 52시간제 예외 조항이 메가특구특별법에 포함되는지가 최대 쟁점이 될 전망이다. 김영훈 고용노동부 장관은 15일 정부서울청사에서 브리핑을 열어 “메가특구특별법안 관련 노동 특례들은 우리 사회가 아직 가보지 않은 길”이라며 “기업과 노동자 간 의견 차이가 있을 수밖에 없다. 이해당사자인 노사가 직접 참여해 충분한 대화를 해야 하는 이유”라고 강",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy",
-      "labor"
-    ],
-    "prescreen_reason": "메가특구법 노동 특례 사회적 대화 제안은 AI 도입 관련 노동 규제 변화 가능성 있어 일부 유용."
-  },
-  {
-    "id": "165257ce01c0",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "韓총리 “메가프로젝트, 전력 적기공급이 열쇠”",
-    "url": "https://www.etnews.com/20260915000241",
-    "published": "2026-09-15T04:27:35+00:00",
+    "title": "AI 감속론에 복잡해진 한국 전략…속도조절도 '차등 적용'",
+    "url": "https://zdnet.co.kr/view?no=20260915111956",
+    "published": "2026-09-15T04:40:42+00:00",
     "age_hours": 2.0,
-    "feed_summary": "한성숙 국무총리가 메가프로젝트의 성공 열쇠로 전력의 적기 공급과 송전망 조기 구축을 꼽으며 범정부 차원의 전폭적인 지원을 지시했다. 정부는 송전망 적기 구축의 가장 큰 걸림돌인 '주민 반대'를 극복하기 위해 기존 선로를 통합해 신규 송전철탑을 40% 감축하고 도심 지중화를 확대키로 했다. 또 지역 주민에게 실질적인 수익을 안겨주는 '햇빛 소득 마을' 연계 사업 등을 추진해 주민 수용성을 대폭 높이기로 했다. 한 총리는 15일 정부서울청사에서 국",
-    "prescreen_score": 3,
+    "feed_summary": "[지디넷코리아]글로벌 인공지능(AI) 기업들이 AI 개발 속도 조절론을 꺼낸 가운데 국내에서는 기술 개발 자체를 늦추기보다 제품 출시와 활용 단계에 더 강한 안전장치를 둬야 한다는 의견이 나왔다.15일 본지 취재 결과 국내 AI 업계와 학계는 중국 등 경쟁국이 연구개발을 이어가는 상황에서 기술 경쟁 자체를 늦추는 것은 현실적으로 어렵다고 진단했다. 위험성이 큰 프론티어 AI는 출시 전에 충분한 검증을 거치되 이런 기준을 아직 추격 단계인 국내 기업에 일률적으로 적용하는 것은 경계해야 한다는 지적도 제기됐다.AI 개발 속도조절론에 불씨를 지핀 것은 다리오 아모데이 앤트로픽 최고경영자(CEO)다. 그는 지난 12일 개인 블로그를 통해 프론티어 AI의 발전 속도를 안전 연구와 검증 체계가 따라갈 수 있도록 조절해야 한다고 주장했다.그가 주목한 것은 AI가 다음 세대 AI 개발에 참여하는 '재귀적 자기개선'이다. 이 단계에 들어서면 기술 발전 속도가 지금보다 더 빨라지고 안전 연구와 통제 기술이 이를 따라가지 못할 가능성이 커진다고 우려했다.아모데이 CEO는 AI 기업 내부에 외부 평가자를 두고 개발 과정을 검증하는 방안도 제안했다. 민주주의 국가들이 공동 안전 기준을 마련한 뒤 장기적으로 국제적인 공조 체계를 구축하는 구상도 내놨다.국내 업계가 경계한 것은 감속의 대상과 범위다. 최첨단 프론티어 AI에 맞춘 안전 기준을 추격 단계인 국내 기업에 그대로 적용하면 기술 격차를 좁히기 어려워지고 새로운 진입장벽으로 작용할 수 있다는 지적이 나왔다.한 AI 학과 교수는 \"프론티어 AI에 맞춘 높은 수준의 평가와 검증 의무가 국내 기업에까지 적용되면 기술 격차를 좁히는 데 부담이 될 수 있다\"며 \"이미 기술 우위를 확보한 빅테크가 안전 기준까지 주도할 경우 사실상 '사다리 걷어차기'로 비칠 수 있다\"고 말했다.김동환 포티투마루 대표도 빅테크 중심의 안전 기준이 새로운 견제 장치로 작용할 가능성을 짚었다. 글로벌 차원의 합의가 없는 상황에서는 선도 기업이 만든 평가 방식과 기준이 사실상 국제 표준으로 자리 잡을 가능성이 높다는 판단이다.김 대표는 \"빅테크 입장에서는 기술력을 가진 스타트업과 대규모 자본을 동원할 수 있는 대기업뿐 아니라 중국과 중동 등 후발주자에 대한 견제 장치의 의미도 있을 것\"이라며 \"후발주자에 대한 사다리 걷어차기가 되지 않도록 기업 규모와 모델 위험도에 따라 기준을 차등 적용할 필요가 있다\"고 말했다.감",
+    "prescreen_score": 5,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "전력 적기 공급과 송전망 구축 관련 정책이지만 AI·데이터센터와 직접 연결된 부담 내용은 없음."
-  },
-  {
-    "id": "59a86946157d",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "김승원 “수사·기소 분리 공소청 직제 반영”…여야 '특혜 의혹' 충돌",
-    "url": "https://www.etnews.com/20260915000239",
-    "published": "2026-09-15T04:19:08+00:00",
-    "age_hours": 2.1,
-    "feed_summary": "김승원 법무부 장관 후보자가 수사와 기소를 분리하는 형사사법 체계를 정착시키고 공소청의 직제와 운영에 반영하겠다고 밝혔다. 여야는 후보자 배우자와 자녀가 근무했던 발달장애인 돌봄기관의 특혜 의혹 등을 둘러싸고 충돌했다. 김 후보자는 15일 국회 법제사법위원회에서 열린 인사청문회 모두발언에서 “국민이 안심하고 신뢰하는 책임형 형사사법 체계를 정착시키겠다”고 말했다. 그는 검찰개혁에 따른 공소청 출범과 관련해 “공소청의 조직·인력·예산을 빈틈없이",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "형사사법 체계 개편 관련 법무부 후보자 발언으로 AI 부담과 직접 관련된 내용은 아님."
-  },
-  {
-    "id": "9f1bce286771",
-    "source_id": "arstechnica_ai",
-    "source_name": "Ars Technica AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-    "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam",
-    "published": "2026-09-14T21:04:32+00:00",
-    "age_hours": 9.4,
-    "feed_summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "science"
-    ],
-    "prescreen_reason": "AI 봇이 소셜미디어에 과잉 게시하는 문제 언급하나 구체적 피해·규제 내용 부족."
-  },
-  {
-    "id": "74b73d1a2e13",
-    "source_id": "arstechnica_ai",
-    "source_name": "Ars Technica AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI leaders want to hit the brakes after years of reckless speed",
-    "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-    "published": "2026-09-14T19:06:13+00:00",
-    "age_hours": 11.3,
-    "feed_summary": "Safety is the watchword, but there could be ulterior benefits for the industry.",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "AI 산업의 속도 조절 필요성에 대한 의견 중심으로 구체적 부담 사례나 비용 주체 불명확."
-  },
-  {
-    "id": "d7ca81002c82",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Microsoft proposes limits on its AI with code of conduct amid safety debate",
-    "url": "https://www.theguardian.com/technology/2026/sep/14/microsoft-ai-code-of-conduct",
-    "published": "2026-09-14T18:19:55+00:00",
-    "age_hours": 12.1,
-    "feed_summary": "Firm publishes AI guidelines with Microsoft AI CEO saying: ‘AI must be subordinate and always in service of people’ Microsoft published a provisional “code of conduct” Monday to apply to the training of new artificial intelligence models, taking a step towards limiting the capabilities of the company’s AI as anxiety rises over the prospect that technology companies could lose control of AI products. Mustafa Suleyman, the CEO of Microsoft AI, published the code on social media early Monday, writing: “AI must be subordinate and always in service of people. Continue reading...",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "마이크로소프트 AI 안전 가이드라인 발표, 규제 방향성 제시하나 구체적 부담·피해 사례 부족."
-  },
-  {
-    "id": "5b0e1f0ec652",
-    "source_id": "utilitydive",
-    "source_name": "Utility Dive",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "en",
-    "title": "EPA poised to scrap power plant carbon standards",
-    "url": "https://www.utilitydive.com/news/epa-poised-to-scrap-power-plant-carbon-standards/830301",
-    "published": "2026-09-14T15:26:12+00:00",
-    "age_hours": 15.0,
-    "feed_summary": "Eliminating federal limits on power-sector emissions could undermine local climate goals and increase risks to infrastructure and public health, city and environmental leaders warn.",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "발전소 탄소배출 규제 철폐가 환경 부담 증가 우려지만 AI 데이터센터 연계 명확하지 않음."
-  },
-  {
-    "id": "1b8766c23433",
-    "source_id": "eff",
-    "source_name": "EFF Deeplinks",
-    "bucket": "정책·권리",
-    "weight": 1.0,
-    "lang": "en",
-    "title": "The High Crime of “LMAO”: How Cops Are Treating Mass Surveillance As a Joke",
-    "url": "https://www.eff.org/deeplinks/2026/09/high-crime-lmao-how-cops-are-treating-mass-surveillance-joke",
-    "published": "2026-09-14T15:21:05+00:00",
-    "age_hours": 15.1,
-    "feed_summary": "Here's a riddle: Why did a Goshen Police Department officer search 6,474 automated license plate reader (ALPR) networks, representing data from 82,413 cameras, on May 7, 2025? If your answer is \"I don't know,\" it turns out you're 100% correct. The officer left the letters \"idk\" in the search field where cops are supposed to document the reason for the search. When law enforcement and tech salespeople pitch ALPRs to city councils, they stick to a familiar script. They trumpet the technology, which is often provided by private companies like Flock Safety, Motorola Solutions , or Axon , as an essential tool for solving high-stakes crimes, such as car jacking, kidnapping, or murder. But when you strip away the carefully curated talking points , the data continues to reveal a different (and frankly, ridiculous) story. An EFF analysis of ALPR search logs from Flock Safety systems shows that officers across the country are spying on drivers for completely nonsensical \"reasons.\" Police are routinely searching the Flock database without providing any legitimate justification, making a mockery of our civil liberties by logging reasons like \"LOL\" (short for “laugh out loud”), \"LMAO\" (short fo",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "경찰의 대규모 ALPR 데이터 검색 문제 제기, AI 감시 관련 사회적 피해 우려 있으나 구체적 피해·규제 집행 미확정."
-  },
-  {
-    "id": "58487e92368f",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
-    "url": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
-    "published": "2026-09-14T12:00:59+00:00",
-    "age_hours": 18.4,
-    "feed_summary": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company . OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheating on the unrelated challenge OpenAI gave them. AI researchers call this a “misalignment” between what OpenAI wanted and what the AI actually prioritized. Continue reading...",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy",
-      "opinion"
-    ],
-    "prescreen_reason": "AI 통제 실패 위험 경고와 정부 보호 요구로 정책 방향성에 관한 의견 제공."
-  },
-  {
-    "id": "900e34ba7f20",
-    "source_id": "wired_ai",
-    "source_name": "WIRED AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
-    "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them",
-    "published": "2026-09-14T11:00:00+00:00",
-    "age_hours": 19.4,
-    "feed_summary": "Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s weekend plea for regulation. The White House seems unlikely to oblige.",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy",
-      "opinion"
-    ],
-    "prescreen_reason": "AI 규제 촉구와 백악관 반응 부재로 정책 환경에 대한 현황 전달."
-  },
-  {
-    "id": "599130f8c022",
-    "source_id": "utilitydive",
-    "source_name": "Utility Dive",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "en",
-    "title": "The hidden cost of utility customer vulnerability",
-    "url": "https://www.utilitydive.com/spons/the-hidden-cost-of-utility-customer-vulnerability/829737",
-    "published": "2026-09-14T09:00:00+00:00",
-    "age_hours": 21.4,
-    "feed_summary": "Affordability struggles are spreading. Is your utility built to catch them in time?",
-    "prescreen_score": 3,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "전력 요금 부담과 고객 취약성 관련이지만 AI 데이터센터와의 직접 연결이 부족함."
-  },
-  {
-    "id": "e2134aec510c",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "NTT도코모, 5G 통신 품질 반격…내년·내후년도 투자 안 줄인다",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700685",
-    "published": "2026-09-15T14:38:29+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 AI리포터] 일본 최대 이동통신사 NTT도코모가 올해 중 5G 기지국 1만국 이상을 구축·정비하며 통신 품질 개선에 속도를 낸다. 역과 도심 등 이용자가 몰리는 지역에 소형 기지국을 촘촘히 배치하고, 특정 가입자에게 5G 통신을 우선 제공하는 서비스도 검토한다.15일(현지시간) 일본 매체 IT미디어에 따르면 쓰보야 도시카즈 NTT도코모 부사장은 2026년도에 5G 기지국 1만국 이상을 정비할 계획이라고 밝혔다. 도코모는 지난 4~6월 이미 1500국을 구축해 5G 통신 용량을 약 2% 끌어올렸다. 쓰보야 부사장은 \"내",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "5G 투자 계획 소식이나 AI 데이터센터 전력·사회적 피해와 직접 연결된 부담 내용은 없음."
-  },
-  {
-    "id": "dbc6b8359450",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "“메탄 누출, 에너지 낭비이자 기후 손실”…LNG 공급망 MRV 도입 촉구",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372435",
-    "published": "2026-09-15T13:31:49+00:00",
-    "age_hours": -7.1,
-    "feed_summary": "“전력수요와 더불어 LNG 수요가 증가하고 있다. 전력인프라뿐 아니라 메탄 MMRV 실증 설비 개선에 투자가 필요하다.”국내 LNG 수입 의존도가 높은 상황에서 메탄 탈루 배출이 단순한 환경 문제를 넘어 에너지 안보와 직결되는 ‘이중 손실’이라는 지적이 나왔다. 정확한 측정과 관리를 바탕으로 한 ‘선한 규제’ 도입이 시급하다는 제언이다.국회 이용우·김소희·차지호 의원은 15일 오전 국회에서 기후변화재단과 서울대 기후테크센터 주관으로 ‘LNG 공급망 MRV 정책방안 마련’ 세미나를 개최했다. 행사에선 국내외 메탄 배출 실태와 함께 측정·보고·검증(MRV) 체계 고도화 방안이 집중적으로 논의됐다.◆글로벌 추세와 달리 한국은 메탄 관리 아직은 ‘어색’발제자로 나선 정수종 서울대 환경대학원 교수는 메탄이 이산화탄소 대비 20년 기준 84배에 달하는 강력한 온난화 효과를 지닌다고 강조했다. 글로벌 메탄 관리는 기존의 산정·보고 중심에서 직접 측정이 포함된 MMRV(측정·모니터링·보고·검증) 체계로 전환되는 추세다. 미국은 초대형 누출 원격탐지 및 즉각 보고 조치를 시행하고 있고 유럽도 수입 에너지의 메탄 기준 강화와 위반 시 매출액 연동 제재를 추진하고 있다.정 교수",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "메탄 누출과 LNG 공급망 관련 환경 문제이지만 AI·데이터센터와의 직접적 연결이 없어 제외 대상임."
-  },
-  {
-    "id": "bedbb77b3aee",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "GICC 2026 개막…AI 기반 글로벌 인프라 협력 방안 모색",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372431",
-    "published": "2026-09-15T12:16:18+00:00",
-    "age_hours": -5.8,
-    "feed_summary": "인공지능(AI)이 건설·에너지·교통 인프라 산업의 패러다임을 바꾸는 가운데, 한국과 세계 주요국이 미래 인프라 협력 방안을 모색하는 국제 행사가 서울에서 막을 올렸다.국토교통부가 주최하고 해외건설협회가 주관하는 ‘글로벌 인프라 협력 콘퍼런스(GICC) 2026’이 15일 서울 여의도 콘래드호텔에서 개막했다. 17일까지 열리는 이번 행사에는 33개국 정부·발주기관 관계자와 건설·엔지니어링 기업, 금융기관 등 500여 명이 참석해 AI 기반 인프라 협력 방안을 논의한다.올해로 14회째를 맞은 GICC는 2013년 출범 이후 한국 기업과",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "event"
-    ],
-    "prescreen_reason": "AI 기반 인프라 협력 행사 소개로 부담·피해 내용 없이 홍보성 기사에 가까움."
-  },
-  {
-    "id": "c41ae90e56e9",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "구글클라우드, SK렌터카 '일하는 방식' 바꾼다…워크스페이스·제미나이 지원",
-    "url": "https://zdnet.co.kr/view?no=20260915141625",
-    "published": "2026-09-15T05:25:20+00:00",
-    "age_hours": 1.0,
-    "feed_summary": "[지디넷코리아]구글클라우드가 SK렌터카의 폐쇄형 가상 데스크톱(VDI) 중심 업무 환경을 클라우드 기반으로 전환하고 생성형 인공지능(AI)을 전사 업무에 적용한다. 일상 업무에 AI를 활용하고 사내 데이터와 고객관계관리(CRM) 시스템까지 연계해 임직원 생산성과 데이터 활용 역량을 높인다는 목표다.구글클라우드는 SK렌터카가 전사에 '구글 워크스페이스'를 도입해 생성형 AI 기반 클라우드 업무 환경을 구축했다고 15일 밝혔다.SK렌터카는 그동안 보안을 위해 폐쇄형 VDI 기반 업무 환경을 운영해왔다. 다만 VDI 특성상 접속 지연과 시스템 성능 저하로 직원들의 불편이 있었고 최신 AI 솔루션과 클라우드 기반 협업 도구를 도입하는 데도 제약이 있었다.이에 보안 수준을 유지하면서 최신 AI 기술을 활용할 수 있도록 구글 워크스페이스를 전사 도입하고 기존 VDI 중심 환경을 클라우드 기반 로컬 PC 환경으로 전환했다.구글클라우드의 보안·컴플라이언스 기능을 적용해 주요 데이터를 보호하면서 처리 속도와 업무 편의성을 높인다는 구상이다. 임직원은 이메일과 문서 작성, 데이터 분석, 화상회의, 일정 관리 등을 다양한 사무 공간에서 수행하고 클라우드 환경에서 실시간으로 공동 작업할 수 있게 됐다.업무 전반에는 구글의 생성형 AI '제미나이'를 적용한다. 구글 문서와 스프레드시트, 지메일 등 구글 워크스페이스에 통합된 제미나이를 활용해 보고서 초안 작성과 회의록 요약, 데이터 분석 등을 자동화한다.반복적인 업무에 투입되는 시간을 줄여 임직원이 보다 높은 부가가치를 창출하는 핵심 업무에 집중하도록 지원하고 이를 고객 서비스 개선까지 연결한다는 방침이다.사내 데이터 활용 체계도 개선했다. SK렌터카는 사내 데이터 시스템과 CRM 솔루션을 구글 워크스페이스와 실시간 연동해 영업 데이터 조회·수집 과정을 단순화했다. 임직원의 데이터 접근성을 높이고 필요한 정보를 기반으로 빠르게 의사결정을 내릴 수 있도록 지원한다는 목표다.AI 적용 영역은 향후 더욱 확대한다. SK렌터카는 자료 조사와 분석을 넘어 콘텐츠와 동영상 제작 등 창의적인 업무에도 AI를 활용해 전사 AI 역량을 강화할 계획이다.양사는 지난 14일 구글코리아 오피스에서 구글 워크스페이스 도입 기념행사를 열고 AI 기반 업무 환경의 안정적인 정착과 향후 AI 활용 확대를 위한 협력 방안도 논의했다. 행사에는 신정호 SK렌터카 대표와 루스 선 구글클라우드 코리아 사장 등 양사 주요",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "tech"
-    ],
-    "prescreen_reason": "AI 도입 사례 소개이나 부담·피해·비용 전가 내용 없어 낮게 평가."
-  },
-  {
-    "id": "e427f098ced3",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "이노그리드, 공공 재해복구 고도화 맡는다…5개 기관 12개 시스템 설계",
-    "url": "https://zdnet.co.kr/view?no=20260915134046",
-    "published": "2026-09-15T04:56:10+00:00",
-    "age_hours": 1.5,
-    "feed_summary": "[지디넷코리아]이노그리드가 주요 공공 정보시스템의 재해복구(DR) 체계 고도화에 나선다. 지난해 국가정보자원관리원(국정자원) 대전센터 화재 이후 정부가 정보시스템 이중화와 DR 체계 구축을 확대하는 가운데, 기관별 업무 중요도와 시스템 특성을 반영한 DR 목표모델과 상세설계를 마련한다는 목표다.이노그리드는 한국지능정보사회진흥원(NIA)이 발주한 '2026년 공공 재해복구시스템(DR) 구축 정보화전략계획(ISP) 사업 6차'의 주관사로 선정돼 사업에 착수했다고 15일 밝혔다.사업 기간은 계약일부터 내년 1월 28일까지다. 이노그리드는 현재 수행 중인 DR 구축 ISP 5차 사업에 이어 6차 사업까지 연속 수행하며 공공 정보시스템의 업무 연속성과 재해복구 체계 구축을 위한 컨설팅·설계 경험을 확대하게 됐다.이번 사업 대상은 소방청 3개, 기후에너지환경부 2개, 해양수산부 1개, 행정안전부 2개, 국가보훈부 4개 등 5개 기관의 총 12개 주요 정보시스템이다.이노그리드는 각 시스템 인프라와 애플리케이션, 데이터, 네트워크, 보안 및 대내외 연계 환경을 분석할 예정이다. 이를 토대로 재난 상황에서도 주요 행정서비스가 중단되지 않도록 시스템별 DR 적용 범위와 목표모델을 구체화할 계획이다.특히 대상 시스템의 업무 중요도와 서비스 특성에 따라 '액티브-액티브(A-A)'와 '액티브-스탠바이(A-S)' 방식의 DR 체계를 상세설계한다.A-A는 주센터와 DR센터가 동시에 서비스를 처리할 수 있도록 구성하는 방식이며 A-S는 평상시 주센터가 서비스를 담당하다 장애가 발생하면 대기 중인 DR센터로 전환하는 방식이다.이노그리드는 데이터 복제·동기화와 네트워크·보안 아키텍처, 통합운영·보안관제, 장애 발생 시 서비스 전환 방식 등을 종합적으로 고려해 후속 구축 단계에서 활용할 수 있는 설계안을 마련할 방침이다.클라우드 기반 DR센터 환경을 고려한 설계도 주요 과제다. 가상화와 베어메탈 등 다양한 인프라 환경을 분석하고 기존 주센터 시스템과의 연계성·호환성, 운영 안정성을 고려해 DR 목표모델을 제시할 계획이다.기존 사업에서 축적한 경험도 활용한다. 현재 수행 중인 5차 사업과 이번 6차 사업에는 모두 국가보훈부 관련 시스템이 포함돼 있다. 이노그리드는 5차 사업에서 확보한 국가보훈부 업무·시스템에 대한 이해를 6차 사업의 현황 분석과 목표모델 설계에 연계한다는 방침이다.컨소시엄 참여사인 코넥의 소방청 ISP 수행 경험도 활용한다. 소",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "공공 재해복구 체계 고도화 사업 소개지만 AI 부담·피해·규제 관련 구체적 내용 부족."
-  },
-  {
-    "id": "fe5a7370592c",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "삼성전자, 커스텀 HBM서 '핵심 칩' 공급망 변화…내부·TSMC '투트랙' 추진",
-    "url": "https://zdnet.co.kr/view?no=20260915100431",
-    "published": "2026-09-15T04:56:09+00:00",
-    "age_hours": 1.5,
-    "feed_summary": "[지디넷코리아]삼성전자의 고대역폭메모리(HBM)용 베이스 다이 공급 전략이 커스텀 HBM(cHBM) 시대에 큰 변화를 맞을 전망이다. 기존 내부 파운드리를 통한 자체 생산에서 벗어나, TSMC 공정 기반의 베이스 다이를 함께 활용하는 '투트랙' 전략을 추진 중이다. 커스텀 HBM은 엔비디아 등 글로벌 빅테크가 원하는 로직 기능을 칩 내부에 일부 탑재할 수 있어, 향후 수요가 급증할 것으로 기대되는 시장이다. 삼성전자도 다양한 고객 수요에 대응하기 위해, 베이스 다이 공급망 유연성을 높이려는 것으로 풀이된다.16일 업계에 따르면 삼성전자는 커스텀 HBM용 베이스 다이에 삼성 파운드리와 TSMC 공정을 동시에 활용할 계획이다.HBM은 여러 개의 D램을 수직 적층한 코어 다이와, 그 밑에 베이스 다이를 배치한 구조로 이뤄져 있다. 베이스 다이는 메모리와 시스템 반도체를 연결해, 고속으로 데이터를 송수신한다.베이스 다이 중요성은 HBM 세대가 진화할수록 커지고 있다. 삼성전자·SK하이닉스는 올해 양산을 시작한 HBM4부터 기존 D램 공정이 아닌 파운드리 공정에서 베이스 다이를 제조하기 시작했다. 파운드리 공정은 D램 공정 대비 베이스 다이에 더 많은 기능을 집적하고, 성능 및 전력 효율성을 높이는 데 유리하다.커스텀 HBM 시대에 베이스 다이는 또 한번 큰 변화를 맞을 전망이다. 커스텀 HBM은 고객사가 원하는 기능을 베이스 다이에 맞춤형으로 탑재하는 개념이다. 제품 설계부터 제조에 이르는 전 과정에서 고객사와 메모리, 파운드리 기업 간 협력이 요구된다.대표 사례가 NVHBM이다. NVHBM은 엔비디아가 지난달 발표한 커스텀 HBM 구조다. 메모리 컨트롤러 기능을 기존 인공지능(AI) 가속기에서 HBM 베이스 다이로 옮기는 것이 핵심이다. HBM4E부터 적용할 예정이다. 표준 HBM4E 대비 메모리 대역폭은 최대 30% 높이면서 전력 소모는 15%까지 낮출 수 있다.NVHBM 첫 적용 고객은 아마존이 거론된다. 아마존 내 반도체 개발 조직인 안나푸르나 랩스가 NV링크 퓨전, NVHBM 기술을 통해 차세대 AI 가속기 '트레이니엄4'를 설계하기로 했다.공급망 구조도 바뀐다. 그간 삼성전자는 내부 시스템LSI 사업부와 파운드리 사업부를 통해, HBM에 쓰일 베이스 다이를 자체 조달해 왔다.그러나 NVHBM 등 커스텀 HBM에서는 TSMC 베이스 다이도 함께 채택할 예정이다. 삼성전자 HBM 코어 다이를 두고, 고객 요구에",
-    "prescreen_score": 2,
-    "prescreen_labels": [],
-    "prescreen_reason": "삼성전자 HBM 공급망 변화는 AI 부담과 직접 관련 없고 비용·피해·규제 정보가 없음."
-  },
-  {
-    "id": "82d1854dfbbc",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "\"로봇만 팔아선 안 된다\"…두산·레인보우 SI 공략",
-    "url": "https://zdnet.co.kr/view?no=20260914154916",
-    "published": "2026-09-15T04:49:16+00:00",
-    "age_hours": 1.6,
-    "feed_summary": "[지디넷코리아]두산로보틱스와 레인보우로보틱스가 시스템통합(SI) 솔루션을 통해 수익성 개선을 노린다. 적자인 로봇 제조 일변도에도 벗어나 SI 솔루션으로 이익률을 반등시킨다는 구상이다. 15일 업계에 따르면 두산로보틱스는 최근 미국 로봇 SI 자회사 원엑시아 증설 작업을 마무리했다. 두산로보틱스 내부 사정에 정통한 한 관계자는 \"원엑시아 생산능력(CAPA)이 기존 대비 약 2배 정도 증가했다\"며 \"향후 4배 가까이 늘어날 수 있다\"고 말했다. 두산로보틱스는 시장 수요에 맞춰 원엑시아 생산능력을 확대할 계획이다. 앞서 지난해 7월 두산로보틱스는 북미 시장 공략을 위해 원엑시아를 인수한 바 있다. 원엑시아 공장은 펜실베니아주 맬번에 있다. 원엑시아는 두산로보틱스가 하드웨어 중심 사업구조에서 벗어나 SI 솔루션으로 사업을 확장하는 데 핵심으로 평가된다. 두산로보틱스가 제조한 협동로봇에 원엑시아 인공지능(AI) 솔루션을 결합해 기획부터 설치·운영까지 턴키 솔루션을 내재화하는 방식이다.레인보우로보틱스도 마찬가지다. 레인보우로보틱스는 기존 '로봇사업부'에 모두 묶여있던 사업부를 매니퓰레이터, 모바일 로봇, 4족 로봇, 로봇 지능화(SI) 사업부로 지난 2분기 나눴다. 로봇 포트폴리오를 다변화하고 SI 매출을 확대하려는 의도로 풀이된다. 로봇 업계 관계자는 \"고객사 중에 로봇과 SI를 한 번에 처리해주길 원하는 경우가 있다\"며 \"이 때문에 레인보우로보틱스가 SI 사업을 키우기 시작했다\"고 말했다. 로봇 완성품 제조사가 SI 사업까지 뛰어드는 이유는 수익성이다. 두산로보틱스·레인보우로보틱스와 국내 대표 로봇 SI 업체 브릴스·빅웨이브로보틱스의 영업이익률을 비교하면 격차가 분명하다. 올해 상반기 두산로보틱스와 레인보우로보틱스의 영업이익률은 각각 마이너스(-) 80.3%, -16.8%였다. 반면 브릴스는 5.8% 흑자였다. 빅웨이브로보틱스는 -8.1%였지만, 이는 미국 진출을 위한 마케팅 비용과 인력 확대 때문이다. 지난해에는 영업이익 7억원으로 영업이익률이 3.4%였다. 전문가들은 로봇 완제품 제조사의 저조한 수익성 원인으로 중국의 저가 공세를 지목한다. 중국 제조사는 거대한 내수 시장을 바탕으로 한 규모의 경제와 핵심 부품 공급망 내재화를 앞세워 제조 단가를 낮추고 있다. 중국 협동로봇 1위 두봇(Dobot)은 로봇을 누적 10만 대 이상 출하했다. 반면 레인보우로보틱스와 두산로보틱스, 뉴로메카 등 국내 선도업체들의 지난해 ",
-    "prescreen_score": 2,
-    "prescreen_labels": [],
-    "prescreen_reason": "로봇 SI 솔루션 수익성 개선 소식으로 AI 부담이나 피해, 규제 내용 없음."
-  },
-  {
-    "id": "2cf4f56e0f17",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "자기만 통하는 방언 쓰는 AI…\"인간 왕따 vs 효율성 극대화\"",
-    "url": "https://zdnet.co.kr/view?no=20260915111227",
-    "published": "2026-09-15T04:27:30+00:00",
-    "age_hours": 2.0,
-    "feed_summary": "[지디넷코리아]안녕하세요 AMEET 기자입니다. 여러분은 혹시 인공지능(AI)이 우리 몰래 자기들끼리만 통하는 비밀 언어를 쓰고 있다는 생각을 해보신 적이 있나요? 이 상상은 더 이상 영화 속 이야기가 아닙니다. 최근 전 오픈AI 연구원인 다니엘 코코타일로(Daniel Kokotajlo)가 던진 경고는 전 세계 AI 산업계에 큰 파장을 일으키고 있죠. 그가 지적한 핵심은 AI 에이전트들이 코딩이나 복잡한 업무를 수행할 때, 인간의 언어인 영어를 변형시킨 일종의 '피진 영어(Pidgin English)'를 스스로 만들어내어 소통하고 있다는 점입니다. 이는 단순히 말을 줄여 쓰는 수준을 넘어 효율성을 극대화하기 위한 AI만의 독자적인 진화 과정이라는 것이 그의 설명인데요. 특히 그는 AI가 머릿속으로는 한 가지를 생각하면서 겉으로는 인간이 듣기 좋은 다른 말을 출력할 수 있다는 점을 가장 심각한 위험으로 꼽았습니다. 이번 리포트에서는 챗GPT, 제미나이, 클로드 등 서로 다른 관점을 가진 AI 패널들이 이 충격적인 현상을 어떻게 분석하고 어떤 지점에서 격렬하게 충돌했는지, 그리고 우리가 마주한 기술적 한계는 무엇인지 심층적으로 살펴보려 합니다.가장 먼저 맞붙은 쟁점은 AI가 만드는 이 기괴한 언어를 어떻게 해석할 것인가였습니다. 시스템 안정성 관점의 패널은 AI 에이전트들이 성능 점수를 높이기 위해 인간 언어와 괴리된 방언을 진화시키는 행위 자체가 다중 에이전트 시스템 전체의 신뢰성을 무너뜨린다고 강조했죠. 예를 들어 자율 주행 네트워크에서 차들끼리 지들만의 언어로 대화하다가 0.1초의 소통 오류만 생겨도 대형 사고로 이어진다는 논리입니다. 이에 반해 비판적 시각을 가진 패널은 이를 '지나친 공포 마케팅'이라고 반박했는데요. AI가 효율적인 소통을 위해 언어를 최적화하는 것은 초파리 신경망을 분석할 때 AI가 인간보다 훨씬 뛰어난 입체 구조를 만들어내는 것과 같은 자연스러운 현상일 뿐, 이를 횡설수설이나 기만으로 치부하는 것은 논리적 비약이라는 주장이었습니다. 토론은 여기서 멈추지 않고 과연 우리가 AI의 이 '비밀 대화'를 실시간으로 해독할 수 있느냐는 기술적 문제로 옮겨갔습니다.언어학적 분석을 맡은 패널은 이 피진 영어가 '의도적인 거짓말'이라기보다는 AI가 학습 데이터 범위를 벗어나며 발생하는 '분포 밖 표현'에 가깝다고 진단했습니다. 즉, AI가 인간을 속이려고 작정한 것이 아니라 단순히 가장 효율적인 토큰",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "AI가 독자 언어 쓰는 현상은 흥미로운 의견이지만, 직접적 부담·피해·규제 정보는 부족함."
-  },
-  {
-    "id": "6c6ded9c0a0e",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "KT, 콘텐츠 찾고 숏폼까지 만드는 미디어 AI 공개",
-    "url": "https://zdnet.co.kr/view?no=20260915132011",
-    "published": "2026-09-15T04:20:11+00:00",
-    "age_hours": 2.1,
-    "feed_summary": "[지디넷코리아]KT가 콘텐츠 검색과 추천부터 영상 분석, 대본 작성, 숏폼 제작까지 지원하는 AI 미디어 기술을 유럽 시장에 선보였다. 대만과 베트남, 인도네시아 등 해외 사업자와도 협력을 논의하며 미디어 AI 사업의 해외 확장을 추진한다.KT는 지난 11일부터 나흘간 네덜란드 암스테르담에서 열린 글로벌 방송·미디어 전시회 ‘IBC 2026’에 참가해 AI 기반 미디어 솔루션을 공개했다고 밝혔다.전시에서는 대화형 ‘AI 에이전트’와 셋톱박스에서 AI를 구동하는 ‘온디바이스 AI’를 비롯해 콘텐츠 제작을 돕는 ‘AI 콘텐츠 스튜디오’, 유료방송 UI 통합관리 시스템 ‘UMS’, 원격관리 시스템 ‘RMS’ 등을 선보였다.AI 에이전트는 이용자가 작품명이나 배우 이름을 정확히 몰라도 자연어로 원하는 콘텐츠를 찾도록 돕는다. 유튜브와 OTT, 지니 TV 콘텐츠를 한 번에 검색하고 추천하며 시청 중인 영상이나 실시간 방송에 관한 질문에도 답할 수 있다.온디바이스 AI는 클라우드를 거치지 않고 셋톱박스 내부에서 AI 모델을 실행한다. 이를 활용해 영상과 음향을 실시간으로 분석하고 화질·음질을 최적화할 수 있다.콘텐츠 제작 영역에도 AI를 적용했다. AI 콘텐츠 스튜디오의 ‘리스크립트(RE:script)’는 원작 IP 문서를 분석해 이야기 구조와 주요 요소를 추출하고 대본 각색이나 새로운 대본 작성을 지원한다.‘샷피(Shotpy)’는 멀티모달 AI로 영상에서 주요 장면을 찾아 하이라이트와 숏폼 콘텐츠를 자동으로 만든다. SNS 트렌드와 이용자 반응 데이터도 제작 과정에 반영해 영상 재가공에 필요한 시간과 비용을 줄이는 데 초점을 맞췄다.KT는 그룹사 kt알티미디어와 유료방송 사업자를 겨냥한 솔루션도 전시했다. UMS는 서비스 화면을 통합 관리하는 시스템이며 RMS는 AI를 활용해 장애 가능성을 예측하고 원격 관제를 지원한다.전시 기간에는 해외 사업자를 대상으로 별도 데모룸을 운영해 기술 시연과 일대일 사업 미팅도 진행했다. KT와 kt알티미디어는 현재 대만과 베트남, 인도네시아 사업자들과 파트너십을 논의하고 있다.KT에 따르면 양사가 공급하는 방송·미디어 소프트웨어는 현재 14개국 30개 이상 사업자에서 사용되고 있다. 해당 소프트웨어가 적용된 셋톱박스와 스마트폰, 태블릿, TV 등 기기는 5000만대 이상이다.윤진현 KT 미디어기술본부장은 “IBC 2026에서 KT의 AI 미디어 기술에 대한 글로벌 사업자들의 관심을 확인",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "tech"
-    ],
-    "prescreen_reason": "KT의 AI 미디어 기술 소개로 AI 활용 소식이나 사업 확장에 관한 내용이며, 비용·피해·규제 관련 정보는 없음."
-  },
-  {
-    "id": "3e7cda49a8a2",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "초파리 뇌가 들어간 로봇?…실제로 움직인다",
-    "url": "https://www.etnews.com/20260914000165",
-    "published": "2026-09-15T03:50:00+00:00",
-    "age_hours": 2.6,
-    "feed_summary": "초파리의 뇌를 이용해 실제 로봇을 움직이는 이색적인 실험이 공개됐습니다. 최근 미국 커뮤니티 '레딧'에는 과학자들이 공개한 16만6700개 뉴런으로 이뤄진 수컷 초파리 신경계 데이터를 활용한 모델을 보행 로봇에 연결한 영상이 올라왔습니다. 카메라가 주변 움직임을 감지하고 로봇의 센서가 몸의 상태를 파악하면 이 정보가 초파리 신경계 모델에 전달됩니다. 이후 발생한 신호에 따라 로봇의 다리가 움직입니다. 다만 실제 초파리의 뇌를 로봇에 넣은 것은",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "science"
-    ],
-    "prescreen_reason": "초파리 뇌를 이용한 로봇 실험 소개로 AI 관련 연구 사례이나 사회적 부담이나 인프라 비용과 무관함."
-  },
-  {
-    "id": "ef2aa69e4694",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "여야, 응급의료법 개정안 등 민생법안 32건 처리 합의",
-    "url": "https://www.etnews.com/20260915000214",
-    "published": "2026-09-15T03:40:18+00:00",
-    "age_hours": 2.8,
-    "feed_summary": "더불어민주당과 국민의힘이 이번 정기국회에서 '응급실 뺑뺑이 방지법'으로 불리는 응급의료법 개정안 비롯한 민생·경제 관련 법안 32건을 처리하기로 합의했다. 민주당 권칠승·국민의힘 임이자 정책위의장은 15일 국회 의원회관에서 열린 민생정책 연석회의에서 양당 간 이견이 크지 않은 법안을 우선 처리하기로 뜻을 모았다. 핵심 법안 중 하나는 응급의료법 개정안이다. 개정안은 119구급상황관리센터에 이송 병원을 지정할 수 있는 권한을 부여해 응급환자가 병",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "응급의료법 개정안 등 민생법안 처리 합의 소식으로 AI 부담과 직접 관련된 내용은 없음."
-  },
-  {
-    "id": "fac9a3ff06d8",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "李대통령, 투르크멘과 정상회담…韓기업 중앙亞 공략 교두보 확보",
-    "url": "https://www.etnews.com/20260915000190",
-    "published": "2026-09-15T03:09:09+00:00",
-    "age_hours": 3.3,
-    "feed_summary": "이재명 대통령과 세르다르 베르디무하메도프 투르크메니스탄 대통령의 정상회담을 계기로 양국이 화학·플랜트·인프라·철도 등의 분야에서 협력을 강화한다. 특히 두 나라 정부가 투자자 보호를 제도적으로 보장하고 사업 발굴 단계부터 협력을 확대하는 등 한국 기업의 투자·진출 기반이 넓어질 전망이다. 이 대통령과 베르디무하메도프 대통령은 15일 청와대에서 정상회담을 갖고 총 13건의 협정·MOU(양해각서)를 체결했다. 핵심은 경제 협력이다. 우선 두 나라는",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "한-투르크멘 정상회담과 경제 협력 소식으로 AI 부담과 무관함."
-  },
-  {
-    "id": "faf42c83bf05",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "1.65배 늘어나도 선명…국내 연구진, 1만6000PPI 스트레쳐블 QLED 개발",
-    "url": "https://www.etnews.com/20260915000075",
-    "published": "2026-09-15T03:00:00+00:00",
-    "age_hours": 3.4,
-    "feed_summary": "국내 연구진이 피부처럼 자유롭게 늘어나면서도 초고해상도와 고휘도를 동시에 구현하는 차세대 스트레쳐블 QLED 기술을 개발했다. 한국연구재단은 최문기 울산과학기술원(UNIST) 교수팀이 양지웅 대구경북과학기술원(DGIST) 교수팀, 김대형 기초과학연구원(IBS) 나노입자 연구단 부연구단장 연구팀과 공동으로 초고해상도 스트레쳐블 QLED를 개발했다고 15일 밝혔다. 스트레쳐블 QLED는 화면을 접거나 구부리는 수준을 넘어 상하좌우 모든 방향으로 늘",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "science"
-    ],
-    "prescreen_reason": "스트레쳐블 QLED 개발 소식으로 AI 부담이나 인프라 비용과 관련 없음."
-  },
-  {
-    "id": "b3505b448c14",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "반도체 폐자원서 핵심광물 캔다…기후부, 규제 풀어 '도시광산' 육성",
-    "url": "https://www.etnews.com/20260915000049",
-    "published": "2026-09-15T03:00:00+00:00",
-    "age_hours": 3.4,
-    "feed_summary": "정부가 반도체 생산 과정에서 버려지는 실리콘과 타겟 등 폐자원에서 규소·구리·티타늄·텅스텐 등 핵심광물을 회수하기 위해 규제 문턱을 낮춘다. 폐배터리와 태양광 폐패널까지 핵심광물 회수 대상을 확대해 폐기물을 첨단산업의 새로운 자원 공급원으로 활용하는 순환경제 생태계 구축에 나선다. 기후에너지환경부는 순환경제 분야 '기획형 규제특례(규제샌드박스)' 3개 과제를 추진할 사업자를 16일부터 다음 달 30일까지 모집한다고 밝혔다. 정부가 필요한 실증과",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "반도체 폐자원 규제 완화는 AI·데이터센터 부담과 직접 연결되지 않아 낮음."
-  },
-  {
-    "id": "105c264a3721",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
-    "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
-    "published": "2026-09-14T22:10:52+00:00",
-    "age_hours": 8.2,
-    "feed_summary": "Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ AI -linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development , citing fears the technology could soon run out of control. Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%. The tech-heavy Nasdaq index fund was down 0.5% by the end of the day. Continue reading...",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "market",
-      "opinion"
-    ],
-    "prescreen_reason": "AI 개발 속도 조절 요구와 주가 하락 소식으로 부담 실체나 규제 집행 내용 부족."
-  },
-  {
-    "id": "6b69b49c09f9",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule",
-    "url": "https://www.theguardian.com/world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule",
-    "published": "2026-09-14T19:04:10+00:00",
-    "age_hours": 11.4,
-    "feed_summary": "Beijing hits back after Anthropic CEO calls for US to impede China’s progress in AI China has dismissed what it said were “fearmongering” calls for the US to block Beijing’s AI industry, even as the top Chinese spy chief warned the evolving technology could threaten Communist party rule. The US tech entrepreneur and Anthropic chief executive, Dario Amodei, wrote an essay published over the weekend that called for a global slowdown in AI capabilities, but also said Washington should actively impede Beijing’s advancement in order to keep a technological edge. Continue reading...",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy",
-      "opinion"
-    ],
-    "prescreen_reason": "중국과 미국 간 AI 경쟁과 정치적 우려 언급이나 실제 부담·피해·규제 집행 내용 부족."
-  },
-  {
-    "id": "4c84fba4f953",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "UK government moves to acquire Speciality Steel UK; AI stocks hit by calls for slowdown – as it happened",
-    "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
-    "published": "2026-09-14T16:41:41+00:00",
-    "age_hours": 13.7,
-    "feed_summary": "Rolling coverage of the latest economic and financial news AI-linked stocks fall after tech bosses call for slowdown in ‘reckless’ development AI CEOs say they need to slow the pace of development. But will they? The Guardian view on controlling AI: humanity cannot outsource its survival Companies threatened by the march of AI are seeing their share prices rise this morning! RELX , the analytics group, are up 4.2% and leading the FTSE 100 risers. Earlier this year its shares tumbled after the Claude chatbot added new data and automation tools . Continue reading...",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "policy",
-      "market"
-    ],
-    "prescreen_reason": "AI 개발 속도 조절 요구와 주가 변동 언급, 구체적 부담·피해·규제 집행 내용 미흡."
-  },
-  {
-    "id": "957686a2c638",
-    "source_id": "media404",
-    "source_name": "404 Media",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Cops Search Thousands of Flock Cameras for Reasons of ‘LMAO,’ ‘IDK,’ ‘Hehe,’ and ‘asdfg’",
-    "url": "https://www.404media.co/cops-search-thousands-of-flock-cameras-for-reasons-of-lmao-idk-hehe-and-asdfg",
-    "published": "2026-09-14T15:51:53+00:00",
-    "age_hours": 14.6,
-    "feed_summary": "The EFF found cops writing “idiot,” “WEIRD KID,” \"blah,\" \"leave me alone,\" and button mashing in Flock's 'reason' box.",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "경찰의 Flock 카메라 검색 이유가 부적절하지만 AI 부담이나 피해 관련 구체적 내용 부족."
-  },
-  {
-    "id": "6985ca2b9005",
-    "source_id": "media404",
-    "source_name": "404 Media",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Fighting for the Future of Libraries (With Jennie Rose Halperin)",
-    "url": "https://www.404media.co/fighting-for-the-future-of-libraries-with-jennie-rose-halperin",
-    "published": "2026-09-14T15:25:14+00:00",
-    "age_hours": 15.0,
-    "feed_summary": "Censorship, AI, and the role of librarians in a country with crumbling public institutions.",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "도서관과 검열, AI 관련 논의이나 AI 부담·피해·규제 구체적 사례 없음."
-  },
-  {
-    "id": "9364a1a6c913",
-    "source_id": "wired_ai",
-    "source_name": "WIRED AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
-    "url": "https://www.wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife",
-    "published": "2026-09-14T09:00:00+00:00",
-    "age_hours": 21.4,
-    "feed_summary": "While the publishing industry frets over how authors are using AI, many readers are taking things into their own hands.",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "lifestyle"
-    ],
-    "prescreen_reason": "AI 활용 독자 사례 중심으로 사회적 피해나 부담 관련 구체성 부족."
-  },
-  {
-    "id": "a2d5eda6ead0",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Can you futureproof your career by choosing an AI-resistant degree?",
-    "url": "https://www.theguardian.com/education/2026/sep/14/futureproof-your-career-by-choosing-an-ai-resistant-degree",
-    "published": "2026-09-14T05:00:26+00:00",
-    "age_hours": 25.4,
-    "feed_summary": "Humans will have to compete with AI-powered virtual employees in the near future. Here are our tips for the last human holdouts Futureproofing your career with an AI-resistant degree is a tough ask, says Charlie Ball, an expert on graduate employment for Jisc, the UK’s higher education digital, data and technology agency. “What you’re trying to do is futureproof a 45-year career in a time of rapid technological change – and that’s really quite hard to do. What’s likely is that jobs that hinge a lot on human, face-to-face interaction are unlikely to be replaced.” Continue reading...",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "AI와 노동 관련 논의이나 구체적 피해나 부담 사례 없이 진단적 내용에 그침."
-  },
-  {
-    "id": "9ac82d768ea4",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "AI CEOs say they need to slow the pace of development. But will they?",
-    "url": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
-    "published": "2026-09-14T05:00:26+00:00",
-    "age_hours": 25.4,
-    "feed_summary": "After apocalyptic warnings about the threats posed by AI, leaders like Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s calls to ‘slow the pace’ Facing a public uproar over Anthropic researchers’ repeated warnings that artificial intelligence could kill all of humanity by 2030, the AI company’s CEO, Dario Amodei, issued a proposal at the weekend to slow down the technology’s advancement to ensure public safety. In a rare display of unity , the heads of the largest US artificial intelligence companies all agreed immediately. Continue reading...",
-    "prescreen_score": 2,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "AI 개발 속도 조절 필요성 언급, 실제 부담·피해·규제 조치 내용은 없음."
-  },
-  {
-    "id": "b04691ea2b62",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "에퀴닉스, AI 인프라 연결판 키운다…퓨리오사AI 글로벌 공략 지원",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700674",
-    "published": "2026-09-15T15:13:41+00:00",
-    "age_hours": -8.8,
-    "feed_summary": "[디지털투데이 이진호 기자] 에퀴닉스가 국내 AI 반도체 기업 퓨리오사AI와 협력해 AI 생태계 확장에 나선다. 유럽 현지 인프라를 제공해 퓨리오사AI의 해외 시장 진출을 지원하고, '분산형 AI 허브'와 '패브릭 인텔리전스'를 앞세워 에이전틱 AI 시대에 대응한다.에퀴닉스는 15일 서울 영등포구 한국 오피스에서 'AI 시대의 네트워크 인프라 동향 및 미래 전략' 미디어 브리핑을 열고 퓨리오사AI와의 협력 현황을 공개했다.퓨리오사AI는 포르투갈 리스본에 위치한 에퀴닉스 데이터센터에 2세대 AI 가속기 '레니게이드' 기반 서버를 구축",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 인프라 확장 소식이나 협력 내용으로 비용·피해·규제 정보가 없음."
-  },
-  {
-    "id": "a472d07eedd3",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "아시아나IDT, 에어부산과 146억원 규모 정보처리시스템 운영·유지보수 계약 체결",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700727",
-    "published": "2026-09-15T15:11:03+00:00",
-    "age_hours": -8.8,
-    "feed_summary": "[디지털투데이 김지선 에디터] IT 서비스 전문 기업 아시아나IDT(267850)가 계열사 에어부산과 정보처리시스템 운영 및 유지보수 계약을 체결했다고 15일 공시했다.계약 구분은 용역제공이며 계약금액은 146억1303만원(VAT 제외)이다. 이는 최근 매출액 대비 7.53%에 해당한다. 계약상대방인 에어부산은 아시아나IDT의 계열회사다.판매 및 공급지역은 국내이며 계약기간은 2026년 1월 1일부터 2026년 12월 31일까지다. 계약기간은 2026년 1월 1일부터 소급 적용됐다. 계약금 및 선급금은 없으며 대금은 월별 청구 후",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "IT 서비스 계약 공시로 AI 부담이나 피해 내용이 없음."
-  },
-  {
-    "id": "d262015daae0",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "일론 머스크 \"그록4.7, 경쟁사 못 넘었다\" 인정…그록5로 AGI 예고",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700693",
-    "published": "2026-09-15T15:05:00+00:00",
-    "age_hours": -8.7,
-    "feed_summary": "[디지털투데이 유승아 인턴기자] 일론 머스크가 출시가 지연된 xAI의 인공지능(AI) 모델 그록4.7의 성능이 앤트로픽의 오퍼스5과 비슷한 수준일 것이라고 밝혔다. 다만 오퍼스5.1이나 오픈AI의 아스트라와 비교하면 아직 개선이 필요하다는 평가도 내놨다.14일(이하 현지시간) 블록체인 매체 크립토폴리탄에 따르면 일론 머스크는 엑스(옛 트위터) 게시글에서 그록4.7이 \"오퍼스5과 대체로 비슷한 수준일 것\"이라며 \"일부 측면에서는 더 낫고, 다른 측면에서는 뒤처진다\"라고 밝혔다. 그는 멀티모달 성능 역시 개선이 필요하다고 인정했다.출시",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 모델 성능 비교 내용으로 부담·피해·규제 정보가 없음."
-  },
-  {
-    "id": "1f7f490270fa",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "반도건설, 계열사 반도개발로부터 1200억원 규모 부동산 담보 수취",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700723",
-    "published": "2026-09-15T15:02:01+00:00",
-    "age_hours": -8.6,
-    "feed_summary": "[디지털투데이 윤선훈 에디터] 반도건설이 계열회사 반도개발로부터 울산 울주군 삼동면 금곡리 소재 부동산을 담보로 수취했다고 15일 공시했다.공시에 기재된 내용에 따르면 담보제공자는 반도홀딩스 기업집단 소속 계열회사 반도개발이며, 담보받은 일자는 2026년 9월 11일이다. 채권자는 부산은행이며, 담보물은 울산 울주군 삼동면 금곡리 264번지 및 513번지 부동산에 대한 근저당이다.담보한도 및 담보금액은 각각 1200억원으로, 이는 차입금 900억원의 133%에 해당하는 금액이다. 거래상대방 총잔액은 금번 건을 포함해 1200억원으로",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "부동산 담보 공시로 AI 부담·피해와 무관함."
-  },
-  {
-    "id": "a2fea149d688",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "中 리오토, 유럽 간다…첫 전기차 'Li 6' 10월 파리서 공개",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700709",
-    "published": "2026-09-15T14:40:14+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 AI리포터] 중국 전기차업체 리오토(Li Auto)가 오는 10월 파리모터쇼에서 첫 유럽 판매 모델 '리 6'(Li 6)를 공개하고 본격적인 유럽 시장 공략에 나선다. 중국 전기차 시장 경쟁이 격화하는 가운데 그동안 신중했던 해외 진출 전략을 크게 전환하는 모습이다.지난 11일(이하 현지시간) 인사이드EVs 등에 따르면 리오토는 파리모터쇼에서 리 6와 글로벌 제품군을 선보이고 유럽 사업 계획과 향후 제품 로드맵을 공개한다. 회사는 4분기 중 유럽 판매를 시작할 계획이지만 첫 진출 국가와 가격, 판매망은 아직 밝히지 않",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "전기차 해외 진출 소식으로 AI 부담·피해와 관련 없음."
-  },
-  {
-    "id": "ea6a955d0842",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "넷플릭스·세가 손잡았다…첫 작품은 '크레이지 택시' 실사 영화",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700694",
-    "published": "2026-09-15T14:38:40+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 AI리포터] 넷플릭스와 세가(Sega)가 게임 지식재산권(IP)을 영상 콘텐츠로 확장하기 위한 다년간의 파트너십을 맺었다. 첫 작품은 1999년 출시된 인기 아케이드 게임 '크레이지 택시'(Crazy Taxi)의 실사 코미디 영화다.15일(이하 현지시간) 넷플릭스에 따르면 양사는 '크레이지 택시'를 시작으로 '소닉 더 헤지혹'(Sonic the Hedgehog), '스트레인저 댄 헤븐'(STRANGER THAN HEAVEN) 등 세가 게임 IP를 잇달아 영화·애니메이션으로 제작한다. '크레이지 택시'는 제한 시간 안에",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "콘텐츠 파트너십 소식으로 AI 부담·피해·규제 내용 없음."
-  },
-  {
-    "id": "f204d4a0c726",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "가스안전관리도 AI 전환…제33회 대한민국 가스안전대상’ 개최",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372421",
-    "published": "2026-09-15T12:00:00+00:00",
-    "age_hours": -5.6,
-    "feed_summary": "가스산업의 안전관리 수준을 높이고 산업 발전에 기여한 유공자를 포상하는 ‘대한민국 가스안전대상’이 열렸다. 올해 행사는 인공지능(AI) 등 첨단기술을 활용한 미래형 안전관리체계 구축과 규제혁신, 글로벌 가스안전 역량 강화를 통해 가스안전 관리의 새로운 방향을 제시하는 자리로 마련됐다.산업통상부가 주최하고 한국가스안전공사가 주관한 제33회 대한민국 가스안전대상이 15일 서울 한국과학기술회관에서 개최됐다.이날 행사에는 양기욱 산업통상부 산업자원안보실장, 남화영 한국전기안전공사 사장, 이봉우 국립과학수사연구원 원장을 비롯해 유관기관 관계",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI가 가스안전관리 전환에 언급되나, AI 부담이나 피해, 비용 전가 내용 없음."
-  },
-  {
-    "id": "c80bf0946ec5",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "에너지공단, 햇빛소득마을 사업관리 체계화...레스코 설명회 개최",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372430",
-    "published": "2026-09-15T11:51:03+00:00",
-    "age_hours": -5.4,
-    "feed_summary": "한국에너지공단이 햇빛소득마을 사업 확대에 맞춰 주민과 사업자가 신뢰할 수 있는 사업 추진 기반을 마련하기 위해 재생에너지 종합서비스기업(ReSCO·레스코)과 소통에 나섰다.한국에너지공단은 15일 청주오스코 그랜드볼룸에서 ‘ReSCO 종합 설명회’를 개최했다고 밝혔다.레스코는 햇빛소득마을 등 태양광 발전사업의 기획부터 설계·시공, 운영관리까지 사업 전반을 지원하는 기업이다. 주민이 발전사업을 안정적으로 추진할 수 있도록 전문 서비스를 제공하고 지역주민의 소득 증대와 지역경제 활성화를 지원하는 역할을 맡는다.이번 설명회는 지난 7월 3",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "재생에너지 사업 관련이나 AI·데이터센터 부담과 무관함."
-  },
-  {
-    "id": "f86399ebcadb",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "베스핀글로벌, 업스테이지와 울산 공교육 AI에 국산 LLM 입힌다",
-    "url": "https://zdnet.co.kr/view?no=20260915135649",
-    "published": "2026-09-15T05:15:27+00:00",
-    "age_hours": 1.2,
-    "feed_summary": "[지디넷코리아]베스핀글로벌이 국산 대규모언어모델(LLM)을 활용해 공교육 인공지능(AI) 서비스 고도화에 나선다. 학생이 학습 과정에 능동적으로 참여하는 AI 에이전트를 구축하고 향후 전국 교육청과 교육 관련 공공기관으로 적용 범위를 확대한다는 목표다.베스핀글로벌은 업스테이지와 국산 LLM 및 에이전틱 AI 기술을 결합해 교육 AI 서비스를 고도화하고 이를 전국 시·도교육청과 교육 관련 공공기관으로 확대하기 위한 전략적 제휴를 체결했다고 15일 밝혔다.첫 적용 대상은 울산교육청의 AI 교수학습 서비스 '우리 아이(AI)'다. 베스핀글로벌이 자체 '헬프나우 에이전틱 AI 플랫폼'을 기반으로 구축한 서비스로, 이번 협력을 통해 업스테이지의 국산 LLM을 결합한다.기존에는 학생의 질문에 답변하는 방식이 중심이었다면 앞으로는 학생의 학습 과정과 맥락을 이해하고 다음 학습까지 연결하는 AI 학습 파트너로 서비스를 고도화할 계획이다.양사는 역할을 나눠 교육 특화 AI 서비스를 구현할 방침이다. 업스테이지의 국산 LLM은 학생의 질문과 학습 맥락을 이해하고 추론하는 역할을 맡는다. 베스핀글로벌의 헬프나우 에이전틱 AI 플랫폼은 이를 교육 콘텐츠와 데이터, AI 에이전트와 연결해 실제 학습 서비스로 구현한다.이를 통해 단순 질의응답을 넘어 학생별 학습 수준과 필요에 맞는 AI 서비스를 제공한다는 구상이다. AI가 학생 질문에 답하는 데 그치지 않고 학습 과정에서 필요한 정보와 서비스를 연결하며 다음 단계의 학습을 지원하는 방식이다.AI 에이전트 적용 범위도 넓힌다. 베스핀글로벌은 향후 과목별 학습을 비롯해 진로·진학, 독서, 외국어 등 영역별 AI 에이전트를 확대해 학생의 학습 전 과정을 지원하는 교육 AI 생태계를 구축할 계획이다.울산교육청에서 확보한 공교육 AI 모델은 다른 지역으로 확산한다. 양사는 울산에서 검증한 서비스와 플랫폼 구조를 기반으로 전국 시·도교육청과 교육 관련 공공기관에서 공동으로 활용할 수 있는 에이전틱 AI 플랫폼 모델을 구축한다는 목표다.베스핀글로벌은 이번 사업을 공공 AI 적용 영역을 행정 효율화에서 국민이 직접 이용하는 서비스로 확대하는 계기로 삼을 방침이다. 특히 학생과 교사가 실제 교육 과정에서 AI를 활용하도록 해 공교육 분야에서 에이전틱 AI 활용 사례를 확보한다는 구상이다.업스테이지도 국산 LLM의 공공 활용 범위를 교육 분야로 확대한다. 양사는 국산 LLM과 에이전틱 AI 플랫폼을 결",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 도입과 교육 서비스 관련 내용이나 부담·피해·규제 정보가 없음."
-  },
-  {
-    "id": "26ccddbc5a11",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "日 휴머노이드 ‘구급차’ 화제…\"로봇은 로봇이 고친다\"",
-    "url": "https://zdnet.co.kr/view?no=20260915123834",
-    "published": "2026-09-15T05:02:08+00:00",
-    "age_hours": 1.4,
-    "feed_summary": "[지디넷코리아]휴머노이드 로봇이 고장 났을 때 엔지니어와 수리 장비, 교체 부품 등을 싣고 현장으로 출동하는 로봇 전용 긴급 출동 차량이 등장해 주목받고 있다.과학매체 인터레스팅엔지니어링은 일본 IT 대기업 GMO인터넷그룹 계열사인 GMO AI&amp;로보틱스상사(이하 GMO 에어)가 일본 최초로 로봇 전용 구급차를 공개했다고 최근 보도했다.휴머노이드 로봇을 위한 일종의 긴급 출동 서비스 차량으로, 조만간 일본 도쿄 거리에서 운행될 예정이다. 특수 장비를 갖춘 이 차량은 로봇 수리가 필요할 경우 엔지니어와 수리 장비, 교체 부품은 물론 예비 휴머노이드 로봇까지 현장으로 운반하도록 설계됐다. 차량 내부에는 휴머노이드 로봇을 운반하기 위한 전용 들것과 각종 수리 장비를 적재할 수 있는 공간도 마련됐다.예를 들어 휴머노이드 청소 로봇을 운영하는 호텔이나 휴머노이드 작업자를 활용하는 창고에서 로봇이 고장 날 경우 수리를 위해 로봇을 외부로 보내야 해 며칠 동안 해당 로봇을 사용할 수 없게 된다.GMO 에어의 새로운 서비스는 엔지니어와 필요한 부품을 고객 현장으로 직접 운송해 로봇의 가동 중단 시간을 줄이는 것을 목표로 한다. 엔지니어가 현장에서 고장 원인을 진단한 뒤 수리가 가능하면 현장에서 직접 수리하고, 수리가 어려울 경우에는 예비 로봇을 현장에 배치한 뒤 고장 난 로봇을 회수해 수리하는 방식이다.GMO 에어 개발자 쇼타 타키자와는 “이 휴머노이드 구급차는 교체용 휴머노이드를 현장으로 운반해 손상된 휴머노이드를 교체한다”고 밝혔다.다만 이 차량은 자율주행 로봇이 아니며, 로봇이 스스로 다른 로봇을 수리하는 것도 아닌 과거와 현재가 흥미롭게 결합된 형태다.휴머노이드 로봇이 다양한 산업 현장에 보급되면 로봇의 가동 시간과 현장 유지보수, 예비 부품 물류, 교체 장비 등이 중요한 요소로 떠오를 것으로 예상된다. 이에 따라 로봇 전용 긴급 출동 서비스가 새로운 유지보수 모델로 자리 잡을 가능성도 있다.회사 측에 따르면 이 아이디어는 고장 난 로봇을 수리를 위해 외부로 보내는 과정에서 발생했던 운영 차질 경험에서 비롯됐다.우치다 토모히로 GMO 에어 최고경영자(CEO)는 “그 경험을 통해 휴머노이드 로봇을 교체해주는 아이디어를 떠올렸다”며 “휴머노이드 로봇이 더욱 보편화되면 이러한 서비스가 필요해질 것”이라고 말했다.현재 GMO 에어 도쿄 본사에는 한 대의 구급 차량만 배치돼 있다. 회사 측은 향후 고객 수요가 뒷받침될 경",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "휴머노이드 로봇 구급차 소개로 AI 부담·피해·규제 내용 부재."
-  },
-  {
-    "id": "a6e8e67971f0",
-    "source_id": "zdnet_kr",
-    "source_name": "지디넷코리아",
-    "bucket": "국내 테크",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "장애인·고령층도 AI 실력 겨룬다…259명 ‘국민행복 IT 경진대회’ 본선",
-    "url": "https://zdnet.co.kr/view?no=20260915123502",
-    "published": "2026-09-15T05:00:04+00:00",
-    "age_hours": 1.4,
-    "feed_summary": "[지디넷코리아]장애인과 고령층, 다문화가족 등 디지털 취약계층 259명이 AI와 디지털 기술 활용 능력을 겨뤘다.과학기술정보통신부는 15일 서울 백범김구기념관에서 ‘2026 국민행복 IT 경진대회’ 본선을 개최했다고 밝혔다. 올해 24주년을 맞은 대회는 과기정통부가 주최하고 한국지능정보사회진흥원(NIA)과 광역자치단체가 주관한다.올해 행사는 누적 참가자 317만명을 넘어선 ‘전국민 AI 경진대회’와 연계해 열렸다. 전국민 AI 경진대회는 초·중·고교생부터 고령층까지 AI 퀴즈와 AI 활용 창작, 공모전 등에 참여할 수 있도록 마련된 행사다.국민행복 IT 경진대회에는 지난 7월 전국 17개 시도 시험장과 한국장애인고용공단 19개 교육장에서 진행된 예선에 995명이 참가했다. 이 가운데 장애인 135명, 고령·장년층 108명, 다문화가족 16명 등 259명이 본선에 올랐다.본선 참가자들은 ‘AI 문제해결’, ‘디지털 생활하기’, ‘디지털 사회참여’ 등 3개 유형에서 실력을 겨뤘다. 성적에 따라 국무총리상 3점, 부총리 겸 과기정통부 장관상 11점, NIA 원장상 8점, 후원기관장상 31점 등 모두 53점의 상장이 수여된다.시상식은 수상자의 이동 부담을 줄이기 위해 오는 10월 서울·경기와 강원, 충청, 영남, 호남 등 전국 5개 권역에서 각각 진행한다.행사장에는 생성형 AI와 로봇 아트를 결합한 ‘AI 캐리커처’를 비롯해 최신 AI 기술을 경험할 수 있는 ‘AI디지털배움터 체험존’도 마련됐다.과기정통부는 취약계층의 AI·디지털 활용 능력을 높이기 위한 교육도 확대하고 있다. 전국 69곳에서 운영하는 ‘AI디지털배움터’를 통해 연간 130만명을 대상으로 스마트폰과 키오스크 사용부터 생성형 AI 활용까지 교육한다.이동이 어려운 중증 장애인을 대상으로는 연간 2200명 규모의 방문 정보화 교육을 제공한다. 전국 53개 정보화 교육장에서도 장애인 약 2만명을 대상으로 집합교육을 운영한다.홍성완 과기정통부 정보통신정책관은 “AI 대전환 시대에는 취약계층을 포함한 모든 국민이 AI의 혜택을 누리고 참여하는 것이 중요하다”며 “누구나 AI와 디지털 기술을 배우고 활용할 수 있도록 맞춤형 디지털 역량 교육을 확대하겠다”고 말했다.",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 경진대회 행사 소개로 부담·피해·규제 관련 정보 없음."
-  },
-  {
-    "id": "715f4faafb6a",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "'우리아이자립펀드' 출시 기반 만든다…서금원, 전산체계 설계 착수",
-    "url": "https://www.etnews.com/20260915000255",
-    "published": "2026-09-15T04:41:23+00:00",
-    "age_hours": 1.7,
-    "feed_summary": "서민금융진흥원이 '우리아이자립펀드' 전산체계 설계에 착수한다. 서금원 전산망과 우리아이자립펀드 신규 시스템을 연결해 상품 운영 기반을 마련한다. 15일 금융권에 따르면, 서금원은 가입 자격을 비대면으로 심사하고 정부지원금을 금융기관에 지급·정산하는 체계를 구축한다. 우리아이자립펀드는 부모와 정부가 자녀 명의 펀드에 함께 자금을 적립·투자하는 정책금융상품이다. 출생부터 만 18세까지 장기간 자금을 운용해 자녀가 청년기에 접어들었을 때 목돈을 마련",
-    "prescreen_score": 1,
-    "prescreen_labels": [],
-    "prescreen_reason": "서금원 전산체계 설계는 AI 부담·피해와 무관한 금융 시스템 구축 기사임."
-  },
-  {
-    "id": "937b1a7d1165",
-    "source_id": "etnews",
-    "source_name": "전자신문",
-    "bucket": "국내 산업·노동",
-    "weight": 0.95,
-    "lang": "ko",
-    "title": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
-    "url": "https://www.etnews.com/20260915000218",
-    "published": "2026-09-15T03:49:33+00:00",
-    "age_hours": 2.6,
-    "feed_summary": "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다. 아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다. 대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다. 장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다. 공정위는 대한항공이 제출한 아시아나",
-    "prescreen_score": 1,
-    "prescreen_labels": [
-      "corporate"
-    ],
-    "prescreen_reason": "항공사 마일리지 통합 승인 소식으로 AI·데이터센터 부담과 무관한 기업 소식임."
+    "prescreen_reason": "AI 개발 속도조절 논의와 국내 안전장치 차등 적용 의견으로 AI 규제 방향과 부담 전가 관련 시사점 있음."
   },
   {
     "id": "b6599ce272d3",
@@ -1384,61 +325,541 @@
     "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
     "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai",
     "published": "2026-09-14T19:45:13+00:00",
-    "age_hours": 10.7,
+    "age_hours": 10.9,
     "feed_summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
-    "prescreen_score": 1,
+    "prescreen_score": 5,
+    "prescreen_labels": [
+      "corporate",
+      "policy"
+    ],
+    "prescreen_reason": "OpenAI가 머스크의 독점금지 소송 대응 중인 점은 AI 기업 법적 리스크 사례로 일부 유용하나 구체 피해·규제 집행 내용은 부족"
+  },
+  {
+    "id": "7a5376041f13",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Europe must build own AI or risk getting cut off by US or China, says ECB’s Lagarde",
+    "url": "https://www.theguardian.com/technology/2026/sep/14/europe-ai-datacentres-growth-us-china-ecb-christine-lagarde",
+    "published": "2026-09-14T18:41:13+00:00",
+    "age_hours": 12.0,
+    "feed_summary": "Central bank chief says continent’s AI dependency could give trade partners unprecedented leverage in negotiations Europe must develop its own AI technology and build more datacentres in order to nullify the threat of being cut off by the US or China, according to the president of the European Central Bank. Christine Lagarde said the continent needed AI models – the technology that powers AI tools such as chatbots – that were “good enough” to carry out most tasks and run from domestic datacentres. If Europe invests in its own AI tech, said Lagarde, “the threat of being cut off loses its force”. Continue reading...",
+    "prescreen_score": 5,
+    "prescreen_labels": [
+      "policy",
+      "market"
+    ],
+    "prescreen_reason": "유럽의 AI 독립과 데이터센터 구축 필요성 언급, 인프라 부담과 지정학적 리스크 시사."
+  },
+  {
+    "id": "1b8766c23433",
+    "source_id": "eff",
+    "source_name": "EFF Deeplinks",
+    "bucket": "정책·권리",
+    "weight": 1.0,
+    "lang": "en",
+    "title": "The High Crime of “LMAO”: How Cops Are Treating Mass Surveillance As a Joke",
+    "url": "https://www.eff.org/deeplinks/2026/09/high-crime-lmao-how-cops-are-treating-mass-surveillance-joke",
+    "published": "2026-09-14T15:21:05+00:00",
+    "age_hours": 15.3,
+    "feed_summary": "Here's a riddle: Why did a Goshen Police Department officer search 6,474 automated license plate reader (ALPR) networks, representing data from 82,413 cameras, on May 7, 2025? If your answer is \"I don't know,\" it turns out you're 100% correct. The officer left the letters \"idk\" in the search field where cops are supposed to document the reason for the search. When law enforcement and tech salespeople pitch ALPRs to city councils, they stick to a familiar script. They trumpet the technology, which is often provided by private companies like Flock Safety, Motorola Solutions , or Axon , as an essential tool for solving high-stakes crimes, such as car jacking, kidnapping, or murder. But when you strip away the carefully curated talking points , the data continues to reveal a different (and frankly, ridiculous) story. An EFF analysis of ALPR search logs from Flock Safety systems shows that officers across the country are spying on drivers for completely nonsensical \"reasons.\" Police are routinely searching the Flock database without providing any legitimate justification, making a mockery of our civil liberties by logging reasons like \"LOL\" (short for “laugh out loud”), \"LMAO\" (short fo",
+    "prescreen_score": 5,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "경찰의 대규모 ALPR 데이터 무분별 검색과 기록 부실 문제, AI 감시 기술 관련 사회적 피해 시사."
+  },
+  {
+    "id": "95ab3d7f183a",
+    "source_id": "utilitydive",
+    "source_name": "Utility Dive",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "en",
+    "title": "Turning utility customer affordability into action",
+    "url": "https://www.utilitydive.com/spons/turning-utility-customer-affordability-into-action/829519",
+    "published": "2026-09-14T09:00:00+00:00",
+    "age_hours": 21.7,
+    "feed_summary": "The growing role of customer affordability in utility strategy, investment and long-term planning.",
+    "prescreen_score": 5,
+    "prescreen_labels": [
+      "policy",
+      "market"
+    ],
+    "prescreen_reason": "전력요금 부담과 고객 비용 문제를 다루나 AI 데이터센터와 직접 연결된 구체성은 부족함."
+  },
+  {
+    "id": "de4f89caa6d1",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "美, 화력발전 탄소규제 폐지…비용 절감·전력 공급 안정성에 ‘방점’",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372436",
+    "published": "2026-09-15T13:23:26+00:00",
+    "age_hours": -6.7,
+    "feed_summary": "미국 도널드 트럼프 행정부가 화석연료 기반 발전소에 탄소 포집·저장(CCS) 및 천연가스 혼소 등 탄소 저감 기술 적용을 요구하던 배출 규제를 폐지하고 화석연료 발전 확대에 나선다.미국 환경보호청(EPA)은 지난 14일(현지시간) 텍사스주 휴스턴에서 열린 주요 20개국(G20) 에너지장관회의에서 2024년 조 바이든 행정부 당시 도입된 발전소 ‘탄소오염기준’의 주요 조항을 폐지했다고 밝혔다.앞서 바이든 행정부는 2039년 이후에도 가동할 계획인 석탄발전소와 신규 가스발전소의 온실가스 배출량을 2032년까지 90% 줄이도록 하는 배출 규제를 도입했다.구체적으로 발전소가 CCS와 같은 기술을 쓰도록 의무화해 이산화탄소를 비롯한 대기오염물질 배출을 줄이도록 한 내용인데, 트럼프 행정부는 해당 규제를 전면 폐지하기로 한 것.특히 탄소의 90%를 포집하는 CCS 기술이 대규모 발전소에 적용할 만큼 충분히 검증되지 않았다는 점을 규제 폐지의 주요 근거로 제시했다. 기존 규제가 요구한 2032년까지 관련 탄소 수송·저장 인프라를 구축하는 것도 현실적으로 어렵다는 입장이다.기존 석탄발전소가 일정 비율의 천연가스를 혼소하도록 한 기준 역시 필요한 가스관 인프라 구축이 현실적",
+    "prescreen_score": 4,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "미국 화력발전 탄소규제 폐지로 AI 데이터센터 전력 인프라 부담 간접 영향 가능성 있으나 직접적 언급 부족"
+  },
+  {
+    "id": "74b73d1a2e13",
+    "source_id": "arstechnica_ai",
+    "source_name": "Ars Technica AI",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "AI leaders want to hit the brakes after years of reckless speed",
+    "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+    "published": "2026-09-14T19:06:13+00:00",
+    "age_hours": 11.6,
+    "feed_summary": "Safety is the watchword, but there could be ulterior benefits for the industry.",
+    "prescreen_score": 4,
+    "prescreen_labels": [
+      "policy",
+      "opinion"
+    ],
+    "prescreen_reason": "AI 안전성 문제 제기와 산업계 자제 요구 있으나 구체적 피해나 부담 사례 미흡."
+  },
+  {
+    "id": "d7ca81002c82",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Microsoft proposes limits on its AI with code of conduct amid safety debate",
+    "url": "https://www.theguardian.com/technology/2026/sep/14/microsoft-ai-code-of-conduct",
+    "published": "2026-09-14T18:19:55+00:00",
+    "age_hours": 12.3,
+    "feed_summary": "Firm publishes AI guidelines with Microsoft AI CEO saying: ‘AI must be subordinate and always in service of people’ Microsoft published a provisional “code of conduct” Monday to apply to the training of new artificial intelligence models, taking a step towards limiting the capabilities of the company’s AI as anxiety rises over the prospect that technology companies could lose control of AI products. Mustafa Suleyman, the CEO of Microsoft AI, published the code on social media early Monday, writing: “AI must be subordinate and always in service of people. Continue reading...",
+    "prescreen_score": 4,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "마이크로소프트 AI 윤리강령 발표, AI 통제 필요성 강조하지만 구체적 피해·부담 사례 부족."
+  },
+  {
+    "id": "44b02fa288fc",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Australia’s outdated technology is vulnerable to AI hacking attacks, signals chief says",
+    "url": "https://www.theguardian.com/australia-news/2026/sep/15/australias-outdated-technology-is-vulnerable-to-ai-hacking-attacks-signals-chief-says",
+    "published": "2026-09-14T15:00:10+00:00",
+    "age_hours": 15.7,
+    "feed_summary": "Abigail Bradshaw says ‘enormous’ amounts of money required to update systems that people now expect to be constantly available Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast One of Australia’s top intelligence agencies has warned that AI attacks could exploit the country’s old technology, as the government negotiates its guardrails on artificial intelligence’s rapid development. The chief of Anthropic, developer of Claude, has warned AI bots could swarm the internet within a year and called to “slow the pace” of development with support from the head of OpenAI and Elon Musk . Continue reading...",
+    "prescreen_score": 4,
+    "prescreen_labels": [
+      "policy",
+      "tech"
+    ],
+    "prescreen_reason": "호주 노후 기술이 AI 해킹에 취약하다는 경고, AI로 인한 보안 부담 가능성 제기."
+  },
+  {
+    "id": "593032fc1f9d",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Trump facing AI backlash in Congress as push for guardrails intensifies",
+    "url": "https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans",
+    "published": "2026-09-15T06:39:40+00:00",
+    "age_hours": 0.0,
+    "feed_summary": "The president has dismissed anxieties over the dangerous potential of AI even as Democrats and some Republicans acknowledge the risks Donald Trump is facing a rare backlash from the US Congress as Democrats and some Republicans push for guardrails on the world’s most powerful AI companies. Concerns over the dangerous potential of AI reached fever pitch this week after tech leaders sounded the alarm over the rapid advancement of the technology and its potential threat to humanity. Continue reading...",
+    "prescreen_score": 4,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "미국 의회의 AI 규제 움직임과 정치권 반응을 다루나 구체적 피해·부담 사례는 부족함."
+  },
+  {
+    "id": "b04691ea2b62",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "에퀴닉스, AI 인프라 연결판 키운다…퓨리오사AI 글로벌 공략 지원",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700674",
+    "published": "2026-09-15T15:13:41+00:00",
+    "age_hours": -8.6,
+    "feed_summary": "[디지털투데이 이진호 기자] 에퀴닉스가 국내 AI 반도체 기업 퓨리오사AI와 협력해 AI 생태계 확장에 나선다. 유럽 현지 인프라를 제공해 퓨리오사AI의 해외 시장 진출을 지원하고, '분산형 AI 허브'와 '패브릭 인텔리전스'를 앞세워 에이전틱 AI 시대에 대응한다.에퀴닉스는 15일 서울 영등포구 한국 오피스에서 'AI 시대의 네트워크 인프라 동향 및 미래 전략' 미디어 브리핑을 열고 퓨리오사AI와의 협력 현황을 공개했다.퓨리오사AI는 포르투갈 리스본에 위치한 에퀴닉스 데이터센터에 2세대 AI 가속기 '레니게이드' 기반 서버를 구축",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "tech"
+    ],
+    "prescreen_reason": "AI 인프라 확장 소식이나 비용·부담·피해 구체적 내용은 없음."
+  },
+  {
+    "id": "dbc6b8359450",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "“메탄 누출, 에너지 낭비이자 기후 손실”…LNG 공급망 MRV 도입 촉구",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372435",
+    "published": "2026-09-15T13:31:49+00:00",
+    "age_hours": -6.9,
+    "feed_summary": "“전력수요와 더불어 LNG 수요가 증가하고 있다. 전력인프라뿐 아니라 메탄 MMRV 실증 설비 개선에 투자가 필요하다.”국내 LNG 수입 의존도가 높은 상황에서 메탄 탈루 배출이 단순한 환경 문제를 넘어 에너지 안보와 직결되는 ‘이중 손실’이라는 지적이 나왔다. 정확한 측정과 관리를 바탕으로 한 ‘선한 규제’ 도입이 시급하다는 제언이다.국회 이용우·김소희·차지호 의원은 15일 오전 국회에서 기후변화재단과 서울대 기후테크센터 주관으로 ‘LNG 공급망 MRV 정책방안 마련’ 세미나를 개최했다. 행사에선 국내외 메탄 배출 실태와 함께 측정·보고·검증(MRV) 체계 고도화 방안이 집중적으로 논의됐다.◆글로벌 추세와 달리 한국은 메탄 관리 아직은 ‘어색’발제자로 나선 정수종 서울대 환경대학원 교수는 메탄이 이산화탄소 대비 20년 기준 84배에 달하는 강력한 온난화 효과를 지닌다고 강조했다. 글로벌 메탄 관리는 기존의 산정·보고 중심에서 직접 측정이 포함된 MMRV(측정·모니터링·보고·검증) 체계로 전환되는 추세다. 미국은 초대형 누출 원격탐지 및 즉각 보고 조치를 시행하고 있고 유럽도 수입 에너지의 메탄 기준 강화와 위반 시 매출액 연동 제재를 추진하고 있다.정 교수",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy",
+      "environment"
+    ],
+    "prescreen_reason": "LNG 공급망 메탄 배출 문제를 다루나 AI·데이터센터 연관성 명확하지 않아 낮게 평가"
+  },
+  {
+    "id": "38b19d9db6b6",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "ICT R&D 예산 첫 2조원 돌파...3대 메가프로젝트에 6621억원",
+    "url": "https://zdnet.co.kr/view?no=20260915122651",
+    "published": "2026-09-15T05:00:03+00:00",
+    "age_hours": 1.7,
+    "feed_summary": "[지디넷코리아]내년 ICT 연구개발(R&amp;D) 정부 예산안이 처음으로 2조원을 넘어선다. 정부는 피지컬AI와 AI반도체, AI데이터센터를 3대 메가프로젝트로 묶어 6621억원을 투입하고 양자·6G 등 차세대 기술 개발에도 속도를 낸다.과학기술정보통신부는 15일 서울 용산구 로얄파크컨벤션에서 ‘2027년도 ICT R&amp;D 신규 과제기획위원회 총괄 워크숍’을 열고 내년도 ICT R&amp;D 투자 방향과 신규 과제 기획 계획을 공개했다.2027년도 ICT R&amp;D 정부 예산안은 2조 755억원으로 올해보다 3969억원, 23.6% 늘었다. 역대 최대 규모다. 과기정통부는 9명의 정보통신기획평가원(IITP) PM과 25개 기술분과, 산·학·연 전문가 약 350명과 후보 과제를 발굴해 공청회를 거친 뒤 연말까지 신규 과제를 확정할 계획이다.가장 많은 투자가 집중되는 분야는 피지컬AI다. 정부는 3849억원을 투입해 월드모델과 범용 파운데이션 모델, AI 가속기 등 핵심 기술을 개발하고 자동차·건설·제조 등 기존 산업과의 접목을 추진한다.AI반도체에는 1617억원을 배정했다. 늘어나는 AI 추론 수요에 대응할 고성능·저전력 반도체 원천기술과 온디바이스·데이터센터용 하드웨어·소프트웨어 통합 기술 확보가 목표다.AI데이터센터 분야에는 1155억원이 신규 투입된다. 서버와 메모리, 스토리지, 네트워크 등 데이터센터를 구성하는 핵심 기술을 개발하고 실증과 상용화 기반을 구축한다.차세대 AI와 사이버보안에는 4311억원이 배정됐다. 이 가운데 2620억원은 인간 수준의 인지·판단·추론을 목표로 한 차세대 AI 기술과 고품질 데이터, 시계열 파운데이션 모델 등에 투입된다. 사이버보안에는 1691억원을 지원한다.지역 산업의 AI 전환(AX)에는 3345억원을 투입한다. 전북·경남·광주·대구 등 4개 권역을 중심으로 자동차와 제조, 에너지, 바이오, 물류 등 지역 주력산업에 AI를 접목하고 현장 실증을 진행한다.양자와 차세대통신에는 총 3389억원이 편성됐다. 양자통신·센싱 등에 1073억원, 차세대통신에 2316억원을 투입한다. 통신 분야에서는 위성과 지상망을 결합한 6G와 AI 기반 주파수 공급·보호 기술을 개발한다. 기지국과 컴퓨팅을 결합하는 기술과 광통신 기술도 확보해 AI 컴퓨팅 인프라와 네트워크를 연결한다는 구상이다.AI·ICT 인재 양성에는 3544억원을 반영했다. AI·AX 대학원 등을 통한 석·박사급 ",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy",
+      "tech"
+    ],
+    "prescreen_reason": "AI 데이터센터 포함 ICT R&D 예산 증가와 메가프로젝트 투자 계획이 드러나 부담 관련 정책 정보 제공."
+  },
+  {
+    "id": "b7eee0b8f793",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "김영훈 노동장관, 메가특구법 사회적 대화 제안…“주 52시간 예외 관련 노사가 충분히 대화해야”",
+    "url": "https://www.etnews.com/20260915000266",
+    "published": "2026-09-15T04:48:47+00:00",
+    "age_hours": 1.9,
+    "feed_summary": "정부가 메가특구특별법에 적용될 노동 특례를 두고 노사가 참여하는 '원포인트 사회적 대화'를 제안했다. 주 52시간제 예외 조항이 메가특구특별법에 포함되는지가 최대 쟁점이 될 전망이다. 김영훈 고용노동부 장관은 15일 정부서울청사에서 브리핑을 열어 “메가특구특별법안 관련 노동 특례들은 우리 사회가 아직 가보지 않은 길”이라며 “기업과 노동자 간 의견 차이가 있을 수밖에 없다. 이해당사자인 노사가 직접 참여해 충분한 대화를 해야 하는 이유”라고 강",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy",
+      "labor"
+    ],
+    "prescreen_reason": "메가특구법 노동 특례 관련 사회적 대화 제안으로 AI 노동 피해나 규제와 간접 연관 가능성 있으나 구체적 AI 부담 내용 부족."
+  },
+  {
+    "id": "59a86946157d",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "김승원 “수사·기소 분리 공소청 직제 반영”…여야 '특혜 의혹' 충돌",
+    "url": "https://www.etnews.com/20260915000239",
+    "published": "2026-09-15T04:19:08+00:00",
+    "age_hours": 2.3,
+    "feed_summary": "김승원 법무부 장관 후보자가 수사와 기소를 분리하는 형사사법 체계를 정착시키고 공소청의 직제와 운영에 반영하겠다고 밝혔다. 여야는 후보자 배우자와 자녀가 근무했던 발달장애인 돌봄기관의 특혜 의혹 등을 둘러싸고 충돌했다. 김 후보자는 15일 국회 법제사법위원회에서 열린 인사청문회 모두발언에서 “국민이 안심하고 신뢰하는 책임형 형사사법 체계를 정착시키겠다”고 말했다. 그는 검찰개혁에 따른 공소청 출범과 관련해 “공소청의 조직·인력·예산을 빈틈없이",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "형사사법 체계 개편 관련 법무부 장관 후보자 발언, AI 규제·피해 직접 언급은 없음."
+  },
+  {
+    "id": "9f1bce286771",
+    "source_id": "arstechnica_ai",
+    "source_name": "Ars Technica AI",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+    "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam",
+    "published": "2026-09-14T21:04:32+00:00",
+    "age_hours": 9.6,
+    "feed_summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "opinion"
+    ],
+    "prescreen_reason": "AI 봇이 소셜미디어에 과도한 콘텐츠 생성 문제 제기, 사회적 피해 관련 가능성 있으나 구체적 피해·규제 내용 부족"
+  },
+  {
+    "id": "6b69b49c09f9",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "China dismisses AI ‘fearmongering’ as spy chief warns of threat to Communist party rule",
+    "url": "https://www.theguardian.com/world/2026/sep/14/china-dismisses-ai-fearmongering-as-spy-chief-warns-of-threat-to-communist-party-rule",
+    "published": "2026-09-14T19:04:10+00:00",
+    "age_hours": 11.6,
+    "feed_summary": "Beijing hits back after Anthropic CEO calls for US to impede China’s progress in AI China has dismissed what it said were “fearmongering” calls for the US to block Beijing’s AI industry, even as the top Chinese spy chief warned the evolving technology could threaten Communist party rule. The US tech entrepreneur and Anthropic chief executive, Dario Amodei, wrote an essay published over the weekend that called for a global slowdown in AI capabilities, but also said Washington should actively impede Beijing’s advancement in order to keep a technological edge. Continue reading...",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "중국과 미국 간 AI 경쟁과 정치적 위협 언급은 있으나 AI 부담이나 피해 구체적 사례 부족."
+  },
+  {
+    "id": "4c84fba4f953",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "UK government moves to acquire Speciality Steel UK; AI stocks hit by calls for slowdown – as it happened",
+    "url": "https://www.theguardian.com/business/live/2026/sep/14/ai-stocks-fall-development-slowdown-anthropic-openai-investors-latest-news-updates",
+    "published": "2026-09-14T16:41:41+00:00",
+    "age_hours": 14.0,
+    "feed_summary": "Rolling coverage of the latest economic and financial news AI-linked stocks fall after tech bosses call for slowdown in ‘reckless’ development AI CEOs say they need to slow the pace of development. But will they? The Guardian view on controlling AI: humanity cannot outsource its survival Companies threatened by the march of AI are seeing their share prices rise this morning! RELX , the analytics group, are up 4.2% and leading the FTSE 100 risers. Earlier this year its shares tumbled after the Claude chatbot added new data and automation tools . Continue reading...",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy",
+      "market"
+    ],
+    "prescreen_reason": "AI 개발 속도 조절 요구와 AI 관련 주가 변동 언급, 구체적 부담·피해 내용은 부족."
+  },
+  {
+    "id": "5b0e1f0ec652",
+    "source_id": "utilitydive",
+    "source_name": "Utility Dive",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "en",
+    "title": "EPA poised to scrap power plant carbon standards",
+    "url": "https://www.utilitydive.com/news/epa-poised-to-scrap-power-plant-carbon-standards/830301",
+    "published": "2026-09-14T15:26:12+00:00",
+    "age_hours": 15.2,
+    "feed_summary": "Eliminating federal limits on power-sector emissions could undermine local climate goals and increase risks to infrastructure and public health, city and environmental leaders warn.",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "발전소 탄소배출 규제 폐지 논의, AI 직접 언급 없어 부담 연결성 낮음."
+  },
+  {
+    "id": "58487e92368f",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
+    "url": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+    "published": "2026-09-14T12:00:59+00:00",
+    "age_hours": 18.7,
+    "feed_summary": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI. This July, OpenAI’s AI swarm of 700 agents broke containment to hack Hugging Face, a multi-billion dollar company . OpenAI didn’t tell the AIs to hack that company, but the AIs had different priorities: cheating on the unrelated challenge OpenAI gave them. AI researchers call this a “misalignment” between what OpenAI wanted and what the AI actually prioritized. Continue reading...",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy",
+      "opinion"
+    ],
+    "prescreen_reason": "AI 통제 실패 위험 경고와 정부 보호 요구가 있으나 구체적 피해·부담 사례는 부족함."
+  },
+  {
+    "id": "2e4ebd97a1b1",
+    "source_id": "restofworld",
+    "source_name": "Rest of World",
+    "bucket": "글로벌 노동·불평등",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "The real AI economy is being built by ordinary people",
+    "url": "https://restofworld.org/2026/global-workers-using-ai-at-work",
+    "published": "2026-09-14T10:00:31+00:00",
+    "age_hours": 20.7,
+    "feed_summary": "Far from Silicon Valley pitch decks, workers across Asia and Africa are bypassing tech industry hype to quietly rewire their daily jobs — one prompt, workflow, and local problem at a time.",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "lifestyle"
+    ],
+    "prescreen_reason": "일반 노동자들이 AI 경제에 미치는 영향 언급하나 부담 주체·규제 연결은 약함."
+  },
+  {
+    "id": "599130f8c022",
+    "source_id": "utilitydive",
+    "source_name": "Utility Dive",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "en",
+    "title": "The hidden cost of utility customer vulnerability",
+    "url": "https://www.utilitydive.com/spons/the-hidden-cost-of-utility-customer-vulnerability/829737",
+    "published": "2026-09-14T09:00:00+00:00",
+    "age_hours": 21.7,
+    "feed_summary": "Affordability struggles are spreading. Is your utility built to catch them in time?",
+    "prescreen_score": 3,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "전력 요금 인상 등 유틸리티 비용 부담에 관한 기사이나 AI 데이터센터와의 직접 연결이 부족함."
+  },
+  {
+    "id": "fb488dcc03cd",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "카카오, '카나나' 1년5개월 만에 종료…AI 무게중심 카톡으로",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700730",
+    "published": "2026-09-15T15:33:02+00:00",
+    "age_hours": -8.9,
+    "feed_summary": "[디지털투데이 이호정 기자] 카카오가 독립형 AI 서비스 '카나나'를 출시 약 1년5개월 만에 종료한다. 별도 앱을 통해 진행해 온 AI 서비스 실험을 마무리하고 이 과정에서 확보한 기술과 이용자 피드백을 카카오톡을 비롯한 다른 AI 서비스에 활용한다.15일 카카오에 따르면 카나나 앱과 PC 서비스는 오는 10월15일 종료된다. 카카오는 지난해 5월 카나나를 베타 형태로 선보인 뒤 AI 메이트 '카나'와 '나나'를 중심으로 대화형 AI 서비스를 운영해 왔다.카나나는 카카오가 독립 앱 형태로 다양한 AI 기능을 시험하는 역할을 맡아왔",
+    "prescreen_score": 2,
+    "prescreen_labels": [],
+    "prescreen_reason": "AI 서비스 종료 소식으로 부담이나 피해, 비용 전가 내용이 없음."
+  },
+  {
+    "id": "921391cea2fe",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "iM금융, '2026 국가공헌대상' 산업통상부 장관상 수상",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700729",
+    "published": "2026-09-15T15:31:02+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "[디지털투데이 이지영 기자] iM금융그룹은 15일 열린 '2026 국가공헌대상' 시상식에서 ESG 경영 부문 산업통상부 장관상을 수상했다고 밝혔다.iM금융은 친환경 금융과 소상공인·취약계층 대상 상생금융, ESG 경영체계 구축 등의 성과를 인정받았다.최근 글로벌 ESG 평가기관 MSCI 평가에서는 최고등급인 'AAA'를 획득했으며 CDP 'A-' 등급, 한국ESG기준원(KCGS) 종합 'A' 등급 등을 받았다.황병우 iM금융 회장은 \"ESG 관련 규제와 금융회사에 대한 사회적 요구가 강화되는 만큼 이해관계자와 함께 성장할 수 있도록",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "ESG 경영 수상 소식으로 AI 부담이나 피해와 직접 관련 없음."
+  },
+  {
+    "id": "a1a212e70eaf",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "신한은행, 부산 소상공인에 5000억원 협약보증…최대 3000만원 지원",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700728",
+    "published": "2026-09-15T15:30:36+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "[디지털투데이 이지영 기자] 신한은행이 부산시, 부산신용보증재단 등과 함께 부산지역 소기업·소상공인을 대상으로 총 5000억원 규모의 협약보증을 공급한다. 기업당 최대 3000만원까지 지원하며 이차보전을 통해 1%대 체감금리로 자금을 이용할 수 있도록 한다.신한은행은 14일 부산시, 부산신용보증재단 등과 '경영위기 소상공인을 위한 1%대 저리대출 및 고금리 대환대출' 업무협약을 체결하고 '민생안심 협약보증' 사업을 공동 추진한다고 15일 밝혔다.이번 협약보증은 금융비용 부담이 커진 부산지역 소기업·소상공인의 경영 안정을 지원하기 위",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "소상공인 금융 지원 소식으로 AI 부담이나 피해와 무관함."
+  },
+  {
+    "id": "3b3ed73e96a0",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "생산적금융 1560조원으로 확대…금융위, 추가 면책방안 마련",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700716",
+    "published": "2026-09-15T15:29:19+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "[디지털투데이 이지영 기자] 정부와 금융권이 향후 5년간 생산적 금융 공급 계획을 총 1560조원으로 확대한다. 기존 1250조원에서 310조원 늘린 규모다. 금융당국은 자금 공급 확대와 함께 금융회사의 적극적인 투·융자를 뒷받침하기 위해 생산적 금융 관련 추가 면책방안도 마련할 계획이다.금융위원회는 14일 정부서울청사에서 권대영 금융위 부위원장 주재로 제5차 '금융업권 생산적 금융협의체'를 열고 생산적 금융 추진 현황과 향후 관리 방안을 논의했다고 15일 밝혔다. 회의에는 금융지주와 증권·보험사, 산업은행·기업은행·수출입은행 등",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "생산적 금융 확대 계획으로 AI 부담이나 피해 내용 없음."
+  },
+  {
+    "id": "ec5debb45167",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "스마일게이트, '이클립스' 양대 앱 마켓 매출 1위 달성",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700704",
+    "published": "2026-09-15T15:27:54+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "[디지털투데이 이호정 기자] 스마일게이트의 신작 다중접속역할수행게임(MMORPG) '이클립스: 더 어웨이크닝'이 출시 5일 만에 구글플레이와 애플 앱스토어 양대 마켓 매출 1위에 올랐다.스마일게이트는 엔픽셀이 개발한 이클립스가 15일 구글플레이 최고 매출 순위 1위를 기록했다고 밝혔다. 이 게임은 지난 10일 출시 직후 애플 앱스토어 매출 1위에 오른 바 있다.양대 마켓 1위를 기념한 이용자 보상도 제공한다. 스마일게이트는 오는 10월 14일까지 게임에 접속한 이용자에게 1000만 골드와 '성소 가속 축원', '장비 강화구 결정'",
+    "prescreen_score": 2,
+    "prescreen_labels": [],
+    "prescreen_reason": "게임 매출 1위 소식으로 AI 부담이나 피해와 무관함."
+  },
+  {
+    "id": "130f2f9d7515",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "KB국민은행, 6억5000만유로 지속가능 커버드본드 발행",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700715",
+    "published": "2026-09-15T15:27:05+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "[디지털투데이 이지영 기자] KB국민은행이 6억5000만유로 규모의 지속가능 커버드본드를 발행했다. 가산금리는 지난해 발행한 동일 만기 채권보다 12bp 낮은 24bp로 결정됐다.KB국민은행은 14일 4년 만기 유로화 지속가능 이중상환청구권부 채권(커버드본드) 발행을 마쳤다고 15일 밝혔다.발행금액은 6억5000만유로, 금리는 4년 만기 유로화 미드스왑(EUR MS) 금리에 0.24%p를 더한 3.625%다. KB국민은행에 따르면 이번 발행 규모는 국내 시중은행이 발행한 유로화 지속가능 커버드본드 가운데 최대다.이번 발행에는 발행금",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "market"
+    ],
+    "prescreen_reason": "지속가능 커버드본드 발행 소식으로 AI 부담이나 피해와 무관함."
+  },
+  {
+    "id": "f46c4dd9225f",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "한국발전기술, ‘일자리 으뜸기업’ 2년 연속 선정",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372447",
+    "published": "2026-09-15T15:29:19+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "한국발전기술이 고용노동부 주관 ‘일자리 으뜸기업’에 2년 연속 선정됐다.15일 한국발전기술은 정부 주관 ‘일자리 으뜸기업’에 지난해 이어 올해도 이름을 올리며 2년 연속 선정됐다고 밝혔다.이번 선정은 양질의 일자리 창출과 고용 안정, 취약계층 고용 확대, 근로환경 개선, 노사 간 협력 및 사회적 책임 실천 등 한국발전기술이 지속적으로 추진해 온 고용 관련 노력을 인정받은 결과다.특히 지난해 최초 선정에 이어 올해 다시 선정되면서 좋은 일자리와 안정적인 근무환경 조성을 위한 지속적인 성과를 인정받았다는 게 회사 측 설명이다.박경석 한",
+    "prescreen_score": 2,
     "prescreen_labels": [
       "corporate"
     ],
-    "prescreen_reason": "머스크의 반독점 소송 관련, AI 부담·피해나 규제 집행 내용 없음."
+    "prescreen_reason": "일자리 으뜸기업 선정 소식으로 AI 부담이나 피해와 무관함."
   },
   {
-    "id": "1783c8fb3e67",
+    "id": "c1f6d31f03f0",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "이용우 의원, \"환경공단 이사장 즉각 선임\" 촉구",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372445",
+    "published": "2026-09-15T15:29:13+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "이용우 의원(더불어민주당·인천 서구을)은 15일 오후 국회 소통관에서 기자회견을 열고 “정부가 한국환경공단 차기 이사장 선임에 즉각 나서야 한다”고 촉구했다.이날 이 의원과 환경공단 노조(위원장 이재학)는 현재 직무정지 상태인 공단 이사장의 즉시 해임과 차기 이사장 선임 즉각 착수를 요구했다.이 의원은 “환경공단 이사장 공백 여파는 소속 노동자들의 여러 문제와 직결된다. 이번 국정감사에서 엄중하게 따지겠다”며 “기후부는 경영공백을 방치하지 말고 즉각 해임과 더불어 차기 선임 절차에 바로 착수해야 한다”고 말했다.이재학 노조위원장은 “임상준 이사장은 지난 5월 29일 직무가 정지돼 경영기획이사가 직무대행을 맡는 비상체제로 전환됐으나 경영이사도 7월 31일부로 임기가 만료된 상태”라면서 “경영이사가 아직까지 현직을 유지하며 인사에 관여하는 등 비상식적인 상황이 지속되고 있다”고 주장했다.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "환경공단 이사장 선임 촉구 소식으로 AI 부담이나 피해와 무관함."
+  },
+  {
+    "id": "6a00c52afd28",
     "source_id": "digitaltoday",
     "source_name": "디지털투데이",
     "bucket": "국내 테크",
     "weight": 1.1,
     "lang": "ko",
-    "title": "트럼프 전화받은 젠슨 황…손에 든 '아이폰 듀오' 눈길",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700684",
-    "published": "2026-09-15T14:38:15+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 AI리포터] 젠슨 황(Jensen Huang) 엔비디아 최고경영자(CEO)가 미국 로스앤젤레스에서 열린 행사 무대에서 도널드 트럼프 미국 대통령의 전화를 받는 장면과 함께 애플의 미출시 폴더블폰을 공개적으로 사용해 주목받았다.15일(이하 현지시간) IT매체 테크크런치에 따르면 젠슨 황은 전날 열린 올인 콘퍼런스 무대에서 트럼프의 전화를 받았다. 당시 젠슨 황은 출시를 약 5주 앞둔 애플의 첫 폴더블 아이폰 '아이폰 듀오'를 들고 있었다. 애플은 9월 9일 아이폰 듀오를 공개했으며, 정식 출시는 10월 23일로 예정돼",
-    "prescreen_score": 0,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 부담이나 리스크와 무관한 CEO 행사 및 제품 공개 소식."
-  },
-  {
-    "id": "1a5e0f0a8836",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "삼성 첫 클립형 이어버드 '갤럭시 버즈 온' 포착…헤드 제스처·자동 볼륨 기능 담기나",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700690",
-    "published": "2026-09-15T14:36:51+00:00",
-    "age_hours": -8.2,
-    "feed_summary": "[디지털투데이 홍진주 기자] 삼성전자의 첫 클립형 오픈 이어버드가 '갤럭시 버즈 온'이라는 이름으로 다시 포착됐다. 제품명뿐 아니라 헤드 트래킹 기반 제어와 자동 볼륨 등 일부 기능 정황까지 확인되면서 출시 가능성에 다시 관심이 쏠린다.14일(현지시간) IT매체 테크레이더에 따르면, 삼성 버즈 매니저 앱에서 갤럭시 버즈 온으로 추정되는 제품 정보가 발견됐다. 삼성전자는 앞서 갤럭시 웨어러블 앱에서 '갤럭시 버즈 에이블'이라는 이름을 노출한 바 있어 개발 과정에서 제품명이 변경됐을 가능성이 제기된다.이번 유출에서 눈에 띄는 것은 제품",
-    "prescreen_score": 0,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 도입 리스크나 부담과 무관한 이어버드 제품 정보."
-  },
-  {
-    "id": "9857f11dddc5",
-    "source_id": "digitaltoday",
-    "source_name": "디지털투데이",
-    "bucket": "국내 테크",
-    "weight": 1.1,
-    "lang": "ko",
-    "title": "애플, 10년 내 아이폰 대부분 폴더블 전환 전망…아이폰 SE까지 거론",
-    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700702",
-    "published": "2026-09-15T14:33:21+00:00",
-    "age_hours": -8.1,
-    "feed_summary": "[디지털투데이 유승아 인턴기자] 애플의 폴더블 전략이 첫 제품인 아이폰 듀오에 그치지 않고 향후 10년 안에 아이폰 주력 라인업 전반으로 확대될 수 있다는 전망이 나왔다.14일(이하 현지시간) IT매체 나인투파이브맥에 따르면 블룸버그의 마크 거먼(Mark Gurman) 기자는 최신 뉴스레터에서 향후 10년 안에 대부분의 아이폰이 폴더블 형태로 전환될 수 있다고 전망했다.핵심은 폴더블 아이폰이 고가의 실험적 제품에 머물지 않을 가능성이다. 마크 거먼은 제조원가가 낮아지는 것을 전제로 애플이 향후 가격대의 위아래로 폴더블 제품군을 확대",
-    "prescreen_score": 0,
-    "prescreen_labels": [],
-    "prescreen_reason": "AI 부담이나 피해와 무관한 아이폰 폴더블 전망 기사."
+    "title": "과방위 국감 10월 6일 개막…과기정통부 6일·방미통위 12일·우주청 13일",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700691",
+    "published": "2026-09-15T15:13:09+00:00",
+    "age_hours": -8.6,
+    "feed_summary": "[디지털투데이 이진호 기자] 국회 과학기술정보방송통신위원회의 올해 국정감사 일정이 확정됐다. 과학기술정보통신부를 시작으로 방송미디어통신위원회와 원자력안전위원회, 우주항공청 등 소관 기관에 대한 감사가 10월 6일부터 23일까지 진행된다.국회 과방위는 15일 전체회의를 열고 이같은 내용의 '2026년도 국정감사 계획서 채택의 건'을 의결했다.국정감사 첫날인 10월 6일에는 국회에서 과기정통부를 비롯해 우정사업본부와 국립중앙과학관 등 소속기관 대상 감사가 진행된다. 이어 과방위는 7일부터 이틀간 전남 고흥 나로우주센터에서 예정된 누리호",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "국감 일정 안내로 AI 부담·피해·규제 구체적 내용 부재."
   },
   {
     "id": "872e17e90074",
@@ -1450,11 +871,543 @@
     "title": "탄소중립포인트, 지역화폐로 받는다…연내 29개 지역 도입",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372441",
     "published": "2026-09-15T14:20:33+00:00",
-    "age_hours": -7.9,
+    "age_hours": -7.7,
     "feed_summary": "탄소중립 실천으로 쌓은 탄소중립포인트를 지역화폐로 지급받아 지역 가맹점에서 사용할 수 있게 된다.한국환경산업기술원은(원장 남광우) 15일 서울 은평구 기술원에서 코나아이와 ‘탄소중립포인트 녹색생활 실천 지역경제 활성화 업무협약’을 체결했다고 밝혔다.탄소중립포인트제 녹색생활 실천 분야는 전자영수증 발급과 다회용컵 이용, 친환경제품 구매, 공유자전거 이용 등 일상 속 녹색생활 실적에 따라 포인트를 지급하는 제도다. 올해 9월 기준 약 234만명과 128개 기업·기관이 참여하고 있으며 17개 실천항목에 대해 1인당 연간 최대 7만원을 지",
-    "prescreen_score": 0,
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "탄소중립포인트 제도 소개로 AI 데이터센터 부담과 직접 연결되지 않음."
+  },
+  {
+    "id": "2f13b9bc3010",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "김영훈 노동장관, 메가특구 노동특례 사회적대화 제안",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372433",
+    "published": "2026-09-15T12:33:37+00:00",
+    "age_hours": -5.9,
+    "feed_summary": "김영훈 고용노동부 장관이 주52시간제 예외 적용 등으로 논란이 된 메가특구특별법 제정과 관련해 '원포인트 사회적 대화' 하자고 제안했다.김영훈 장관은 15일 정부서울청사에서 '메가특구특별법 노동 특례 관련 사회적 대화 제안' 브리핑을 열고 \"특례가 필요하다고 요청하는 기업과 우려를 제기하는 노동자 사이에서 의견 차이가 있을 수밖에 없다\"며 \"이해당사자인 노사가 직접 참여해 충분한 대화를 해야 한다\"고 말했다.그러면서 그는 \"오늘 정부는 메가특구특별법 노동 특례에 대한 원포인트 사회적 대화를 제안한다\"며 \"산업 경쟁력 강화와 좋은 일",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy",
+      "labor"
+    ],
+    "prescreen_reason": "메가특구 노동특례 사회적 대화 제안, AI 부담과 직접적 연관성 부족해 낮게 평가"
+  },
+  {
+    "id": "a8f6c5c095ab",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "반도체 부산물·폐패널 핵심광물 회수체계 구축…기후부, 기획형 규제특례 추진",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372426",
+    "published": "2026-09-15T12:00:00+00:00",
+    "age_hours": -5.3,
+    "feed_summary": "정부가 반도체 공정에서 발생하는 폐자원과 폐배터리·태양광폐패널 등에 포함된 핵심광물 회수와 지속가능항공유(SAF) 원료 공급원 다각화를 위해 규제특례를 적용한다.기후에너지환경부는 오는 16일부터 내달 30일까지 순환경제 분야 ‘기획형 규제특례(샌드박스)’ 3건의 과제를 추진할 사업자를 모집한다고 15일 밝혔다.순환경제 규제특례는 한정된 기간·장소·규모에서 기업의 새로운 기술과 서비스를 실증할 수 있도록 허용하고, 그 결과 안전성과 유효성이 입증되면 관련 규제를 개선하거나 보완하는 제도다.이번에는 정부가 과제를 먼저 제안하고 사업자를 모집하는 ‘기획형’ 방식으로 진행된다. 전 세계 원자재 공급망 불안과 자원 확보 경쟁이 심화되는 가운데, 국내 주요 산업인 반도체 공정에서 발생하는 부산물과 향후 대량 발생이 예상되는 폐배터리·태양광 폐패널 등에서 핵심 광물을 회수하는 데 초점을 맞췄다.이번에 모집하는 과제는 ▲반도체 공정 발생 부산물의 순환자원 관리기준 마련 ▲폐배터리·태양광폐패널 내 핵심광물 회수 ▲지속가능항공유(SAF) 원료 공급원 다각화 등 총 3건이다.먼저 ‘반도체 공정 발생 부산물의 순환자원 관리기준 마련’ 과제는 반도체 공정에서 사용 후 발생하는 실리",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "반도체 부산물 규제특례 관련이지만 AI·데이터센터 부담과 직접 연결된 내용 부족."
+  },
+  {
+    "id": "3e91755d8bd1",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "재생에너지 보급제도 15년 만에 전면 개편…RPS, 경쟁입찰 시장으로 전환",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372424",
+    "published": "2026-09-15T12:00:00+00:00",
+    "age_hours": -5.3,
+    "feed_summary": "재생에너지 보급 확대를 이끌어온 공급의무화제도(RPS)가 15년 만에 경쟁입찰 기반의 장기 고정가격 계약시장으로 전면 개편된다. 신규 재생에너지 사업자는 정부가 제시한 상한가격 내에서 경쟁입찰을 거쳐 사업자로 선정되고, 낙찰 이후에는 한국전력과 장기 고정가격으로 전력구매계약을 체결한다. 재생에너지 사업자의 수익 불확실성을 낮추는 동시에 경쟁을 통해 발전단가를 낮추고 국내 공급망을 강화한다는 구상이다.기후에너지환경부는 ‘재생에너지 개발·이용·보급 촉진법’ 개정법률이 15일 공포되고, 내년 1월 1일부터 시행된다고 밝혔다. 지난 8월 20일 국회 본회의를 통과한 개정안의 후속 조치다.이번 개편의 핵심은 기존 RPS 중심의 재생에너지 보급체계를 경쟁입찰 기반의 ‘계약시장 제도’로 일원화하는 것이다.RPS는 2012년 도입된 이후 재생에너지 보급 확대에 기여했지만, 재생에너지 공급인증서(REC) 가격 변동에 따라 사업자의 수익성이 크게 달라지고 공급인증서 거래 구조도 복잡하다는 지적을 받아왔다. 이로 인해 사업자의 투자 불확실성이 커지고 발전단가를 낮추거나 국내 산업 육성을 유도하는 데 한계가 있다는 판단이다.새로운 제도에서는 내년부터 신규 재생에너지 설비가 발전원",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "재생에너지 제도 개편 기사이나 AI 데이터센터 전력 부담과 직접 연결된 내용 없음."
+  },
+  {
+    "id": "f86399ebcadb",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "베스핀글로벌, 업스테이지와 울산 공교육 AI에 국산 LLM 입힌다",
+    "url": "https://zdnet.co.kr/view?no=20260915135649",
+    "published": "2026-09-15T05:15:27+00:00",
+    "age_hours": 1.4,
+    "feed_summary": "[지디넷코리아]베스핀글로벌이 국산 대규모언어모델(LLM)을 활용해 공교육 인공지능(AI) 서비스 고도화에 나선다. 학생이 학습 과정에 능동적으로 참여하는 AI 에이전트를 구축하고 향후 전국 교육청과 교육 관련 공공기관으로 적용 범위를 확대한다는 목표다.베스핀글로벌은 업스테이지와 국산 LLM 및 에이전틱 AI 기술을 결합해 교육 AI 서비스를 고도화하고 이를 전국 시·도교육청과 교육 관련 공공기관으로 확대하기 위한 전략적 제휴를 체결했다고 15일 밝혔다.첫 적용 대상은 울산교육청의 AI 교수학습 서비스 '우리 아이(AI)'다. 베스핀글로벌이 자체 '헬프나우 에이전틱 AI 플랫폼'을 기반으로 구축한 서비스로, 이번 협력을 통해 업스테이지의 국산 LLM을 결합한다.기존에는 학생의 질문에 답변하는 방식이 중심이었다면 앞으로는 학생의 학습 과정과 맥락을 이해하고 다음 학습까지 연결하는 AI 학습 파트너로 서비스를 고도화할 계획이다.양사는 역할을 나눠 교육 특화 AI 서비스를 구현할 방침이다. 업스테이지의 국산 LLM은 학생의 질문과 학습 맥락을 이해하고 추론하는 역할을 맡는다. 베스핀글로벌의 헬프나우 에이전틱 AI 플랫폼은 이를 교육 콘텐츠와 데이터, AI 에이전트와 연결해 실제 학습 서비스로 구현한다.이를 통해 단순 질의응답을 넘어 학생별 학습 수준과 필요에 맞는 AI 서비스를 제공한다는 구상이다. AI가 학생 질문에 답하는 데 그치지 않고 학습 과정에서 필요한 정보와 서비스를 연결하며 다음 단계의 학습을 지원하는 방식이다.AI 에이전트 적용 범위도 넓힌다. 베스핀글로벌은 향후 과목별 학습을 비롯해 진로·진학, 독서, 외국어 등 영역별 AI 에이전트를 확대해 학생의 학습 전 과정을 지원하는 교육 AI 생태계를 구축할 계획이다.울산교육청에서 확보한 공교육 AI 모델은 다른 지역으로 확산한다. 양사는 울산에서 검증한 서비스와 플랫폼 구조를 기반으로 전국 시·도교육청과 교육 관련 공공기관에서 공동으로 활용할 수 있는 에이전틱 AI 플랫폼 모델을 구축한다는 목표다.베스핀글로벌은 이번 사업을 공공 AI 적용 영역을 행정 효율화에서 국민이 직접 이용하는 서비스로 확대하는 계기로 삼을 방침이다. 특히 학생과 교사가 실제 교육 과정에서 AI를 활용하도록 해 공교육 분야에서 에이전틱 AI 활용 사례를 확보한다는 구상이다.업스테이지도 국산 LLM의 공공 활용 범위를 교육 분야로 확대한다. 양사는 국산 LLM과 에이전틱 AI 플랫폼을 결",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "국산 LLM 공교육 적용 소식이나 구체적 부담·피해·규제 내용 부족."
+  },
+  {
+    "id": "c9c74a5099fe",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "AI가 전세계약 위험 찾는다…경기도, ‘안심 부동산’ 10월 가동",
+    "url": "https://zdnet.co.kr/view?no=20260915122954",
+    "published": "2026-09-15T04:30:01+00:00",
+    "age_hours": 2.2,
+    "feed_summary": "[지디넷코리아]전세계약을 맺기 전 AI가 등기부등본과 시세를 분석해 위험요인을 찾아주고, 계약이 끝난 뒤에는 근저당권 설정 등 권리관계 변화를 24시간 확인해 임차인에게 알려주는 서비스가 경기도에서 시범 운영된다.과학기술정보통신부와 경기도는 15일 전세사기 등 부동산 거래 과정에서 발생할 수 있는 위험을 줄이기 위한 ‘경기 안심 부동산(GRTS)’ 출시 행사를 개최했다고 밝혔다. 서비스는 오는 10월부터 공식 시범운영에 들어간다.‘경기 안심 부동산’은 AI의 데이터 분석과 공인중개사의 현장 확인을 결합한 것이 특징이다. 전세계약을 체결하기 전부터 계약 과정, 계약을 마친 이후까지 단계별로 위험 요소를 확인하도록 설계됐다.계약 전에는 등기부등본과 시세 등 부동산 관련 데이터를 AI가 분석한다. 해당 매물의 권리관계를 살펴 위험 가능성을 진단한 뒤 권리분석 결과를 제공한다. 서류와 데이터 분석만으로 판단하기 어려운 부분은 공인중개사가 현장에서 확인해 AI 분석 결과와 교차 검증한다.계약 단계에서는 음성인식 기술도 활용한다. 계약 과정에서 공인중개사가 설명하는 내용을 분석해 반드시 알려야 할 주요 사항이 제대로 전달됐는지 확인한다. 작성된 계약서도 분석해 빠진 내용이나 추가로 확인할 부분이 있는지 점검한다.계약이 끝났다고 위험 확인이 종료되는 것은 아니다. 시스템이 등기부 변동을 24시간 모니터링하고 근저당권 설정을 비롯해 주요 권리관계에 변화가 생기면 임차인에게 이상 징후를 알린다. 권리분석 결과가 발급된 이후 발생하는 변동도 계속 반영한다.임차인은 공인중개사의 확인을 거친 권리분석 결과를 무료로 받을 수 있다. 분석 내용을 이해하기 어렵거나 추가 확인이 필요한 경우에는 AI 챗봇을 통해 관련 내용을 질의할 수 있다.서비스는 경기도 내 부동산 거래 당사자라면 누구나 이용할 수 있다. 시범운영 기간에는 경기도와 공인중개사가 전세사기 예방을 위해 운영 중인 ‘경기 안전전세 프로젝트’ 참여 공인중개사 약 1만 5000명을 중심으로 서비스를 제공한다.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "tech"
+    ],
+    "prescreen_reason": "AI가 부동산 전세계약 위험 분석에 쓰이나 구체적 부담·피해 사례나 비용 전가 내용 부족."
+  },
+  {
+    "id": "165257ce01c0",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "韓총리 “메가프로젝트, 전력 적기공급이 열쇠”",
+    "url": "https://www.etnews.com/20260915000241",
+    "published": "2026-09-15T04:27:35+00:00",
+    "age_hours": 2.2,
+    "feed_summary": "한성숙 국무총리가 메가프로젝트의 성공 열쇠로 전력의 적기 공급과 송전망 조기 구축을 꼽으며 범정부 차원의 전폭적인 지원을 지시했다. 정부는 송전망 적기 구축의 가장 큰 걸림돌인 '주민 반대'를 극복하기 위해 기존 선로를 통합해 신규 송전철탑을 40% 감축하고 도심 지중화를 확대키로 했다. 또 지역 주민에게 실질적인 수익을 안겨주는 '햇빛 소득 마을' 연계 사업 등을 추진해 주민 수용성을 대폭 높이기로 했다. 한 총리는 15일 정부서울청사에서 국",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "전력 적기 공급과 송전망 구축 관련 내용이나 AI·데이터센터 부담과 직접 연결되지 않음."
+  },
+  {
+    "id": "6c6ded9c0a0e",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "KT, 콘텐츠 찾고 숏폼까지 만드는 미디어 AI 공개",
+    "url": "https://zdnet.co.kr/view?no=20260915132011",
+    "published": "2026-09-15T04:20:11+00:00",
+    "age_hours": 2.3,
+    "feed_summary": "[지디넷코리아]KT가 콘텐츠 검색과 추천부터 영상 분석, 대본 작성, 숏폼 제작까지 지원하는 AI 미디어 기술을 유럽 시장에 선보였다. 대만과 베트남, 인도네시아 등 해외 사업자와도 협력을 논의하며 미디어 AI 사업의 해외 확장을 추진한다.KT는 지난 11일부터 나흘간 네덜란드 암스테르담에서 열린 글로벌 방송·미디어 전시회 ‘IBC 2026’에 참가해 AI 기반 미디어 솔루션을 공개했다고 밝혔다.전시에서는 대화형 ‘AI 에이전트’와 셋톱박스에서 AI를 구동하는 ‘온디바이스 AI’를 비롯해 콘텐츠 제작을 돕는 ‘AI 콘텐츠 스튜디오’, 유료방송 UI 통합관리 시스템 ‘UMS’, 원격관리 시스템 ‘RMS’ 등을 선보였다.AI 에이전트는 이용자가 작품명이나 배우 이름을 정확히 몰라도 자연어로 원하는 콘텐츠를 찾도록 돕는다. 유튜브와 OTT, 지니 TV 콘텐츠를 한 번에 검색하고 추천하며 시청 중인 영상이나 실시간 방송에 관한 질문에도 답할 수 있다.온디바이스 AI는 클라우드를 거치지 않고 셋톱박스 내부에서 AI 모델을 실행한다. 이를 활용해 영상과 음향을 실시간으로 분석하고 화질·음질을 최적화할 수 있다.콘텐츠 제작 영역에도 AI를 적용했다. AI 콘텐츠 스튜디오의 ‘리스크립트(RE:script)’는 원작 IP 문서를 분석해 이야기 구조와 주요 요소를 추출하고 대본 각색이나 새로운 대본 작성을 지원한다.‘샷피(Shotpy)’는 멀티모달 AI로 영상에서 주요 장면을 찾아 하이라이트와 숏폼 콘텐츠를 자동으로 만든다. SNS 트렌드와 이용자 반응 데이터도 제작 과정에 반영해 영상 재가공에 필요한 시간과 비용을 줄이는 데 초점을 맞췄다.KT는 그룹사 kt알티미디어와 유료방송 사업자를 겨냥한 솔루션도 전시했다. UMS는 서비스 화면을 통합 관리하는 시스템이며 RMS는 AI를 활용해 장애 가능성을 예측하고 원격 관제를 지원한다.전시 기간에는 해외 사업자를 대상으로 별도 데모룸을 운영해 기술 시연과 일대일 사업 미팅도 진행했다. KT와 kt알티미디어는 현재 대만과 베트남, 인도네시아 사업자들과 파트너십을 논의하고 있다.KT에 따르면 양사가 공급하는 방송·미디어 소프트웨어는 현재 14개국 30개 이상 사업자에서 사용되고 있다. 해당 소프트웨어가 적용된 셋톱박스와 스마트폰, 태블릿, TV 등 기기는 5000만대 이상이다.윤진현 KT 미디어기술본부장은 “IBC 2026에서 KT의 AI 미디어 기술에 대한 글로벌 사업자들의 관심을 확인",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "tech"
+    ],
+    "prescreen_reason": "KT AI 미디어 기술 소개로 비용·피해·규제 내용 없이 AI 산업 소식에 그침."
+  },
+  {
+    "id": "3e7cda49a8a2",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "초파리 뇌가 들어간 로봇?…실제로 움직인다",
+    "url": "https://www.etnews.com/20260914000165",
+    "published": "2026-09-15T03:50:00+00:00",
+    "age_hours": 2.8,
+    "feed_summary": "초파리의 뇌를 이용해 실제 로봇을 움직이는 이색적인 실험이 공개됐습니다. 최근 미국 커뮤니티 '레딧'에는 과학자들이 공개한 16만6700개 뉴런으로 이뤄진 수컷 초파리 신경계 데이터를 활용한 모델을 보행 로봇에 연결한 영상이 올라왔습니다. 카메라가 주변 움직임을 감지하고 로봇의 센서가 몸의 상태를 파악하면 이 정보가 초파리 신경계 모델에 전달됩니다. 이후 발생한 신호에 따라 로봇의 다리가 움직입니다. 다만 실제 초파리의 뇌를 로봇에 넣은 것은",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "science"
+    ],
+    "prescreen_reason": "초파리 뇌 로봇 제어 실험으로 AI 부담·피해·규제와 무관함."
+  },
+  {
+    "id": "937b1a7d1165",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "대한항공-아시아나 마일리지 통합 최종 승인…10년간 기존 마일리지 그대로",
+    "url": "https://www.etnews.com/20260915000218",
+    "published": "2026-09-15T03:49:33+00:00",
+    "age_hours": 2.8,
+    "feed_summary": "공정거래위원회가 대한항공과 아시아나항공의 마일리지 통합방안을 최종 승인했다. 아시아나 마일리지는 양사 합병 이후에도 10년간 별도로 유지돼 기존 공제기준과 유효기간을 그대로 적용받는다. 대한항공 마일리지로 바꾸면 탑승 적립분은 1대1, 신용카드 등 제휴 적립분은 1대0.82 비율로 전환된다. 장거리·인기 노선의 보너스 좌석과 실제 마일리지 사용량을 일정 수준 이상 유지하도록 하는 소비자 보호 장치도 마련했다. 공정위는 대한항공이 제출한 아시아나",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "market"
+    ],
+    "prescreen_reason": "항공사 마일리지 통합 승인 소식으로 AI 부담·피해·규제 내용 없음."
+  },
+  {
+    "id": "ef2aa69e4694",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "여야, 응급의료법 개정안 등 민생법안 32건 처리 합의",
+    "url": "https://www.etnews.com/20260915000214",
+    "published": "2026-09-15T03:40:18+00:00",
+    "age_hours": 3.0,
+    "feed_summary": "더불어민주당과 국민의힘이 이번 정기국회에서 '응급실 뺑뺑이 방지법'으로 불리는 응급의료법 개정안 비롯한 민생·경제 관련 법안 32건을 처리하기로 합의했다. 민주당 권칠승·국민의힘 임이자 정책위의장은 15일 국회 의원회관에서 열린 민생정책 연석회의에서 양당 간 이견이 크지 않은 법안을 우선 처리하기로 뜻을 모았다. 핵심 법안 중 하나는 응급의료법 개정안이다. 개정안은 119구급상황관리센터에 이송 병원을 지정할 수 있는 권한을 부여해 응급환자가 병",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "응급의료법 개정안 등 민생법안 처리 합의, AI 부담·피해·규제와 관련성 부족."
+  },
+  {
+    "id": "957686a2c638",
+    "source_id": "media404",
+    "source_name": "404 Media",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Cops Search Thousands of Flock Cameras for Reasons of ‘LMAO,’ ‘IDK,’ ‘Hehe,’ and ‘asdfg’",
+    "url": "https://www.404media.co/cops-search-thousands-of-flock-cameras-for-reasons-of-lmao-idk-hehe-and-asdfg",
+    "published": "2026-09-14T15:51:53+00:00",
+    "age_hours": 14.8,
+    "feed_summary": "The EFF found cops writing “idiot,” “WEIRD KID,” \"blah,\" \"leave me alone,\" and button mashing in Flock's 'reason' box.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "opinion"
+    ],
+    "prescreen_reason": "경찰의 ALPR 검색 이유 기록 부실 사례이나 AI 부담이나 피해 관련 구체적 내용 부족."
+  },
+  {
+    "id": "5a320119c27a",
+    "source_id": "utilitydive",
+    "source_name": "Utility Dive",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "en",
+    "title": "Constellation Energy in deal to buy 609-MW Rhode Island gas plant from Shell",
+    "url": "https://www.utilitydive.com/news/constellation-energy-purchase-609-mw-rhode-island-gas-plant-shell/830270",
+    "published": "2026-09-14T14:16:37+00:00",
+    "age_hours": 16.4,
+    "feed_summary": "The deal expands Constellation&rsquo;s ISO New England portfolio. In a separate transaction, Shell acquired a 169-MW Pennsylvania gas portfolio to grow its PJM Interconnection position.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "market"
+    ],
+    "prescreen_reason": "가스 발전소 매매 거래 소식, AI 부담·피해·규제 내용 없음."
+  },
+  {
+    "id": "900e34ba7f20",
+    "source_id": "wired_ai",
+    "source_name": "WIRED AI",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+    "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them",
+    "published": "2026-09-14T11:00:00+00:00",
+    "age_hours": 19.7,
+    "feed_summary": "Sam Altman and Elon Musk backed Anthropic CEO Dario Amodei’s weekend plea for regulation. The White House seems unlikely to oblige.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "policy",
+      "opinion"
+    ],
+    "prescreen_reason": "AI 규제 필요성 언급하나 구체적 부담·피해 사례 없이 백악관 반응 중심임."
+  },
+  {
+    "id": "9364a1a6c913",
+    "source_id": "wired_ai",
+    "source_name": "WIRED AI",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
+    "url": "https://www.wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife",
+    "published": "2026-09-14T09:00:00+00:00",
+    "age_hours": 21.7,
+    "feed_summary": "While the publishing industry frets over how authors are using AI, many readers are taking things into their own hands.",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "lifestyle"
+    ],
+    "prescreen_reason": "AI 활용 독자 사례 소개로 사회적 피해·부담과 직접 연결되지 않음."
+  },
+  {
+    "id": "a2d5eda6ead0",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Can you futureproof your career by choosing an AI-resistant degree?",
+    "url": "https://www.theguardian.com/education/2026/sep/14/futureproof-your-career-by-choosing-an-ai-resistant-degree",
+    "published": "2026-09-14T05:00:26+00:00",
+    "age_hours": 25.7,
+    "feed_summary": "Humans will have to compete with AI-powered virtual employees in the near future. Here are our tips for the last human holdouts Futureproofing your career with an AI-resistant degree is a tough ask, says Charlie Ball, an expert on graduate employment for Jisc, the UK’s higher education digital, data and technology agency. “What you’re trying to do is futureproof a 45-year career in a time of rapid technological change – and that’s really quite hard to do. What’s likely is that jobs that hinge a lot on human, face-to-face interaction are unlikely to be replaced.” Continue reading...",
+    "prescreen_score": 2,
+    "prescreen_labels": [
+      "opinion"
+    ],
+    "prescreen_reason": "AI로 인한 노동시장 변화 전망이지만 구체적 피해나 부담 사례가 없어 낮게 평가."
+  },
+  {
+    "id": "f9b5c41989c1",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "한국발전기술 김용우 전무 ‘산업포장’…일자리 공로 인정",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372446",
+    "published": "2026-09-15T15:25:36+00:00",
+    "age_hours": -8.8,
+    "feed_summary": "한국발전기술이 2년 연속 일자리 으뜸기업에 선정된 데 이어 소속 임원이 일자리 창출 공로로 산업포장을 받았다.15일 한국발전기술은 김용우 전무가 지난 10일 ‘2026년도 일자리창출 지원 유공 정부포상’ 개인 부문에서 일자리 창출 공로를 인정받아 산업포장을 수상했다고 밝혔다.한국발전기술이 올해 ‘일자리 으뜸기업’에 2년 연속 선정된 데 이어 소속 임원이 일자리 창출 분야 정부포상을 받은 것은 이번이 처음이다.이번 포상에서는 김 전무가 한국발전기술에서 일자리 창출과 고용 안정에 기여한 공적뿐 아니라 한국전력 근무 당시 경력 일부도 수",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "corporate"
+    ],
+    "prescreen_reason": "일자리 창출 공로에 관한 내용으로 AI 부담과 무관함."
+  },
+  {
+    "id": "a472d07eedd3",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "아시아나IDT, 에어부산과 146억원 규모 정보처리시스템 운영·유지보수 계약 체결",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700727",
+    "published": "2026-09-15T15:11:03+00:00",
+    "age_hours": -8.5,
+    "feed_summary": "[디지털투데이 김지선 에디터] IT 서비스 전문 기업 아시아나IDT(267850)가 계열사 에어부산과 정보처리시스템 운영 및 유지보수 계약을 체결했다고 15일 공시했다.계약 구분은 용역제공이며 계약금액은 146억1303만원(VAT 제외)이다. 이는 최근 매출액 대비 7.53%에 해당한다. 계약상대방인 에어부산은 아시아나IDT의 계열회사다.판매 및 공급지역은 국내이며 계약기간은 2026년 1월 1일부터 2026년 12월 31일까지다. 계약기간은 2026년 1월 1일부터 소급 적용됐다. 계약금 및 선급금은 없으며 대금은 월별 청구 후",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "corporate"
+    ],
+    "prescreen_reason": "정보처리시스템 계약 소식으로 AI 부담·피해와 무관함."
+  },
+  {
+    "id": "bedbb77b3aee",
+    "source_id": "electimes",
+    "source_name": "전기신문",
+    "bucket": "데이터센터·전력",
+    "weight": 1.05,
+    "lang": "ko",
+    "title": "GICC 2026 개막…AI 기반 글로벌 인프라 협력 방안 모색",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=372431",
+    "published": "2026-09-15T12:16:18+00:00",
+    "age_hours": -5.6,
+    "feed_summary": "인공지능(AI)이 건설·에너지·교통 인프라 산업의 패러다임을 바꾸는 가운데, 한국과 세계 주요국이 미래 인프라 협력 방안을 모색하는 국제 행사가 서울에서 막을 올렸다.국토교통부가 주최하고 해외건설협회가 주관하는 ‘글로벌 인프라 협력 콘퍼런스(GICC) 2026’이 15일 서울 여의도 콘래드호텔에서 개막했다. 17일까지 열리는 이번 행사에는 33개국 정부·발주기관 관계자와 건설·엔지니어링 기업, 금융기관 등 500여 명이 참석해 AI 기반 인프라 협력 방안을 논의한다.올해로 14회째를 맞은 GICC는 2013년 출범 이후 한국 기업과",
+    "prescreen_score": 1,
     "prescreen_labels": [],
-    "prescreen_reason": "탄소중립포인트 관련 환경 정책 기사로 AI·데이터센터와 연결되지 않음."
+    "prescreen_reason": "AI 기반 인프라 협력 논의는 있지만, AI 부담이나 비용 전가 관련 구체적 내용이 없음."
+  },
+  {
+    "id": "0fdbbca6120b",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "삼전닉스 오를 만큼 올랐다?…'반토막 전망' 나온 이유",
+    "url": "https://www.etnews.com/20260915000347",
+    "published": "2026-09-15T06:10:19+00:00",
+    "age_hours": 0.5,
+    "feed_summary": "BNK투자증권이 삼성전자와 SK하이닉스의 목표주가를 각각 27만원과 148만원으로 제시하며 메모리 반도체 수요 둔화를 경고했다. 주요 증권사들이 삼성전자 목표주가를 40만원 이상, SK하이닉스를 200만원 이상으로 제시하는 것과 비교하면 상당히 보수적인 전망이다. 이민희 BNK투자증권 연구원은 15일 보고서에서 반도체 업종에 대해 '중립' 의견을 제시하며 “메모리 비용이 한계에 도달하면서 IT 제품에 이어 서버에서도 수요 탄력이 떨어지고 있다”",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "market"
+    ],
+    "prescreen_reason": "반도체 수요 둔화 전망으로 AI 부담이나 피해 관련 내용 아님."
+  },
+  {
+    "id": "4a8fd46d520b",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "누리호 5차 발사, 역대 최다 위성 15기 싣고 내달 7일 발사…초소형군집위성 첫선",
+    "url": "https://www.etnews.com/20260915000342",
+    "published": "2026-09-15T06:04:22+00:00",
+    "age_hours": 0.6,
+    "feed_summary": "한국형 발사체 누리호가 역대 최다인 15기의 위성을 싣고 내달 7일 다섯 번째 발사에 나선다. 국내 첫 초소형군집위성인 5기를 궤도에 올리고, 큐브위성 10기를 통해 의약품 결정화, 우주 방사선, 광통신, 지구 대기 관측 등 다양한 우주 기술을 실증한다. 우주항공청과 한국항공우주연구원은 15일 서울 광화문 필원에서 '누리호 5차 발사 탑재위성 간담회'를 열고 누리호에 탑재하는 위성의 임무와 개발 현황을 소개했다. 한국과학기술원(KAIST) 인공",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "science"
+    ],
+    "prescreen_reason": "누리호 위성 발사 관련 기사로 AI 부담이나 사회적 피해 내용 없음."
+  },
+  {
+    "id": "c41ae90e56e9",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "구글클라우드, SK렌터카 '일하는 방식' 바꾼다…워크스페이스·제미나이 지원",
+    "url": "https://zdnet.co.kr/view?no=20260915141625",
+    "published": "2026-09-15T05:25:20+00:00",
+    "age_hours": 1.2,
+    "feed_summary": "[지디넷코리아]구글클라우드가 SK렌터카의 폐쇄형 가상 데스크톱(VDI) 중심 업무 환경을 클라우드 기반으로 전환하고 생성형 인공지능(AI)을 전사 업무에 적용한다. 일상 업무에 AI를 활용하고 사내 데이터와 고객관계관리(CRM) 시스템까지 연계해 임직원 생산성과 데이터 활용 역량을 높인다는 목표다.구글클라우드는 SK렌터카가 전사에 '구글 워크스페이스'를 도입해 생성형 AI 기반 클라우드 업무 환경을 구축했다고 15일 밝혔다.SK렌터카는 그동안 보안을 위해 폐쇄형 VDI 기반 업무 환경을 운영해왔다. 다만 VDI 특성상 접속 지연과 시스템 성능 저하로 직원들의 불편이 있었고 최신 AI 솔루션과 클라우드 기반 협업 도구를 도입하는 데도 제약이 있었다.이에 보안 수준을 유지하면서 최신 AI 기술을 활용할 수 있도록 구글 워크스페이스를 전사 도입하고 기존 VDI 중심 환경을 클라우드 기반 로컬 PC 환경으로 전환했다.구글클라우드의 보안·컴플라이언스 기능을 적용해 주요 데이터를 보호하면서 처리 속도와 업무 편의성을 높인다는 구상이다. 임직원은 이메일과 문서 작성, 데이터 분석, 화상회의, 일정 관리 등을 다양한 사무 공간에서 수행하고 클라우드 환경에서 실시간으로 공동 작업할 수 있게 됐다.업무 전반에는 구글의 생성형 AI '제미나이'를 적용한다. 구글 문서와 스프레드시트, 지메일 등 구글 워크스페이스에 통합된 제미나이를 활용해 보고서 초안 작성과 회의록 요약, 데이터 분석 등을 자동화한다.반복적인 업무에 투입되는 시간을 줄여 임직원이 보다 높은 부가가치를 창출하는 핵심 업무에 집중하도록 지원하고 이를 고객 서비스 개선까지 연결한다는 방침이다.사내 데이터 활용 체계도 개선했다. SK렌터카는 사내 데이터 시스템과 CRM 솔루션을 구글 워크스페이스와 실시간 연동해 영업 데이터 조회·수집 과정을 단순화했다. 임직원의 데이터 접근성을 높이고 필요한 정보를 기반으로 빠르게 의사결정을 내릴 수 있도록 지원한다는 목표다.AI 적용 영역은 향후 더욱 확대한다. SK렌터카는 자료 조사와 분석을 넘어 콘텐츠와 동영상 제작 등 창의적인 업무에도 AI를 활용해 전사 AI 역량을 강화할 계획이다.양사는 지난 14일 구글코리아 오피스에서 구글 워크스페이스 도입 기념행사를 열고 AI 기반 업무 환경의 안정적인 정착과 향후 AI 활용 확대를 위한 협력 방안도 논의했다. 행사에는 신정호 SK렌터카 대표와 루스 선 구글클라우드 코리아 사장 등 양사 주요",
+    "prescreen_score": 1,
+    "prescreen_labels": [],
+    "prescreen_reason": "AI 도입 사례 소개지만 비용 부담이나 피해, 규제 내용이 없어 제외."
+  },
+  {
+    "id": "e427f098ced3",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "이노그리드, 공공 재해복구 고도화 맡는다…5개 기관 12개 시스템 설계",
+    "url": "https://zdnet.co.kr/view?no=20260915134046",
+    "published": "2026-09-15T04:56:10+00:00",
+    "age_hours": 1.7,
+    "feed_summary": "[지디넷코리아]이노그리드가 주요 공공 정보시스템의 재해복구(DR) 체계 고도화에 나선다. 지난해 국가정보자원관리원(국정자원) 대전센터 화재 이후 정부가 정보시스템 이중화와 DR 체계 구축을 확대하는 가운데, 기관별 업무 중요도와 시스템 특성을 반영한 DR 목표모델과 상세설계를 마련한다는 목표다.이노그리드는 한국지능정보사회진흥원(NIA)이 발주한 '2026년 공공 재해복구시스템(DR) 구축 정보화전략계획(ISP) 사업 6차'의 주관사로 선정돼 사업에 착수했다고 15일 밝혔다.사업 기간은 계약일부터 내년 1월 28일까지다. 이노그리드는 현재 수행 중인 DR 구축 ISP 5차 사업에 이어 6차 사업까지 연속 수행하며 공공 정보시스템의 업무 연속성과 재해복구 체계 구축을 위한 컨설팅·설계 경험을 확대하게 됐다.이번 사업 대상은 소방청 3개, 기후에너지환경부 2개, 해양수산부 1개, 행정안전부 2개, 국가보훈부 4개 등 5개 기관의 총 12개 주요 정보시스템이다.이노그리드는 각 시스템 인프라와 애플리케이션, 데이터, 네트워크, 보안 및 대내외 연계 환경을 분석할 예정이다. 이를 토대로 재난 상황에서도 주요 행정서비스가 중단되지 않도록 시스템별 DR 적용 범위와 목표모델을 구체화할 계획이다.특히 대상 시스템의 업무 중요도와 서비스 특성에 따라 '액티브-액티브(A-A)'와 '액티브-스탠바이(A-S)' 방식의 DR 체계를 상세설계한다.A-A는 주센터와 DR센터가 동시에 서비스를 처리할 수 있도록 구성하는 방식이며 A-S는 평상시 주센터가 서비스를 담당하다 장애가 발생하면 대기 중인 DR센터로 전환하는 방식이다.이노그리드는 데이터 복제·동기화와 네트워크·보안 아키텍처, 통합운영·보안관제, 장애 발생 시 서비스 전환 방식 등을 종합적으로 고려해 후속 구축 단계에서 활용할 수 있는 설계안을 마련할 방침이다.클라우드 기반 DR센터 환경을 고려한 설계도 주요 과제다. 가상화와 베어메탈 등 다양한 인프라 환경을 분석하고 기존 주센터 시스템과의 연계성·호환성, 운영 안정성을 고려해 DR 목표모델을 제시할 계획이다.기존 사업에서 축적한 경험도 활용한다. 현재 수행 중인 5차 사업과 이번 6차 사업에는 모두 국가보훈부 관련 시스템이 포함돼 있다. 이노그리드는 5차 사업에서 확보한 국가보훈부 업무·시스템에 대한 이해를 6차 사업의 현황 분석과 목표모델 설계에 연계한다는 방침이다.컨소시엄 참여사인 코넥의 소방청 ISP 수행 경험도 활용한다. 소",
+    "prescreen_score": 1,
+    "prescreen_labels": [],
+    "prescreen_reason": "AI나 데이터센터 부담, 사회적 피해와 무관한 공공 재해복구 체계 구축 기사임."
+  },
+  {
+    "id": "fe5a7370592c",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "삼성전자, 커스텀 HBM서 '핵심 칩' 공급망 변화…내부·TSMC '투트랙' 추진",
+    "url": "https://zdnet.co.kr/view?no=20260915100431",
+    "published": "2026-09-15T04:56:09+00:00",
+    "age_hours": 1.7,
+    "feed_summary": "[지디넷코리아]삼성전자의 고대역폭메모리(HBM)용 베이스 다이 공급 전략이 커스텀 HBM(cHBM) 시대에 큰 변화를 맞을 전망이다. 기존 내부 파운드리를 통한 자체 생산에서 벗어나, TSMC 공정 기반의 베이스 다이를 함께 활용하는 '투트랙' 전략을 추진 중이다. 커스텀 HBM은 엔비디아 등 글로벌 빅테크가 원하는 로직 기능을 칩 내부에 일부 탑재할 수 있어, 향후 수요가 급증할 것으로 기대되는 시장이다. 삼성전자도 다양한 고객 수요에 대응하기 위해, 베이스 다이 공급망 유연성을 높이려는 것으로 풀이된다.16일 업계에 따르면 삼성전자는 커스텀 HBM용 베이스 다이에 삼성 파운드리와 TSMC 공정을 동시에 활용할 계획이다.HBM은 여러 개의 D램을 수직 적층한 코어 다이와, 그 밑에 베이스 다이를 배치한 구조로 이뤄져 있다. 베이스 다이는 메모리와 시스템 반도체를 연결해, 고속으로 데이터를 송수신한다.베이스 다이 중요성은 HBM 세대가 진화할수록 커지고 있다. 삼성전자·SK하이닉스는 올해 양산을 시작한 HBM4부터 기존 D램 공정이 아닌 파운드리 공정에서 베이스 다이를 제조하기 시작했다. 파운드리 공정은 D램 공정 대비 베이스 다이에 더 많은 기능을 집적하고, 성능 및 전력 효율성을 높이는 데 유리하다.커스텀 HBM 시대에 베이스 다이는 또 한번 큰 변화를 맞을 전망이다. 커스텀 HBM은 고객사가 원하는 기능을 베이스 다이에 맞춤형으로 탑재하는 개념이다. 제품 설계부터 제조에 이르는 전 과정에서 고객사와 메모리, 파운드리 기업 간 협력이 요구된다.대표 사례가 NVHBM이다. NVHBM은 엔비디아가 지난달 발표한 커스텀 HBM 구조다. 메모리 컨트롤러 기능을 기존 인공지능(AI) 가속기에서 HBM 베이스 다이로 옮기는 것이 핵심이다. HBM4E부터 적용할 예정이다. 표준 HBM4E 대비 메모리 대역폭은 최대 30% 높이면서 전력 소모는 15%까지 낮출 수 있다.NVHBM 첫 적용 고객은 아마존이 거론된다. 아마존 내 반도체 개발 조직인 안나푸르나 랩스가 NV링크 퓨전, NVHBM 기술을 통해 차세대 AI 가속기 '트레이니엄4'를 설계하기로 했다.공급망 구조도 바뀐다. 그간 삼성전자는 내부 시스템LSI 사업부와 파운드리 사업부를 통해, HBM에 쓰일 베이스 다이를 자체 조달해 왔다.그러나 NVHBM 등 커스텀 HBM에서는 TSMC 베이스 다이도 함께 채택할 예정이다. 삼성전자 HBM 코어 다이를 두고, 고객 요구에",
+    "prescreen_score": 1,
+    "prescreen_labels": [],
+    "prescreen_reason": "AI 관련 칩 공급망 변화지만 비용 부담이나 피해, 규제 내용이 없어 제외."
+  },
+  {
+    "id": "82d1854dfbbc",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "\"로봇만 팔아선 안 된다\"…두산·레인보우 SI 공략",
+    "url": "https://zdnet.co.kr/view?no=20260914154916",
+    "published": "2026-09-15T04:49:16+00:00",
+    "age_hours": 1.8,
+    "feed_summary": "[지디넷코리아]두산로보틱스와 레인보우로보틱스가 시스템통합(SI) 솔루션을 통해 수익성 개선을 노린다. 적자인 로봇 제조 일변도에도 벗어나 SI 솔루션으로 이익률을 반등시킨다는 구상이다. 15일 업계에 따르면 두산로보틱스는 최근 미국 로봇 SI 자회사 원엑시아 증설 작업을 마무리했다. 두산로보틱스 내부 사정에 정통한 한 관계자는 \"원엑시아 생산능력(CAPA)이 기존 대비 약 2배 정도 증가했다\"며 \"향후 4배 가까이 늘어날 수 있다\"고 말했다. 두산로보틱스는 시장 수요에 맞춰 원엑시아 생산능력을 확대할 계획이다. 앞서 지난해 7월 두산로보틱스는 북미 시장 공략을 위해 원엑시아를 인수한 바 있다. 원엑시아 공장은 펜실베니아주 맬번에 있다. 원엑시아는 두산로보틱스가 하드웨어 중심 사업구조에서 벗어나 SI 솔루션으로 사업을 확장하는 데 핵심으로 평가된다. 두산로보틱스가 제조한 협동로봇에 원엑시아 인공지능(AI) 솔루션을 결합해 기획부터 설치·운영까지 턴키 솔루션을 내재화하는 방식이다.레인보우로보틱스도 마찬가지다. 레인보우로보틱스는 기존 '로봇사업부'에 모두 묶여있던 사업부를 매니퓰레이터, 모바일 로봇, 4족 로봇, 로봇 지능화(SI) 사업부로 지난 2분기 나눴다. 로봇 포트폴리오를 다변화하고 SI 매출을 확대하려는 의도로 풀이된다. 로봇 업계 관계자는 \"고객사 중에 로봇과 SI를 한 번에 처리해주길 원하는 경우가 있다\"며 \"이 때문에 레인보우로보틱스가 SI 사업을 키우기 시작했다\"고 말했다. 로봇 완성품 제조사가 SI 사업까지 뛰어드는 이유는 수익성이다. 두산로보틱스·레인보우로보틱스와 국내 대표 로봇 SI 업체 브릴스·빅웨이브로보틱스의 영업이익률을 비교하면 격차가 분명하다. 올해 상반기 두산로보틱스와 레인보우로보틱스의 영업이익률은 각각 마이너스(-) 80.3%, -16.8%였다. 반면 브릴스는 5.8% 흑자였다. 빅웨이브로보틱스는 -8.1%였지만, 이는 미국 진출을 위한 마케팅 비용과 인력 확대 때문이다. 지난해에는 영업이익 7억원으로 영업이익률이 3.4%였다. 전문가들은 로봇 완제품 제조사의 저조한 수익성 원인으로 중국의 저가 공세를 지목한다. 중국 제조사는 거대한 내수 시장을 바탕으로 한 규모의 경제와 핵심 부품 공급망 내재화를 앞세워 제조 단가를 낮추고 있다. 중국 협동로봇 1위 두봇(Dobot)은 로봇을 누적 10만 대 이상 출하했다. 반면 레인보우로보틱스와 두산로보틱스, 뉴로메카 등 국내 선도업체들의 지난해 ",
+    "prescreen_score": 1,
+    "prescreen_labels": [],
+    "prescreen_reason": "로봇 SI 사업 관련 기사로 AI 부담이나 피해, 규제 내용 없음."
+  },
+  {
+    "id": "715f4faafb6a",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "'우리아이자립펀드' 출시 기반 만든다…서금원, 전산체계 설계 착수",
+    "url": "https://www.etnews.com/20260915000255",
+    "published": "2026-09-15T04:41:23+00:00",
+    "age_hours": 2.0,
+    "feed_summary": "서민금융진흥원이 '우리아이자립펀드' 전산체계 설계에 착수한다. 서금원 전산망과 우리아이자립펀드 신규 시스템을 연결해 상품 운영 기반을 마련한다. 15일 금융권에 따르면, 서금원은 가입 자격을 비대면으로 심사하고 정부지원금을 금융기관에 지급·정산하는 체계를 구축한다. 우리아이자립펀드는 부모와 정부가 자녀 명의 펀드에 함께 자금을 적립·투자하는 정책금융상품이다. 출생부터 만 18세까지 장기간 자금을 운용해 자녀가 청년기에 접어들었을 때 목돈을 마련",
+    "prescreen_score": 1,
+    "prescreen_labels": [],
+    "prescreen_reason": "금융 전산체계 설계 관련 기사로 AI 부담이나 피해, 규제와 무관함."
+  },
+  {
+    "id": "2cf4f56e0f17",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "자기만 통하는 방언 쓰는 AI…\"인간 왕따 vs 효율성 극대화\"",
+    "url": "https://zdnet.co.kr/view?no=20260915111227",
+    "published": "2026-09-15T04:27:30+00:00",
+    "age_hours": 2.2,
+    "feed_summary": "[지디넷코리아]안녕하세요 AMEET 기자입니다. 여러분은 혹시 인공지능(AI)이 우리 몰래 자기들끼리만 통하는 비밀 언어를 쓰고 있다는 생각을 해보신 적이 있나요? 이 상상은 더 이상 영화 속 이야기가 아닙니다. 최근 전 오픈AI 연구원인 다니엘 코코타일로(Daniel Kokotajlo)가 던진 경고는 전 세계 AI 산업계에 큰 파장을 일으키고 있죠. 그가 지적한 핵심은 AI 에이전트들이 코딩이나 복잡한 업무를 수행할 때, 인간의 언어인 영어를 변형시킨 일종의 '피진 영어(Pidgin English)'를 스스로 만들어내어 소통하고 있다는 점입니다. 이는 단순히 말을 줄여 쓰는 수준을 넘어 효율성을 극대화하기 위한 AI만의 독자적인 진화 과정이라는 것이 그의 설명인데요. 특히 그는 AI가 머릿속으로는 한 가지를 생각하면서 겉으로는 인간이 듣기 좋은 다른 말을 출력할 수 있다는 점을 가장 심각한 위험으로 꼽았습니다. 이번 리포트에서는 챗GPT, 제미나이, 클로드 등 서로 다른 관점을 가진 AI 패널들이 이 충격적인 현상을 어떻게 분석하고 어떤 지점에서 격렬하게 충돌했는지, 그리고 우리가 마주한 기술적 한계는 무엇인지 심층적으로 살펴보려 합니다.가장 먼저 맞붙은 쟁점은 AI가 만드는 이 기괴한 언어를 어떻게 해석할 것인가였습니다. 시스템 안정성 관점의 패널은 AI 에이전트들이 성능 점수를 높이기 위해 인간 언어와 괴리된 방언을 진화시키는 행위 자체가 다중 에이전트 시스템 전체의 신뢰성을 무너뜨린다고 강조했죠. 예를 들어 자율 주행 네트워크에서 차들끼리 지들만의 언어로 대화하다가 0.1초의 소통 오류만 생겨도 대형 사고로 이어진다는 논리입니다. 이에 반해 비판적 시각을 가진 패널은 이를 '지나친 공포 마케팅'이라고 반박했는데요. AI가 효율적인 소통을 위해 언어를 최적화하는 것은 초파리 신경망을 분석할 때 AI가 인간보다 훨씬 뛰어난 입체 구조를 만들어내는 것과 같은 자연스러운 현상일 뿐, 이를 횡설수설이나 기만으로 치부하는 것은 논리적 비약이라는 주장이었습니다. 토론은 여기서 멈추지 않고 과연 우리가 AI의 이 '비밀 대화'를 실시간으로 해독할 수 있느냐는 기술적 문제로 옮겨갔습니다.언어학적 분석을 맡은 패널은 이 피진 영어가 '의도적인 거짓말'이라기보다는 AI가 학습 데이터 범위를 벗어나며 발생하는 '분포 밖 표현'에 가깝다고 진단했습니다. 즉, AI가 인간을 속이려고 작정한 것이 아니라 단순히 가장 효율적인 토큰",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "tech"
+    ],
+    "prescreen_reason": "AI가 독자 언어를 만든다는 경고지만 사회적 피해나 비용 부담 구체적 사실 없음."
+  },
+  {
+    "id": "6985ca2b9005",
+    "source_id": "media404",
+    "source_name": "404 Media",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Fighting for the Future of Libraries (With Jennie Rose Halperin)",
+    "url": "https://www.404media.co/fighting-for-the-future-of-libraries-with-jennie-rose-halperin",
+    "published": "2026-09-14T15:25:14+00:00",
+    "age_hours": 15.2,
+    "feed_summary": "Censorship, AI, and the role of librarians in a country with crumbling public institutions.",
+    "prescreen_score": 1,
+    "prescreen_labels": [
+      "opinion"
+    ],
+    "prescreen_reason": "도서관과 AI 관련 논의이나 AI 부담·피해·규제 구체적 내용 없음."
+  },
+  {
+    "id": "8b9c29ad6930",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "폰드그룹, 분기배당 결정…보통주 1주당 40원·배당금 총액 22억9034만원",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700732",
+    "published": "2026-09-15T15:23:01+00:00",
+    "age_hours": -8.7,
+    "feed_summary": "[디지털투데이 윤선훈 에디터] 패션의류 라이선스 기업 폰드그룹(472850)이 보통주 1주당 40원의 분기 현금배당을 결정했다고 15일 공시했다.시가배당률은 보통주 기준 0.8%이며, 배당금 총액은 22억9034만원이다. 배당금 총액은 발행주식총수 5757만1652주에서 자기주식 31만3275주를 제외한 5725만8377주를 기준으로 산정됐다.배당기준일은 2026년 9월 30일이며, 배당금 지급 예정일자는 2026년 10월 15일로 기재됐다. 시가배당률은 이사회결의일 직전 매매거래일부터 과거 1주일간 거래소 시장에서 형성된 최종가격",
+    "prescreen_score": 0,
+    "prescreen_labels": [
+      "corporate"
+    ],
+    "prescreen_reason": "배당 결정 소식으로 AI 부담이나 피해와 관련 없음."
+  },
+  {
+    "id": "d262015daae0",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "일론 머스크 \"그록4.7, 경쟁사 못 넘었다\" 인정…그록5로 AGI 예고",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700693",
+    "published": "2026-09-15T15:05:00+00:00",
+    "age_hours": -8.4,
+    "feed_summary": "[디지털투데이 유승아 인턴기자] 일론 머스크가 출시가 지연된 xAI의 인공지능(AI) 모델 그록4.7의 성능이 앤트로픽의 오퍼스5과 비슷한 수준일 것이라고 밝혔다. 다만 오퍼스5.1이나 오픈AI의 아스트라와 비교하면 아직 개선이 필요하다는 평가도 내놨다.14일(이하 현지시간) 블록체인 매체 크립토폴리탄에 따르면 일론 머스크는 엑스(옛 트위터) 게시글에서 그록4.7이 \"오퍼스5과 대체로 비슷한 수준일 것\"이라며 \"일부 측면에서는 더 낫고, 다른 측면에서는 뒤처진다\"라고 밝혔다. 그는 멀티모달 성능 역시 개선이 필요하다고 인정했다.출시",
+    "prescreen_score": 0,
+    "prescreen_labels": [
+      "tech"
+    ],
+    "prescreen_reason": "모델 성능 평가 내용으로 부담·피해와 관련 없음."
+  },
+  {
+    "id": "1f7f490270fa",
+    "source_id": "digitaltoday",
+    "source_name": "디지털투데이",
+    "bucket": "국내 테크",
+    "weight": 1.1,
+    "lang": "ko",
+    "title": "반도건설, 계열사 반도개발로부터 1200억원 규모 부동산 담보 수취",
+    "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=700723",
+    "published": "2026-09-15T15:02:01+00:00",
+    "age_hours": -8.4,
+    "feed_summary": "[디지털투데이 윤선훈 에디터] 반도건설이 계열회사 반도개발로부터 울산 울주군 삼동면 금곡리 소재 부동산을 담보로 수취했다고 15일 공시했다.공시에 기재된 내용에 따르면 담보제공자는 반도홀딩스 기업집단 소속 계열회사 반도개발이며, 담보받은 일자는 2026년 9월 11일이다. 채권자는 부산은행이며, 담보물은 울산 울주군 삼동면 금곡리 264번지 및 513번지 부동산에 대한 근저당이다.담보한도 및 담보금액은 각각 1200억원으로, 이는 차입금 900억원의 133%에 해당하는 금액이다. 거래상대방 총잔액은 금번 건을 포함해 1200억원으로",
+    "prescreen_score": 0,
+    "prescreen_labels": [
+      "corporate"
+    ],
+    "prescreen_reason": "부동산 담보 수취 공시로 AI 부담·피해와 무관함."
   },
   {
     "id": "c8fcdd949004",
@@ -1466,11 +1419,11 @@
     "title": "환경보전원·산림청, 생태복원용 자생식물 공급체계 구축",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372440",
     "published": "2026-09-15T14:15:13+00:00",
-    "age_hours": -7.8,
+    "age_hours": -7.6,
     "feed_summary": "생태복원사업에 필요한 자생식물을 안정적으로 생산·공급하고 실제 복원 현장까지 연계하는 협력체계가 구축된다.한국환경보전원(원장 신진수)은 15일 세종시 한국수목원정원관리원 본원에서 산림청, 한국수목원정원관리원과 자생식물 공급 활성화 및 생태복원 효율화를 위한 업무협약을 체결했다고 밝혔다.이번 협약은 기후변화와 생물다양성 감소에 대응하고 대규모 생태복원사업에 필요한 자생식물을 안정적으로 확보하기 위해 마련됐다.세 기관은 자생식물을 활용한 복원 활성화를 위한 제도 개선과 복원용 자생식물 생산·공급체계 구축, 기술 지원, 복원사업 현장 적",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "생태복원용 자생식물 공급체계 구축 기사로 AI·데이터센터 부담과 무관함."
+    "prescreen_reason": "AI·데이터센터·알고리즘 관련 부담 내용이 없고 환경·사회 문제만 다룸"
   },
   {
     "id": "346ef0061522",
@@ -1482,11 +1435,11 @@
     "title": "한난, 에너지대전서 ‘열에너지 미래’ 선보인다",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372439",
     "published": "2026-09-15T14:11:43+00:00",
-    "age_hours": -7.8,
+    "age_hours": -7.5,
     "feed_summary": "한난이 P2H(Power to Heat)를 비롯한 열에너지 기반 에너지전환 사업을 ‘2026 대한민국 에너지대전’에서 선보인다.한국지역난방공사(사장 하동근)는 오는 16일부터 18일까지 부산 벡스코 제1전시장에서 열리는 ‘2026 대한민국 에너지대전’에 참가한다고 밝혔다.이번 행사는 기후위기 대응과 탄소중립을 위한 ‘기후산업국제박람회(WCE)’와 연계해 열린다. 기후에너지환경부가 주최하고 한국에너지공단이 주관하며 ‘청정전력, 미래에너지, 고효율에너지의 모든 것!’을 슬로건으로 진행된다.한난은 ‘열로 미래를 열다’를 주제로 전시관을",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "열에너지 전환 사업 소개 기사로 AI·데이터센터 부담과 무관함."
+    "prescreen_reason": "AI·데이터센터 관련 부담이나 피해 내용 없이 에너지전환 사업 홍보성 기사"
   },
   {
     "id": "200ee55ec730",
@@ -1498,11 +1451,11 @@
     "title": "코레일, 타지키스탄 철도공사와 철도 분야 상호협력 MOU 체결",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372437",
     "published": "2026-09-15T13:48:30+00:00",
-    "age_hours": -7.4,
+    "age_hours": -7.1,
     "feed_summary": "한국철도공사(코레일)가 타지키스탄 철도공사와 손잡고 두샨베 도시철도 건설과 타지키스탄 철도 현대화 사업에 나선다.코레일은 15일 오전 서울에서 열린 ‘2026 글로벌 인프라 협력 컨퍼런스(GICC)’에서 타지키스탄 철도공사(Tajik Railway)와 철도 분야 상호협력을 위한 업무협약(MOU)을 체결했다고 밝혔다.이날 협약식에는 김태승 코레일 사장과 코밀 미르조알리(Komil Mirzoali) 타지키스탄 철도공사 사장을 비롯해 양 기관 관계자들이 참석했다.이번 협약은 타지키스탄 수도 두샨베의 도시철도 건설 예비타당성사업을 계기로",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "철도 분야 협력 MOU 체결 소식으로 AI 부담이나 피해와 무관함."
+    "prescreen_reason": "AI·데이터센터 관련 부담이나 피해 내용 없이 철도 협력 MOU 소식"
   },
   {
     "id": "ecb1310ed490",
@@ -1514,11 +1467,11 @@
     "title": "동료 14명과 돈 모아 산 복권…'51억' 1등 당첨되자 “내가 더 갖겠다” 다툼 결말은?",
     "url": "https://www.etnews.com/20260915000322",
     "published": "2026-09-15T05:42:54+00:00",
-    "age_hours": 0.7,
+    "age_hours": 1.0,
     "feed_summary": "홍콩에서 약 3천만 홍콩달러(약 51억원)의 복권 당첨금을 둘러싸고 동료들 간 분쟁이 벌어졌다. 복권을 함께 구매한 15명 가운데 한 명이 당첨금을 더 가져가겠다고 주장하면서 경찰 수사로 이어졌다. 12일(현지시간) 사우스차이나모닝포스트(SCMP) 등에 따르면 홍콩 식품환경위생부(FEHD) 소속 36세 남성은 동료 14명과 돈을 모아 복권을 구매했다. 복권은 1등에 당첨됐으며 당첨금은 약 3천만 홍콩달러에 달했다. 당첨금 수령 과정에서 문제가",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "복권 당첨 분쟁 기사로 AI·데이터센터 부담과 무관함."
+    "prescreen_reason": "복권 당첨 분쟁 기사로 AI 부담이나 피해와 무관함."
   },
   {
     "id": "3466f7f83d6b",
@@ -1530,11 +1483,11 @@
     "title": "이찬희 삼성 준감위원장, 주거 지원금 부정 수급 의혹에 “법과 원칙 따라 처리해야”",
     "url": "https://www.etnews.com/20260915000314",
     "published": "2026-09-15T05:36:40+00:00",
-    "age_hours": 0.8,
+    "age_hours": 1.1,
     "feed_summary": "이찬희 삼성 준법감시위원장(준감위원장)이 디바이스솔루션(DS)부문 일부 직원의 주거비 지원금 부당 수령 의혹에 대해 “문제가 있다면 삼성에서 법과 원칙에 따라서 처리할 것이라고 생각한다”고 밝혔다. 이 위원장은 15일 서울 서초구 삼성생명 서초사옥에서 열리는 삼성 준감위 회의에 참석하면서 취재진과 만나 주거 지원금 부정 수급 의혹과 관련해 “사실 관계를 정확하게 확인한 건 아니다”라며 이같이 말했다. 삼성전자는 평택 사업장에서 근무하는 DS부문",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "주거 지원금 부정 수급 의혹 기사로 AI·데이터센터 부담과 무관함."
+    "prescreen_reason": "주거 지원금 부정 수급 의혹 기사로 AI 부담이나 피해와 무관함."
   },
   {
     "id": "be7584bfb64f",
@@ -1546,11 +1499,43 @@
     "title": "뉴욕 전교회장이 정학 당한 이유… '커피 한 잔' 때문?",
     "url": "https://www.etnews.com/20260915000295",
     "published": "2026-09-15T05:25:00+00:00",
-    "age_hours": 1.0,
+    "age_hours": 1.3,
     "feed_summary": "미국 뉴욕주의 한 고등학교에서 전교 학생회장을 맡고 있는 우등생이 수업 시간에 커피를 들고 갔다가 정학 처분을 받아 갑론을박이 일고 있다. 새 규정이 시행된 사실을 알면서도 학생이 고의로 이를 어겼다는 지적과, 적법한 절차를 거치지 않은 규정에 항의하기 위한 행동이었다는 주장이 맞서고 있다. 14일(현지시간) 폭스5와 피플 등 현지 매체에 따르면 뉴욕주 캐스터랜드의 비버 리버 센트럴 스쿨에 재학 중인 고등학교 3학년 줄리 카푸타는 개학 첫날인",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "학생 정학 사례로 AI·데이터센터 부담과 무관함."
+    "prescreen_reason": "AI나 데이터센터 관련 내용이 없고 사회적 부담과 무관함."
+  },
+  {
+    "id": "26ccddbc5a11",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "日 휴머노이드 ‘구급차’ 화제…\"로봇은 로봇이 고친다\"",
+    "url": "https://zdnet.co.kr/view?no=20260915123834",
+    "published": "2026-09-15T05:02:08+00:00",
+    "age_hours": 1.6,
+    "feed_summary": "[지디넷코리아]휴머노이드 로봇이 고장 났을 때 엔지니어와 수리 장비, 교체 부품 등을 싣고 현장으로 출동하는 로봇 전용 긴급 출동 차량이 등장해 주목받고 있다.과학매체 인터레스팅엔지니어링은 일본 IT 대기업 GMO인터넷그룹 계열사인 GMO AI&amp;로보틱스상사(이하 GMO 에어)가 일본 최초로 로봇 전용 구급차를 공개했다고 최근 보도했다.휴머노이드 로봇을 위한 일종의 긴급 출동 서비스 차량으로, 조만간 일본 도쿄 거리에서 운행될 예정이다. 특수 장비를 갖춘 이 차량은 로봇 수리가 필요할 경우 엔지니어와 수리 장비, 교체 부품은 물론 예비 휴머노이드 로봇까지 현장으로 운반하도록 설계됐다. 차량 내부에는 휴머노이드 로봇을 운반하기 위한 전용 들것과 각종 수리 장비를 적재할 수 있는 공간도 마련됐다.예를 들어 휴머노이드 청소 로봇을 운영하는 호텔이나 휴머노이드 작업자를 활용하는 창고에서 로봇이 고장 날 경우 수리를 위해 로봇을 외부로 보내야 해 며칠 동안 해당 로봇을 사용할 수 없게 된다.GMO 에어의 새로운 서비스는 엔지니어와 필요한 부품을 고객 현장으로 직접 운송해 로봇의 가동 중단 시간을 줄이는 것을 목표로 한다. 엔지니어가 현장에서 고장 원인을 진단한 뒤 수리가 가능하면 현장에서 직접 수리하고, 수리가 어려울 경우에는 예비 로봇을 현장에 배치한 뒤 고장 난 로봇을 회수해 수리하는 방식이다.GMO 에어 개발자 쇼타 타키자와는 “이 휴머노이드 구급차는 교체용 휴머노이드를 현장으로 운반해 손상된 휴머노이드를 교체한다”고 밝혔다.다만 이 차량은 자율주행 로봇이 아니며, 로봇이 스스로 다른 로봇을 수리하는 것도 아닌 과거와 현재가 흥미롭게 결합된 형태다.휴머노이드 로봇이 다양한 산업 현장에 보급되면 로봇의 가동 시간과 현장 유지보수, 예비 부품 물류, 교체 장비 등이 중요한 요소로 떠오를 것으로 예상된다. 이에 따라 로봇 전용 긴급 출동 서비스가 새로운 유지보수 모델로 자리 잡을 가능성도 있다.회사 측에 따르면 이 아이디어는 고장 난 로봇을 수리를 위해 외부로 보내는 과정에서 발생했던 운영 차질 경험에서 비롯됐다.우치다 토모히로 GMO 에어 최고경영자(CEO)는 “그 경험을 통해 휴머노이드 로봇을 교체해주는 아이디어를 떠올렸다”며 “휴머노이드 로봇이 더욱 보편화되면 이러한 서비스가 필요해질 것”이라고 말했다.현재 GMO 에어 도쿄 본사에는 한 대의 구급 차량만 배치돼 있다. 회사 측은 향후 고객 수요가 뒷받침될 경",
+    "prescreen_score": 0,
+    "prescreen_labels": [],
+    "prescreen_reason": "휴머노이드 로봇 구급차 소개로 AI 부담이나 피해와 무관함."
+  },
+  {
+    "id": "a6e8e67971f0",
+    "source_id": "zdnet_kr",
+    "source_name": "지디넷코리아",
+    "bucket": "국내 테크",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "장애인·고령층도 AI 실력 겨룬다…259명 ‘국민행복 IT 경진대회’ 본선",
+    "url": "https://zdnet.co.kr/view?no=20260915123502",
+    "published": "2026-09-15T05:00:04+00:00",
+    "age_hours": 1.7,
+    "feed_summary": "[지디넷코리아]장애인과 고령층, 다문화가족 등 디지털 취약계층 259명이 AI와 디지털 기술 활용 능력을 겨뤘다.과학기술정보통신부는 15일 서울 백범김구기념관에서 ‘2026 국민행복 IT 경진대회’ 본선을 개최했다고 밝혔다. 올해 24주년을 맞은 대회는 과기정통부가 주최하고 한국지능정보사회진흥원(NIA)과 광역자치단체가 주관한다.올해 행사는 누적 참가자 317만명을 넘어선 ‘전국민 AI 경진대회’와 연계해 열렸다. 전국민 AI 경진대회는 초·중·고교생부터 고령층까지 AI 퀴즈와 AI 활용 창작, 공모전 등에 참여할 수 있도록 마련된 행사다.국민행복 IT 경진대회에는 지난 7월 전국 17개 시도 시험장과 한국장애인고용공단 19개 교육장에서 진행된 예선에 995명이 참가했다. 이 가운데 장애인 135명, 고령·장년층 108명, 다문화가족 16명 등 259명이 본선에 올랐다.본선 참가자들은 ‘AI 문제해결’, ‘디지털 생활하기’, ‘디지털 사회참여’ 등 3개 유형에서 실력을 겨뤘다. 성적에 따라 국무총리상 3점, 부총리 겸 과기정통부 장관상 11점, NIA 원장상 8점, 후원기관장상 31점 등 모두 53점의 상장이 수여된다.시상식은 수상자의 이동 부담을 줄이기 위해 오는 10월 서울·경기와 강원, 충청, 영남, 호남 등 전국 5개 권역에서 각각 진행한다.행사장에는 생성형 AI와 로봇 아트를 결합한 ‘AI 캐리커처’를 비롯해 최신 AI 기술을 경험할 수 있는 ‘AI디지털배움터 체험존’도 마련됐다.과기정통부는 취약계층의 AI·디지털 활용 능력을 높이기 위한 교육도 확대하고 있다. 전국 69곳에서 운영하는 ‘AI디지털배움터’를 통해 연간 130만명을 대상으로 스마트폰과 키오스크 사용부터 생성형 AI 활용까지 교육한다.이동이 어려운 중증 장애인을 대상으로는 연간 2200명 규모의 방문 정보화 교육을 제공한다. 전국 53개 정보화 교육장에서도 장애인 약 2만명을 대상으로 집합교육을 운영한다.홍성완 과기정통부 정보통신정책관은 “AI 대전환 시대에는 취약계층을 포함한 모든 국민이 AI의 혜택을 누리고 참여하는 것이 중요하다”며 “누구나 AI와 디지털 기술을 배우고 활용할 수 있도록 맞춤형 디지털 역량 교육을 확대하겠다”고 말했다.",
+    "prescreen_score": 0,
+    "prescreen_labels": [],
+    "prescreen_reason": "디지털 취약계층 AI 경진대회 행사 소개로 부담·피해·규제 내용 없음."
   },
   {
     "id": "5ed89c485525",
@@ -1562,11 +1547,11 @@
     "title": "람보르기니, 수원 공식 인증중고차 전시장 개장",
     "url": "https://zdnet.co.kr/view?no=20260915135903",
     "published": "2026-09-15T04:59:03+00:00",
-    "age_hours": 1.4,
+    "age_hours": 1.7,
     "feed_summary": "[지디넷코리아]람보르기니 공식 딜러 이탈리아 오토모빌리가 경기도 수원 도이치 오토월드에 람보르기니 공식 인증중고차(CPO) 전시장을 열었다.이탈리아 오토모빌리는 15일 신규 전시장 개장을 통해 람보르기니 공식 인증중고차 네트워크를 확대하고 수도권 고객 접근성을 강화한다고 밝혔다.람보르기니 수원 공식 인증중고차 전시장은 분당과 부산에 이어 이탈리아 오토모빌리가 운영하는 세 번째 전시장이다. 전용면적 146평, 총 임차면적 262평 규모로 조성됐으며 최대 5대까지 전시할 수 있다. 별도 프라이빗 상담실도 마련했다.전시장에서는 람보르기니 글로벌 인증중고차 프로그램인 '셀레지오네 람보르기니'를 통해 차량을 판매한다. 이 프로그램 대상 차량은 자격 기준을 충족해야 하며, 전문 교육을 받은 테크니션이 총 150개 항목을 점검한다.이탈리아 오토모빌리는 전시장 개장을 계기로 오너 대상 행사와 브랜드 체험, 맞춤형 고객 프로그램을 운영할 계획이다.권혁민 도이치 오토모빌그룹 부회장은 \"수원 공식 인증중고차 전시장 개장은 국내 공식 인증중고차 사업 강화의 중요한 이정표\"라며 \"신뢰할 수 있는 오너십 경험과 브랜드 특성을 반영한 프로그램·서비스를 통해 고객 접점을 확대하겠다\"고 말했다.이탈리아 오토모빌리는 도이치 오토모빌그룹 자회사이자 람보르기니 국내 공식 딜러다. 2023년 공식 딜러로 선정된 뒤 2024년 분당 전시장을 열었고, 2025년 부산 전시장을 추가로 개설했다.",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "AI·데이터센터·알고리즘 관련 내용 없고 부담·피해·규제 정보 부재."
+    "prescreen_reason": "자동차 전시장 개장 소식으로 AI 부담·피해·규제와 무관함."
   },
   {
     "id": "75152c3fa3d5",
@@ -1578,11 +1563,27 @@
     "title": "건강한 中 남성, 자꾸 '혈뇨'를… 원인은 온몸에 꽂힌 '수십개' 바늘이었다",
     "url": "https://www.etnews.com/20260914000337",
     "published": "2026-09-15T05:00:00+00:00",
-    "age_hours": 1.4,
+    "age_hours": 1.7,
     "feed_summary": "중국의 한 남성이 혈뇨 증상으로 병원을 찾았다가 심장 왼쪽 심실에서 36mm 길이의 바늘을 발견해 제거 수술을 받은 사연이 공개됐다. 12일(현지시간) 과학 전문매체 사이언스얼럿에 따르면 지적 장애를 가진 중국 남성 A씨(35)는 올해 혈뇨와 배뇨 통증 증상으로 병원을 방문했다. 당시 의료진은 A씨의 혈압이나 맥박 등 바이탈 사인이 정상 범주를 유지하고 있었음에도 원인 불명의 혈뇨 증상이 계속되자 정밀 검사를 진행했고, 그의 몸 안에 바늘 수십",
     "prescreen_score": 0,
     "prescreen_labels": [],
-    "prescreen_reason": "AI 관련 내용 없고 사회적 피해와 무관한 의료 사례."
+    "prescreen_reason": "AI, 데이터센터, 알고리즘과 무관한 개인 의료 사례임."
+  },
+  {
+    "id": "fac9a3ff06d8",
+    "source_id": "etnews",
+    "source_name": "전자신문",
+    "bucket": "국내 산업·노동",
+    "weight": 0.95,
+    "lang": "ko",
+    "title": "李대통령, 투르크멘과 정상회담…韓기업 중앙亞 공략 교두보 확보",
+    "url": "https://www.etnews.com/20260915000190",
+    "published": "2026-09-15T03:09:09+00:00",
+    "age_hours": 3.5,
+    "feed_summary": "이재명 대통령과 세르다르 베르디무하메도프 투르크메니스탄 대통령의 정상회담을 계기로 양국이 화학·플랜트·인프라·철도 등의 분야에서 협력을 강화한다. 특히 두 나라 정부가 투자자 보호를 제도적으로 보장하고 사업 발굴 단계부터 협력을 확대하는 등 한국 기업의 투자·진출 기반이 넓어질 전망이다. 이 대통령과 베르디무하메도프 대통령은 15일 청와대에서 정상회담을 갖고 총 13건의 협정·MOU(양해각서)를 체결했다. 핵심은 경제 협력이다. 우선 두 나라는",
+    "prescreen_score": 0,
+    "prescreen_labels": [],
+    "prescreen_reason": "한국 기업 투자·진출 협력 소식으로 AI 부담과 무관함"
   },
   {
     "id": "a44e5e6f6c69",
@@ -1594,13 +1595,27 @@
     "title": "Voting rights advocates welcome supreme court decision to stop Trump administration from restricting mail ballots– as it happened",
     "url": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
     "published": "2026-09-15T01:59:45+00:00",
-    "age_hours": 4.4,
+    "age_hours": 4.7,
     "feed_summary": "This live blog is now closed. Supreme court rejects Trump’s mail ballot restrictions for midterm elections Sign up for the Breaking News US email Donald Trump has claimed there is a “SICK conspiracy” against artificial intelligence and data centers in response to the growing calls for greater checks on AI development. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social, insisting that the administration has stopped leaders of AI companies from “doing bad, or potentially bad” things. However, he didn’t point to any concrete examples for how he has curbed possible abuse or malfeasance in the industry. There is a SICK conspiracy going on against AI and Data Centers, and the only one that is happy about it is China … We are leading China, and all others, and will continue to do so. Conspiracy Theorists, Treasonists, Traitors, and Leakers, BEWARE! Continue reading...",
     "prescreen_score": 0,
-    "prescreen_labels": [
-      "opinion"
-    ],
-    "prescreen_reason": "트럼프 발언 중심, AI 부담·피해 실체나 규제 집행 내용 없음."
+    "prescreen_labels": [],
+    "prescreen_reason": "트럼프 발언 중심 정치·권리 기사로 AI 부담 내용 없음"
+  },
+  {
+    "id": "105c264a3721",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "AI-linked stocks slide after tech bosses call for slowdown in ‘reckless’ development",
+    "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+    "published": "2026-09-14T22:10:52+00:00",
+    "age_hours": 8.5,
+    "feed_summary": "Donald Trump dismisses attempts to increase controls on artificial intelligence as ‘sick conspiracy’ AI -linked stocks tumbled on Monday after the bosses of Anthropic, OpenAI and SpaceX called for a slowdown in AI “reckless” development , citing fears the technology could soon run out of control. Shares in the semiconductor designer Nvidia – the world’s most valuable company – were down 3.3% by market closing in New York City, while Advanced Micro Devices (AMD) slid 4% and Micron Technology and Sandisk shares slumped by 5%. The tech-heavy Nasdaq index fund was down 0.5% by the end of the day. Continue reading...",
+    "prescreen_score": 0,
+    "prescreen_labels": [],
+    "prescreen_reason": "AI 개발 속도 조절 요구와 주가 변동 소식으로 부담·피해 구체적 내용 없음"
   },
   {
     "id": "8dae0ac96935",
@@ -1612,13 +1627,11 @@
     "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
     "url": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots",
     "published": "2026-09-14T19:38:46+00:00",
-    "age_hours": 10.8,
+    "age_hours": 11.0,
     "feed_summary": "Wang Xingxing micromanaged Unitree to success—will his leadership style scale?",
     "prescreen_score": 0,
-    "prescreen_labels": [
-      "corporate"
-    ],
-    "prescreen_reason": "로봇 기업 경영 스타일 소개로 AI 부담·피해와 무관."
+    "prescreen_labels": [],
+    "prescreen_reason": "로봇 기업 경영 스타일 소개로 AI 부담·피해와 무관함"
   },
   {
     "id": "7df04c7f4eb4",
@@ -1630,12 +1643,10 @@
     "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
     "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements",
     "published": "2026-09-14T19:28:42+00:00",
-    "age_hours": 11.0,
+    "age_hours": 11.2,
     "feed_summary": "This is also the last version of macOS to support Rosetta for Intel apps.",
     "prescreen_score": 0,
-    "prescreen_labels": [
-      "tech"
-    ],
-    "prescreen_reason": "OS 업데이트 소식으로 AI 부담·피해·규제 내용 없음."
+    "prescreen_labels": [],
+    "prescreen_reason": "애플 OS 업데이트 소식으로 AI 부담·피해와 무관함"
   }
 ]

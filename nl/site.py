@@ -77,7 +77,7 @@ def save_issue(root: Path, date_str: str, issue_html: str, articles: list, meta:
 
 def render_index(manifest: list, cfg: dict | None = None) -> str:
     name = "The AI Bill"
-    subtitle = "AI가 사회와 환경에 떠넘기는 비용"
+    subtitle = "AI의 발전으로 인한 사회적 비용과 책임"
     if cfg:
         name = cfg.get("newsletter", {}).get("name", name)
         subtitle = cfg.get("newsletter", {}).get("subtitle", subtitle)

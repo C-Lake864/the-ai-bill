@@ -1,98 +1,5 @@
 [
   {
-    "id": "7fd64d645680",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Texas governor threatens to penalize datacenters not obeying water laws",
-    "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
-    "published": "2026-09-14T22:57:15+00:00",
-    "age_hours": 7.5,
-    "feed_summary": "Republican Greg Abbott says datacenters must help ‘protect’ drought-prone state and disclose water use Greg Abbott , the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use. “Data centers must share the duty to protect Texas water,” the Republican governor said on Monday. “The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply,” he added. Continue reading...",
-    "prescreen_score": 8,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "텍사스 주지사가 데이터센터 물 사용 공개 및 법 준수 의무화, 위반 시 처벌 지시해 AI 인프라 부담과 규제 실체를 보여줌.",
-    "body_chars": 2595,
-    "body_error": null,
-    "final_scores": {
-      "burden_clarity": 9.0,
-      "actionability": 8.0,
-      "impact": 9.0,
-      "novelty": 8.0,
-      "korea_relevance": 4.0
-    },
-    "weighted": 8.86,
-    "verdict": "keep",
-    "final_reason": "데이터센터의 물 사용량, 법적 의무, 벌칙, 실제 소비량 등 부담 주체와 규모가 구체적으로 드러남. 한국과 직접 연결은 약함.",
-    "one_line": "텍사스 주지사가 데이터센터의 물 사용량 미신고에 대해 벌칙을 지시하며, 데이터센터의 막대한 물 사용 실태와 규제 강화 움직임이 드러남."
-  },
-  {
-    "id": "620b090df57e",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
-    "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
-    "published": "2026-09-14T06:00:26+00:00",
-    "age_hours": 24.4,
-    "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
-    "prescreen_score": 7,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "AI 데이터센터 수요로 PFAS 화학물질 생산 급증, 환경·건강 부담의 구체적 사례 제시.",
-    "body_chars": 5177,
-    "body_error": null,
-    "final_scores": {
-      "burden_clarity": 9.0,
-      "actionability": 8.0,
-      "impact": 8.0,
-      "novelty": 8.0,
-      "korea_relevance": 6.0
-    },
-    "weighted": 8.86,
-    "verdict": "keep",
-    "final_reason": "AI 산업이 PFAS(영원한 화학물질) 수요를 폭증시키며, 환경·건강 리스크와 기업의 소송·규제 부담이 커진다는 점을 구체적 수치와 사례로 제시함.",
-    "one_line": "AI 산업 수요로 PFAS 생산 급증, 환경·건강·소송 리스크와 규제 부담 확대"
-  },
-  {
-    "id": "3bd38861eb4f",
-    "source_id": "wired_ai",
-    "source_name": "WIRED AI",
-    "bucket": "AI 피해·탐사",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
-    "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
-    "published": "2026-09-14T11:00:00+00:00",
-    "age_hours": 19.4,
-    "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
-    "prescreen_score": 8,
-    "prescreen_labels": [
-      "policy"
-    ],
-    "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 실태와 피해자 규모를 구체적으로 보도.",
-    "body_chars": 6184,
-    "body_error": null,
-    "final_scores": {
-      "burden_clarity": 9.0,
-      "actionability": 7.0,
-      "impact": 9.0,
-      "novelty": 8.0,
-      "korea_relevance": 4.0
-    },
-    "weighted": 8.58,
-    "verdict": "keep",
-    "final_reason": "유럽 정치인 대상 딥페이크 피해 규모, 성별 편중, 피해 방식 등 구체적 수치와 영향이 제시됨. 한국 직접 연관은 약함.",
-    "one_line": "유럽 22개국 여성 정치인 138명 등 150여 명이 딥페이크 성착취물 사이트에 노출된 사실이 연구로 드러남."
-  },
-  {
     "id": "4fab7cfec12b",
     "source_id": "media404",
     "source_name": "404 Media",
@@ -102,14 +9,14 @@
     "title": "New York Seizes 12 Celebrity Deepfake Websites",
     "url": "https://www.404media.co/new-york-district-attorney-seizes-12-celebrity-deepfake-websites",
     "published": "2026-09-14T17:26:37+00:00",
-    "age_hours": 13.0,
+    "age_hours": 13.2,
     "feed_summary": "New York District Attorney Alvin Bragg said in a press conference on Monday that the sites included 1,200 people’s likenesses in “hyper-realistic” sexual imagery.",
     "prescreen_score": 8,
     "prescreen_labels": [
-      "AI",
-      "policy"
+      "policy",
+      "opinion"
     ],
-    "prescreen_reason": "뉴욕 검찰이 딥페이크 사이트 12곳 압수, 1200명 피해자 구체적 수치와 법적 조치 포함.",
+    "prescreen_reason": "뉴욕 검찰이 딥페이크 사이트 12곳 압수, 1,200명 피해자 포함해 AI 사회적 피해 구체적 집행 사례.",
     "body_chars": 3437,
     "body_error": null,
     "final_scores": {
@@ -121,8 +28,70 @@
     },
     "weighted": 8.47,
     "verdict": "keep",
-    "final_reason": "딥페이크 피해 규모, 집행 사례, 법적 근거, 피해자 구제 절차 등 구체적으로 제시됨. 한국 직접 연관은 약간 낮음.",
-    "one_line": "뉴욕 검찰이 AI 딥페이크 성착취물 사이트 12곳을 압수, 1,200명 피해자 등 구체적 피해와 법 집행 사례를 공개함."
+    "final_reason": "AI 딥페이크 피해자 구제 및 사이트 압수 등 실제 집행 사례, 피해 규모·법 집행·피해자 지원 정보 포함.",
+    "one_line": "뉴욕 검찰, AI 딥페이크 성착취물 사이트 12곳 압수—1200명 피해, 법 집행 및 피해자 지원 강조."
+  },
+  {
+    "id": "7fd64d645680",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Texas governor threatens to penalize datacenters not obeying water laws",
+    "url": "https://www.theguardian.com/us-news/2026/sep/14/greg-abbott-texas-datacenter-water-laws",
+    "published": "2026-09-14T22:57:15+00:00",
+    "age_hours": 7.7,
+    "feed_summary": "Republican Greg Abbott says datacenters must help ‘protect’ drought-prone state and disclose water use Greg Abbott , the Texas governor, has directed state regulators to penalize datacenters that fail to comply with state laws requiring them to disclose their water use. “Data centers must share the duty to protect Texas water,” the Republican governor said on Monday. “The Texas Water Code requires a complete and accurate water use survey. I direct the Texas Water Development Board to use its enforcement authority to penalize past failures and to impose legal consequences for any future failure to comply,” he added. Continue reading...",
+    "prescreen_score": 8,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "텍사스 주지사가 데이터센터의 물 사용 공개 및 법 준수 의무화, 위반 시 처벌 예고해 AI 인프라 비용과 환경 부담 관련 구체적 규제 조치임",
+    "body_chars": 2595,
+    "body_error": null,
+    "final_scores": {
+      "burden_clarity": 9.0,
+      "actionability": 8.0,
+      "impact": 8.0,
+      "novelty": 7.0,
+      "korea_relevance": 4.0
+    },
+    "weighted": 8.42,
+    "verdict": "keep",
+    "final_reason": "데이터센터의 물 사용량과 규제 집행, 벌칙 등 부담 전가가 구체적 수치와 정책으로 드러남. 한국 직접 연관은 약함.",
+    "one_line": "텍사스 주지사가 데이터센터의 물 사용량 미신고 시 처벌 지시, 2025년 250억 갤런→2030년 1610억 갤런 예상."
+  },
+  {
+    "id": "620b090df57e",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "‘Tidal wave’ of Pfas being launched to satisfy AI industry, campaigners warn",
+    "url": "https://www.theguardian.com/environment/2026/sep/14/pfas-firms-tidal-wave-forever-chemicals-ai-industry-demand-datacentres",
+    "published": "2026-09-14T06:00:26+00:00",
+    "age_hours": 24.7,
+    "feed_summary": "Big manufacturers planning to produce more of the forever chemicals to meet demand from datacentres Pfas companies are launching a “tidal wave” of forever chemicals production to meet demand from the AI industry, a campaign organisation has warned. Despite alarm over the chemicals, which have been linked to cancer, a survey of the 10 biggest manufacturers found most had plans to increase production. Continue reading...",
+    "prescreen_score": 7,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "AI 데이터센터 수요로 인한 유해 화학물질(PFAS) 생산 증가와 환경·건강 부담을 구체적으로 다룸.",
+    "body_chars": 5177,
+    "body_error": null,
+    "final_scores": {
+      "burden_clarity": 8.0,
+      "actionability": 7.0,
+      "impact": 9.0,
+      "novelty": 8.0,
+      "korea_relevance": 3.0
+    },
+    "weighted": 8.2,
+    "verdict": "keep",
+    "final_reason": "AI 산업이 PFAS(영원한 화학물질) 수요를 급증시키고, 이로 인한 환경·건강 피해 및 규제 리스크가 구체적으로 제시됨. 한국 직접 언급은 없으나 글로벌 반도체·데이터센터 맥락상 참고 가치 높음.",
+    "one_line": "AI 산업 수요로 PFAS 생산이 급증, 환경·건강 피해와 대규모 소송·규제 리스크 우려"
   },
   {
     "id": "89c804e6823b",
@@ -134,59 +103,58 @@
     "title": "New York Seizes a Dozen Celebrity Deepfake Websites",
     "url": "https://www.wired.com/story/new-york-seizes-a-dozen-celebrity-deepfake-websites",
     "published": "2026-09-14T16:50:00+00:00",
-    "age_hours": 13.6,
+    "age_hours": 13.8,
     "feed_summary": "In the biggest-ever legal action against harmful deepfake websites, the Manhattan District Attorney’s Office has seized 12 sites that collectively targeted around 1,200 victims.",
     "prescreen_score": 8,
     "prescreen_labels": [
-      "AI",
-      "policy"
-    ],
-    "prescreen_reason": "딥페이크 피해자 1200명 대상 최대 규모 법적 조치, 구체적 피해와 집행 사실 보도.",
-    "body_chars": 5242,
-    "body_error": null,
-    "final_scores": {
-      "burden_clarity": 8.0,
-      "actionability": 8.0,
-      "impact": 8.0,
-      "novelty": 7.0,
-      "korea_relevance": 4.0
-    },
-    "weighted": 8.14,
-    "verdict": "keep",
-    "final_reason": "딥페이크 피해 규모, 집행 사례, 피해자 범위 등 구체적으로 제시됨. 한국 직접 연관은 약함.",
-    "one_line": "뉴욕 검찰이 12개 딥페이크 성착취물 사이트를 압수하며, 1,200명 이상 피해자와 집행 절차, 피해 실태를 공개함."
-  },
-  {
-    "id": "c3942d3c3881",
-    "source_id": "guardian_ai",
-    "source_name": "The Guardian AI",
-    "bucket": "정책·권리",
-    "weight": 1.1,
-    "lang": "en",
-    "title": "Labor unions must unite against AI datacenters | Tyler Turner",
-    "url": "https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters",
-    "published": "2026-09-14T12:00:57+00:00",
-    "age_hours": 18.4,
-    "feed_summary": "Workers should start with a moratorium against building until our livelihoods and communities are protected For the surging number of Americans who now live alongside constantly humming computer-filled mega-warehouses, it is clear AI datacenters come with significant drawbacks. Opposition to datacenters grows on both sides of the political aisle as developers plan to invest $8tn to build them in the coming years. The bet is massive – roughly a quarter of our country’s entire GDP – but AI CEOs think it will pay off because they believe this technology will allow businesses across industries to rake in profits by cutting out their largest expense: labor. If all goes according to their plan, AI data centers will enable corporations to redistribute workers’ salaries to themselves. Continue reading...",
-    "prescreen_score": 7,
-    "prescreen_labels": [
       "policy",
-      "lifestyle"
+      "opinion"
     ],
-    "prescreen_reason": "AI 데이터센터 건설 중단 요구와 노동자·지역사회 영향에 대한 구체적 부담 사례 제시.",
-    "body_chars": 5629,
+    "prescreen_reason": "딥페이크 사이트 압수 사건 상세 보도, 피해 규모와 법적 조치로 AI 피해 부담 명확히 드러남.",
+    "body_chars": 5242,
     "body_error": null,
     "final_scores": {
       "burden_clarity": 8.0,
       "actionability": 7.0,
       "impact": 8.0,
       "novelty": 7.0,
-      "korea_relevance": 6.0
+      "korea_relevance": 4.0
     },
-    "weighted": 8.09,
+    "weighted": 7.87,
     "verdict": "keep",
-    "final_reason": "AI 데이터센터 확장이 노동시장·전력요금·환경에 미치는 구체적 부담과 실제 피해(일자리 감소, 전기요금 인상 등)를 수치와 사례로 제시함.",
-    "one_line": "AI 데이터센터 확장으로 일자리 감소·전기요금 인상 등 사회·환경 부담 심화"
+    "final_reason": "딥페이크 피해 규모, 집행 사례, 기술적 맥락 등 구체적. 한국 직접 연관은 약함.",
+    "one_line": "뉴욕, AI 딥페이크 성착취물 사이트 12곳 압수—1200명 피해, 집행·규제 효과 강조."
+  },
+  {
+    "id": "3bd38861eb4f",
+    "source_id": "wired_ai",
+    "source_name": "WIRED AI",
+    "bucket": "AI 피해·탐사",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Sexually Explicit Deepfake Sites Target 100-Plus Politicians in Europe",
+    "url": "https://www.wired.com/story/sexually-explicit-deepfake-sites-target-100-plus-politicians-in-europe",
+    "published": "2026-09-14T11:00:00+00:00",
+    "age_hours": 19.7,
+    "feed_summary": "An analysis of 160 deepfake websites reveals politicians in 22 countries appear on them. Nearly all of them are women.",
+    "prescreen_score": 8,
+    "prescreen_labels": [
+      "policy"
+    ],
+    "prescreen_reason": "유럽 정치인 대상 성착취 딥페이크 피해 구체적 사례와 피해 규모가 드러남.",
+    "body_chars": 6184,
+    "body_error": null,
+    "final_scores": {
+      "burden_clarity": 8.0,
+      "actionability": 7.0,
+      "impact": 8.0,
+      "novelty": 7.0,
+      "korea_relevance": 4.0
+    },
+    "weighted": 7.87,
+    "verdict": "keep",
+    "final_reason": "유럽 정치인 대상 딥페이크 피해 실태와 규모, 피해 방식 구체적. 한국 직접 연관은 약함.",
+    "one_line": "유럽 여성 정치인 138명 등 150여 명, AI 딥페이크 성착취물 사이트에 노출—피해 규모·방식 구체적."
   },
   {
     "id": "88a3078ba7e5",
@@ -198,27 +166,59 @@
     "title": "데이터센터, 폐열 재활용하면 최대 비용 48%·온실가스 72% ↓",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372434",
     "published": "2026-09-15T13:27:05+00:00",
-    "age_hours": -7.0,
+    "age_hours": -6.8,
     "feed_summary": "AI 데이터센터에 연료전지로 전기를 공급하고 연료전지와 서버에서 나오는 열을 각각 이산화탄소 포집과 전기 생산에 재활용하면 기존 방식보다 총비용을 약 48%, 온실가스 배출량을 최대 72% 줄일 수 있다는 분석 결과가 나왔다.UNIST 탄소중립대학원 임한권 교수팀은 고체산화물 연료전지를 데이터센터의 전력원으로 쓰고 발전과 냉각 과정에서 나오는 열을 재활용하는 통합 에너지 시스템을 고안하고, 이 시스템의 경제성과 전 과정 온실가스 배출량을 분석한 결과 이 같은 결론을 얻었다고 15일 밝혔다.데이터센터는 수많은 서버를 24시간 가동하기",
     "prescreen_score": 7,
     "prescreen_labels": [
       "tech",
       "policy"
     ],
-    "prescreen_reason": "AI 데이터센터 전력 공급과 폐열 재활용으로 비용과 온실가스 감축 수치 제시, 인프라 비용 부담 완화 관련 유용한 정보임.",
+    "prescreen_reason": "AI 데이터센터 전력과 폐열 재활용으로 비용과 온실가스 부담 감소 구체적 수치 제공",
     "body_chars": 1770,
     "body_error": null,
     "final_scores": {
       "burden_clarity": 8.0,
-      "actionability": 8.0,
+      "actionability": 7.0,
       "impact": 7.0,
       "novelty": 7.0,
       "korea_relevance": 8.0
     },
-    "weighted": 7.98,
+    "weighted": 7.72,
     "verdict": "keep",
-    "final_reason": "AI 데이터센터의 전력·냉각 비용과 온실가스 부담을 구체적 수치로 제시하고, 한국 상황도 비교 분석함. 실무적 참고 가치 높음.",
-    "one_line": "AI 데이터센터의 연료전지·폐열 재활용 시스템 도입 시 비용 48%, 온실가스 72% 절감 가능성 분석"
+    "final_reason": "AI 데이터센터의 전력·냉각 비용과 온실가스 부담을 구체적 수치(최대 48% 비용·72% 온실가스 감축, 연간 1,900만 달러 절감 등)로 제시하며, 한국 상황과도 직접 연결된다. 실무적 참고 가치가 높음.",
+    "one_line": "AI 데이터센터의 연료전지·폐열 재활용 시스템이 비용과 온실가스 부담을 크게 줄일 수 있다는 구체적 분석 결과"
+  },
+  {
+    "id": "c3942d3c3881",
+    "source_id": "guardian_ai",
+    "source_name": "The Guardian AI",
+    "bucket": "정책·권리",
+    "weight": 1.1,
+    "lang": "en",
+    "title": "Labor unions must unite against AI datacenters | Tyler Turner",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/14/labor-unions-ai-datacenters",
+    "published": "2026-09-14T12:00:57+00:00",
+    "age_hours": 18.7,
+    "feed_summary": "Workers should start with a moratorium against building until our livelihoods and communities are protected For the surging number of Americans who now live alongside constantly humming computer-filled mega-warehouses, it is clear AI datacenters come with significant drawbacks. Opposition to datacenters grows on both sides of the political aisle as developers plan to invest $8tn to build them in the coming years. The bet is massive – roughly a quarter of our country’s entire GDP – but AI CEOs think it will pay off because they believe this technology will allow businesses across industries to rake in profits by cutting out their largest expense: labor. If all goes according to their plan, AI data centers will enable corporations to redistribute workers’ salaries to themselves. Continue reading...",
+    "prescreen_score": 7,
+    "prescreen_labels": [
+      "policy",
+      "lifestyle"
+    ],
+    "prescreen_reason": "AI 데이터센터 건설에 따른 노동자·지역사회 부담과 투자 규모가 구체적으로 언급됨.",
+    "body_chars": 5629,
+    "body_error": null,
+    "final_scores": {
+      "burden_clarity": 8.0,
+      "actionability": 6.0,
+      "impact": 8.0,
+      "novelty": 7.0,
+      "korea_relevance": 5.0
+    },
+    "weighted": 7.7,
+    "verdict": "keep",
+    "final_reason": "AI 데이터센터가 일자리 감소, 전기요금 인상, 환경 부담 등 사회적·환경적 부담을 구체적 수치와 사례(텍사스·뉴욕 등)로 제시하며, 규제 논의와도 연결된다.",
+    "one_line": "AI 데이터센터 확장이 일자리 감소·전기요금 인상 등 사회·환경 부담을 초래한다는 구체적 사례와 규제 논의"
   },
   {
     "id": "ca0b5eda66dd",
@@ -230,26 +230,26 @@
     "title": "Inside ‘Project Lily’: The Humans Reading Your ChatGPT Chats",
     "url": "https://www.404media.co/inside-project-lily-the-humans-reading-your-chatgpt-chats",
     "published": "2026-09-14T14:22:43+00:00",
-    "age_hours": 16.1,
+    "age_hours": 16.3,
     "feed_summary": "Humans are reading ChatGPT users’ prompts to improve OpenAI’s models, and those chats can include sensitive, personal information, according to leaked internal documents and real prompts seen by 404 Media.",
     "prescreen_score": 7,
     "prescreen_labels": [
       "policy"
     ],
-    "prescreen_reason": "ChatGPT 대화 내용 인간 검토로 개인정보·프라이버시 피해 현실화, AI 운영 리스크 구체적 사례 제공.",
+    "prescreen_reason": "ChatGPT 대화 내용 인력 검토로 인한 개인정보 피해 위험과 AI 운영 리스크 구체적 사례.",
     "body_chars": 1932,
     "body_error": null,
     "final_scores": {
       "burden_clarity": 7.0,
-      "actionability": 7.0,
+      "actionability": 6.0,
       "impact": 7.0,
       "novelty": 8.0,
-      "korea_relevance": 5.0
+      "korea_relevance": 4.0
     },
-    "weighted": 7.7,
+    "weighted": 7.32,
     "verdict": "keep",
-    "final_reason": "ChatGPT 실제 사용자 대화가 외부 인력에 의해 검토되고 민감정보 노출 위험이 있다는 사실을 구체적으로 드러냄. 개인정보·감시 리스크 사례로 실무 참고 가능.",
-    "one_line": "OpenAI가 실제 사용자 ChatGPT 대화를 외부 인력이 검토, 개인정보 노출 위험 드러나"
+    "final_reason": "AI 서비스(ChatGPT)에서 실제로 외주 인력이 사용자 대화(민감정보 포함)를 검토한다는 사실이 드러나 개인정보·감시 부담의 구체적 실태를 보여준다.",
+    "one_line": "OpenAI가 외주 인력에 실제 사용자 대화를 검토시켜 개인정보 노출 위험이 있다는 사실 확인"
   },
   {
     "id": "e127ca142e07",
@@ -261,27 +261,27 @@
     "title": "AI, 지역 임금 격차 부추길 수도",
     "url": "https://zdnet.co.kr/view?no=20260915103654",
     "published": "2026-09-15T05:00:02+00:00",
-    "age_hours": 1.4,
+    "age_hours": 1.7,
     "feed_summary": "[지디넷코리아]생성형 인공지능(AI)·에이전틱AI·피지컬 AI 등 AI가 사회에 파고드는 속도가 빠른 가운데, 새로운 기술인 AI가 일자리를 얼마나 대체할 것인지에 대한 연구가 속속 나오고 있다.한국은행 조사국 지역경제조사팀은 세분화되고 있는 AI로 인해 지역간에는 어떤 영향을 줄 수 있는지에 대해 15일 열린 '2026년 BOK 지역경제 심포지엄'을 통해 발표했다.일단 생성형AI와 에이전틱AI 노출도는 수도권이 높았다. AI 노출도는 일자리를 구성하는 여러 직무의 AI 활용 및 자동화 가능성을 의미하며, 생성형·에이전틱·피지컬AI에 따라 노출도를 세분화했다.생성형AI 노출도가 높은 지역은 서울·세종·경기·인천 순이었으며 에이전틱AI 노출도는 서울·세종·경기·대전 순으로 높았다. 생성형AI 노출도가 가장 낮은 곳은 전남·경북·강원 순이었으며 에이전틱AI는 경북·전남·충남 순으로 낮았다. 반면 피지컬AI는 경북·전남·충북·울산 등의 순으로 노출도가 높고 세종·서울·경기 등은 낮았다. 이는 지역별 분포된 산업 결과를 포함한 것으로 한은 측은 분석했다. 보고서에선 피지컬AI는 센서를 통해 현실 세계를 인식하고 액추에이터(모터 등)를 이용해 물리적 행동을 수행하는 AI로 정의했다. 지역별로 AI 노출도가 차이가 났으며, 이는 결국 AI 노출도에 따라 고용이 증감하는 산업분야가 있다면 수도권이 더 큰 영향을 받음을 의미한다. 실제 2023년 이후 생성형AI 고노출 일자리는 24만7000명 증가했는데 이중 수도권이 80.8%(19만9000명)를 차지했다. 에이전틱AI 고노출 직업에서도 비슷한 양상이 드러났다. 에이전틱AI 활용 시기인 2025년 중 일자리가 10만5000명 늘었는데, 이중 수도권 비중이 88.3%(9만3000명)으로 집계됐다. 다만, 에이전틱AI의 경우 통계 산출 기간이 1년이라는 점에서 다양한 변수가 작용했을 가능성이 있다.생성형AI와 에이전틱AI와 다르게 피지컬AI는 취업자 수를 줄였다. 육체 노동 위주의 피지컬AI 고노출 직업 취업자 수는 수도권과 비수도권 모두 장기간 감소했다. 육체 노동 기피 영향과 로봇으로 인한 자동화로 인한 것으로 풀이된다.결국 생성형AI와 에이전틱AI 노출도가 집중된 지역에는 향후 일자리가 늘어나고 피지컬AI 노출도가 큰 지역 일자리는 줄어들 것으로 관측된다. 특히 한은 지역경제조사팀은 지식서비스와 반도체 제조업의 집적경제 강화로 인한 지역간 생산성 및 임금 격차가 확대될 수",
     "prescreen_score": 6,
     "prescreen_labels": [
       "policy",
-      "corporate"
+      "labor"
     ],
-    "prescreen_reason": "AI가 지역 임금 격차에 미치는 영향과 AI 노출도 분석, 노동·사회적 부담 관련 구체적 연구 결과 제공.",
+    "prescreen_reason": "AI 노출도에 따른 지역 임금 격차 연구 발표로 AI가 노동시장에 미치는 구체적 영향과 사회적 부담 일부 제시.",
     "body_chars": 1805,
     "body_error": null,
     "final_scores": {
-      "burden_clarity": 8.0,
+      "burden_clarity": 7.0,
       "actionability": 7.0,
-      "impact": 8.0,
-      "novelty": 7.0,
-      "korea_relevance": 10.0
+      "impact": 7.0,
+      "novelty": 6.0,
+      "korea_relevance": 9.0
     },
-    "weighted": 7.36,
+    "weighted": 6.65,
     "verdict": "keep",
-    "final_reason": "AI가 지역별 일자리·임금 격차에 미치는 영향과 구체적 수치, 수도권 집중 등 사회적 부담 전가가 명확히 드러남. 한국 실정에 직접 적용 가능.",
-    "one_line": "AI 도입이 수도권과 비수도권 간 일자리·임금 격차를 확대할 수 있다는 한은 연구 결과."
+    "final_reason": "AI 도입이 지역별 일자리·임금 격차를 확대할 수 있음을 구체적 수치와 함께 제시. 한국 내 지역별 영향 분석이 실무 참고에 유용함.",
+    "one_line": "AI 도입이 수도권·비수도권 간 일자리·임금 격차 확대 가능성 제기"
   },
   {
     "id": "01635b2821f7",
@@ -293,26 +293,59 @@
     "title": "송전망 철탑 2214기 줄인다…정부, 선로 통합으로 주민 피해 최소화",
     "url": "https://www.electimes.com/news/articleView.html?idxno=372432",
     "published": "2026-09-15T12:34:11+00:00",
-    "age_hours": -6.1,
+    "age_hours": -5.9,
     "feed_summary": "반도체와 데이터센터 등 첨단산업의 전력 수요가 급증하는 가운데 정부가 송전망 건설 과정에서 발생하는 주민 피해를 줄이고 지역에 실질적인 혜택을 제공하는 방안을 내놨다. 기존 송전선로를 신설 선로와 통합해 신규 철탑을 최대 40% 줄이고, 주민 밀집지역에는 지중화를 확대한다. 송전망 주변 마을에는 태양광 발전을 지원해 주민 소득을 높이고, 입지선정 과정에서는 주민 참여와 선택권도 강화한다.기후에너지환경부는 15일 이 같은 내용을 담은 ‘송전망 건설 수용성 제고방안’을 국무회의에 보고했다. 재생에너지 확대와 첨단산업 전력수요 증가에 대응해 필요한 전력망은 적기에 확충하되, 송전망 주변 주민들의 수용성을 높이겠다는 취지다.정부는 우선 기존의 ‘비수도권 발전→장거리 송전→수도권 수요’ 중심 전력망을 양방향·지산지소형 체계로 전환한다. 호남 반도체 산단 약 6GW, 동해 데이터센터 2.4GW, 울산 데이터센터 1GW 등 총 14GW 이상의 대규모 전력수요를 발전력이 풍부한 비수도권 지역에 분산 배치해 지역에서 생산한 전력을 지역에서 활용하는 구조를 만든다는 계획이다. 다만 단기간에 증가하는 수도권 전력수요에 대응하기 위한 최소한의 신규 송전망은 주민 피해를 최소화하는",
     "prescreen_score": 6,
     "prescreen_labels": [
-      "policy"
+      "policy",
+      "tech"
     ],
-    "prescreen_reason": "데이터센터 전력 수요 증가와 송전망 건설 관련 주민 피해 및 비용 부담 완화 방안 소개, AI 인프라 부담과 연결 가능함.",
+    "prescreen_reason": "데이터센터 등 첨단산업 전력 수요 증가와 송전망 건설 피해 최소화 방안 구체적으로 다룸",
     "body_chars": 2565,
     "body_error": null,
     "final_scores": {
-      "burden_clarity": 3.0,
-      "actionability": 2.0,
-      "impact": 5.0,
-      "novelty": 4.0,
-      "korea_relevance": 7.0
+      "burden_clarity": 6.0,
+      "actionability": 6.0,
+      "impact": 7.0,
+      "novelty": 5.0,
+      "korea_relevance": 8.0
     },
-    "weighted": 3.94,
+    "weighted": 6.51,
+    "verdict": "keep",
+    "final_reason": "데이터센터·반도체 전력 수요 증가로 송전망 확충 필요와 그에 따른 주민 피해·보상 구조가 구체적으로 제시됨. AI가 직접 언급되진 않으나 데이터센터 전력 수요가 핵심 맥락임.",
+    "one_line": "데이터센터 등 전력 수요로 송전망 확충, 주민 피해 최소화·보상 강화 대책 발표"
+  },
+  {
+    "id": "aaf27136cdcb",
+    "source_id": "latitude",
+    "source_name": "Latitude Media",
+    "bucket": "데이터센터·전력",
+    "weight": 1.15,
+    "lang": "en",
+    "title": "TAR aims to build off-grid power for data centers in just six months",
+    "url": "https://www.latitudemedia.com/news/tar-aims-to-build-off-grid-power-for-data-centers-in-just-six-months",
+    "published": "2026-09-14T18:33:34+00:00",
+    "age_hours": 12.1,
+    "feed_summary": "Unlike gas-heavy rivals, the startup is deploying modular solar and storage, and just raised $120 million to do it. The post TAR aims to build off-grid power for data centers in just six months appeared first on Latitude Media .",
+    "prescreen_score": 6,
+    "prescreen_labels": [
+      "tech",
+      "market"
+    ],
+    "prescreen_reason": "데이터센터 전력 문제와 태양광 오프그리드 전력 도입 시도, 비용 부담 전가 가능성 시사.",
+    "body_chars": 3869,
+    "body_error": null,
+    "final_scores": {
+      "burden_clarity": 5.0,
+      "actionability": 4.0,
+      "impact": 5.0,
+      "novelty": 6.0,
+      "korea_relevance": 1.0
+    },
+    "weighted": 5.23,
     "verdict": "drop",
-    "final_reason": "AI·데이터센터가 전력망 수요의 일부로 언급되지만, 실제 부담 전가·피해의 구체적 사실이나 규모가 기사 본문에 드러나지 않음.",
-    "one_line": "정부가 송전망 건설로 인한 주민 피해 최소화 및 보상 방안을 발표했으나, AI·데이터센터 관련 부담 전가의 구체적 사실은 없음."
+    "final_reason": "데이터센터 전력 인프라 비용 구조와 부담 주체가 구체적으로 드러나지 않고, 한국과의 직접적 연결성도 없음. 신사업·기술 소개에 가까움.",
+    "one_line": "미국 스타트업, 데이터센터용 오프그리드 재생에너지 전력 사업 추진"
   },
   {
     "id": "2f12ea23fe9b",
@@ -324,57 +357,27 @@
     "title": "KT클라우드, 액체냉각·로봇 품은 AI 데이터센터 만든다…전국 20여곳 확대",
     "url": "https://zdnet.co.kr/view?no=20260915133141",
     "published": "2026-09-15T04:37:16+00:00",
-    "age_hours": 1.8,
+    "age_hours": 2.0,
     "feed_summary": "[지디넷코리아]KT클라우드가 2031년까지 전국 20여개 인공지능 데이터센터(AIDC) 거점을 확보하고 액체냉각·초고밀도 전력부터 AI 기반 운영, 모듈러 구축까지 차세대 기술 적용을 확대한다.최옥진 KT클라우드 DC본부장은 15일 서울 강남구 그랜드 인터컨티넨탈 서울 파르나스에서 열린 'KT클라우드 서밋 2026'에서 \"2031년까지 1기가와트(GW) 규모 데이터센터를 공급한다\"며 \"고객이 필요로 하는 데이터센터를 원하는 곳과 시점에 맞춰 공급할 것\"이라고 밝혔다.KT클라우드는 현재 약 200메가와트(MW) 규모 데이터센터 인프라를 확보한 상태다. 앞으로 800MW 이상을 추가 공급하기 위해 데이터센터 부지 파이프라인을 개발 중이다.수도권과 비수도권의 특성을 고려한 권역별 AIDC 클러스터도 구축한다. 수도권에선 여의도 금융 특화 엣지 데이터센터와 목동 B2B 거점을 비롯해 경기 서부 빅테크, 경기 남부 AI·그래픽처리장치(GPU) 수요 등을 중심으로 데이터센터를 확장한다는 목표다.비수도권에선 KT의 해저케이블 등 글로벌 네트워크와 연계한 AIDC를 개발할 계획이다.KT클라우드는 늘어나는 AI 서버의 전력·냉각 수요에 대응하기 위한 기술 개발을 진행 중이다.최 본부장에 따르면 글로벌 하이퍼스케일러 고객을 대상으로 직접칩냉각(D2C) 방식의 액체냉각 서비스를 상용화하고 자체 해석 프로그램을 활용해 냉각 설계를 최적화하고 있다. 자체 개발한 부하기를 활용해 140킬로와트(kW)급 고밀도 AI 서버 환경도 실증했다.데이터센터 구축 단계에는 건축정보모델링(BIM)과 전산유체역학(CFD), 모듈러 기술을 적용 중이다. BIM 기반 설계 정보를 실제 운영 단계까지 연계하고 CFD를 직접 수행해 고밀도 AI 서버 도입에 따른 냉각 위험을 사전에 분석하는 방식이다.특히 주요 설비를 사전에 제작하는 프리팹 방식을 활용해 구축 기간을 단축하는 모듈러 데이터센터도 확산할 예정이다.운영 자동화에는 AI와 로봇을 활용한다. 기존 데이터센터 통합관리시스템(DIMS)을 AIDC 운영 환경에 맞게 고도화하고 자율이동로봇(AMR) 등을 활용한 운영 자동화를 실증하고 있다.장기적으로 데이터센터에서 생성되는 운영 데이터를 AI에 학습시켜 장애 예측과 재해복구 등을 지원하는 자율운영형 AIDC로 발전시킨다는 목표다.AIDC가 전국으로 분산되면서 데이터센터를 연결하는 네트워크도 핵심 인프라로 부상하고 있다.이와 관련해 전명준 KT 엔터프라이즈서비",
-    "prescreen_score": 6,
+    "prescreen_score": 7,
     "prescreen_labels": [
       "tech",
-      "policy"
+      "policy",
+      "market"
     ],
-    "prescreen_reason": "KT AI 데이터센터 확장과 액체냉각 등 인프라 기술 도입은 전력·환경 부담과 비용 전가 측면에서 의미 있음.",
+    "prescreen_reason": "KT AI 데이터센터 확장과 액체냉각 등 인프라 투자 계획, 전력 규모와 지역별 클러스터 구축으로 AI 인프라 비용 부담과 환경 영향 관련 구체적 정보 제공.",
     "body_chars": 2059,
     "body_error": null,
     "final_scores": {
-      "burden_clarity": 3.0,
-      "actionability": 2.0,
-      "impact": 4.0,
+      "burden_clarity": 4.0,
+      "actionability": 3.0,
+      "impact": 6.0,
       "novelty": 3.0,
-      "korea_relevance": 6.0
+      "korea_relevance": 7.0
     },
-    "weighted": 3.09,
+    "weighted": 4.04,
     "verdict": "drop",
-    "final_reason": "AI 데이터센터 인프라 확장·기술 개발 계획 중심 기사로, 실제 부담 전가·피해·규제 등 구체적 리스크 정보 없음.",
-    "one_line": "KT클라우드의 AI 데이터센터 전국 확장 및 기술 고도화 계획 발표."
-  },
-  {
-    "id": "bbcb7086e723",
-    "source_id": "electimes",
-    "source_name": "전기신문",
-    "bucket": "데이터센터·전력",
-    "weight": 1.05,
-    "lang": "ko",
-    "title": "두산퓨얼셀, 2주 새 8236억 수주…美 AIDC 수요 ‘활활’",
-    "url": "https://www.electimes.com/news/articleView.html?idxno=372429",
-    "published": "2026-09-15T11:24:46+00:00",
-    "age_hours": -5.0,
-    "feed_summary": "두산퓨얼셀이 미국에서 2주 만에 3222억원 규모의 연료전지를 추가 수주했다. AI 데이터센터발 전력 수요가 실제 발주로 이어지며 올해 누적 수주액도 1조1000억원을 넘어섰다.15일 두산퓨얼셀은 ㈜두산의 미국 자회사인 하이엑시엄(HyAxiom)과 3222억원 규모의 인산형 연료전지(PAFC) 공급계약을 체결했다고 밝혔다. 이달 초 5014억원 규모 계약에 이어 2주 만에 추가 계약을 따내면서 양사 간 누적 계약 규모는 8236억원으로 늘었다.이번에 수주한 제품은 2028년부터 순차적으로 하이엑시엄을 통해 북미 지역에 공급된다. 하",
-    "prescreen_score": 6,
-    "prescreen_labels": [
-      "market"
-    ],
-    "prescreen_reason": "AI 데이터센터 전력 수요 증가가 실제 수주로 이어진 사례로, 인프라 비용 부담 측면에서 참고 가능.",
-    "body_chars": 782,
-    "body_error": null,
-    "final_scores": {
-      "burden_clarity": 1.0,
-      "actionability": 1.0,
-      "impact": 2.0,
-      "novelty": 2.0,
-      "korea_relevance": 2.0
-    },
-    "weighted": 1.58,
-    "verdict": "drop",
-    "final_reason": "AI 데이터센터발 전력 수요가 수주로 이어졌다는 언급 외에 부담 전가·피해·규제 등 리스크 정보 없음. 투자·수주 중심 기사임.",
-    "one_line": "두산퓨얼셀의 AI 데이터센터 관련 대규모 연료전지 수주 소식."
+    "final_reason": "AI 데이터센터 확장·기술 도입 계획을 다루지만, 실제 부담(비용·피해)이나 전가 주체·규모가 구체적으로 드러나지 않는다.",
+    "one_line": "KT클라우드의 AI 데이터센터 확장 및 기술 도입 계획 소개"
   }
 ]

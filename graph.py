@@ -273,7 +273,8 @@ def node_publish(state: State) -> dict:
         _log(state, f"8/8 드라이런: 메일 미발송, 로컬 사본만 저장 → {files.get('html')}")
         return {"files": files, "publish_result": {"sent": False, "status": "dry_run", "subject": subject}}
 
-    res = P.send_email(subject, state["html"], state["markdown"])
+    res = P.send_email(subject, state["html"], state["markdown"],
+                       from_name=state["audience"]["newsletter"]["name"])
     res["subject"] = subject
     if res["sent"]:
         _log(state, f"8/8 발행 완료: {', '.join(P.mask_email(a) for a in res['to'])} 에게 전송 "

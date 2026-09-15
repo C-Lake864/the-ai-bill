@@ -33,8 +33,13 @@ def save_local(out_dir: Path, date_str: str, html: str, md: str) -> dict:
     return {"html": str(hp), "md": str(mp)}
 
 
-def send_email(subject: str, html: str, md: str) -> dict:
-    """환경변수: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_FROM, MAIL_TO"""
+def send_email(subject: str, html: str, md: str, from_name: str = "") -> dict:
+    """환경변수: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, MAIL_FROM, MAIL_TO
+
+    from_name 은 수신함에 보이는 '보낸 사람' 표시 이름이다. audience.yaml 의
+    newsletter.name 을 그대로 쓴다. 주소 자체는 메일 규격상 필수라 숨길 수 없고,
+    네이버 SMTP 는 인증한 본인 주소만 허용한다.
+    """
     host = os.environ.get("SMTP_HOST")
     user = os.environ.get("SMTP_USER")
     pw = os.environ.get("SMTP_PASS")
@@ -50,7 +55,7 @@ def send_email(subject: str, html: str, md: str) -> dict:
 
     msg = EmailMessage()
     msg["Subject"] = subject
-    msg["From"] = formataddr(("오늘의 기후 브리핑", sender))
+    msg["From"] = formataddr((from_name or "Newsletter", sender))
     msg["To"] = ", ".join(recipients)
     msg["Date"] = formatdate(localtime=True)
     msg.set_content(md)
